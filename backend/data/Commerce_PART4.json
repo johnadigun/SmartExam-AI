@@ -1,0 +1,703 @@
+[
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Wholesale trade involves",
+    "options": {
+      "A": "Selling goods in small quantities to consumers",
+      "B": "Buying goods in large quantities for resale",
+      "C": "Producing goods",
+      "D": "Advertising products only"
+    },
+    "answer": "B",
+    "explanation": "Wholesalers buy in bulk and sell to retailers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "One function of a wholesaler is",
+    "options": {
+      "A": "Manufacturing goods",
+      "B": "Breaking bulk",
+      "C": "Judging cases",
+      "D": "Tax collection"
+    },
+    "answer": "B",
+    "explanation": "Wholesalers break bulk into smaller units for retailers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Retail trade involves",
+    "options": {
+      "A": "Selling directly to consumers",
+      "B": "Exporting goods",
+      "C": "Manufacturing goods",
+      "D": "Importing raw materials only"
+    },
+    "answer": "A",
+    "explanation": "Retailers sell goods directly to final consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "One disadvantage of retailing is",
+    "options": {
+      "A": "High capital requirement",
+      "B": "Low competition",
+      "C": "No customers",
+      "D": "Government ownership"
+    },
+    "answer": "A",
+    "explanation": "Retail businesses may require significant capital."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "One type of bank is",
+    "options": {
+      "A": "Central bank",
+      "B": "School bank",
+      "C": "Street bank",
+      "D": "Market bank"
+    },
+    "answer": "A",
+    "explanation": "Central banks regulate monetary policy."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One role of central bank is",
+    "options": {
+      "A": "Printing textbooks",
+      "B": "Lender of last resort",
+      "C": "Selling goods",
+      "D": "Running companies"
+    },
+    "answer": "B",
+    "explanation": "Central banks support commercial banks in crisis."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Money must be",
+    "options": {
+      "A": "Hard to carry",
+      "B": "Generally acceptable",
+      "C": "Fragile",
+      "D": "Heavy"
+    },
+    "answer": "B",
+    "explanation": "Money must be widely accepted for transactions."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "One disadvantage of barter system is",
+    "options": {
+      "A": "Double coincidence of wants",
+      "B": "Use of money",
+      "C": "Easy exchange",
+      "D": "Price stability"
+    },
+    "answer": "A",
+    "explanation": "Barter requires both parties to want each other's goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "One advantage of air transport is",
+    "options": {
+      "A": "Slow speed",
+      "B": "Fast delivery",
+      "C": "Low cost",
+      "D": "Limited range"
+    },
+    "answer": "B",
+    "explanation": "Air transport is the fastest means of transport."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One limitation of rail transport is",
+    "options": {
+      "A": "High speed",
+      "B": "Fixed routes",
+      "C": "Low cost",
+      "D": "Flexibility"
+    },
+    "answer": "B",
+    "explanation": "Railways operate on fixed tracks."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "One feature of insurance is",
+    "options": {
+      "A": "Risk sharing",
+      "B": "Risk creation",
+      "C": "Loss increase",
+      "D": "Fraud encouragement"
+    },
+    "answer": "A",
+    "explanation": "Insurance spreads risk among many people."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Insurable interest means",
+    "options": {
+      "A": "No loss expected",
+      "B": "Financial interest in insured object",
+      "C": "Random interest",
+      "D": "Government control"
+    },
+    "answer": "B",
+    "explanation": "You must suffer financial loss if risk occurs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One modern communication tool is",
+    "options": {
+      "A": "Smoke signals",
+      "B": "Internet",
+      "C": "Drum",
+      "D": "Town crier"
+    },
+    "answer": "B",
+    "explanation": "The internet is a modern communication system."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One advantage of mass communication is",
+    "options": {
+      "A": "Limited audience",
+      "B": "Wide coverage",
+      "C": "Slow delivery",
+      "D": "High cost always"
+    },
+    "answer": "B",
+    "explanation": "Mass communication reaches many people quickly."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "Warehousing creates",
+    "options": {
+      "A": "Time utility",
+      "B": "Loss",
+      "C": "Risk",
+      "D": "Taxes"
+    },
+    "answer": "A",
+    "explanation": "Warehousing makes goods available when needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "One type of warehouse is",
+    "options": {
+      "A": "Private warehouse",
+      "B": "School warehouse",
+      "C": "Court warehouse",
+      "D": "Church warehouse"
+    },
+    "answer": "A",
+    "explanation": "Private warehouses are owned by individuals or firms."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "One element of marketing mix is",
+    "options": {
+      "A": "People",
+      "B": "Product",
+      "C": "Police",
+      "D": "Policy"
+    },
+    "answer": "B",
+    "explanation": "Product is part of the 4Ps of marketing."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "One function of marketing is",
+    "options": {
+      "A": "Production control",
+      "B": "Customer satisfaction",
+      "C": "Judging cases",
+      "D": "Military rule"
+    },
+    "answer": "B",
+    "explanation": "Marketing aims to satisfy consumer needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "Advertising helps to",
+    "options": {
+      "A": "Reduce demand",
+      "B": "Promote sales",
+      "C": "Stop production",
+      "D": "Increase taxes"
+    },
+    "answer": "B",
+    "explanation": "Advertising encourages product purchase."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One disadvantage of advertising is",
+    "options": {
+      "A": "Misleading information",
+      "B": "Increased awareness",
+      "C": "Better sales",
+      "D": "Customer satisfaction"
+    },
+    "answer": "A",
+    "explanation": "Some advertisements can be deceptive."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "One feature of public company is",
+    "options": {
+      "A": "One owner",
+      "B": "Shares sold to public",
+      "C": "No capital",
+      "D": "No employees"
+    },
+    "answer": "B",
+    "explanation": "Public companies sell shares to the public."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One advantage of public company is",
+    "options": {
+      "A": "Limited capital",
+      "B": "Large capital base",
+      "C": "Limited liability always absent",
+      "D": "No regulation"
+    },
+    "answer": "B",
+    "explanation": "Public companies can raise large capital."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "One economic factor is",
+    "options": {
+      "A": "Rainfall",
+      "B": "Inflation",
+      "C": "Music",
+      "D": "Religion"
+    },
+    "answer": "B",
+    "explanation": "Inflation affects business operations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "One effect of taxation on business is",
+    "options": {
+      "A": "Encourages production always",
+      "B": "Increases cost of goods",
+      "C": "Stops competition",
+      "D": "Removes demand"
+    },
+    "answer": "B",
+    "explanation": "Taxes increase business costs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Commerce includes",
+    "options": {
+      "A": "Only farming",
+      "B": "Trade and aids to trade",
+      "C": "Only mining",
+      "D": "Only education"
+    },
+    "answer": "B",
+    "explanation": "Commerce covers trade and services supporting trade."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "One importance of commerce is",
+    "options": {
+      "A": "Reduces exchange",
+      "B": "Improves standard of living",
+      "C": "Stops production",
+      "D": "Creates loss"
+    },
+    "answer": "B",
+    "explanation": "Commerce improves living standards through trade."
+  }
+,
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Entrepreneurship in commerce refers to",
+    "options": {
+      "A": "Government control of trade",
+      "B": "Taking risks to start and manage business",
+      "C": "Only buying goods",
+      "D": "Only selling goods"
+    },
+    "answer": "B",
+    "explanation": "Entrepreneurship involves risk-taking in business activities."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "One importance of entrepreneurship is",
+    "options": {
+      "A": "Increases unemployment",
+      "B": "Creates job opportunities",
+      "C": "Stops production",
+      "D": "Reduces trade"
+    },
+    "answer": "B",
+    "explanation": "Entrepreneurs create jobs in the economy."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "Internet banking allows customers to",
+    "options": {
+      "A": "Visit bank physically always",
+      "B": "Perform transactions online",
+      "C": "Avoid banking services",
+      "D": "Print money"
+    },
+    "answer": "B",
+    "explanation": "Internet banking enables online financial transactions."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One disadvantage of online banking is",
+    "options": {
+      "A": "Convenience",
+      "B": "Cyber fraud",
+      "C": "Speed",
+      "D": "Accessibility"
+    },
+    "answer": "B",
+    "explanation": "Online systems can be targeted by cyber criminals."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Fiat money is",
+    "options": {
+      "A": "Commodity money",
+      "B": "Money declared legal by government",
+      "C": "Foreign currency only",
+      "D": "Barter goods"
+    },
+    "answer": "B",
+    "explanation": "Fiat money has value because the government declares it legal."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "One feature of paper money is",
+    "options": {
+      "A": "Heavy weight",
+      "B": "Government backing",
+      "C": "Perishable nature",
+      "D": "No acceptability"
+    },
+    "answer": "B",
+    "explanation": "Paper money is backed by government authority."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "One advantage of road transport is",
+    "options": {
+      "A": "Very slow",
+      "B": "Door-to-door service",
+      "C": "Very expensive always",
+      "D": "Only for goods abroad"
+    },
+    "answer": "B",
+    "explanation": "Road transport can deliver directly to destinations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One disadvantage of road transport is",
+    "options": {
+      "A": "Flexibility",
+      "B": "Traffic congestion",
+      "C": "Accessibility",
+      "D": "Low cost"
+    },
+    "answer": "B",
+    "explanation": "Road transport is affected by traffic jams."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "One function of insurance is",
+    "options": {
+      "A": "Risk elimination",
+      "B": "Risk transfer",
+      "C": "Risk creation",
+      "D": "Loss increase"
+    },
+    "answer": "B",
+    "explanation": "Insurance transfers risk from insured to insurer."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "One type of insurance is",
+    "options": {
+      "A": "Life insurance",
+      "B": "Trade insurance only",
+      "C": "Market insurance",
+      "D": "School insurance"
+    },
+    "answer": "A",
+    "explanation": "Life insurance covers human life risks."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One advantage of communication is",
+    "options": {
+      "A": "Delays information",
+      "B": "Improves coordination",
+      "C": "Stops trade",
+      "D": "Reduces knowledge"
+    },
+    "answer": "B",
+    "explanation": "Communication improves coordination in business."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One disadvantage of communication system is",
+    "options": {
+      "A": "Speed",
+      "B": "Information overload",
+      "C": "Accuracy",
+      "D": "Clarity"
+    },
+    "answer": "B",
+    "explanation": "Too much information can confuse users."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "One benefit of warehousing is",
+    "options": {
+      "A": "Goods destruction",
+      "B": "Seasonal availability of goods",
+      "C": "Increased loss",
+      "D": "Reduced supply"
+    },
+    "answer": "B",
+    "explanation": "Warehousing makes goods available when needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "Cold storage is used for",
+    "options": {
+      "A": "Books only",
+      "B": "Perishable goods",
+      "C": "Machines only",
+      "D": "Clothing only"
+    },
+    "answer": "B",
+    "explanation": "Cold storage preserves perishable items like food."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "Marketing research helps to",
+    "options": {
+      "A": "Reduce sales",
+      "B": "Understand customer needs",
+      "C": "Stop production",
+      "D": "Increase loss"
+    },
+    "answer": "B",
+    "explanation": "It helps businesses understand consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "One element of promotion is",
+    "options": {
+      "A": "Advertising",
+      "B": "Production",
+      "C": "Storage",
+      "D": "Transport"
+    },
+    "answer": "A",
+    "explanation": "Advertising is a form of promotion."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "Advertising increases",
+    "options": {
+      "A": "Awareness",
+      "B": "Loss",
+      "C": "Taxes",
+      "D": "Debt"
+    },
+    "answer": "A",
+    "explanation": "Advertising increases awareness of products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One aim of advertising is",
+    "options": {
+      "A": "Reduce demand",
+      "B": "Persuade buyers",
+      "C": "Stop trade",
+      "D": "Increase loss"
+    },
+    "answer": "B",
+    "explanation": "Advertising persuades customers to buy products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A franchise is",
+    "options": {
+      "A": "Government ownership",
+      "B": "Right to operate business using a brand",
+      "C": "Military system",
+      "D": "Court system"
+    },
+    "answer": "B",
+    "explanation": "Franchise allows use of established brand."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One advantage of franchise is",
+    "options": {
+      "A": "No support",
+      "B": "Established brand name",
+      "C": "No customers",
+      "D": "High risk always"
+    },
+    "answer": "B",
+    "explanation": "Franchise benefits from known brand recognition."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "One factor affecting business is",
+    "options": {
+      "A": "Culture",
+      "B": "Weather only",
+      "C": "Sports",
+      "D": "Music"
+    },
+    "answer": "A",
+    "explanation": "Cultural factors influence business behavior."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Technological change affects business by",
+    "options": {
+      "A": "Reducing efficiency",
+      "B": "Improving productivity",
+      "C": "Stopping innovation",
+      "D": "Increasing ignorance"
+    },
+    "answer": "B",
+    "explanation": "Technology improves business operations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Commerce is essential for",
+    "options": {
+      "A": "Isolation",
+      "B": "Economic development",
+      "C": "War",
+      "D": "Loss creation"
+    },
+    "answer": "B",
+    "explanation": "Commerce supports economic growth and development."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "One role of commerce is to",
+    "options": {
+      "A": "Reduce trade",
+      "B": "Facilitate exchange of goods",
+      "C": "Stop production",
+      "D": "Limit markets"
+    },
+    "answer": "B",
+    "explanation": "Commerce helps exchange goods and services efficiently."
+  }
+]

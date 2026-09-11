@@ -1,0 +1,273 @@
+/* ==========================================================
+   SMARTEXAM LAYOUT SYSTEM
+========================================================== */
+
+/* ==========================================
+   APP WRAPPER
+========================================== */
+
+.app-wrapper{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:var(--background);
+}
+
+/* ==========================================
+   PAGE CONTAINER
+========================================== */
+
+.page-container{
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+    padding:30px;
+}
+
+/* ==========================================
+   CONTENT WRAPPER
+========================================== */
+
+.content-wrapper{
+    width:100%;
+    background:var(--surface);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow-small);
+    padding:30px;
+}
+
+/* ==========================================
+   SECTION
+========================================== */
+
+.section{
+    margin-bottom:35px;
+}
+
+/* ==========================================
+   FLEX UTILITIES
+========================================== */
+
+.flex{
+    display:flex;
+}
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-between{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.flex-around{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+
+/* ==========================================
+   GRID SYSTEM
+========================================== */
+
+.grid{
+    display:grid;
+    gap:20px;
+}
+
+.grid-2{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.grid-4{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+/* ==========================================
+   PRACTICE LAYOUT
+========================================== */
+
+.practice-layout{
+    display:grid;
+    grid-template-columns:1fr 320px;
+    gap:30px;
+    align-items:start;
+}
+
+.practice-main{
+    width:100%;
+}
+
+.practice-sidebar{
+    position:sticky;
+    top:20px;
+}
+
+/* ==========================================
+   DASHBOARD GRID
+========================================== */
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+/* ==========================================
+   RESULT GRID
+========================================== */
+
+.result-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+/* ==========================================
+   QUESTION PALETTE
+========================================== */
+
+.palette-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(50px,1fr));
+    gap:10px;
+}
+
+/* ==========================================
+   BUTTON ROW
+========================================== */
+
+.button-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.page-header{
+    margin-bottom:30px;
+}
+
+.page-header h1{
+    margin-bottom:10px;
+}
+
+.page-header p{
+    color:var(--text-light);
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.page-footer{
+    margin-top:40px;
+    text-align:center;
+    color:var(--text-light);
+    font-size:.9rem;
+}
+
+/* ==========================================
+   LOGIN / AUTH
+========================================== */
+
+.auth-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.auth-card{
+    width:100%;
+    max-width:450px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1200px){
+
+    .practice-layout{
+        grid-template-columns:1fr;
+    }
+
+    .practice-sidebar{
+        position:relative;
+        top:0;
+    }
+
+}
+
+@media(max-width:992px){
+
+    .grid-4{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .grid-3{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:768px){
+
+    .page-container{
+        padding:20px;
+    }
+
+    .content-wrapper{
+        padding:20px;
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4{
+        grid-template-columns:1fr;
+    }
+
+    .button-row{
+        flex-direction:column;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .page-container{
+        padding:15px;
+    }
+
+    .content-wrapper{
+        padding:15px;
+    }
+
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Easy",
+    "question": "Population growth is best defined as",
+    "options": {
+      "A": "Decrease in population",
+      "B": "Increase in population over time",
+      "C": "Movement of people",
+      "D": "Birth rate only"
+    },
+    "answer": "B",
+    "explanation": "Population growth refers to increase over time."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Medium",
+    "question": "The movement of people from rural to urban areas is called",
+    "options": {
+      "A": "Migration",
+      "B": "Urbanization",
+      "C": "Industrialization",
+      "D": "Colonization"
+    },
+    "answer": "B",
+    "explanation": "Urbanization is rural to urban movement."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Easy",
+    "question": "Birth rate refers to",
+    "options": {
+      "A": "Number of deaths",
+      "B": "Number of births per 1000 people",
+      "C": "Migration rate",
+      "D": "Life expectancy"
+    },
+    "answer": "B",
+    "explanation": "Birth rate measures births per population."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Medium",
+    "question": "A densely populated area is one with",
+    "options": {
+      "A": "Few people",
+      "B": "Many people in a small area",
+      "C": "No people",
+      "D": "Migrants only"
+    },
+    "answer": "B",
+    "explanation": "High population in small space."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Easy",
+    "question": "The main cause of urbanization is",
+    "options": {
+      "A": "Agriculture",
+      "B": "Industrial growth",
+      "C": "Fishing",
+      "D": "Mining only"
+    },
+    "answer": "B",
+    "explanation": "Industries attract people to cities."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Medium",
+    "question": "Migration means",
+    "options": {
+      "A": "Birth increase",
+      "B": "Movement of people from one place to another",
+      "C": "Death rate increase",
+      "D": "Climate change"
+    },
+    "answer": "B",
+    "explanation": "Migration is movement of people."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Easy",
+    "question": "The largest city in Nigeria is",
+    "options": {
+      "A": "Abuja",
+      "B": "Kano",
+      "C": "Lagos",
+      "D": "Ibadan"
+    },
+    "answer": "C",
+    "explanation": "Lagos is the largest city."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Medium",
+    "question": "Population density is calculated as",
+    "options": {
+      "A": "Area ÷ population",
+      "B": "Population ÷ area",
+      "C": "Birth rate ÷ death rate",
+      "D": "Migration ÷ population"
+    },
+    "answer": "B",
+    "explanation": "Density = population per area."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Easy",
+    "question": "An area with very low population is called",
+    "options": {
+      "A": "Dense area",
+      "B": "Sparse area",
+      "C": "Urban area",
+      "D": "Industrial area"
+    },
+    "answer": "B",
+    "explanation": "Sparse means few people."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "Medium",
+    "question": "Rural-urban migration leads to",
+    "options": {
+      "A": "Depopulation of cities",
+      "B": "Overcrowding in cities",
+      "C": "Less farming",
+      "D": "No change"
+    },
+    "answer": "B",
+    "explanation": "Cities become overcrowded."
+  }
+]

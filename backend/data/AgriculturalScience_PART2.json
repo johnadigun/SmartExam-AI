@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "The topmost layer of the soil profile that contains the highest amount of organic matter is called",
+    "options": {
+      "A": "Subsoil",
+      "B": "Topsoil",
+      "C": "Parent rock",
+      "D": "Bedrock"
+    },
+    "answer": "B",
+    "explanation": "Topsoil (A-horizon) is rich in humus and nutrients required for plant growth."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Formation",
+    "difficulty": "Medium",
+    "question": "The process by which rocks break down to form soil is known as",
+    "options": {
+      "A": "Evaporation",
+      "B": "Weathering",
+      "C": "Leaching",
+      "D": "Fermentation"
+    },
+    "answer": "B",
+    "explanation": "Weathering is the physical, chemical, and biological breakdown of rocks into soil."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Which soil property mainly determines its ability to retain water?",
+    "options": {
+      "A": "Colour",
+      "B": "Texture",
+      "C": "Temperature",
+      "D": "Slope"
+    },
+    "answer": "B",
+    "explanation": "Soil texture influences water-holding capacity, drainage, and aeration."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Easy",
+    "question": "Humus is formed from the decomposition of",
+    "options": {
+      "A": "Rocks",
+      "B": "Organic matter",
+      "C": "Sand particles",
+      "D": "Clay minerals"
+    },
+    "answer": "B",
+    "explanation": "Humus is produced when plant and animal remains decompose."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "The process of placing seeds in the soil for germination is called",
+    "options": {
+      "A": "Harvesting",
+      "B": "Planting",
+      "C": "Threshing",
+      "D": "Milling"
+    },
+    "answer": "B",
+    "explanation": "Planting involves sowing seeds or transplanting seedlings into the field."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The removal of unwanted plants from a farm is known as",
+    "options": {
+      "A": "Pruning",
+      "B": "Weeding",
+      "C": "Mulching",
+      "D": "Thinning"
+    },
+    "answer": "B",
+    "explanation": "Weeding reduces competition for nutrients, water, and sunlight."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "Thinning of seedlings is carried out mainly to",
+    "options": {
+      "A": "Reduce soil fertility",
+      "B": "Provide adequate spacing for healthy growth",
+      "C": "Increase weed population",
+      "D": "Delay maturity"
+    },
+    "answer": "B",
+    "explanation": "Thinning prevents overcrowding and promotes better crop development."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Improvement",
+    "difficulty": "Medium",
+    "question": "Selective breeding in crops is aimed at",
+    "options": {
+      "A": "Reducing crop quality",
+      "B": "Producing desirable characteristics",
+      "C": "Increasing pest attacks",
+      "D": "Reducing germination"
+    },
+    "answer": "B",
+    "explanation": "Selective breeding improves yield, quality, and resistance to pests and diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Propagation",
+    "difficulty": "Easy",
+    "question": "Propagation by stem cuttings is commonly practiced in",
+    "options": {
+      "A": "Rice",
+      "B": "Cassava",
+      "C": "Millet",
+      "D": "Sorghum"
+    },
+    "answer": "B",
+    "explanation": "Cassava is commonly propagated using mature stem cuttings."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Medium",
+    "question": "The process by which plants lose water through their leaves is called",
+    "options": {
+      "A": "Respiration",
+      "B": "Photosynthesis",
+      "C": "Transpiration",
+      "D": "Pollination"
+    },
+    "answer": "C",
+    "explanation": "Transpiration is the loss of water vapour from plant leaves through stomata."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Easy",
+    "question": "The tiny openings on the surface of leaves through which gaseous exchange occurs are called",
+    "options": {
+      "A": "Lenticels",
+      "B": "Stomata",
+      "C": "Xylem",
+      "D": "Root hairs"
+    },
+    "answer": "B",
+    "explanation": "Stomata regulate gaseous exchange and transpiration in plants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Nutrition",
+    "difficulty": "Medium",
+    "question": "Which of the following nutrients is mainly responsible for root development in plants?",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Phosphorus",
+      "C": "Potassium",
+      "D": "Magnesium"
+    },
+    "answer": "B",
+    "explanation": "Phosphorus promotes strong root development, flowering, and seed formation."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Nutrition",
+    "difficulty": "Medium",
+    "question": "Potassium is important to plants because it helps to",
+    "options": {
+      "A": "Increase chlorophyll formation only",
+      "B": "Improve disease resistance and fruit quality",
+      "C": "Reduce root growth",
+      "D": "Prevent pollination"
+    },
+    "answer": "B",
+    "explanation": "Potassium improves plant vigor, disease resistance, and fruit development."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Nutrition",
+    "difficulty": "Easy",
+    "question": "Yellowing of older leaves is commonly a symptom of deficiency of",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Calcium",
+      "C": "Iron",
+      "D": "Boron"
+    },
+    "answer": "A",
+    "explanation": "Nitrogen deficiency often causes chlorosis (yellowing) of older leaves."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Easy",
+    "question": "Chemicals used to destroy insect pests are called",
+    "options": {
+      "A": "Herbicides",
+      "B": "Fungicides",
+      "C": "Insecticides",
+      "D": "Rodenticides"
+    },
+    "answer": "C",
+    "explanation": "Insecticides are formulated to control harmful insects."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Medium",
+    "question": "Herbicides are mainly applied to control",
+    "options": {
+      "A": "Fungi",
+      "B": "Weeds",
+      "C": "Bacteria",
+      "D": "Birds"
+    },
+    "answer": "B",
+    "explanation": "Herbicides are chemicals used to eliminate unwanted plants (weeds)."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Medium",
+    "question": "The best method of reducing the spread of crop diseases is to",
+    "options": {
+      "A": "Use infected planting materials",
+      "B": "Practice good farm sanitation",
+      "C": "Overcrowd crops",
+      "D": "Avoid crop rotation"
+    },
+    "answer": "B",
+    "explanation": "Farm sanitation removes disease sources and reduces infection."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Easy",
+    "question": "The young one of a goat is called a",
+    "options": {
+      "A": "Kid",
+      "B": "Calf",
+      "C": "Lamb",
+      "D": "Foal"
+    },
+    "answer": "A",
+    "explanation": "A young goat is known as a kid."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Easy",
+    "question": "The young one of cattle is known as a",
+    "options": {
+      "A": "Kid",
+      "B": "Lamb",
+      "C": "Calf",
+      "D": "Piglet"
+    },
+    "answer": "C",
+    "explanation": "A young cow or bull is called a calf."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Medium",
+    "question": "Artificial insemination in livestock is mainly carried out to",
+    "options": {
+      "A": "Reduce milk production",
+      "B": "Improve breeding efficiency and genetic quality",
+      "C": "Increase disease transmission",
+      "D": "Reduce fertility"
+    },
+    "answer": "B",
+    "explanation": "Artificial insemination enables rapid genetic improvement and controlled breeding."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "The process by which farm animals produce young ones is known as",
+    "options": {
+      "A": "Digestion",
+      "B": "Respiration",
+      "C": "Reproduction",
+      "D": "Excretion"
+    },
+    "answer": "C",
+    "explanation": "Reproduction ensures the continuity of livestock species."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Medium",
+    "question": "Castration of male farm animals is mainly carried out to",
+    "options": {
+      "A": "Reduce body size",
+      "B": "Control breeding and improve meat quality",
+      "C": "Increase disease occurrence",
+      "D": "Reduce feed intake"
+    },
+    "answer": "B",
+    "explanation": "Castration helps control reproduction and often improves meat quality and animal management."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Medium",
+    "question": "A disease that can be transmitted from animals to humans is called",
+    "options": {
+      "A": "Hereditary disease",
+      "B": "Nutritional disease",
+      "C": "Zoonotic disease",
+      "D": "Deficiency disease"
+    },
+    "answer": "C",
+    "explanation": "Zoonotic diseases are infectious diseases that spread between animals and humans."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Easy",
+    "question": "The doctor who specializes in the treatment of farm animals is called a",
+    "options": {
+      "A": "Agronomist",
+      "B": "Veterinarian",
+      "C": "Entomologist",
+      "D": "Botanist"
+    },
+    "answer": "B",
+    "explanation": "A veterinarian diagnoses, treats, and prevents diseases in animals."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Pasture Management",
+    "difficulty": "Easy",
+    "question": "Pasture refers to",
+    "options": {
+      "A": "Land used for growing cereals only",
+      "B": "Land covered with grasses and legumes for grazing animals",
+      "C": "Land used for fish farming",
+      "D": "A poultry house"
+    },
+    "answer": "B",
+    "explanation": "Pasture provides forage for grazing livestock."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Pasture Management",
+    "difficulty": "Medium",
+    "question": "Rotational grazing helps to",
+    "options": {
+      "A": "Overgraze pasture continuously",
+      "B": "Improve pasture recovery and utilization",
+      "C": "Destroy grass completely",
+      "D": "Increase soil erosion"
+    },
+    "answer": "B",
+    "explanation": "Rotational grazing allows pasture to recover, improving productivity."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Easy",
+    "question": "Fish farming is also known as",
+    "options": {
+      "A": "Apiculture",
+      "B": "Aquaculture",
+      "C": "Horticulture",
+      "D": "Sericulture"
+    },
+    "answer": "B",
+    "explanation": "Aquaculture is the breeding and cultivation of fish and other aquatic organisms."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Medium",
+    "question": "One important factor considered when selecting a site for a fish pond is",
+    "options": {
+      "A": "Availability of clean water",
+      "B": "Distance from all roads",
+      "C": "Rocky soil only",
+      "D": "High level of pollution"
+    },
+    "answer": "A",
+    "explanation": "A reliable supply of clean water is essential for successful fish farming."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Forestry",
+    "difficulty": "Easy",
+    "question": "The uncontrolled cutting down of trees is known as",
+    "options": {
+      "A": "Afforestation",
+      "B": "Deforestation",
+      "C": "Reforestation",
+      "D": "Conservation"
+    },
+    "answer": "B",
+    "explanation": "Deforestation is the large-scale removal of forests without adequate replacement."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Environmental Conservation",
+    "difficulty": "Medium",
+    "question": "One major consequence of deforestation is",
+    "options": {
+      "A": "Improved wildlife habitat",
+      "B": "Reduced soil erosion",
+      "C": "Loss of biodiversity",
+      "D": "Increased rainfall everywhere"
+    },
+    "answer": "C",
+    "explanation": "Deforestation destroys habitats, leading to the loss of plant and animal species."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Environmental Conservation",
+    "difficulty": "Easy",
+    "question": "Soil erosion can best be controlled by",
+    "options": {
+      "A": "Bush burning",
+      "B": "Overgrazing",
+      "C": "Cover cropping",
+      "D": "Deforestation"
+    },
+    "answer": "C",
+    "explanation": "Cover crops protect the soil surface from the impact of rain and wind."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Conservation",
+    "difficulty": "Medium",
+    "question": "Terracing is commonly practiced on",
+    "options": {
+      "A": "Flat land",
+      "B": "Rocky desert",
+      "C": "Steep slopes",
+      "D": "Wetlands only"
+    },
+    "answer": "C",
+    "explanation": "Terracing reduces runoff and soil erosion on steep slopes."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Irrigation",
+    "difficulty": "Easy",
+    "question": "Drip irrigation is best described as",
+    "options": {
+      "A": "Spraying water into the air",
+      "B": "Supplying water directly to plant roots drop by drop",
+      "C": "Flooding the entire field",
+      "D": "Using animals to water crops"
+    },
+    "answer": "B",
+    "explanation": "Drip irrigation delivers water directly to the root zone efficiently."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A rake is mainly used for",
+    "options": {
+      "A": "Digging deep holes",
+      "B": "Leveling soil and collecting debris",
+      "C": "Cutting trees",
+      "D": "Harvesting crops"
+    },
+    "answer": "B",
+    "explanation": "A rake is used for leveling soil and gathering leaves or debris."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Medium",
+    "question": "A cash book in agriculture is used to record",
+    "options": {
+      "A": "Only farm tools",
+      "B": "All cash inflows and outflows",
+      "C": "Soil types",
+      "D": "Weather patterns"
+    },
+    "answer": "B",
+    "explanation": "A cash book records all financial transactions on the farm."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Easy",
+    "question": "A farm manager is responsible for",
+    "options": {
+      "A": "Only harvesting crops",
+      "B": "Planning and supervising farm activities",
+      "C": "Selling fertilizer only",
+      "D": "Building roads only"
+    },
+    "answer": "B",
+    "explanation": "The farm manager oversees all farm operations and decision-making."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "Demand in agriculture refers to",
+    "options": {
+      "A": "Quantity of goods supplied",
+      "B": "Willingness and ability to buy goods at a given price",
+      "C": "Cost of production only",
+      "D": "Storage of farm produce"
+    },
+    "answer": "B",
+    "explanation": "Demand is the quantity consumers are willing and able to purchase at a price."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Marketing",
+    "difficulty": "Easy",
+    "question": "A market where agricultural products are sold directly to consumers is called",
+    "options": {
+      "A": "Wholesale market",
+      "B": "Retail market",
+      "C": "Export market",
+      "D": "Industrial market"
+    },
+    "answer": "B",
+    "explanation": "Retail markets involve direct sale of goods to consumers."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Inputs",
+    "difficulty": "Medium",
+    "question": "Improved seed varieties are important because they",
+    "options": {
+      "A": "Reduce yield",
+      "B": "Increase susceptibility to disease",
+      "C": "Increase productivity and resistance",
+      "D": "Stop germination"
+    },
+    "answer": "C",
+    "explanation": "Improved seeds are bred for higher yield and resistance to pests and diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "Sustainable agriculture aims to",
+    "options": {
+      "A": "Destroy natural resources",
+      "B": "Meet present needs without harming future production",
+      "C": "Reduce food supply",
+      "D": "Increase soil erosion"
+    },
+    "answer": "B",
+    "explanation": "Sustainable agriculture balances productivity with environmental protection."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Power",
+    "difficulty": "Easy",
+    "question": "The most common source of farm power in traditional agriculture is",
+    "options": {
+      "A": "Solar energy",
+      "B": "Human labour",
+      "C": "Electricity",
+      "D": "Wind energy"
+    },
+    "answer": "B",
+    "explanation": "Human labour is the most widely used source of power in traditional farming systems."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Medium",
+    "question": "The tractor is mainly used on the farm for",
+    "options": {
+      "A": "Cooking food",
+      "B": "Land preparation and transportation",
+      "C": "Harvesting fish",
+      "D": "Irrigating livestock"
+    },
+    "answer": "B",
+    "explanation": "Tractors are versatile machines used for ploughing, harrowing, and transport."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Storage",
+    "difficulty": "Easy",
+    "question": "One major aim of storing agricultural produce is to",
+    "options": {
+      "A": "Increase spoilage",
+      "B": "Ensure availability during scarcity",
+      "C": "Reduce food quality",
+      "D": "Encourage pests"
+    },
+    "answer": "B",
+    "explanation": "Storage helps to preserve food and ensure continuous supply."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Storage",
+    "difficulty": "Medium",
+    "question": "A common method of preserving grains is",
+    "options": {
+      "A": "Watering",
+      "B": "Drying",
+      "C": "Soaking",
+      "D": "Freezing only"
+    },
+    "answer": "B",
+    "explanation": "Drying reduces moisture content and prevents microbial growth."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Processing",
+    "difficulty": "Easy",
+    "question": "Threshing is the process of",
+    "options": {
+      "A": "Planting seeds",
+      "B": "Separating grains from husks",
+      "C": "Watering crops",
+      "D": "Weeding farmland"
+    },
+    "answer": "B",
+    "explanation": "Threshing separates edible grains from harvested plants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A wheelbarrow is mainly used for",
+    "options": {
+      "A": "Cutting grass",
+      "B": "Transporting materials on the farm",
+      "C": "Spraying chemicals",
+      "D": "Ploughing land"
+    },
+    "answer": "B",
+    "explanation": "Wheelbarrows are used to carry farm inputs and produce."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Medium",
+    "question": "Green manure refers to",
+    "options": {
+      "A": "Burnt crop residue",
+      "B": "Fresh green plants ploughed into the soil",
+      "C": "Chemical fertilizers",
+      "D": "Dry leaves only"
+    },
+    "answer": "B",
+    "explanation": "Green manure improves soil fertility when incorporated into the soil."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Medium",
+    "question": "Roughages in animal feed are mainly rich in",
+    "options": {
+      "A": "Protein",
+      "B": "Fiber",
+      "C": "Fat",
+      "D": "Sugar"
+    },
+    "answer": "B",
+    "explanation": "Roughages are high in fiber and aid digestion in ruminants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "Milk is mainly produced by",
+    "options": {
+      "A": "Pigs",
+      "B": "Cattle",
+      "C": "Goats only",
+      "D": "Chickens"
+    },
+    "answer": "B",
+    "explanation": "Cattle are the primary source of milk production in dairy farming."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "One benefit of agriculture to a nation is",
+    "options": {
+      "A": "Increase in unemployment",
+      "B": "Provision of raw materials for industries",
+      "C": "Reduction in food supply",
+      "D": "Soil destruction only"
+    },
+    "answer": "B",
+    "explanation": "Agriculture supplies raw materials to industries and supports economic development."
+  }
+]

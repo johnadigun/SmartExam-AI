@@ -1,0 +1,703 @@
+[
+  {
+    "subject": "Physics",
+    "category": "Measurement",
+    "difficulty": "Easy",
+    "question": "The least count of a vernier calipers is commonly",
+    "options": {
+      "A": "0.1 cm",
+      "B": "0.01 cm",
+      "C": "1.0 cm",
+      "D": "0.5 cm"
+    },
+    "answer": "B",
+    "explanation": "The common least count of a vernier calipers is 0.01 cm."
+  },
+  {
+    "subject": "Physics",
+    "category": "Measurement",
+    "difficulty": "Easy",
+    "question": "A micrometer screw gauge is mainly used to measure",
+    "options": {
+      "A": "Large distances",
+      "B": "The diameter of small objects",
+      "C": "The volume of liquids",
+      "D": "Temperature"
+    },
+    "answer": "B",
+    "explanation": "A micrometer screw gauge measures very small diameters and thicknesses."
+  },
+  {
+    "subject": "Physics",
+    "category": "Motion",
+    "difficulty": "Medium",
+    "question": "A body travels 120 m in 8 s. Its average speed is",
+    "options": {
+      "A": "12 m/s",
+      "B": "15 m/s",
+      "C": "18 m/s",
+      "D": "20 m/s"
+    },
+    "answer": "B",
+    "explanation": "Average speed = 120 ÷ 8 = 15 m/s."
+  },
+  {
+    "subject": "Physics",
+    "category": "Force",
+    "difficulty": "Medium",
+    "question": "A force of 40 N acts on a body of mass 8 kg. The acceleration produced is",
+    "options": {
+      "A": "2 m/s²",
+      "B": "4 m/s²",
+      "C": "5 m/s²",
+      "D": "8 m/s²"
+    },
+    "answer": "C",
+    "explanation": "Acceleration = Force ÷ Mass = 40 ÷ 8 = 5 m/s²."
+  },
+  {
+    "subject": "Physics",
+    "category": "Momentum",
+    "difficulty": "Medium",
+    "question": "A body of mass 5 kg moves with a velocity of 6 m/s. Its momentum is",
+    "options": {
+      "A": "11 kg·m/s",
+      "B": "25 kg·m/s",
+      "C": "30 kg·m/s",
+      "D": "35 kg·m/s"
+    },
+    "answer": "C",
+    "explanation": "Momentum = mass × velocity = 5 × 6 = 30 kg·m/s."
+  },
+  {
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "difficulty": "Medium",
+    "question": "A machine does 600 J of work in 30 s. Its power is",
+    "options": {
+      "A": "15 W",
+      "B": "20 W",
+      "C": "25 W",
+      "D": "30 W"
+    },
+    "answer": "B",
+    "explanation": "Power = Work ÷ Time = 600 ÷ 30 = 20 W."
+  },
+  {
+    "subject": "Physics",
+    "category": "Pressure",
+    "difficulty": "Medium",
+    "question": "Pressure is increased when the",
+    "options": {
+      "A": "Force decreases and area increases",
+      "B": "Force increases and area decreases",
+      "C": "Force and area both increase equally",
+      "D": "Area increases only"
+    },
+    "answer": "B",
+    "explanation": "Pressure increases with greater force and smaller area."
+  },
+  {
+    "subject": "Physics",
+    "category": "Density",
+    "difficulty": "Easy",
+    "question": "The SI unit of density is",
+    "options": {
+      "A": "kg/m³",
+      "B": "g/cm³",
+      "C": "kg/cm³",
+      "D": "N/m³"
+    },
+    "answer": "A",
+    "explanation": "The SI unit of density is kilogram per cubic metre."
+  },
+  {
+    "subject": "Physics",
+    "category": "Simple Machines",
+    "difficulty": "Easy",
+    "question": "A fixed pulley is mainly used to",
+    "options": {
+      "A": "Multiply force",
+      "B": "Change the direction of effort",
+      "C": "Reduce mass",
+      "D": "Increase weight"
+    },
+    "answer": "B",
+    "explanation": "A fixed pulley changes the direction of the applied force."
+  },
+  {
+    "subject": "Physics",
+    "category": "Energy",
+    "difficulty": "Medium",
+    "question": "The energy possessed by a body due to its position is called",
+    "options": {
+      "A": "Kinetic energy",
+      "B": "Heat energy",
+      "C": "Potential energy",
+      "D": "Electrical energy"
+    },
+    "answer": "C",
+    "explanation": "Potential energy is energy due to position."
+  },
+  {
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "difficulty": "Medium",
+    "question": "The SI unit of power is",
+    "options": {
+      "A": "Joule",
+      "B": "Newton",
+      "C": "Watt",
+      "D": "Pascal"
+    },
+    "answer": "C",
+    "explanation": "Power is measured in watts (W)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Mechanical Energy",
+    "difficulty": "Medium",
+    "question": "The total mechanical energy of a body is the sum of its",
+    "options": {
+      "A": "Heat and sound energy",
+      "B": "Potential and kinetic energy",
+      "C": "Chemical and electrical energy",
+      "D": "Light and heat energy"
+    },
+    "answer": "B",
+    "explanation": "Mechanical energy is the sum of kinetic and potential energies."
+  },
+  {
+    "subject": "Physics",
+    "category": "Simple Machines",
+    "difficulty": "Easy",
+    "question": "The velocity ratio of a machine is",
+    "options": {
+      "A": "Load ÷ Effort",
+      "B": "Distance moved by effort ÷ Distance moved by load",
+      "C": "Effort ÷ Load",
+      "D": "Power ÷ Time"
+    },
+    "answer": "B",
+    "explanation": "Velocity ratio is the ratio of the distance moved by the effort to that moved by the load."
+  },
+  {
+    "subject": "Physics",
+    "category": "Pressure",
+    "difficulty": "Easy",
+    "question": "The SI unit of pressure is",
+    "options": {
+      "A": "Newton",
+      "B": "Pascal",
+      "C": "Joule",
+      "D": "Watt"
+    },
+    "answer": "B",
+    "explanation": "Pressure is measured in pascals (Pa)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Fluids",
+    "difficulty": "Medium",
+    "question": "The upward force exerted by a fluid on an immersed object is called",
+    "options": {
+      "A": "Frictional force",
+      "B": "Gravitational force",
+      "C": "Upthrust",
+      "D": "Centripetal force"
+    },
+    "answer": "C",
+    "explanation": "Upthrust is the buoyant force exerted by a fluid."
+  },
+  {
+    "subject": "Physics",
+    "category": "Fluids",
+    "difficulty": "Medium",
+    "question": "According to Archimedes' principle, the upthrust on a body equals the",
+    "options": {
+      "A": "Weight of the body",
+      "B": "Volume of the body",
+      "C": "Weight of the displaced fluid",
+      "D": "Density of the body"
+    },
+    "answer": "C",
+    "explanation": "The buoyant force equals the weight of the fluid displaced."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Easy",
+    "question": "The transfer of heat by electromagnetic waves is known as",
+    "options": {
+      "A": "Conduction",
+      "B": "Convection",
+      "C": "Radiation",
+      "D": "Diffusion"
+    },
+    "answer": "C",
+    "explanation": "Radiation transfers heat without requiring a material medium."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Medium",
+    "question": "Sea breeze occurs during the day because",
+    "options": {
+      "A": "The land cools faster than the sea",
+      "B": "The sea heats faster than the land",
+      "C": "The land heats faster than the sea",
+      "D": "There is no temperature difference"
+    },
+    "answer": "C",
+    "explanation": "Warm air over land rises, causing cooler air from the sea to move inland."
+  },
+  {
+    "subject": "Physics",
+    "category": "Thermal Expansion",
+    "difficulty": "Easy",
+    "question": "Gaps are left between railway tracks mainly to allow for",
+    "options": {
+      "A": "Contraction during the day",
+      "B": "Expansion due to heat",
+      "C": "Increase in weight",
+      "D": "Rusting"
+    },
+    "answer": "B",
+    "explanation": "Metals expand when heated, so expansion gaps prevent buckling."
+  },
+  {
+    "subject": "Physics",
+    "category": "Thermometers",
+    "difficulty": "Medium",
+    "question": "Mercury is commonly used in thermometers because it",
+    "options": {
+      "A": "Is a poor conductor of heat",
+      "B": "Expands uniformly with temperature",
+      "C": "Is lighter than water",
+      "D": "Boils at room temperature"
+    },
+    "answer": "B",
+    "explanation": "Mercury expands uniformly, making it suitable for accurate temperature measurement."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Easy",
+    "question": "The number of complete waves produced per second is called",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Wavelength",
+      "D": "Velocity"
+    },
+    "answer": "B",
+    "explanation": "Frequency is the number of oscillations per second."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Medium",
+    "question": "The unit of frequency is",
+    "options": {
+      "A": "Metre",
+      "B": "Second",
+      "C": "Hertz",
+      "D": "Newton"
+    },
+    "answer": "C",
+    "explanation": "Frequency is measured in hertz (Hz)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Sound",
+    "difficulty": "Easy",
+    "question": "Sound travels fastest in",
+    "options": {
+      "A": "Vacuum",
+      "B": "Air",
+      "C": "Water",
+      "D": "Steel"
+    },
+    "answer": "D",
+    "explanation": "Sound travels fastest in solids."
+  },
+  {
+    "subject": "Physics",
+    "category": "Sound",
+    "difficulty": "Medium",
+    "question": "The phenomenon responsible for the production of echoes is",
+    "options": {
+      "A": "Refraction",
+      "B": "Reflection",
+      "C": "Diffraction",
+      "D": "Interference"
+    },
+    "answer": "B",
+    "explanation": "Echoes are produced by reflection of sound waves."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Easy",
+    "question": "A lens that is thicker at the centre than at the edges is called",
+    "options": {
+      "A": "Concave lens",
+      "B": "Convex lens",
+      "C": "Cylindrical lens",
+      "D": "Plane lens"
+    },
+    "answer": "B",
+    "explanation": "A convex lens is thicker at the centre."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "Short-sightedness can be corrected using a",
+    "options": {
+      "A": "Convex lens",
+      "B": "Concave lens",
+      "C": "Plane mirror",
+      "D": "Prism"
+    },
+    "answer": "B",
+    "explanation": "Myopia is corrected with a concave lens."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "Long-sightedness is corrected using a",
+    "options": {
+      "A": "Convex lens",
+      "B": "Concave lens",
+      "C": "Plane mirror",
+      "D": "Polarizing lens"
+    },
+    "answer": "A",
+    "explanation": "Hypermetropia is corrected with a convex lens."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Easy",
+    "question": "The flow of electric charge is known as",
+    "options": {
+      "A": "Voltage",
+      "B": "Resistance",
+      "C": "Current",
+      "D": "Power"
+    },
+    "answer": "C",
+    "explanation": "Electric current is the flow of charge."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "The SI unit of electric current is",
+    "options": {
+      "A": "Volt",
+      "B": "Ampere",
+      "C": "Ohm",
+      "D": "Watt"
+    },
+    "answer": "B",
+    "explanation": "Current is measured in amperes."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "The opposition to the flow of electric current is called",
+    "options": {
+      "A": "Voltage",
+      "B": "Resistance",
+      "C": "Capacitance",
+      "D": "Inductance"
+    },
+    "answer": "B",
+    "explanation": "Resistance opposes the flow of current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "The instrument used to measure electric current is",
+    "options": {
+      "A": "Voltmeter",
+      "B": "Ammeter",
+      "C": "Galvanometer",
+      "D": "Ohmmeter"
+    },
+    "answer": "B",
+    "explanation": "An ammeter measures electric current in amperes."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Easy",
+    "question": "The unit of electrical resistance is",
+    "options": {
+      "A": "Volt",
+      "B": "Ampere",
+      "C": "Ohm",
+      "D": "Watt"
+    },
+    "answer": "C",
+    "explanation": "Resistance is measured in ohms (Ω)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "A conductor offers low resistance because it has",
+    "options": {
+      "A": "Many free electrons",
+      "B": "Very few electrons",
+      "C": "No atoms",
+      "D": "Very high density"
+    },
+    "answer": "A",
+    "explanation": "Conductors have many free electrons that allow electric current to flow easily."
+  },
+  {
+    "subject": "Physics",
+    "category": "Magnetism",
+    "difficulty": "Easy",
+    "question": "The ends of a bar magnet where magnetic force is strongest are called",
+    "options": {
+      "A": "Axes",
+      "B": "Poles",
+      "C": "Domains",
+      "D": "Fields"
+    },
+    "answer": "B",
+    "explanation": "The magnetic force is strongest at the north and south poles."
+  },
+  {
+    "subject": "Physics",
+    "category": "Magnetism",
+    "difficulty": "Medium",
+    "question": "When a current flows through a straight conductor, it produces",
+    "options": {
+      "A": "A gravitational field",
+      "B": "A magnetic field",
+      "C": "Only heat",
+      "D": "Only light"
+    },
+    "answer": "B",
+    "explanation": "A current-carrying conductor produces a magnetic field around it."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetism",
+    "difficulty": "Medium",
+    "question": "The core of an electromagnet is usually made of",
+    "options": {
+      "A": "Steel",
+      "B": "Soft iron",
+      "C": "Copper",
+      "D": "Aluminium"
+    },
+    "answer": "B",
+    "explanation": "Soft iron is easily magnetized and demagnetized."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "Electricity is generated in a power station mainly by",
+    "options": {
+      "A": "Electrolysis",
+      "B": "Electromagnetic induction",
+      "C": "Static electricity",
+      "D": "Chemical reaction only"
+    },
+    "answer": "B",
+    "explanation": "Generators produce electricity through electromagnetic induction."
+  },
+  {
+    "subject": "Physics",
+    "category": "Alternating Current",
+    "difficulty": "Easy",
+    "question": "The output of a typical electricity generating station is",
+    "options": {
+      "A": "Direct current (DC)",
+      "B": "Alternating current (AC)",
+      "C": "Static electricity",
+      "D": "Nuclear current"
+    },
+    "answer": "B",
+    "explanation": "Power stations generate alternating current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "A rectifier is used to convert",
+    "options": {
+      "A": "AC to DC",
+      "B": "DC to AC",
+      "C": "Heat to electricity",
+      "D": "Sound to electricity"
+    },
+    "answer": "A",
+    "explanation": "A rectifier converts alternating current into direct current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "A transistor has become important in modern electronics because it can",
+    "options": {
+      "A": "Produce mechanical energy",
+      "B": "Amplify and switch electrical signals",
+      "C": "Generate X-rays",
+      "D": "Measure pressure"
+    },
+    "answer": "B",
+    "explanation": "Transistors are used for amplification and switching in electronic circuits."
+  },
+  {
+    "subject": "Physics",
+    "category": "Radioactivity",
+    "difficulty": "Easy",
+    "question": "Which of the following radiations has the greatest penetrating power?",
+    "options": {
+      "A": "Alpha particles",
+      "B": "Beta particles",
+      "C": "Gamma rays",
+      "D": "Cathode rays"
+    },
+    "answer": "C",
+    "explanation": "Gamma rays have the highest penetrating power among the three radioactive emissions."
+  },
+  {
+    "subject": "Physics",
+    "category": "Radioactivity",
+    "difficulty": "Medium",
+    "question": "Alpha particles carry",
+    "options": {
+      "A": "No charge",
+      "B": "A negative charge",
+      "C": "A positive charge",
+      "D": "An alternating charge"
+    },
+    "answer": "C",
+    "explanation": "Alpha particles are helium nuclei carrying a +2 charge."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Easy",
+    "question": "The nucleus of an atom contains",
+    "options": {
+      "A": "Electrons only",
+      "B": "Protons only",
+      "C": "Protons and neutrons",
+      "D": "Electrons and neutrons"
+    },
+    "answer": "C",
+    "explanation": "The atomic nucleus is made up of protons and neutrons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Medium",
+    "question": "The atomic number of an element is equal to the number of",
+    "options": {
+      "A": "Neutrons",
+      "B": "Electrons and neutrons",
+      "C": "Protons",
+      "D": "Nucleons"
+    },
+    "answer": "C",
+    "explanation": "The atomic number is the number of protons in the nucleus."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "The SI unit of radioactive activity is",
+    "options": {
+      "A": "Curie",
+      "B": "Becquerel",
+      "C": "Gray",
+      "D": "Sievert"
+    },
+    "answer": "B",
+    "explanation": "The SI unit of radioactive activity is the becquerel (Bq)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Easy",
+    "question": "Which electromagnetic wave is mainly used for broadcasting radio and television signals?",
+    "options": {
+      "A": "Gamma rays",
+      "B": "X-rays",
+      "C": "Radio waves",
+      "D": "Ultraviolet rays"
+    },
+    "answer": "C",
+    "explanation": "Radio waves are widely used for radio and television broadcasting."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Medium",
+    "question": "Optical fibre communication mainly uses",
+    "options": {
+      "A": "Sound waves",
+      "B": "Light signals",
+      "C": "X-rays",
+      "D": "Alpha particles"
+    },
+    "answer": "B",
+    "explanation": "Optical fibres transmit information using light."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Medium",
+    "question": "The main advantage of optical fibre over copper cables is",
+    "options": {
+      "A": "Higher electrical resistance",
+      "B": "Lower speed of transmission",
+      "C": "High-speed transmission with low signal loss",
+      "D": "Greater weight"
+    },
+    "answer": "C",
+    "explanation": "Optical fibres transmit data rapidly with minimal signal loss."
+  },
+  {
+    "subject": "Physics",
+    "category": "Space Physics",
+    "difficulty": "Easy",
+    "question": "Artificial satellites remain in orbit because of the balance between gravitational force and",
+    "options": {
+      "A": "Frictional force",
+      "B": "Magnetic force",
+      "C": "Centripetal motion",
+      "D": "Their forward velocity"
+    },
+    "answer": "D",
+    "explanation": "A satellite's forward velocity, together with gravity, keeps it in orbit."
+  },
+  {
+    "subject": "Physics",
+    "category": "General Physics",
+    "difficulty": "Medium",
+    "question": "Which of the following is a renewable source of energy?",
+    "options": {
+      "A": "Coal",
+      "B": "Petroleum",
+      "C": "Natural gas",
+      "D": "Solar energy"
+    },
+    "answer": "D",
+    "explanation": "Solar energy is renewable because it is continuously supplied by the Sun."
+  }
+
+]

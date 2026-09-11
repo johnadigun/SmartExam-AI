@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "History",
+    "category": "West African History",
+    "difficulty": "Medium",
+    "question": "Which empire was famous for controlling the trans-Saharan gold trade before the rise of the Mali Empire?",
+    "options": [
+      "Songhai Empire",
+      "Ghana Empire",
+      "Kanem-Bornu Empire",
+      "Oyo Empire"
+    ],
+    "answer": "Ghana Empire",
+    "explanation": "The Ghana Empire became wealthy by controlling the trans-Saharan trade in gold and salt."
+  },
+  {
+    "subject": "History",
+    "category": "West African History",
+    "difficulty": "Easy",
+    "question": "The famous city of Timbuktu became an important centre for",
+    "options": [
+      "Shipbuilding",
+      "Learning and Islamic scholarship",
+      "Coal mining",
+      "Textile manufacturing"
+    ],
+    "answer": "Learning and Islamic scholarship",
+    "explanation": "Timbuktu was renowned for its Islamic universities, libraries and scholars."
+  },
+  {
+    "subject": "History",
+    "category": "Nigerian History",
+    "difficulty": "Easy",
+    "question": "The Sokoto Caliphate was founded by",
+    "options": [
+      "Usman dan Fodio",
+      "Muhammadu Ribadu",
+      "Aminu Kano",
+      "Ahmadu Bello"
+    ],
+    "answer": "Usman dan Fodio",
+    "explanation": "Usman dan Fodio established the Sokoto Caliphate following the Fulani Jihad in the early nineteenth century."
+  },
+  {
+    "subject": "History",
+    "category": "Colonial Rule",
+    "difficulty": "Medium",
+    "question": "Indirect Rule was most successful in Northern Nigeria because",
+    "options": [
+      "Traditional political institutions were well established",
+      "There were no traditional rulers",
+      "The British ruled without local assistance",
+      "The people rejected traditional rulers"
+    ],
+    "answer": "Traditional political institutions were well established",
+    "explanation": "The British used existing emirate structures to administer Northern Nigeria."
+  },
+  {
+    "subject": "History",
+    "category": "Colonial Rule",
+    "difficulty": "Easy",
+    "question": "The Aba Women's Protest of 1929 was mainly against",
+    "options": [
+      "Forced military service",
+      "Taxation and colonial policies",
+      "Religious conversion",
+      "Boundary disputes"
+    ],
+    "answer": "Taxation and colonial policies",
+    "explanation": "The protest opposed colonial taxation and administrative practices affecting women."
+  },
+  {
+    "subject": "History",
+    "category": "Nationalism",
+    "difficulty": "Medium",
+    "question": "Which nationalist founded the National Council of Nigeria and the Cameroons (NCNC) with Herbert Macaulay?",
+    "options": [
+      "Nnamdi Azikiwe",
+      "Obafemi Awolowo",
+      "Ahmadu Bello",
+      "Tafawa Balewa"
+    ],
+    "answer": "Nnamdi Azikiwe",
+    "explanation": "Nnamdi Azikiwe and Herbert Macaulay jointly founded the NCNC in 1944."
+  },
+  {
+    "subject": "History",
+    "category": "World History",
+    "difficulty": "Easy",
+    "question": "The immediate cause of the First World War was the assassination of",
+    "options": [
+      "Archduke Franz Ferdinand",
+      "Kaiser Wilhelm II",
+      "Napoleon Bonaparte",
+      "King George V"
+    ],
+    "answer": "Archduke Franz Ferdinand",
+    "explanation": "The assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered the First World War."
+  },
+  {
+    "subject": "History",
+    "category": "World History",
+    "difficulty": "Medium",
+    "question": "The organization established after the First World War to promote international peace was the",
+    "options": [
+      "United Nations",
+      "League of Nations",
+      "Commonwealth",
+      "African Union"
+    ],
+    "answer": "League of Nations",
+    "explanation": "The League of Nations was established in 1920 to promote collective security."
+  },
+  {
+    "subject": "History",
+    "category": "Independence",
+    "difficulty": "Easy",
+    "question": "Nigeria became an independent nation on",
+    "options": [
+      "1 October 1960",
+      "1 January 1963",
+      "29 May 1999",
+      "15 January 1966"
+    ],
+    "answer": "1 October 1960",
+    "explanation": "Nigeria gained independence from Britain on 1 October 1960."
+  },
+  {
+    "subject": "History",
+    "category": "Independence",
+    "difficulty": "Medium",
+    "question": "Nigeria became a republic in",
+    "options": [
+      "1960",
+      "1963",
+      "1966",
+      "1979"
+    ],
+    "answer": "1963",
+    "explanation": "On 1 October 1963, Nigeria became the Federal Republic of Nigeria."
+  }
+]

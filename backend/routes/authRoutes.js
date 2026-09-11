@@ -1,124 +1,462 @@
+
 const express = require("express");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
-
-const User = require("../models/User");
-
 const router = express.Router();
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
 
-/* ================= JWT TOKEN GENERATOR ================= */
+const User = require("../models/user");
 
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: "7d"
-  });
+
+/* ==========================================================
+   JWT SECRET
+========================================================== */
+
+const getJwtSecret = () => {
+  const secret = process.env.JWT_SECRET;
+
+  if (!secret) {
+    throw new Error(
+      "JWT_SECRET is not configured."
+    );
+  }
+
+  return secret;
 };
 
-/* ================= REGISTER USER ================= */
+
+/* ==========================================================
+   REGISTER
+========================================================== */
 
 router.post("/register", async (req, res) => {
   try {
+
     const {
-      name,
+      firstName,
       middleName,
-      surname,
+      lastName,
       phone,
       email,
-      password
+      password,
+      schoolId,
     } = req.body;
 
-    /* CHECK IF USER EXISTS */
-    const userExists = await User.findOne({ email });
 
-    if (userExists) {
+    if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !password
+    ) {
       return res.status(400).json({
         success: false,
-        message: "User already exists"
+        message:
+          "First name, last name, email and password are required.",
       });
     }
 
-    /* HASH PASSWORD */
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
 
-    /* CREATE USER */
-    const user = await User.create({
-      name,
-      middleName,
-      surname,
-      phone,
-      email,
-      password: hashedPassword
+    const normalizedEmail =
+      email.trim().toLowerCase();
+
+
+    const existingUser =
+      await User.findOne({
+        email: normalizedEmail,
+      });
+
+
+    if (existingUser) {
+      return res.status(400).json({
+        success: false,
+        message:
+          "Email already exists",
+      });
+    }
+
+
+    const hashedPassword =
+      await bcrypt.hash(
+        password,
+        10
+      );
+
+
+    const newUser =
+      await User.create({
+
+        firstName,
+
+        middleName,
+
+        lastName,
+
+        phone,
+
+        email:
+          normalizedEmail,
+
+        password:
+          hashedPassword,
+
+        schoolId:
+          schoolId || null,
+
+        role:
+          "student",
+
+        isPaid:
+          false,
+
+        cbtAccess:
+          false,
+
+        cbtExpiry:
+          null,
+
+        remainingAttempts:
+          0,
+
+        examTaken:
+          false,
+
+        certificateIssued:
+          false,
+
+        score:
+          0,
+
+        grade:
+          "",
+
+      });
+
+
+    const safeUser =
+      newUser.toObject();
+
+
+    delete safeUser.password;
+
+
+    return res.status(201).json({
+
+      success:
+        true,
+
+      message:
+        "Registration successful",
+
+      user:
+        safeUser,
+
     });
 
-    res.status(201).json({
-      success: true,
-      _id: user._id,
-      name: user.name,
-      email: user.email,
-      token: generateToken(user._id)
+  } catch (err) {
+
+    console.error(
+      "REGISTER ERROR:",
+      err
+    );
+
+    return res.status(500).json({
+
+      success:
+        false,
+
+      message:
+        "Registration failed.",
+
     });
 
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Registration failed",
-      error: error.message
-    });
   }
 });
 
-/* ================= LOGIN USER ================= */
+
+/* ==========================================================
+   LOGIN
+========================================================== */
 
 router.post("/login", async (req, res) => {
   try {
-    const { email, password } = req.body;
 
-    /* FIND USER */
-    const user = await User.findOne({ email });
+    const {
+      email,
+      password,
+    } = req.body;
 
-    if (!user) {
+
+    if (!email || !password) {
       return res.status(400).json({
-        success: false,
-        message: "Invalid email or password"
+
+        success:
+          false,
+
+        message:
+          "Email and password are required.",
+
       });
     }
 
-    /* COMPARE PASSWORD */
-    const isMatch = await bcrypt.compare(password, user.password);
 
-    if (!isMatch) {
-      return res.status(400).json({
-        success: false,
-        message: "Invalid email or password"
+    const foundUser =
+      await User.findOne({
+
+        email:
+          email.trim().toLowerCase(),
+
+      });
+
+
+    if (!foundUser) {
+      return res.status(401).json({
+
+        success:
+          false,
+
+        message:
+          "Invalid credentials",
+
       });
     }
 
-    /* RETURN TOKEN */
-    res.json({
-      success: true,
-      _id: user._id,
-      name: user.name,
-      email: user.email,
-      hasPaid: user.hasPaid,
-      token: generateToken(user._id)
+
+    const validPassword =
+      await bcrypt.compare(
+        password,
+        foundUser.password
+      );
+
+
+    if (!validPassword) {
+      return res.status(401).json({
+
+        success:
+          false,
+
+        message:
+          "Invalid credentials",
+
+      });
+    }
+
+
+    const token =
+      jwt.sign(
+
+        {
+          id:
+            foundUser._id,
+
+          role:
+            foundUser.role,
+        },
+
+        getJwtSecret(),
+
+        {
+          expiresIn:
+            "7d",
+        }
+
+      );
+
+
+    const safeUser =
+      foundUser.toObject();
+
+
+    delete safeUser.password;
+
+
+    return res.json({
+
+      success:
+        true,
+
+      token,
+
+      user:
+        safeUser,
+
     });
 
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Login failed",
-      error: error.message
+  } catch (err) {
+
+    console.error(
+      "LOGIN ERROR:",
+      err
+    );
+
+    return res.status(500).json({
+
+      success:
+        false,
+
+      message:
+        "Login failed.",
+
     });
+
   }
 });
 
-/* ================= GET USER PROFILE (PROTECTED EXAMPLE) ================= */
 
-router.get("/profile", async (req, res) => {
-  res.json({
-    message: "Profile route ready (add auth middleware next step)"
-  });
+/* ==========================================================
+   CURRENT USER
+   GET /auth/me
+========================================================== */
+
+router.get("/me", async (req, res) => {
+  try {
+
+    const authHeader =
+      req.headers.authorization;
+
+
+    if (!authHeader) {
+      return res.status(401).json({
+
+        success:
+          false,
+
+        message:
+          "No token provided",
+
+      });
+    }
+
+
+    const parts =
+      authHeader.split(" ");
+
+
+    if (
+      parts.length !== 2 ||
+      parts[0] !== "Bearer" ||
+      !parts[1]
+    ) {
+      return res.status(401).json({
+
+        success:
+          false,
+
+        message:
+          "Invalid authorization format",
+
+      });
+    }
+
+
+    const token =
+      parts[1];
+
+
+    const decoded =
+      jwt.verify(
+        token,
+        getJwtSecret()
+      );
+
+
+    const user =
+      await User.findById(
+        decoded.id
+      );
+
+
+    if (!user) {
+      return res.status(404).json({
+
+        success:
+          false,
+
+        message:
+          "User not found",
+
+      });
+    }
+
+
+    return res.json({
+
+      success:
+        true,
+
+      user: {
+
+        _id:
+          user._id,
+
+        firstName:
+          user.firstName,
+
+        middleName:
+          user.middleName,
+
+        lastName:
+          user.lastName,
+
+        phone:
+          user.phone,
+
+        email:
+          user.email,
+
+        role:
+          user.role,
+
+        schoolId:
+          user.schoolId,
+
+        isPaid:
+          user.isPaid,
+
+        cbtAccess:
+          user.cbtAccess,
+
+        cbtExpiry:
+          user.cbtExpiry,
+
+        remainingAttempts:
+          user.remainingAttempts,
+
+        examTaken:
+          user.examTaken,
+
+        certificateIssued:
+          user.certificateIssued,
+
+        score:
+          user.score,
+
+        grade:
+          user.grade,
+
+      },
+
+    });
+
+  } catch (err) {
+
+    console.error(
+      "AUTH ME ERROR:",
+      err
+    );
+
+    return res.status(401).json({
+
+      success:
+        false,
+
+      message:
+        "Invalid or expired token",
+
+    });
+
+  }
 });
 
+
 module.exports = router;
+

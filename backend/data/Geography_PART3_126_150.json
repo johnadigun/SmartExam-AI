@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Human Geography",
+    "difficulty": "medium",
+    "question": "Population density is best described as",
+    "options": [
+      "The number of people per unit area",
+      "The birth rate",
+      "The death rate",
+      "The migration rate"
+    ],
+    "answer": "The number of people per unit area",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map Reading",
+    "difficulty": "medium",
+    "question": "A contour line joins places of equal",
+    "options": [
+      "Elevation",
+      "Rainfall",
+      "Temperature",
+      "Pressure"
+    ],
+    "answer": "Elevation",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "Instrument used to measure rainfall",
+    "options": [
+      "Rain gauge",
+      "Barometer",
+      "Thermometer",
+      "Anemometer"
+    ],
+    "answer": "Rain gauge",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "medium",
+    "question": "The major purpose of transportation is to",
+    "options": [
+      "Move people and goods",
+      "Produce crops",
+      "Predict weather",
+      "Generate rainfall"
+    ],
+    "answer": "Move people and goods",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Settlement",
+    "difficulty": "medium",
+    "question": "A settlement with many services is usually",
+    "options": [
+      "Urban",
+      "Rural",
+      "Nomadic",
+      "Isolated"
+    ],
+    "answer": "Urban",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "medium",
+    "question": "Weathering is the",
+    "options": [
+      "Breakdown of rocks in situ",
+      "Movement of rocks by rivers",
+      "Deposition of sand",
+      "Formation of clouds"
+    ],
+    "answer": "Breakdown of rocks in situ",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Rivers",
+    "difficulty": "medium",
+    "question": "The mouth of a river is where it",
+    "options": [
+      "Enters a larger water body",
+      "Begins",
+      "Flows underground",
+      "Changes direction"
+    ],
+    "answer": "Enters a larger water body",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Vegetation",
+    "difficulty": "medium",
+    "question": "Savanna vegetation is characterized by",
+    "options": [
+      "Grasses with scattered trees",
+      "Dense evergreen forest",
+      "Ice cover",
+      "Mangrove only"
+    ],
+    "answer": "Grasses with scattered trees",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Environment",
+    "difficulty": "medium",
+    "question": "Deforestation can lead to",
+    "options": [
+      "Soil erosion",
+      "Higher biodiversity",
+      "Lower runoff",
+      "More rainfall always"
+    ],
+    "answer": "Soil erosion",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Earth",
+    "difficulty": "medium",
+    "question": "Longitude is measured east and west from the",
+    "options": [
+      "Prime Meridian",
+      "Equator",
+      "Tropic of Cancer",
+      "Arctic Circle"
+    ],
+    "answer": "Prime Meridian",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "Humidity refers to",
+    "options": [
+      "Amount of water vapour in the air",
+      "Air pressure",
+      "Wind speed",
+      "Cloud height"
+    ],
+    "answer": "Amount of water vapour in the air",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "Shifting cultivation is common where",
+    "options": [
+      "Land is abundant",
+      "Land is scarce",
+      "Rain never falls",
+      "Only irrigation exists"
+    ],
+    "answer": "Land is abundant",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Industry",
+    "difficulty": "medium",
+    "question": "Raw materials are processed in",
+    "options": [
+      "Manufacturing industries",
+      "Primary schools",
+      "Hospitals",
+      "Banks"
+    ],
+    "answer": "Manufacturing industries",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Transport",
+    "difficulty": "medium",
+    "question": "Air transport is most suitable for",
+    "options": [
+      "Perishable and urgent goods",
+      "Bulky coal",
+      "Heavy machinery only",
+      "Sand"
+    ],
+    "answer": "Perishable and urgent goods",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Population",
+    "difficulty": "medium",
+    "question": "A population pyramid shows",
+    "options": [
+      "Age and sex structure",
+      "Rainfall pattern",
+      "Relief",
+      "Vegetation"
+    ],
+    "answer": "Age and sex structure",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map Reading",
+    "difficulty": "medium",
+    "question": "The scale of a map shows",
+    "options": [
+      "Relationship between map distance and ground distance",
+      "Height of mountains",
+      "Wind direction",
+      "Population"
+    ],
+    "answer": "Relationship between map distance and ground distance",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "Sea breeze usually blows",
+    "options": [
+      "From sea to land during the day",
+      "From land to sea during the day",
+      "Only at night",
+      "Towards the equator"
+    ],
+    "answer": "From sea to land during the day",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Resources",
+    "difficulty": "medium",
+    "question": "Renewable resources include",
+    "options": [
+      "Forests managed sustainably",
+      "Crude oil",
+      "Coal",
+      "Natural gas"
+    ],
+    "answer": "Forests managed sustainably",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Soils",
+    "difficulty": "medium",
+    "question": "Laterite soils are common in",
+    "options": [
+      "Tropical regions",
+      "Polar regions",
+      "Deserts only",
+      "Tundra"
+    ],
+    "answer": "Tropical regions",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Urban Geography",
+    "difficulty": "medium",
+    "question": "Urbanization often results in",
+    "options": [
+      "Growth of towns and cities",
+      "Decrease in city population",
+      "Less housing demand",
+      "Reduced transport needs"
+    ],
+    "answer": "Growth of towns and cities",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "medium",
+    "question": "An earthquake is caused mainly by",
+    "options": [
+      "Movement of tectonic plates",
+      "Heavy rainfall",
+      "Strong winds",
+      "High temperature"
+    ],
+    "answer": "Movement of tectonic plates",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Hydrology",
+    "difficulty": "medium",
+    "question": "A watershed is",
+    "options": [
+      "High land separating drainage basins",
+      "A deep ocean trench",
+      "A desert plain",
+      "A waterfall"
+    ],
+    "answer": "High land separating drainage basins",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "medium",
+    "question": "Tourism contributes to an economy through",
+    "options": [
+      "Employment and foreign exchange",
+      "Reducing population",
+      "Lowering literacy",
+      "Creating deserts"
+    ],
+    "answer": "Employment and foreign exchange",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map Reading",
+    "difficulty": "medium",
+    "question": "Grid references help to",
+    "options": [
+      "Locate places accurately",
+      "Measure temperature",
+      "Determine rainfall",
+      "Predict earthquakes"
+    ],
+    "answer": "Locate places accurately",
+    "explanation": "The correct option reflects the standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "Global warming is associated with increased",
+    "options": [
+      "Greenhouse gases",
+      "Snowfall everywhere",
+      "Earthquakes",
+      "Ocean salinity"
+    ],
+    "answer": "Greenhouse gases",
+    "explanation": "The correct option reflects the standard geography concept."
+  }
+]

@@ -1,0 +1,1593 @@
+
+import React, {
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+
+import BASE_URL from "../../api/api";
+import "./QuestionManager.css";
+
+const PAGE_SIZE = 25;
+
+const createEmptyQuestion = () => ({
+  subject: "",
+  category: "",
+  question: "",
+  options: ["", "", "", ""],
+  answer: "",
+  year: "",
+  exam: "",
+  difficulty: "medium",
+});
+
+function QuestionBankAdmin() {
+  /* ==========================================================
+     AUTHENTICATION
+  ========================================================== */
+
+  const token =
+    localStorage.getItem("token");
+
+  /* ==========================================================
+     DATA
+  ========================================================== */
+
+  const [questions, setQuestions] =
+    useState([]);
+
+  const [loading, setLoading] =
+    useState(true);
+
+  const [saving, setSaving] =
+    useState(false);
+
+  /* ==========================================================
+     SEARCH / FILTERS
+  ========================================================== */
+
+  const [search, setSearch] =
+    useState("");
+
+  const [subjectFilter, setSubjectFilter] =
+    useState("All");
+
+  const [categoryFilter, setCategoryFilter] =
+    useState("All");
+
+  /* ==========================================================
+     PAGINATION
+  ========================================================== */
+
+  const [currentPage, setCurrentPage] =
+    useState(1);
+
+  /* ==========================================================
+     MODAL
+  ========================================================== */
+
+  const [showModal, setShowModal] =
+    useState(false);
+
+  const [editing, setEditing] =
+    useState(false);
+
+  /* ==========================================================
+     FORM
+  ========================================================== */
+
+  const [formData, setFormData] =
+    useState(
+      createEmptyQuestion()
+    );
+
+  /* ==========================================================
+     AUTHENTICATED REQUEST HEADERS
+  ========================================================== */
+
+  const getAuthHeaders = () => {
+    return {
+      Authorization:
+        `Bearer ${token}`,
+    };
+  };
+
+  /* ==========================================================
+     LOAD QUESTIONS
+  ========================================================== */
+
+  const loadQuestions = async () => {
+    try {
+      setLoading(true);
+
+      const response = await fetch(
+        `${BASE_URL}/questions`,
+        {
+          headers:
+            getAuthHeaders(),
+        }
+      );
+
+      const data =
+        await response.json();
+
+      if (
+        !response.ok ||
+        !data.success
+      ) {
+        alert(
+          data.message ||
+            "Unable to load questions."
+        );
+        return;
+      }
+
+      setQuestions(
+        Array.isArray(
+          data.questions
+        )
+          ? data.questions
+          : []
+      );
+
+    } catch (error) {
+      console.error(
+        "LOAD QUESTIONS ERROR:",
+        error
+      );
+
+      alert(
+        "Unable to load questions. Please make sure the backend server is running."
+      );
+
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    loadQuestions();
+  }, []);
+
+  /* ==========================================================
+     FILTERED QUESTIONS
+  ========================================================== */
+
+  const filteredQuestions =
+    useMemo(() => {
+      let list = [
+        ...questions,
+      ];
+
+      if (
+        subjectFilter !==
+        "All"
+      ) {
+        list =
+          list.filter(
+            (item) =>
+              item.subject ===
+              subjectFilter
+          );
+      }
+
+      if (
+        categoryFilter !==
+        "All"
+      ) {
+        list =
+          list.filter(
+            (item) =>
+              item.category ===
+              categoryFilter
+          );
+      }
+
+      const searchValue =
+        search
+          .trim()
+          .toLowerCase();
+
+      if (searchValue) {
+        list =
+          list.filter(
+            (item) => {
+              const question =
+                String(
+                  item.question ||
+                    ""
+                ).toLowerCase();
+
+              const subject =
+                String(
+                  item.subject ||
+                    ""
+                ).toLowerCase();
+
+              const category =
+                String(
+                  item.category ||
+                    ""
+                ).toLowerCase();
+
+              const answer =
+                String(
+                  item.answer ||
+                    ""
+                ).toLowerCase();
+
+              const exam =
+                String(
+                  item.exam ||
+                    ""
+                ).toLowerCase();
+
+              return (
+                question.includes(
+                  searchValue
+                ) ||
+                subject.includes(
+                  searchValue
+                ) ||
+                category.includes(
+                  searchValue
+                ) ||
+                answer.includes(
+                  searchValue
+                ) ||
+                exam.includes(
+                  searchValue
+                )
+              );
+            }
+          );
+      }
+
+      return list;
+    }, [
+      questions,
+      search,
+      subjectFilter,
+      categoryFilter,
+    ]);
+
+  /* ==========================================================
+     SUBJECTS
+  ========================================================== */
+
+  const subjects =
+    useMemo(() => {
+      const values =
+        questions
+          .map(
+            (item) =>
+              item.subject
+          )
+          .filter(Boolean);
+
+      return [
+        "All",
+        ...Array.from(
+          new Set(values)
+        ).sort(
+          (a, b) =>
+            String(a).localeCompare(
+              String(b)
+            )
+        ),
+      ];
+    }, [questions]);
+
+  /* ==========================================================
+     CATEGORIES
+  ========================================================== */
+
+  const categories =
+    useMemo(() => {
+      const values =
+        questions
+          .map(
+            (item) =>
+              item.category
+          )
+          .filter(Boolean);
+
+      return [
+        "All",
+        ...Array.from(
+          new Set(values)
+        ).sort(
+          (a, b) =>
+            String(a).localeCompare(
+              String(b)
+            )
+        ),
+      ];
+    }, [questions]);
+
+  /* ==========================================================
+     PAGINATION
+  ========================================================== */
+
+  const totalPages =
+    Math.max(
+      1,
+      Math.ceil(
+        filteredQuestions.length /
+          PAGE_SIZE
+      )
+    );
+
+  const pageQuestions =
+    useMemo(() => {
+      const start =
+        (currentPage - 1) *
+        PAGE_SIZE;
+
+      return filteredQuestions.slice(
+        start,
+        start + PAGE_SIZE
+      );
+    }, [
+      filteredQuestions,
+      currentPage,
+    ]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [
+    search,
+    subjectFilter,
+    categoryFilter,
+  ]);
+
+  useEffect(() => {
+    if (
+      currentPage >
+      totalPages
+    ) {
+      setCurrentPage(
+        totalPages
+      );
+    }
+  }, [
+    currentPage,
+    totalPages,
+  ]);
+
+  /* ==========================================================
+     MODAL
+  ========================================================== */
+
+  const openAddModal = () => {
+    setEditing(false);
+
+    setFormData(
+      createEmptyQuestion()
+    );
+
+    setShowModal(true);
+  };
+
+  const openEditModal = (
+    question
+  ) => {
+    setEditing(true);
+
+    setFormData({
+      _id:
+        question._id,
+
+      subject:
+        question.subject ||
+        "",
+
+      category:
+        question.category ||
+        "",
+
+      question:
+        question.question ||
+        "",
+
+      options:
+        Array.isArray(
+          question.options
+        ) &&
+        question.options.length ===
+          4
+          ? [
+              ...question.options,
+            ]
+          : [
+              "",
+              "",
+              "",
+              "",
+            ],
+
+      answer:
+        question.answer ||
+        "",
+
+      year:
+        question.year ||
+        "",
+
+      exam:
+        question.exam ||
+        "",
+
+      difficulty:
+        question.difficulty ||
+        "medium",
+    });
+
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    if (saving) {
+      return;
+    }
+
+    setShowModal(false);
+    setEditing(false);
+
+    setFormData(
+      createEmptyQuestion()
+    );
+  };
+
+  /* ==========================================================
+     INPUT HANDLERS
+  ========================================================== */
+
+  const handleChange = (
+    event
+  ) => {
+    const {
+      name,
+      value,
+    } = event.target;
+
+    setFormData(
+      (previous) => ({
+        ...previous,
+        [name]:
+          value,
+      })
+    );
+  };
+
+  const handleOptionChange = (
+    index,
+    value
+  ) => {
+    setFormData(
+      (previous) => {
+        const options = [
+          ...previous.options,
+        ];
+
+        options[index] =
+          value;
+
+        return {
+          ...previous,
+          options,
+        };
+      }
+    );
+  };
+
+  /* ==========================================================
+     VALIDATION
+  ========================================================== */
+
+  const validateQuestion =
+    () => {
+      if (
+        !formData.subject.trim()
+      ) {
+        alert(
+          "Please enter the subject."
+        );
+
+        return false;
+      }
+
+      if (
+        !formData.category.trim()
+      ) {
+        alert(
+          "Please enter the category."
+        );
+
+        return false;
+      }
+
+      if (
+        !formData.question.trim()
+      ) {
+        alert(
+          "Please enter the question."
+        );
+
+        return false;
+      }
+
+      if (
+        !Array.isArray(
+          formData.options
+        ) ||
+        formData.options.length !==
+          4
+      ) {
+        alert(
+          "Exactly four options are required."
+        );
+
+        return false;
+      }
+
+      const normalizedOptions =
+        formData.options.map(
+          (option) =>
+            String(
+              option || ""
+            ).trim()
+        );
+
+      const emptyOption =
+        normalizedOptions.some(
+          (option) =>
+            !option
+        );
+
+      if (emptyOption) {
+        alert(
+          "Please complete all four options."
+        );
+
+        return false;
+      }
+
+      /* ========================================================
+         CHECK DUPLICATE OPTIONS
+      ======================================================== */
+
+      const uniqueOptions =
+        new Set(
+          normalizedOptions.map(
+            (option) =>
+              option.toLowerCase()
+          )
+        );
+
+      if (
+        uniqueOptions.size !==
+        4
+      ) {
+        alert(
+          "The four options must be unique."
+        );
+
+        return false;
+      }
+
+      const normalizedAnswer =
+        String(
+          formData.answer ||
+            ""
+        ).trim();
+
+      if (
+        !normalizedAnswer
+      ) {
+        alert(
+          "Please enter the correct answer."
+        );
+
+        return false;
+      }
+
+      const answerExists =
+        normalizedOptions.includes(
+          normalizedAnswer
+        );
+
+      if (!answerExists) {
+        alert(
+          "The correct answer must exactly match one of the four options."
+        );
+
+        return false;
+      }
+
+      return true;
+    };
+
+  /* ==========================================================
+     SAVE QUESTION
+  ========================================================== */
+
+  const saveQuestion =
+    async () => {
+      if (saving) {
+        return;
+      }
+
+      if (
+        !validateQuestion()
+      ) {
+        return;
+      }
+
+      try {
+        setSaving(true);
+
+        const payload = {
+          subject:
+            formData.subject.trim(),
+
+          category:
+            formData.category.trim(),
+
+          question:
+            formData.question.trim(),
+
+          options:
+            formData.options.map(
+              (option) =>
+                String(
+                  option
+                ).trim()
+            ),
+
+          answer:
+            formData.answer.trim(),
+
+          year:
+            String(
+              formData.year ||
+                ""
+            ).trim(),
+
+          exam:
+            String(
+              formData.exam ||
+                ""
+            ).trim(),
+
+          difficulty:
+            formData.difficulty ||
+            "medium",
+        };
+
+        const url =
+          editing
+            ? `${BASE_URL}/questions/${formData._id}`
+            : `${BASE_URL}/questions`;
+
+        const method =
+          editing
+            ? "PUT"
+            : "POST";
+
+        const response =
+          await fetch(
+            url,
+            {
+              method,
+
+              headers: {
+                "Content-Type":
+                  "application/json",
+
+                ...getAuthHeaders(),
+              },
+
+              body:
+                JSON.stringify(
+                  payload
+                ),
+            }
+          );
+
+        const data =
+          await response.json();
+
+        if (
+          !response.ok ||
+          !data.success
+        ) {
+          alert(
+            data.message ||
+              "Unable to save question."
+          );
+
+          return;
+        }
+
+        alert(
+          data.message ||
+            (editing
+              ? "Question updated successfully."
+              : "Question added successfully.")
+        );
+
+        setShowModal(false);
+        setEditing(false);
+
+        setFormData(
+          createEmptyQuestion()
+        );
+
+        await loadQuestions();
+
+      } catch (error) {
+        console.error(
+          "SAVE QUESTION ERROR:",
+          error
+        );
+
+        alert(
+          "Unable to save question. Please check that the backend server is running."
+        );
+
+      } finally {
+        setSaving(false);
+      }
+    };
+
+  /* ==========================================================
+     DELETE QUESTION
+  ========================================================== */
+
+  const deleteQuestion =
+    async (id) => {
+      const confirmed =
+        window.confirm(
+          "Delete this question permanently?"
+        );
+
+      if (!confirmed) {
+        return;
+      }
+
+      try {
+        const response =
+          await fetch(
+            `${BASE_URL}/questions/${id}`,
+            {
+              method:
+                "DELETE",
+
+              headers:
+                getAuthHeaders(),
+            }
+          );
+
+        const data =
+          await response.json();
+
+        if (
+          !response.ok ||
+          !data.success
+        ) {
+          alert(
+            data.message ||
+              "Unable to delete question."
+          );
+
+          return;
+        }
+
+        alert(
+          data.message ||
+            "Question deleted successfully."
+        );
+
+        await loadQuestions();
+
+      } catch (error) {
+        console.error(
+          "DELETE QUESTION ERROR:",
+          error
+        );
+
+        alert(
+          "Unable to delete question."
+        );
+      }
+    };
+
+  /* ==========================================================
+     LOADING
+  ========================================================== */
+
+  if (loading) {
+    return (
+      <div className="question-page">
+
+        <div className="question-manager">
+
+          <div className="loading-box">
+            Loading Question Bank...
+          </div>
+
+        </div>
+
+      </div>
+    );
+  }
+
+  /* ==========================================================
+     MAIN PAGE
+  ========================================================== */
+
+  return (
+    <div className="question-page">
+
+      <div className="question-manager">
+
+        {/* ==================================================
+            HEADER
+        ================================================== */}
+
+        <div className="question-manager-header">
+
+          <div className="question-title-area">
+
+            <h1>
+              Question Bank Administration
+            </h1>
+
+            <p>
+              Manage all CBT questions from one place.
+            </p>
+
+          </div>
+
+          <button
+            type="button"
+            className="primary-btn"
+            onClick={
+              openAddModal
+            }
+          >
+            + Add Question
+          </button>
+
+        </div>
+
+        {/* ==================================================
+            SUMMARY
+        ================================================== */}
+
+        <div className="question-summary">
+
+          <div className="summary-card">
+
+            <span>
+              Total Questions
+            </span>
+
+            <strong>
+              {questions.length}
+            </strong>
+
+          </div>
+
+          <div className="summary-card">
+
+            <span>
+              Subjects
+            </span>
+
+            <strong>
+              {Math.max(
+                0,
+                subjects.length - 1
+              )}
+            </strong>
+
+          </div>
+
+          <div className="summary-card">
+
+            <span>
+              Categories
+            </span>
+
+            <strong>
+              {Math.max(
+                0,
+                categories.length - 1
+              )}
+            </strong>
+
+          </div>
+
+          <div className="summary-card">
+
+            <span>
+              Showing
+            </span>
+
+            <strong>
+              {
+                filteredQuestions.length
+              }
+            </strong>
+
+          </div>
+
+        </div>
+
+        {/* ==================================================
+            FILTERS
+        ================================================== */}
+
+        <div className="question-filters">
+
+          <div className="filter-group">
+
+            <input
+              type="text"
+              placeholder="Search question, subject, category or answer..."
+              value={search}
+              onChange={(
+                event
+              ) =>
+                setSearch(
+                  event.target
+                    .value
+                )
+              }
+            />
+
+          </div>
+
+          <div className="filter-group">
+
+            <select
+              value={
+                subjectFilter
+              }
+              onChange={(
+                event
+              ) =>
+                setSubjectFilter(
+                  event.target
+                    .value
+                )
+              }
+            >
+              {subjects.map(
+                (subject) => (
+                  <option
+                    key={
+                      subject
+                    }
+                    value={
+                      subject
+                    }
+                  >
+                    {
+                      subject
+                    }
+                  </option>
+                )
+              )}
+            </select>
+
+          </div>
+
+          <div className="filter-group">
+
+            <select
+              value={
+                categoryFilter
+              }
+              onChange={(
+                event
+              ) =>
+                setCategoryFilter(
+                  event.target
+                    .value
+                )
+              }
+            >
+              {categories.map(
+                (category) => (
+                  <option
+                    key={
+                      category
+                    }
+                    value={
+                      category
+                    }
+                  >
+                    {
+                      category
+                    }
+                  </option>
+                )
+              )}
+            </select>
+
+          </div>
+
+        </div>
+
+        {/* ==================================================
+            TABLE
+        ================================================== */}
+
+        <div className="question-table-container">
+
+          <table className="question-table">
+
+            <thead>
+
+              <tr>
+
+                <th className="question-number">
+                  No.
+                </th>
+
+                <th>
+                  Subject
+                </th>
+
+                <th>
+                  Category
+                </th>
+
+                <th>
+                  Question
+                </th>
+
+                <th>
+                  Answer
+                </th>
+
+                <th>
+                  Difficulty
+                </th>
+
+                <th>
+                  Actions
+                </th>
+
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              {pageQuestions.length ===
+              0 ? (
+
+                <tr>
+
+                  <td
+                    colSpan="7"
+                    className="no-data"
+                  >
+                    No questions found.
+                  </td>
+
+                </tr>
+
+              ) : (
+
+                pageQuestions.map(
+                  (
+                    question,
+                    index
+                  ) => {
+
+                    const number =
+                      (currentPage -
+                        1) *
+                        PAGE_SIZE +
+                      index +
+                      1;
+
+                    const difficulty =
+                      question.difficulty ||
+                      "medium";
+
+                    return (
+                      <tr
+                        key={
+                          question._id
+                        }
+                      >
+
+                        <td className="question-number">
+                          {
+                            number
+                          }
+                        </td>
+
+                        <td>
+                          {
+                            question.subject ||
+                            "—"
+                          }
+                        </td>
+
+                        <td>
+                          {
+                            question.category ||
+                            "—"
+                          }
+                        </td>
+
+                        <td className="question-cell">
+                          {
+                            question.question ||
+                            "—"
+                          }
+                        </td>
+
+                        <td className="answer-cell">
+                          {
+                            question.answer ||
+                            "—"
+                          }
+                        </td>
+
+                        <td>
+
+                          <span
+                            className={`badge ${difficulty}`}
+                          >
+                            {
+                              difficulty
+                            }
+                          </span>
+
+                        </td>
+
+                        <td className="actions">
+
+                          <button
+                            type="button"
+                            className="edit-btn"
+                            onClick={() =>
+                              openEditModal(
+                                question
+                              )
+                            }
+                          >
+                            Edit
+                          </button>
+
+                          <button
+                            type="button"
+                            className="delete-btn"
+                            onClick={() =>
+                              deleteQuestion(
+                                question._id
+                              )
+                            }
+                          >
+                            Delete
+                          </button>
+
+                        </td>
+
+                      </tr>
+                    );
+                  }
+                )
+
+              )}
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+        {/* ==================================================
+            PAGINATION
+        ================================================== */}
+
+        <div className="pagination">
+
+          <button
+            type="button"
+            disabled={
+              currentPage ===
+              1
+            }
+            onClick={() =>
+              setCurrentPage(
+                (page) =>
+                  Math.max(
+                    1,
+                    page - 1
+                  )
+              )
+            }
+          >
+            ← Previous
+          </button>
+
+          <span>
+            Page{" "}
+            {currentPage}{" "}
+            of{" "}
+            {totalPages}
+          </span>
+
+          <button
+            type="button"
+            disabled={
+              currentPage ===
+              totalPages
+            }
+            onClick={() =>
+              setCurrentPage(
+                (page) =>
+                  Math.min(
+                    totalPages,
+                    page + 1
+                  )
+              )
+            }
+          >
+            Next →
+          </button>
+
+        </div>
+
+        {/* ==================================================
+            ADD / EDIT MODAL
+        ================================================== */}
+
+        {showModal && (
+
+          <div
+            className="qm-modal-overlay"
+            onMouseDown={(
+              event
+            ) => {
+              if (
+                event.target ===
+                event.currentTarget
+              ) {
+                closeModal();
+              }
+            }}
+          >
+
+            <div className="qm-modal">
+
+              {/* MODAL HEADER */}
+
+              <div className="qm-modal-header">
+
+                <div>
+
+                  <h2>
+                    {editing
+                      ? "Edit Question"
+                      : "Add New Question"}
+                  </h2>
+
+                  <p>
+                    Enter the question details below.
+                  </p>
+
+                </div>
+
+                <button
+                  type="button"
+                  className="modal-close-btn"
+                  disabled={
+                    saving
+                  }
+                  onClick={
+                    closeModal
+                  }
+                  aria-label="Close"
+                >
+                  ×
+                </button>
+
+              </div>
+
+              {/* MODAL BODY */}
+
+              <div className="qm-modal-body">
+
+                {/* SUBJECT / CATEGORY */}
+
+                <div className="form-row">
+
+                  <div className="form-group">
+
+                    <label>
+                      Subject *
+                    </label>
+
+                    <input
+                      name="subject"
+                      placeholder="e.g. Mathematics"
+                      value={
+                        formData.subject
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    />
+
+                  </div>
+
+                  <div className="form-group">
+
+                    <label>
+                      Category *
+                    </label>
+
+                    <input
+                      name="category"
+                      placeholder="e.g. Algebra"
+                      value={
+                        formData.category
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    />
+
+                  </div>
+
+                </div>
+
+                {/* EXAM / YEAR */}
+
+                <div className="form-row">
+
+                  <div className="form-group">
+
+                    <label>
+                      Examination
+                    </label>
+
+                    <input
+                      name="exam"
+                      placeholder="e.g. JAMB"
+                      value={
+                        formData.exam
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    />
+
+                  </div>
+
+                  <div className="form-group">
+
+                    <label>
+                      Year
+                    </label>
+
+                    <input
+                      name="year"
+                      placeholder="e.g. 2026"
+                      value={
+                        formData.year
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    />
+
+                  </div>
+
+                </div>
+
+                {/* QUESTION */}
+
+                <div className="form-group">
+
+                  <label>
+                    Question *
+                  </label>
+
+                  <textarea
+                    name="question"
+                    rows="5"
+                    placeholder="Enter the question..."
+                    value={
+                      formData.question
+                    }
+                    onChange={
+                      handleChange
+                    }
+                  />
+
+                </div>
+
+                {/* OPTIONS */}
+
+                <div className="options-section">
+
+                  <label className="section-label">
+                    Answer Options *
+                  </label>
+
+                  {formData.options.map(
+                    (
+                      option,
+                      index
+                    ) => {
+
+                      const letters =
+                        [
+                          "A",
+                          "B",
+                          "C",
+                          "D",
+                        ];
+
+                      return (
+                        <div
+                          className="option-row"
+                          key={
+                            letters[
+                              index
+                            ]
+                          }
+                        >
+
+                          <span className="option-label">
+                            {
+                              letters[
+                                index
+                              ]
+                            }
+                          </span>
+
+                          <input
+                            type="text"
+                            placeholder={`Option ${letters[index]}`}
+                            value={
+                              option
+                            }
+                            onChange={(
+                              event
+                            ) =>
+                              handleOptionChange(
+                                index,
+                                event
+                                  .target
+                                  .value
+                              )
+                            }
+                          />
+
+                        </div>
+                      );
+                    }
+                  )}
+
+                </div>
+
+                {/* ANSWER / DIFFICULTY */}
+
+                <div className="form-row">
+
+                  <div className="form-group">
+
+                    <label>
+                      Correct Answer *
+                    </label>
+
+                    <input
+                      name="answer"
+                      placeholder="Must match one option exactly"
+                      value={
+                        formData.answer
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    />
+
+                  </div>
+
+                  <div className="form-group">
+
+                    <label>
+                      Difficulty
+                    </label>
+
+                    <select
+                      name="difficulty"
+                      value={
+                        formData.difficulty
+                      }
+                      onChange={
+                        handleChange
+                      }
+                    >
+
+                      <option value="easy">
+                        Easy
+                      </option>
+
+                      <option value="medium">
+                        Medium
+                      </option>
+
+                      <option value="hard">
+                        Hard
+                      </option>
+
+                    </select>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              {/* MODAL FOOTER */}
+
+              <div className="qm-modal-footer">
+
+                <button
+                  type="button"
+                  className="cancel-btn"
+                  disabled={
+                    saving
+                  }
+                  onClick={
+                    closeModal
+                  }
+                >
+                  Cancel
+                </button>
+
+                <button
+                  type="button"
+                  className="save-btn"
+                  disabled={
+                    saving
+                  }
+                  onClick={
+                    saveQuestion
+                  }
+                >
+                  {saving
+                    ? "Saving..."
+                    : editing
+                    ? "Update Question"
+                    : "Save Question"}
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        )}
+
+      </div>
+
+    </div>
+  );
+}
+
+export default QuestionBankAdmin;

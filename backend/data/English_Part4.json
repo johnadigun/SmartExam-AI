@@ -1,0 +1,77 @@
+[
+  {
+    "subject": "English",
+    "category": "Grammar",
+    "question": "Choose the option that best completes the sentence: Neither the principal nor the teachers _____ aware of the incident.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "has been"
+    ],
+    "answer": "were",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "English",
+    "category": "Vocabulary",
+    "question": "Choose the word nearest in meaning to 'diligent'.",
+    "options": [
+      "lazy",
+      "hardworking",
+      "careless",
+      "stubborn"
+    ],
+    "answer": "hardworking",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "English",
+    "category": "Lexis and Structure",
+    "question": "The committee has arrived, and it is ready to present _____ report.",
+    "options": [
+      "its",
+      "it's",
+      "their",
+      "there"
+    ],
+    "answer": "its",
+    "year": "2023",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "English",
+    "category": "Sentence Interpretation",
+    "question": "If a student 'burns the midnight oil', the student _____.",
+    "options": [
+      "sleeps early",
+      "studies late into the night",
+      "wastes electricity",
+      "works in an oil company"
+    ],
+    "answer": "studies late into the night",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "English",
+    "category": "Grammar",
+    "question": "Choose the correctly punctuated sentence.",
+    "options": [
+      "However we continued the journey.",
+      "However, we continued the journey.",
+      "However we, continued the journey.",
+      "However; we continued the journey."
+    ],
+    "answer": "However, we continued the journey.",
+    "year": "2022",
+    "exam": "NECO",
+    "difficulty": "medium"
+  }
+]

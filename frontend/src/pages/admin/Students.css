@@ -1,0 +1,179 @@
+
+/* =====================================================
+   SMARTEXAM STUDENTS ADMIN MODULE
+   CLEAN / PROFESSIONAL / UNIFORM THEME
+===================================================== */
+
+.students-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.students-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.students-header h1 {
+  margin: 0 0 4px;
+  color: #343a40;
+  font-size: 22px;
+}
+
+.students-header p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 13px;
+}
+
+/* =====================================================
+   RETURN BUTTON
+===================================================== */
+
+.students-return-btn {
+  border: none;
+  outline: none;
+  background: #343a40;
+  color: #ffffff;
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.students-return-btn:hover {
+  background: #212529;
+  transform: translateY(-1px);
+}
+
+/* =====================================================
+   SUMMARY
+===================================================== */
+
+.students-summary {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  background: #f1f3f5;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  color: #343a40;
+  font-size: 13px;
+}
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+.students-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.students-table th,
+.students-table td {
+  padding: 10px 12px;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+.students-table th {
+  background: #343a40;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.students-table tbody tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.students-table tbody tr:hover {
+  background: #f1f3f5;
+}
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+.student-status {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 14px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.student-status.enabled {
+  background: #e6f4ea;
+  color: #2e7d32;
+}
+
+.student-status.disabled {
+  background: #f8e8e8;
+  color: #c62828;
+}
+
+/* =====================================================
+   MESSAGE
+===================================================== */
+
+.students-message {
+  padding: 35px 15px;
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 768px) {
+
+  .students-page {
+    padding: 12px;
+  }
+
+  .students-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .students-return-btn {
+    width: 100%;
+  }
+
+  .students-table th,
+  .students-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+}
+

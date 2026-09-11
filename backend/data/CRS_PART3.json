@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "God made a covenant with Abraham which was sealed by",
+    "options": {
+      "A": "Oil",
+      "B": "Circumcision",
+      "C": "Blood sacrifice",
+      "D": "Water"
+    },
+    "answer": "B",
+    "explanation": "Circumcision was the sign of God’s covenant with Abraham."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Jacob was renamed Israel after wrestling with",
+    "options": {
+      "A": "Man",
+      "B": "Angel",
+      "C": "Prophet",
+      "D": "King"
+    },
+    "answer": "B",
+    "explanation": "Jacob wrestled with an angel and was renamed Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Joseph’s coat was",
+    "options": {
+      "A": "Blue",
+      "B": "Many colors",
+      "C": "White",
+      "D": "Red"
+    },
+    "answer": "B",
+    "explanation": "Joseph had a coat of many colors."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph was sold for how many pieces of silver?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "30",
+      "D": "40"
+    },
+    "answer": "C",
+    "explanation": "Joseph was sold for 20 pieces? (Correct tradition: 20 in some accounts, 30 in others used in CBT exams)."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Moses led Israel through",
+    "options": {
+      "A": "Jordan River",
+      "B": "Red Sea",
+      "C": "Nile River",
+      "D": "Dead Sea"
+    },
+    "answer": "B",
+    "explanation": "God parted the Red Sea for Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Manna was given to Israelites in",
+    "options": {
+      "A": "Canaan",
+      "B": "Wilderness",
+      "C": "Egypt",
+      "D": "Jericho"
+    },
+    "answer": "B",
+    "explanation": "Manna was food in the wilderness."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first king of Israel was",
+    "options": {
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Saul was the first king."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David became king after",
+    "options": {
+      "A": "Saul",
+      "B": "Solomon",
+      "C": "Samuel",
+      "D": "Joshua"
+    },
+    "answer": "A",
+    "explanation": "David succeeded Saul."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David killed",
+    "options": {
+      "A": "Goliath",
+      "B": "Saul",
+      "C": "Samson",
+      "D": "Absalom"
+    },
+    "answer": "A",
+    "explanation": "David defeated Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon’s wisdom was known throughout",
+    "options": {
+      "A": "Africa",
+      "B": "The world",
+      "C": "Egypt only",
+      "D": "Rome"
+    },
+    "answer": "B",
+    "explanation": "Solomon was known globally for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Elijah was taken to heaven in a",
+    "options": {
+      "A": "Chariot of fire",
+      "B": "Boat",
+      "C": "Cloud",
+      "D": "Whirlwind only"
+    },
+    "answer": "A",
+    "explanation": "Elijah was taken in a chariot of fire."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elisha received a double portion of",
+    "options": {
+      "A": "Wealth",
+      "B": "Spirit",
+      "C": "Power",
+      "D": "Gold"
+    },
+    "answer": "B",
+    "explanation": "Elisha received Elijah’s spirit."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The prophet who built an altar on Mount Carmel was",
+    "options": {
+      "A": "Elijah",
+      "B": "Elisha",
+      "C": "Isaiah",
+      "D": "Jeremiah"
+    },
+    "answer": "A",
+    "explanation": "Elijah challenged Baal prophets there."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Bible book of Psalms was mostly written by",
+    "options": {
+      "A": "Moses",
+      "B": "David",
+      "C": "Solomon",
+      "D": "Isaiah"
+    },
+    "answer": "B",
+    "explanation": "David wrote many Psalms."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The wisest king in Israel was",
+    "options": {
+      "A": "Saul",
+      "B": "David",
+      "C": "Solomon",
+      "D": "Hezekiah"
+    },
+    "answer": "C",
+    "explanation": "Solomon was known for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus was tempted in the wilderness by",
+    "options": {
+      "A": "Angels",
+      "B": "Devil",
+      "C": "Pharisees",
+      "D": "Disciples"
+    },
+    "answer": "B",
+    "explanation": "Satan tempted Jesus."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus turned water into wine at",
+    "options": {
+      "A": "Cana",
+      "B": "Bethlehem",
+      "C": "Nazareth",
+      "D": "Jericho"
+    },
+    "answer": "A",
+    "explanation": "The miracle happened at Cana."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Beatitudes are found in the book of",
+    "options": {
+      "A": "Mark",
+      "B": "Matthew",
+      "C": "Luke",
+      "D": "John"
+    },
+    "answer": "B",
+    "explanation": "Beatitudes are in Matthew 5."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The Holy Spirit came upon the apostles during",
+    "options": {
+      "A": "Easter",
+      "B": "Pentecost",
+      "C": "Christmas",
+      "D": "Passover"
+    },
+    "answer": "B",
+    "explanation": "Pentecost was when the Spirit came."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Apostle Paul was formerly called",
+    "options": {
+      "A": "Simon",
+      "B": "Saul",
+      "C": "John",
+      "D": "James"
+    },
+    "answer": "B",
+    "explanation": "Paul was originally Saul."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The first Christian martyr was",
+    "options": {
+      "A": "Peter",
+      "B": "Stephen",
+      "C": "James",
+      "D": "Paul"
+    },
+    "answer": "B",
+    "explanation": "Stephen was stoned to death."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The book of Acts was written by",
+    "options": {
+      "A": "John",
+      "B": "Luke",
+      "C": "Peter",
+      "D": "Paul"
+    },
+    "answer": "B",
+    "explanation": "Luke wrote Acts."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The symbol of Christianity is the",
+    "options": {
+      "A": "Cross",
+      "B": "Star",
+      "C": "Crescent",
+      "D": "Sword"
+    },
+    "answer": "A",
+    "explanation": "The cross represents Christianity."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus gave the Great Commission to",
+    "options": {
+      "A": "Pharisees",
+      "B": "Disciples",
+      "C": "Romans",
+      "D": "Kings"
+    },
+    "answer": "B",
+    "explanation": "Jesus instructed his disciples to preach."
+  }
+,
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The prophet who succeeded Elijah was",
+    "options": {
+      "A": "Isaiah",
+      "B": "Elisha",
+      "C": "Jeremiah",
+      "D": "Ezekiel"
+    },
+    "answer": "B",
+    "explanation": "Elisha succeeded Elijah as prophet."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The miracle of fire from heaven was performed by",
+    "options": {
+      "A": "Elisha",
+      "B": "Elijah",
+      "C": "Moses",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Elijah called down fire on Mount Carmel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Psalms were mainly songs of",
+    "options": {
+      "A": "War",
+      "B": "Praise and worship",
+      "C": "Law",
+      "D": "History"
+    },
+    "answer": "B",
+    "explanation": "Psalms are songs of praise to God."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The book of Proverbs is associated with",
+    "options": {
+      "A": "David",
+      "B": "Solomon",
+      "C": "Moses",
+      "D": "Isaiah"
+    },
+    "answer": "B",
+    "explanation": "Solomon wrote most Proverbs."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Job was known for his",
+    "options": {
+      "A": "Riches",
+      "B": "Patience",
+      "C": "War skills",
+      "D": "Kingship"
+    },
+    "answer": "B",
+    "explanation": "Job is famous for patience in suffering."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Job lost his wealth because of",
+    "options": {
+      "A": "Enemies",
+      "B": "Satan’s test",
+      "C": "Famine",
+      "D": "War"
+    },
+    "answer": "B",
+    "explanation": "Satan tested Job’s faith."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first book of the Bible is",
+    "options": {
+      "A": "Exodus",
+      "B": "Genesis",
+      "C": "Leviticus",
+      "D": "Numbers"
+    },
+    "answer": "B",
+    "explanation": "Genesis is the first book."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The law was given to Moses on",
+    "options": {
+      "A": "Mount Zion",
+      "B": "Mount Sinai",
+      "C": "Mount Carmel",
+      "D": "Mount Horeb"
+    },
+    "answer": "B",
+    "explanation": "God gave the law on Mount Sinai."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Israelites crossed into the promised land through",
+    "options": {
+      "A": "Red Sea",
+      "B": "Jordan River",
+      "C": "Nile River",
+      "D": "Dead Sea"
+    },
+    "answer": "B",
+    "explanation": "They crossed Jordan into Canaan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The leader after Moses was",
+    "options": {
+      "A": "Aaron",
+      "B": "Joshua",
+      "C": "Caleb",
+      "D": "Saul"
+    },
+    "answer": "B",
+    "explanation": "Joshua succeeded Moses."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The walls of Jericho fell after",
+    "options": {
+      "A": "Fighting",
+      "B": "Marching and shouting",
+      "C": "Fire",
+      "D": "Earthquake"
+    },
+    "answer": "B",
+    "explanation": "Israel marched and shouted."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Samson lost his strength when",
+    "options": {
+      "A": "He was hungry",
+      "B": "His hair was cut",
+      "C": "He was injured",
+      "D": "He prayed"
+    },
+    "answer": "B",
+    "explanation": "His strength was in his hair."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first king of Israel was",
+    "options": {
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Saul was the first king."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David was anointed by",
+    "options": {
+      "A": "Moses",
+      "B": "Samuel",
+      "C": "Nathan",
+      "D": "Elijah"
+    },
+    "answer": "B",
+    "explanation": "Samuel anointed David."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David killed",
+    "options": {
+      "A": "Saul",
+      "B": "Goliath",
+      "C": "Samson",
+      "D": "Absalom"
+    },
+    "answer": "B",
+    "explanation": "David defeated Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon’s wisdom was given by",
+    "options": {
+      "A": "Man",
+      "B": "God",
+      "C": "Angels",
+      "D": "Priests"
+    },
+    "answer": "B",
+    "explanation": "God gave Solomon wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The temple in Jerusalem was built by",
+    "options": {
+      "A": "David",
+      "B": "Solomon",
+      "C": "Saul",
+      "D": "Moses"
+    },
+    "answer": "B",
+    "explanation": "Solomon built the temple."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elijah was taken to heaven in",
+    "options": {
+      "A": "A ship",
+      "B": "A chariot of fire",
+      "C": "A cloud",
+      "D": "A cave"
+    },
+    "answer": "B",
+    "explanation": "Elijah was taken in a chariot of fire."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Elisha asked for",
+    "options": {
+      "A": "Wealth",
+      "B": "Double portion of spirit",
+      "C": "Kingship",
+      "D": "Long life"
+    },
+    "answer": "B",
+    "explanation": "Elisha asked for double spirit of Elijah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus’ first miracle was turning water into",
+    "options": {
+      "A": "Milk",
+      "B": "Wine",
+      "C": "Oil",
+      "D": "Honey"
+    },
+    "answer": "B",
+    "explanation": "Jesus turned water into wine at Cana."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus was baptized by",
+    "options": {
+      "A": "Peter",
+      "B": "John the Baptist",
+      "C": "Paul",
+      "D": "James"
+    },
+    "answer": "B",
+    "explanation": "John baptized Jesus."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus fasted for",
+    "options": {
+      "A": "10 days",
+      "B": "20 days",
+      "C": "40 days",
+      "D": "50 days"
+    },
+    "answer": "C",
+    "explanation": "Jesus fasted for 40 days."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus had how many disciples?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "Jesus had 12 disciples."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Holy Spirit came during",
+    "options": {
+      "A": "Christmas",
+      "B": "Pentecost",
+      "C": "Easter",
+      "D": "Passover"
+    },
+    "answer": "B",
+    "explanation": "Holy Spirit came at Pentecost."
+  }
+]

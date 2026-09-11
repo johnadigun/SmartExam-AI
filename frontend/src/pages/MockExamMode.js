@@ -1,146 +1,158 @@
-import { useEffect, useState } from "react";
 
-export default function MockExamMode({ username }) {
+import React, { useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import BASE_URL from "../api/api";
+import MockExamEngine from "./MockExamEngine";
+import "./MockExamMode.css";
 
-  const [exams, setExams] = useState([]);
-  const [started, setStarted] = useState(false);
-  const [time, setTime] = useState(0);
-  const [answers, setAnswers] = useState({});
-  const [result, setResult] = useState(null);
+function MockExamMode() {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  useEffect(() => {
-
-    fetch("http://localhost:5000/api/exams")
-      .then(res => res.json())
-      .then(data => setExams(data));
-
-  }, []);
-
-  /* ANTI CHEAT */
+  const { exam, subject, category } =
+    location.state || {};
 
   useEffect(() => {
+    const verifyAccess = async () => {
+      try {
+        const token =
+          localStorage.getItem("token");
 
-    const warn = () => alert("⚠ No tab switching allowed");
+        if (!token) {
+          navigate("/");
+          return;
+        }
 
-    window.addEventListener("blur", warn);
+        /*
+          Get the current user from the database.
+          Do not trust stale localStorage access.
+        */
 
-    return () => window.removeEventListener("blur", warn);
+        const response = await fetch(
+          `${BASE_URL}/auth/me`,
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
 
-  }, []);
+        const data =
+          await response.json();
 
-  const startExam = (duration) => {
+        if (!response.ok || !data.user) {
+          navigate("/");
+          return;
+        }
 
-    if (document.documentElement.requestFullscreen) {
-      document.documentElement.requestFullscreen();
-    }
+        const user = data.user;
 
-    setTime(duration * 60);
-    setStarted(true);
-  };
+        /*
+          Refresh localStorage.
+        */
 
-  useEffect(() => {
+        localStorage.setItem(
+          "user",
+          JSON.stringify(user)
+        );
 
-    if (!started || time <= 0) return;
+        /*
+          Check CBT access.
+        */
 
-    const timer = setInterval(() => {
-      setTime(t => t - 1);
-    }, 1000);
+        if (!user.cbtAccess) {
+          alert(
+            "Your CBT access is not active. Please complete payment."
+          );
 
-    return () => clearInterval(timer);
+          navigate("/payment");
+          return;
+        }
 
-  }, [started, time]);
+        /*
+          Check actual expiry.
+        */
 
-  useEffect(() => {
+        if (!user.cbtExpiry) {
+          alert(
+            "Your CBT access has no valid expiry time. Please make a new payment."
+          );
 
-    if (time === 0 && started) {
-      submitExam(exams[0]);
-    }
+          navigate("/payment");
+          return;
+        }
 
-  }, [time]);
+        const expiry =
+          new Date(user.cbtExpiry).getTime();
 
-  const selectAnswer = (i, value) => {
-    setAnswers({ ...answers, [i]: value });
-  };
+        if (Date.now() >= expiry) {
+          alert(
+            "Your CBT access has expired. Please make a new payment."
+          );
 
-  const submitExam = async (exam) => {
+          navigate("/payment");
+          return;
+        }
 
-    const res = await fetch("http://localhost:5000/api/submit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, answers, exam })
-    });
+        /*
+          CBT requires a category and exam.
+        */
 
-    const data = await res.json();
-    setResult(data);
-  };
+        if (!category || !exam) {
+          navigate("/cbt-categories");
+          return;
+        }
 
-  if (result) {
+      } catch (err) {
+        console.log(
+          "CBT MODE ACCESS ERROR:",
+          err
+        );
 
+        alert(
+          "Unable to verify CBT access."
+        );
+
+        navigate("/dashboard");
+      }
+    };
+
+    verifyAccess();
+
+  }, [category, exam, navigate]);
+
+  if (!category || !exam) {
     return (
-      <div style={{ textAlign: "center", marginTop: 50 }}>
+      <div className="mock-exam-mode-container">
+        <div className="mock-exam-card">
 
-        <h1>RESULT</h1>
+          <h2>No CBT Category Selected</h2>
 
-        <h2>{result.score} / {result.total}</h2>
+          <p>
+            Please return and select a CBT Category.
+          </p>
 
-        <h1 style={{ color: result.status === "PASS" ? "green" : "red" }}>
-          {result.status}
-        </h1>
+          <button
+            className="back-btn"
+            onClick={() =>
+              navigate("/cbt-categories")
+            }
+          >
+            Back to Categories
+          </button>
 
-        <button onClick={() => window.location.reload()}>
-          Restart
-        </button>
-
+        </div>
       </div>
     );
   }
 
   return (
-    <div style={{ padding: 20 }}>
-
-      <h1>CBT EXAM</h1>
-
-      {!started && exams.map(exam => (
-        <div key={exam.id}>
-          <h2>{exam.title}</h2>
-          <button onClick={() => startExam(exam.duration)}>
-            Start Exam
-          </button>
-        </div>
-      ))}
-
-      {started && exams.map(exam => (
-        <div key={exam.id}>
-
-          <h2>{exam.title}</h2>
-
-          <h3>Time: {time}s</h3>
-
-          {exam.questions.map((q, i) => (
-            <div key={i}>
-              <p>{q.question}</p>
-
-              {q.options.map((opt, j) => (
-                <label key={j}>
-                  <input
-                    type="radio"
-                    name={"q" + i}
-                    onChange={() => selectAnswer(i, opt)}
-                  />
-                  {opt}
-                </label>
-              ))}
-
-            </div>
-          ))}
-
-          <button onClick={() => submitExam(exam)}>
-            Submit
-          </button>
-
-        </div>
-      ))}
-
-    </div>
+    <MockExamEngine
+      exam={exam}
+      subject={subject}
+      category={category}
+    />
   );
 }
+
+export default MockExamMode;

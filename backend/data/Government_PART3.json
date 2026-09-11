@@ -1,0 +1,647 @@
+[
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "Easy",
+    "question": "Communism is an ideology that supports",
+    "options": {
+      "A": "Private ownership of everything",
+      "B": "State ownership of all means of production",
+      "C": "No government at all",
+      "D": "Military rule"
+    },
+    "answer": "B",
+    "explanation": "Communism advocates collective or state ownership of resources."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "Medium",
+    "question": "One feature of capitalism is",
+    "options": {
+      "A": "Government control of all industries",
+      "B": "Private ownership and free market",
+      "C": "No competition",
+      "D": "No trade"
+    },
+    "answer": "B",
+    "explanation": "Capitalism is based on private ownership and free enterprise."
+  },
+  {
+    "subject": "Government",
+    "category": "State",
+    "difficulty": "Easy",
+    "question": "One element of a state is",
+    "options": {
+      "A": "Football team",
+      "B": "Population",
+      "C": "Religion",
+      "D": "Language only"
+    },
+    "answer": "B",
+    "explanation": "Population is a key element of a state."
+  },
+  {
+    "subject": "Government",
+    "category": "State",
+    "difficulty": "Medium",
+    "question": "Sovereignty is important because it",
+    "options": {
+      "A": "Removes laws",
+      "B": "Gives supreme authority to the state",
+      "C": "Eliminates government",
+      "D": "Stops elections"
+    },
+    "answer": "B",
+    "explanation": "Sovereignty gives the state ultimate authority over its territory."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Easy",
+    "question": "One advantage of a written constitution is",
+    "options": {
+      "A": "Unclear laws",
+      "B": "Clarity and stability",
+      "C": "No rules",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Written constitutions clearly define laws and structure."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Medium",
+    "question": "The constitution can be described as",
+    "options": {
+      "A": "A market rulebook",
+      "B": "Supreme law of the land",
+      "C": "Religious text",
+      "D": "Military order"
+    },
+    "answer": "B",
+    "explanation": "The constitution is the highest law in a country."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Easy",
+    "question": "One principle of democracy is",
+    "options": {
+      "A": "Dictatorship",
+      "B": "Popular participation",
+      "C": "Military rule",
+      "D": "One-party rule"
+    },
+    "answer": "B",
+    "explanation": "Democracy is based on people's participation in governance."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Medium",
+    "question": "Majority rule means",
+    "options": {
+      "A": "Minority controls government",
+      "B": "Decision by most votes",
+      "C": "No voting system",
+      "D": "Military decision"
+    },
+    "answer": "B",
+    "explanation": "Majority rule means the group with most votes decides."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Easy",
+    "question": "One purpose of voter registration is to",
+    "options": {
+      "A": "Increase fraud",
+      "B": "Identify eligible voters",
+      "C": "Stop elections",
+      "D": "Control judiciary"
+    },
+    "answer": "B",
+    "explanation": "Voter registration ensures only eligible citizens vote."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Medium",
+    "question": "One problem of elections is",
+    "options": {
+      "A": "Transparency",
+      "B": "Electoral violence",
+      "C": "Fair voting",
+      "D": "Free choice"
+    },
+    "answer": "B",
+    "explanation": "Elections in some systems face violence and malpractice."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Easy",
+    "question": "One right of a citizen is",
+    "options": {
+      "A": "Right to vote",
+      "B": "Right to tax others",
+      "C": "Right to rule alone",
+      "D": "Right to ignore laws"
+    },
+    "answer": "A",
+    "explanation": "Citizens have the right to participate in elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Medium",
+    "question": "A duty of citizens includes",
+    "options": {
+      "A": "Breaking laws",
+      "B": "Defending the country",
+      "C": "Avoiding taxes",
+      "D": "Ignoring government"
+    },
+    "answer": "B",
+    "explanation": "Citizens may be required to defend their country."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Easy",
+    "question": "Pressure groups use",
+    "options": {
+      "A": "Force to rule",
+      "B": "Peaceful persuasion",
+      "C": "Military power",
+      "D": "Courts only"
+    },
+    "answer": "B",
+    "explanation": "They influence government through peaceful means."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Medium",
+    "question": "One type of pressure group is",
+    "options": {
+      "A": "Political party",
+      "B": "Professional association",
+      "C": "Military council",
+      "D": "Parliament"
+    },
+    "answer": "B",
+    "explanation": "Professional associations are pressure groups."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Easy",
+    "question": "Political parties aim to",
+    "options": {
+      "A": "Control courts",
+      "B": "Win elections",
+      "C": "Stop voting",
+      "D": "Ban government"
+    },
+    "answer": "B",
+    "explanation": "Their main goal is to gain political power."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Medium",
+    "question": "One function of opposition party is",
+    "options": {
+      "A": "Supporting government blindly",
+      "B": "Criticizing government policies",
+      "C": "Making laws alone",
+      "D": "Controlling judiciary"
+    },
+    "answer": "B",
+    "explanation": "Opposition parties check government excesses."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Easy",
+    "question": "Public opinion is important because it",
+    "options": {
+      "A": "Ignores citizens",
+      "B": "Influences government decisions",
+      "C": "Stops elections",
+      "D": "Removes laws"
+    },
+    "answer": "B",
+    "explanation": "Governments consider citizens' views in decision-making."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Medium",
+    "question": "One way to measure public opinion is",
+    "options": {
+      "A": "War",
+      "B": "Opinion polls",
+      "C": "Military rule",
+      "D": "Taxes"
+    },
+    "answer": "B",
+    "explanation": "Opinion polls collect views of citizens."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Easy",
+    "question": "One principle of civil service is",
+    "options": {
+      "A": "Political involvement",
+      "B": "Impartiality",
+      "C": "Electioneering",
+      "D": "Partisanship"
+    },
+    "answer": "B",
+    "explanation": "Civil servants must be neutral in politics."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Medium",
+    "question": "One feature of civil service is",
+    "options": {
+      "A": "Instability",
+      "B": "Permanent employment",
+      "C": "Political leadership",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Civil service jobs are permanent and stable."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Easy",
+    "question": "Local government is closest to",
+    "options": {
+      "A": "Foreign countries",
+      "B": "The people",
+      "C": "Military",
+      "D": "Judiciary only"
+    },
+    "answer": "B",
+    "explanation": "Local government operates at grassroots level."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Medium",
+    "question": "One function of local government is",
+    "options": {
+      "A": "Printing money",
+      "B": "Maintaining local roads",
+      "C": "Declaring war",
+      "D": "Making constitution"
+    },
+    "answer": "B",
+    "explanation": "Local governments maintain basic community infrastructure."
+  },
+  {
+    "subject": "Government",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "One aim of government is to",
+    "options": {
+      "A": "Cause chaos",
+      "B": "Ensure security",
+      "C": "Stop development",
+      "D": "Increase conflict"
+    },
+    "answer": "B",
+    "explanation": "Government ensures peace and security in society."
+  }
+,
+  {
+    "subject": "Government",
+    "category": "State",
+    "difficulty": "Easy",
+    "question": "A state without a government is",
+    "options": {
+      "A": "Sovereign state",
+      "B": "Anarchy",
+      "C": "Democracy",
+      "D": "Monarchy"
+    },
+    "answer": "B",
+    "explanation": "Anarchy is a situation where there is no effective government."
+  },
+  {
+    "subject": "Government",
+    "category": "State",
+    "difficulty": "Medium",
+    "question": "One feature of a state is",
+    "options": {
+      "A": "Army only",
+      "B": "Defined territory",
+      "C": "Religious group",
+      "D": "Sports team"
+    },
+    "answer": "B",
+    "explanation": "A state must have a defined geographical territory."
+  },
+  {
+    "subject": "Government",
+    "category": "Sovereignty",
+    "difficulty": "Easy",
+    "question": "Sovereignty means",
+    "options": {
+      "A": "Foreign control",
+      "B": "Supreme power of a state",
+      "C": "Military power only",
+      "D": "Judicial power only"
+    },
+    "answer": "B",
+    "explanation": "Sovereignty is the highest authority within a state."
+  },
+  {
+    "subject": "Government",
+    "category": "Sovereignty",
+    "difficulty": "Medium",
+    "question": "External sovereignty refers to",
+    "options": {
+      "A": "Control inside a state",
+      "B": "Independence from external control",
+      "C": "Court authority",
+      "D": "Tax collection"
+    },
+    "answer": "B",
+    "explanation": "External sovereignty means independence from other states."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Easy",
+    "question": "A rigid constitution is one that",
+    "options": {
+      "A": "Changes easily",
+      "B": "Is difficult to amend",
+      "C": "Is unwritten",
+      "D": "Is temporary"
+    },
+    "answer": "B",
+    "explanation": "Rigid constitutions require special procedures to amend."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Medium",
+    "question": "One disadvantage of a rigid constitution is",
+    "options": {
+      "A": "Stability",
+      "B": "Difficulty in making changes",
+      "C": "Clarity",
+      "D": "Rule of law"
+    },
+    "answer": "B",
+    "explanation": "Rigid constitutions are hard to amend when needed."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Easy",
+    "question": "One advantage of democracy is",
+    "options": {
+      "A": "No participation",
+      "B": "Protection of rights",
+      "C": "Military rule",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Democracy protects citizens’ rights and freedoms."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Medium",
+    "question": "One requirement of democracy is",
+    "options": {
+      "A": "Free and fair elections",
+      "B": "Military control",
+      "C": "No opposition",
+      "D": "No constitution"
+    },
+    "answer": "A",
+    "explanation": "Democracy requires transparent elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Easy",
+    "question": "One feature of free elections is",
+    "options": {
+      "A": "Voter intimidation",
+      "B": "Secret ballot",
+      "C": "Fraud",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Secret ballot ensures voter privacy."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Medium",
+    "question": "One cause of electoral malpractice is",
+    "options": {
+      "A": "Transparency",
+      "B": "Corruption",
+      "C": "Free media",
+      "D": "Rule of law"
+    },
+    "answer": "B",
+    "explanation": "Corruption leads to election fraud and malpractice."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Easy",
+    "question": "One responsibility of citizens is",
+    "options": {
+      "A": "Breaking laws",
+      "B": "Obeying laws",
+      "C": "Avoiding taxes",
+      "D": "Ignoring government"
+    },
+    "answer": "B",
+    "explanation": "Citizens must obey laws of the state."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Medium",
+    "question": "One way to acquire citizenship is",
+    "options": {
+      "A": "Election",
+      "B": "Birth",
+      "C": "War",
+      "D": "Tax payment"
+    },
+    "answer": "B",
+    "explanation": "Citizenship can be acquired by birth in many countries."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Easy",
+    "question": "One role of political parties is",
+    "options": {
+      "A": "Judging cases",
+      "B": "Recruiting leaders",
+      "C": "Making laws alone",
+      "D": "Controlling army"
+    },
+    "answer": "B",
+    "explanation": "Parties recruit and present candidates for elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Medium",
+    "question": "One feature of party system is",
+    "options": {
+      "A": "No competition",
+      "B": "Political competition",
+      "C": "Military control",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Party systems involve competition for power."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Easy",
+    "question": "Pressure groups aim to",
+    "options": {
+      "A": "Rule the country",
+      "B": "Influence decisions",
+      "C": "Make laws",
+      "D": "Control army"
+    },
+    "answer": "B",
+    "explanation": "They influence government policies."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Medium",
+    "question": "One limitation of pressure groups is",
+    "options": {
+      "A": "Too much power",
+      "B": "Lack of legal authority",
+      "C": "Government control",
+      "D": "Voting rights"
+    },
+    "answer": "B",
+    "explanation": "They cannot make laws or enforce decisions."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Easy",
+    "question": "Public opinion is formed by",
+    "options": {
+      "A": "Only government",
+      "B": "Citizens’ views",
+      "C": "Military",
+      "D": "Courts only"
+    },
+    "answer": "B",
+    "explanation": "It is the collective view of the people."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Medium",
+    "question": "One factor influencing public opinion is",
+    "options": {
+      "A": "Media",
+      "B": "Geography only",
+      "C": "Weather",
+      "D": "Plants"
+    },
+    "answer": "A",
+    "explanation": "Media plays a major role in shaping opinion."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Easy",
+    "question": "One role of civil service is",
+    "options": {
+      "A": "Policy implementation",
+      "B": "Making laws",
+      "C": "Judging cases",
+      "D": "Voting"
+    },
+    "answer": "A",
+    "explanation": "Civil service implements government policies."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Medium",
+    "question": "One merit of civil service is",
+    "options": {
+      "A": "Instability",
+      "B": "Continuity in governance",
+      "C": "Political bias",
+      "D": "Corruption always"
+    },
+    "answer": "B",
+    "explanation": "Civil service ensures continuity in government operations."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Easy",
+    "question": "One advantage of local government is",
+    "options": {
+      "A": "Distance from people",
+      "B": "Grassroots development",
+      "C": "Military control",
+      "D": "Foreign rule"
+    },
+    "answer": "B",
+    "explanation": "Local governments promote development at community level."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Medium",
+    "question": "One problem of local government is",
+    "options": {
+      "A": "Too much funding",
+      "B": "Corruption",
+      "C": "Too much power",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Corruption affects local government performance."
+  },
+  {
+    "subject": "Government",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Government exists mainly to",
+    "options": {
+      "A": "Exploit citizens",
+      "B": "Serve citizens",
+      "C": "Stop development",
+      "D": "Create war"
+    },
+    "answer": "B",
+    "explanation": "Government’s main role is to serve the people."
+  }
+]

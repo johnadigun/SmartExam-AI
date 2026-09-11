@@ -1,0 +1,463 @@
+/* ==========================================================
+   SMARTEXAM COMPONENTS
+========================================================== */
+
+/* ==========================================
+   CARD
+========================================== */
+
+.card{
+    background:var(--surface);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow-small);
+    padding:var(--space-lg);
+    transition:var(--transition);
+}
+
+.card:hover{
+    box-shadow:var(--shadow-medium);
+}
+
+/* ==========================================
+   PAGE TITLE
+========================================== */
+
+.page-title{
+    color:var(--primary);
+    font-size:var(--font-title);
+    font-weight:700;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+.section-title{
+    color:var(--primary);
+    font-size:1.4rem;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.btn{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:var(--radius-small);
+    padding:12px 22px;
+    font-size:15px;
+    font-weight:600;
+    transition:var(--transition);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.btn:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+    transform:none;
+}
+
+/* Primary */
+
+.btn-primary{
+    background:var(--primary);
+    color:white;
+}
+
+.btn-primary:hover{
+    background:var(--primary-dark);
+}
+
+/* Success */
+
+.btn-success{
+    background:var(--success);
+    color:white;
+}
+
+.btn-success:hover{
+    filter:brightness(.95);
+}
+
+/* Danger */
+
+.btn-danger{
+    background:var(--danger);
+    color:white;
+}
+
+/* Warning */
+
+.btn-warning{
+    background:var(--warning);
+    color:#333;
+}
+
+/* Outline */
+
+.btn-outline{
+    background:white;
+    border:2px solid var(--primary);
+    color:var(--primary);
+}
+
+.btn-outline:hover{
+    background:var(--primary);
+    color:white;
+}
+
+/* Secondary */
+
+.btn-secondary{
+    background:#6c757d;
+    color:white;
+}
+
+/* ==========================================
+   INPUT
+========================================== */
+
+.input,
+textarea,
+select{
+
+    width:100%;
+    padding:14px 16px;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-small);
+
+    background:white;
+
+    font-size:15px;
+
+    transition:var(--transition);
+
+}
+
+.input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 3px rgba(11,83,148,.15);
+
+}
+
+/* ==========================================
+   LABEL
+========================================== */
+
+.label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+.table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+.table th{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.table td{
+
+    padding:15px;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.table tr:hover{
+
+    background:#f7fbff;
+
+}
+
+/* ==========================================
+   BADGES
+========================================== */
+
+.badge{
+
+    display:inline-block;
+
+    padding:6px 12px;
+
+    border-radius:50px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.badge-success{
+
+    background:var(--success-light);
+
+    color:var(--success);
+
+}
+
+.badge-danger{
+
+    background:var(--danger-light);
+
+    color:var(--danger);
+
+}
+
+.badge-warning{
+
+    background:var(--warning-light);
+
+    color:#a56a00;
+
+}
+
+.badge-primary{
+
+    background:#dceeff;
+
+    color:var(--primary);
+
+}
+
+/* ==========================================
+   ALERT
+========================================== */
+
+.alert{
+
+    padding:15px;
+
+    border-radius:var(--radius-small);
+
+    margin:15px 0;
+
+}
+
+.alert-success{
+
+    background:var(--success-light);
+
+    color:var(--success);
+
+}
+
+.alert-danger{
+
+    background:var(--danger-light);
+
+    color:var(--danger);
+
+}
+
+.alert-warning{
+
+    background:var(--warning-light);
+
+    color:#a56a00;
+
+}
+
+/* ==========================================
+   PROGRESS BAR
+========================================== */
+
+.progress{
+
+    width:100%;
+
+    height:12px;
+
+    background:#e9ecef;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    background:var(--primary);
+
+    transition:.4s;
+
+}
+
+/* ==========================================
+   LOADING SPINNER
+========================================== */
+
+.spinner{
+
+    width:50px;
+
+    height:50px;
+
+    border:5px solid #ddd;
+
+    border-top:5px solid var(--primary);
+
+    border-radius:50%;
+
+    animation:spin 1s linear infinite;
+
+    margin:auto;
+
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* ==========================================
+   MODAL
+========================================== */
+
+.modal{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow-large);
+
+    padding:30px;
+
+}
+
+/* ==========================================
+   QUESTION PALETTE BUTTON
+========================================== */
+
+.palette-btn{
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#ececec;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    transition:var(--transition);
+
+}
+
+.palette-btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+.palette-active{
+
+    border:3px solid var(--primary);
+
+}
+
+.palette-correct{
+
+    background:var(--success);
+
+    color:white;
+
+}
+
+.palette-wrong{
+
+    background:var(--danger);
+
+    color:white;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .btn{
+
+        width:100%;
+
+    }
+
+    .table{
+
+        font-size:14px;
+
+    }
+
+    .table th,
+    .table td{
+
+        padding:10px;
+
+    }
+
+}

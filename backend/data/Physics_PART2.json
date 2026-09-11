@@ -1,0 +1,633 @@
+[
+  {
+    "subject": "Physics",
+    "category": "Kinematics",
+    "difficulty": "Easy",
+    "question": "Acceleration is defined as",
+    "options": {
+      "A": "Change in displacement over time",
+      "B": "Change in velocity over time",
+      "C": "Force per unit mass",
+      "D": "Displacement per unit time"
+    },
+    "answer": "B",
+    "explanation": "Acceleration is the rate of change of velocity."
+  },
+  {
+    "subject": "Physics",
+    "category": "Motion",
+    "difficulty": "Medium",
+    "question": "A car accelerates uniformly from rest and reaches a speed of 20 m/s in 10 seconds. Its acceleration is",
+    "options": {
+      "A": "0.5 m/s²",
+      "B": "2 m/s²",
+      "C": "5 m/s²",
+      "D": "20 m/s²"
+    },
+    "answer": "B",
+    "explanation": "Acceleration = change in velocity / time = 20 / 10 = 2 m/s²."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gravitation",
+    "difficulty": "Easy",
+    "question": "The force of attraction between any two bodies is called",
+    "options": {
+      "A": "Friction",
+      "B": "Magnetism",
+      "C": "Gravity",
+      "D": "Electric force"
+    },
+    "answer": "C",
+    "explanation": "Gravity is the force of attraction between masses."
+  },
+  {
+    "subject": "Physics",
+    "category": "Circular Motion",
+    "difficulty": "Medium",
+    "question": "Centripetal force is the force that",
+    "options": {
+      "A": "Pulls an object outwards in a circle",
+      "B": "Is equal to gravitational force",
+      "C": "Pulls an object toward the center of the circle",
+      "D": "Is independent of velocity"
+    },
+    "answer": "C",
+    "explanation": "Centripetal force pulls inward, toward the center of circular motion."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Easy",
+    "question": "Which wave can travel through a vacuum?",
+    "options": {
+      "A": "Sound wave",
+      "B": "Water wave",
+      "C": "Radio wave",
+      "D": "Seismic wave"
+    },
+    "answer": "C",
+    "explanation": "Radio waves, like light, can travel through a vacuum."
+  },
+  {
+    "subject": "Physics",
+    "category": "Force",
+    "difficulty": "Medium",
+    "question": "According to Newton's Second Law of Motion, force is equal to",
+    "options": {
+      "A": "Mass × Velocity",
+      "B": "Mass × Acceleration",
+      "C": "Weight × Time",
+      "D": "Momentum × Time"
+    },
+    "answer": "B",
+    "explanation": "Force equals mass multiplied by acceleration."
+  },
+  {
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "difficulty": "Medium",
+    "question": "The kinetic energy of a moving body depends on",
+    "options": {
+      "A": "Its temperature only",
+      "B": "Its mass and velocity",
+      "C": "Its weight only",
+      "D": "Its density only"
+    },
+    "answer": "B",
+    "explanation": "Kinetic energy depends on both mass and velocity."
+  },
+  {
+    "subject": "Physics",
+    "category": "Simple Machines",
+    "difficulty": "Easy",
+    "question": "The mechanical advantage of a machine is the ratio of",
+    "options": {
+      "A": "Load to Effort",
+      "B": "Effort to Load",
+      "C": "Distance to Time",
+      "D": "Power to Energy"
+    },
+    "answer": "A",
+    "explanation": "Mechanical Advantage = Load ÷ Effort."
+  },
+  {
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "difficulty": "Easy",
+    "question": "Which instrument is used to measure the relative density of liquids?",
+    "options": {
+      "A": "Hydrometer",
+      "B": "Barometer",
+      "C": "Thermometer",
+      "D": "Manometer"
+    },
+    "answer": "A",
+    "explanation": "A hydrometer measures the relative density of liquids."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Medium",
+    "question": "The process by which heat is transferred through liquids is called",
+    "options": {
+      "A": "Radiation",
+      "B": "Conduction",
+      "C": "Convection",
+      "D": "Reflection"
+    },
+    "answer": "C",
+    "explanation": "Convection occurs mainly in liquids and gases."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Easy",
+    "question": "The speed of light in a vacuum is approximately",
+    "options": {
+      "A": "3 × 10⁶ m/s",
+      "B": "3 × 10⁷ m/s",
+      "C": "3 × 10⁸ m/s",
+      "D": "3 × 10⁹ m/s"
+    },
+    "answer": "C",
+    "explanation": "Light travels at about 3 × 10⁸ m/s in a vacuum."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "A good electrical insulator is",
+    "options": {
+      "A": "Copper",
+      "B": "Silver",
+      "C": "Rubber",
+      "D": "Aluminium"
+    },
+    "answer": "C",
+    "explanation": "Rubber is a poor conductor and a good insulator."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electricity",
+    "difficulty": "Medium",
+    "question": "The device used to protect an electrical circuit from excessive current is",
+    "options": {
+      "A": "Transformer",
+      "B": "Fuse",
+      "C": "Battery",
+      "D": "Capacitor"
+    },
+    "answer": "B",
+    "explanation": "A fuse melts when excessive current flows."
+  },
+  {
+    "subject": "Physics",
+    "category": "Magnetism",
+    "difficulty": "Easy",
+    "question": "Soft iron is commonly used for making electromagnets because it",
+    "options": {
+      "A": "Retains magnetism permanently",
+      "B": "Is difficult to magnetize",
+      "C": "Can be magnetized and demagnetized easily",
+      "D": "Is lighter than steel"
+    },
+    "answer": "C",
+    "explanation": "Soft iron loses its magnetism quickly when current is removed."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "The spontaneous emission of particles from unstable nuclei is known as",
+    "options": {
+      "A": "Electrolysis",
+      "B": "Radioactivity",
+      "C": "Magnetization",
+      "D": "Ionization"
+    },
+    "answer": "B",
+    "explanation": "Radioactivity is the spontaneous decay of unstable atomic nuclei."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electrostatics",
+    "difficulty": "Easy",
+    "question": "Like electric charges",
+    "options": {
+      "A": "Attract each other",
+      "B": "Repel each other",
+      "C": "Neutralize each other",
+      "D": "Have no effect on each other"
+    },
+    "answer": "B",
+    "explanation": "Like charges repel while unlike charges attract."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "An electric current is the rate of flow of",
+    "options": {
+      "A": "Protons",
+      "B": "Neutrons",
+      "C": "Electric charge",
+      "D": "Atoms"
+    },
+    "answer": "C",
+    "explanation": "Current is the rate of flow of electric charge."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Easy",
+    "question": "Cells connected end-to-end are said to be connected in",
+    "options": {
+      "A": "Parallel",
+      "B": "Series",
+      "C": "Mixed",
+      "D": "Bridge"
+    },
+    "answer": "B",
+    "explanation": "End-to-end connection is a series connection."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetism",
+    "difficulty": "Medium",
+    "question": "An electric bell works on the principle of",
+    "options": {
+      "A": "Permanent magnetism",
+      "B": "Electromagnetism",
+      "C": "Electrolysis",
+      "D": "Static electricity"
+    },
+    "answer": "B",
+    "explanation": "An electric bell uses an electromagnet."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "A transformer operates on the principle of",
+    "options": {
+      "A": "Electrostatic induction",
+      "B": "Electromagnetic induction",
+      "C": "Magnetic shielding",
+      "D": "Radioactivity"
+    },
+    "answer": "B",
+    "explanation": "Transformers work by electromagnetic induction."
+  },
+  {
+    "subject": "Physics",
+    "category": "Alternating Current",
+    "difficulty": "Easy",
+    "question": "The frequency of the public electricity supply in Nigeria is",
+    "options": {
+      "A": "25 Hz",
+      "B": "50 Hz",
+      "C": "60 Hz",
+      "D": "100 Hz"
+    },
+    "answer": "B",
+    "explanation": "Nigeria's mains electricity supply operates at 50 Hz."
+  },
+  {
+    "subject": "Physics",
+    "category": "Sound",
+    "difficulty": "Medium",
+    "question": "The echo of a sound is produced by",
+    "options": {
+      "A": "Refraction",
+      "B": "Reflection",
+      "C": "Diffraction",
+      "D": "Interference"
+    },
+    "answer": "B",
+    "explanation": "An echo is caused by the reflection of sound waves."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "The bending of light as it passes from one medium to another is called",
+    "options": {
+      "A": "Reflection",
+      "B": "Refraction",
+      "C": "Diffraction",
+      "D": "Dispersion"
+    },
+    "answer": "B",
+    "explanation": "Refraction is the bending of light due to a change in speed."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Easy",
+    "question": "A rainbow is formed due to",
+    "options": {
+      "A": "Reflection only",
+      "B": "Diffraction only",
+      "C": "Dispersion of sunlight by water droplets",
+      "D": "Interference of light"
+    },
+    "answer": "C",
+    "explanation": "Rainbows are produced by refraction, internal reflection and dispersion in water droplets."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Medium",
+    "question": "The number of protons in the nucleus of an atom is known as the",
+    "options": {
+      "A": "Mass number",
+      "B": "Atomic number",
+      "C": "Nucleon number",
+      "D": "Isotopic number"
+    },
+    "answer": "B",
+    "explanation": "The atomic number is equal to the number of protons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "According to Ohm's law, the current flowing through a conductor is directly proportional to the",
+    "options": {
+      "A": "Resistance",
+      "B": "Potential difference",
+      "C": "Length of the conductor",
+      "D": "Cross-sectional area"
+    },
+    "answer": "B",
+    "explanation": "Ohm's law states that current is directly proportional to voltage at constant temperature."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Easy",
+    "question": "The SI unit of electromotive force (e.m.f.) is",
+    "options": {
+      "A": "Ampere",
+      "B": "Ohm",
+      "C": "Volt",
+      "D": "Watt"
+    },
+    "answer": "C",
+    "explanation": "Electromotive force is measured in volts."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetism",
+    "difficulty": "Medium",
+    "question": "The direction of the magnetic field around a straight current-carrying conductor is determined using",
+    "options": {
+      "A": "Fleming's Left-Hand Rule",
+      "B": "Right-Hand Grip Rule",
+      "C": "Lenz's Law",
+      "D": "Coulomb's Law"
+    },
+    "answer": "B",
+    "explanation": "The Right-Hand Grip Rule gives the direction of the magnetic field."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "Lenz's law is used to determine the",
+    "options": {
+      "A": "Magnitude of induced e.m.f.",
+      "B": "Direction of induced current",
+      "C": "Resistance of a conductor",
+      "D": "Power dissipated"
+    },
+    "answer": "B",
+    "explanation": "Lenz's law gives the direction of the induced current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Semiconductors",
+    "difficulty": "Medium",
+    "question": "A diode allows electric current to flow",
+    "options": {
+      "A": "In both directions equally",
+      "B": "In one direction only",
+      "C": "Only through alternating current",
+      "D": "Only through direct current sources above 100 V"
+    },
+    "answer": "B",
+    "explanation": "A diode conducts mainly in one direction."
+  },
+  {
+    "subject": "Physics",
+    "category": "Radioactivity",
+    "difficulty": "Medium",
+    "question": "Alpha particles are",
+    "options": {
+      "A": "Electrons",
+      "B": "Helium nuclei",
+      "C": "Gamma rays",
+      "D": "Neutrons"
+    },
+    "answer": "B",
+    "explanation": "Alpha particles consist of two protons and two neutrons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Radioactivity",
+    "difficulty": "Medium",
+    "question": "Beta particles are",
+    "options": {
+      "A": "Fast-moving electrons",
+      "B": "Helium nuclei",
+      "C": "Electromagnetic waves",
+      "D": "Neutrons"
+    },
+    "answer": "A",
+    "explanation": "Beta particles are high-speed electrons emitted from unstable nuclei."
+  },
+  {
+    "subject": "Physics",
+    "category": "Radioactivity",
+    "difficulty": "Easy",
+    "question": "Which radioactive emission is not affected by electric or magnetic fields?",
+    "options": {
+      "A": "Alpha rays",
+      "B": "Beta rays",
+      "C": "Gamma rays",
+      "D": "Cathode rays"
+    },
+    "answer": "C",
+    "explanation": "Gamma rays are uncharged electromagnetic radiation."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Easy",
+    "question": "Isotopes of an element have the same",
+    "options": {
+      "A": "Mass number",
+      "B": "Number of neutrons",
+      "C": "Atomic number",
+      "D": "Atomic mass"
+    },
+    "answer": "C",
+    "explanation": "Isotopes have the same number of protons but different numbers of neutrons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "The main function of a transistor is to",
+    "options": {
+      "A": "Store electric charge",
+      "B": "Amplify or switch electronic signals",
+      "C": "Measure current",
+      "D": "Generate radio waves"
+    },
+    "answer": "B",
+    "explanation": "Transistors are used as amplifiers and electronic switches."
+  },
+  {
+    "subject": "Physics",
+    "category": "Semiconductors",
+    "difficulty": "Medium",
+    "question": "The semiconductor materials most commonly used in electronic devices are",
+    "options": {
+      "A": "Copper and Aluminium",
+      "B": "Silicon and Germanium",
+      "C": "Iron and Steel",
+      "D": "Silver and Gold"
+    },
+    "answer": "B",
+    "explanation": "Silicon and germanium are the most widely used semiconductor materials."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Easy",
+    "question": "Radio communication mainly uses",
+    "options": {
+      "A": "Sound waves",
+      "B": "Radio waves",
+      "C": "Water waves",
+      "D": "Seismic waves"
+    },
+    "answer": "B",
+    "explanation": "Radio communication is based on electromagnetic radio waves."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Medium",
+    "question": "The device that converts sound signals into electrical signals is",
+    "options": {
+      "A": "Loudspeaker",
+      "B": "Microphone",
+      "C": "Amplifier",
+      "D": "Transformer"
+    },
+    "answer": "B",
+    "explanation": "A microphone converts sound energy into electrical signals."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Medium",
+    "question": "A loudspeaker converts",
+    "options": {
+      "A": "Heat energy into sound energy",
+      "B": "Electrical energy into sound energy",
+      "C": "Mechanical energy into electrical energy",
+      "D": "Light energy into sound energy"
+    },
+    "answer": "B",
+    "explanation": "A loudspeaker converts electrical signals into sound."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Easy",
+    "question": "X-rays are",
+    "options": {
+      "A": "Mechanical waves",
+      "B": "Electromagnetic waves",
+      "C": "Longitudinal sound waves",
+      "D": "Water waves"
+    },
+    "answer": "B",
+    "explanation": "X-rays belong to the electromagnetic spectrum."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "Which electromagnetic wave has the shortest wavelength?",
+    "options": {
+      "A": "Radio waves",
+      "B": "Infrared rays",
+      "C": "Visible light",
+      "D": "Gamma rays"
+    },
+    "answer": "D",
+    "explanation": "Gamma rays have the shortest wavelength and highest frequency."
+  },
+  {
+    "subject": "Physics",
+    "category": "Nuclear Physics",
+    "difficulty": "Medium",
+    "question": "Nuclear fission is the process in which",
+    "options": {
+      "A": "Two light nuclei combine",
+      "B": "A heavy nucleus splits into smaller nuclei",
+      "C": "Electrons are removed from atoms",
+      "D": "Atoms lose energy by cooling"
+    },
+    "answer": "B",
+    "explanation": "Nuclear fission is the splitting of a heavy nucleus into lighter nuclei."
+  },
+  {
+    "subject": "Physics",
+    "category": "Nuclear Physics",
+    "difficulty": "Medium",
+    "question": "The Sun produces energy mainly through",
+    "options": {
+      "A": "Nuclear fission",
+      "B": "Chemical combustion",
+      "C": "Nuclear fusion",
+      "D": "Radioactive decay"
+    },
+    "answer": "C",
+    "explanation": "The Sun generates energy by nuclear fusion."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Easy",
+    "question": "Which electromagnetic radiation is commonly used in television remote controls?",
+    "options": {
+      "A": "Ultraviolet rays",
+      "B": "Infrared rays",
+      "C": "Gamma rays",
+      "D": "X-rays"
+    },
+    "answer": "B",
+    "explanation": "Infrared radiation is used in most remote control devices."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Medium",
+    "question": "Ultraviolet radiation can be used for",
+    "options": {
+      "A": "Cooking food",
+      "B": "Sterilizing medical equipment",
+      "C": "Underwater communication",
+      "D": "Generating electricity directly"
+    },
+    "answer": "B",
+    "explanation": "Ultraviolet rays are widely used for sterilization because they destroy microorganisms."
+  }
+]
+ 

@@ -1,0 +1,797 @@
+[
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "1. Which arm of government makes laws?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Legislature",
+      "Civil Service"
+    ],
+    "answer": "Legislature",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "2. Which arm interprets laws?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Legislature",
+      "Cabinet"
+    ],
+    "answer": "Judiciary",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "3. Who implements laws?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Legislature",
+      "Electoral Commission"
+    ],
+    "answer": "Executive",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "4. A constitution is the",
+    "options": [
+      "Party manifesto",
+      "Fundamental law of a state",
+      "Court judgement",
+      "Budget"
+    ],
+    "answer": "Fundamental law of a state",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "5. Government by the people is",
+    "options": [
+      "Monarchy",
+      "Democracy",
+      "Oligarchy",
+      "Dictatorship"
+    ],
+    "answer": "Democracy",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "6. The rule of law means",
+    "options": [
+      "Government above law",
+      "Everyone is equal before the law",
+      "Military rule",
+      "One-party rule"
+    ],
+    "answer": "Everyone is equal before the law",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "7. Nigeria practices",
+    "options": [
+      "Unitary system",
+      "Confederation",
+      "Federal system",
+      "Absolute monarchy"
+    ],
+    "answer": "Federal system",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "8. Citizenship by birth is acquired",
+    "options": [
+      "By election",
+      "At birth",
+      "By appointment",
+      "By taxation"
+    ],
+    "answer": "At birth",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "9. Political parties exist mainly to",
+    "options": [
+      "Collect taxes",
+      "Win political power",
+      "Judge cases",
+      "Print currency"
+    ],
+    "answer": "Win political power",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "10. A secret ballot protects",
+    "options": [
+      "Government",
+      "Judges",
+      "Voter privacy",
+      "Candidates"
+    ],
+    "answer": "Voter privacy",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "11. Pressure groups seek to",
+    "options": [
+      "Form courts",
+      "Influence government policy",
+      "Conduct elections",
+      "Collect customs"
+    ],
+    "answer": "Influence government policy",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Arts",
+    "question": "12. Public opinion refers to",
+    "options": [
+      "Military orders",
+      "Views of the people",
+      "Court rulings",
+      "Cabinet minutes"
+    ],
+    "answer": "Views of the people",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "13. Local government is closest to",
+    "options": [
+      "Foreign missions",
+      "The grassroots",
+      "The Senate",
+      "Supreme Court"
+    ],
+    "answer": "The grassroots",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "14. Human rights are",
+    "options": [
+      "Government privileges",
+      "Basic rights of individuals",
+      "Party rules",
+      "Tax laws"
+    ],
+    "answer": "Basic rights of individuals",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "15. ECOWAS promotes",
+    "options": [
+      "Space travel",
+      "Regional cooperation",
+      "Nuclear research",
+      "Tourism only"
+    ],
+    "answer": "Regional cooperation",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "16. AU is an organization of",
+    "options": [
+      "European states",
+      "African states",
+      "Asian states",
+      "American states"
+    ],
+    "answer": "African states",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "17. UN was established to",
+    "options": [
+      "Collect taxes",
+      "Promote international peace",
+      "Run elections",
+      "Make constitutions"
+    ],
+    "answer": "Promote international peace",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "18. A cabinet is headed by the",
+    "options": [
+      "Chief Judge",
+      "President",
+      "Speaker",
+      "Inspector General"
+    ],
+    "answer": "President",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "19. Separation of powers prevents",
+    "options": [
+      "Voting",
+      "Abuse of power",
+      "Inflation",
+      "Population growth"
+    ],
+    "answer": "Abuse of power",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "20. A hereditary ruler is a",
+    "options": [
+      "President",
+      "Governor",
+      "Monarch",
+      "Judge"
+    ],
+    "answer": "Monarch",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "21. Military governments usually come through",
+    "options": [
+      "Election",
+      "Coup",
+      "Referendum",
+      "Census"
+    ],
+    "answer": "Coup",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "22. Franchise means",
+    "options": [
+      "Right to vote",
+      "Right to sue",
+      "Right to tax",
+      "Right to inherit"
+    ],
+    "answer": "Right to vote",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "23. A referendum allows citizens to",
+    "options": [
+      "Choose judges",
+      "Vote directly on an issue",
+      "Approve budgets only",
+      "Elect cabinet"
+    ],
+    "answer": "Vote directly on an issue",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "24. The lower house of Nigeria's National Assembly is",
+    "options": [
+      "Senate",
+      "House of Representatives",
+      "Council of State",
+      "Federal Executive Council"
+    ],
+    "answer": "House of Representatives",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Social Science",
+    "question": "25. Judicial review is performed by",
+    "options": [
+      "Police",
+      "Courts",
+      "Political parties",
+      "INEC"
+    ],
+    "answer": "Courts",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "hard"
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "medium",
+    "question": "One duty of a citizen is",
+    "options": [
+      "Ignoring laws",
+      "Obeying laws of the state",
+      "Refusing taxes",
+      "Avoiding elections"
+    ],
+    "answer": "Obeying laws of the state",
+    "explanation": "Citizens are expected to obey the laws of their country."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "easy",
+    "question": "Naturalization refers to",
+    "options": [
+      "Being born in a country",
+      "Legal process of becoming a citizen of another country",
+      "Migration within a country",
+      "Loss of citizenship automatically"
+    ],
+    "answer": "Legal process of becoming a citizen of another country",
+    "explanation": "Naturalization is the legal process of acquiring citizenship in a new country."
+  },
+  {
+    "subject": "Government",
+    "category": "Government Functions",
+    "difficulty": "easy",
+    "question": "One function of government is",
+    "options": [
+      "Producing personal goods",
+      "Maintaining law and order",
+      "Running private businesses",
+      "Ignoring citizens"
+    ],
+    "answer": "Maintaining law and order",
+    "explanation": "Governments maintain peace and order in society."
+  },
+  {
+    "subject": "Government",
+    "category": "Government Functions",
+    "difficulty": "medium",
+    "question": "Provision of public goods means",
+    "options": [
+      "Selling goods privately",
+      "Providing services like roads and hospitals",
+      "Importing goods only",
+      "Tax collection only"
+    ],
+    "answer": "Providing services like roads and hospitals",
+    "explanation": "Public goods are provided by government for public use."
+  },
+  {
+    "subject": "Government",
+    "category": "Separation of Powers",
+    "difficulty": "easy",
+    "question": "Separation of powers means",
+    "options": [
+      "All powers in one branch",
+      "Division of government into legislative, executive and judiciary",
+      "Military rule",
+      "No government structure"
+    ],
+    "answer": "Division of government into legislative, executive and judiciary",
+    "explanation": "Power is divided among three branches to prevent abuse."
+  },
+  {
+    "subject": "Government",
+    "category": "Separation of Powers",
+    "difficulty": "medium",
+    "question": "The legislature is responsible for",
+    "options": [
+      "Enforcing laws",
+      "Making laws",
+      "Interpreting laws",
+      "Military operations"
+    ],
+    "answer": "Making laws",
+    "explanation": "The legislature is the law-making body."
+  },
+  {
+    "subject": "Government",
+    "category": "Executive",
+    "difficulty": "easy",
+    "question": "The executive arm of government is responsible for",
+    "options": [
+      "Making laws",
+      "Implementing laws",
+      "Judging cases",
+      "Writing constitution only"
+    ],
+    "answer": "Implementing laws",
+    "explanation": "The executive implements and enforces laws."
+  },
+  {
+    "subject": "Government",
+    "category": "Judiciary",
+    "difficulty": "medium",
+    "question": "The judiciary interprets",
+    "options": [
+      "Taxes",
+      "Laws",
+      "Imports",
+      "Population data"
+    ],
+    "answer": "Laws",
+    "explanation": "The judiciary interprets laws and settles disputes."
+  },
+  {
+    "subject": "Government",
+    "category": "Election",
+    "difficulty": "easy",
+    "question": "An election is",
+    "options": [
+      "Appointment of leaders by force",
+      "Process of choosing leaders through voting",
+      "Military selection process",
+      "Religious selection"
+    ],
+    "answer": "Process of choosing leaders through voting",
+    "explanation": "Elections allow citizens to choose their leaders."
+  },
+  {
+    "subject": "Government",
+    "category": "Election",
+    "difficulty": "medium",
+    "question": "Universal adult suffrage means",
+    "options": [
+      "Only men vote",
+      "All adult citizens can vote",
+      "Only leaders vote",
+      "No one votes"
+    ],
+    "answer": "All adult citizens can vote",
+    "explanation": "All adult citizens have the right to vote."
+  },
+  {
+    "subject": "Government",
+    "category": "Election",
+    "difficulty": "medium",
+    "question": "One feature of a free and fair election is",
+    "options": [
+      "Voter intimidation",
+      "Transparency and absence of fraud",
+      "Military interference",
+      "No voting process"
+    ],
+    "answer": "Transparency and absence of fraud",
+    "explanation": "Free and fair elections are transparent and free from manipulation."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "easy",
+    "question": "A political party is",
+    "options": [
+      "A group of soldiers",
+      "An organized group seeking political power",
+      "A religious group",
+      "A business organization"
+    ],
+    "answer": "An organized group seeking political power",
+    "explanation": "Political parties aim to gain political power through elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "medium",
+    "question": "One function of political parties is",
+    "options": [
+      "Making laws",
+      "Educating voters",
+      "Judging cases",
+      "Collecting taxes"
+    ],
+    "answer": "Educating voters",
+    "explanation": "Political parties help educate and mobilize voters."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "easy",
+    "question": "Pressure groups are formed to",
+    "options": [
+      "Rule the country",
+      "Influence government decisions",
+      "Replace courts",
+      "Conduct elections"
+    ],
+    "answer": "Influence government decisions",
+    "explanation": "Pressure groups seek to influence government policies."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "medium",
+    "question": "An example of a pressure group is",
+    "options": [
+      "Electoral commission",
+      "Trade union",
+      "Parliament",
+      "Court system"
+    ],
+    "answer": "Trade union",
+    "explanation": "Trade unions advocate for workers’ rights."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "easy",
+    "question": "Public opinion refers to",
+    "options": [
+      "Government laws",
+      "Views of the majority of people on issues",
+      "Military decisions",
+      "Court judgments"
+    ],
+    "answer": "Views of the majority of people on issues",
+    "explanation": "Public opinion is the collective view of citizens."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "medium",
+    "question": "One way public opinion is expressed is through",
+    "options": [
+      "Voting",
+      "Military action",
+      "Judicial rulings",
+      "Tax payment"
+    ],
+    "answer": "Voting",
+    "explanation": "Voting is a major way citizens express their opinions."
+  },
+  {
+    "subject": "Government",
+    "category": "Military Rule",
+    "difficulty": "easy",
+    "question": "Military rule is also known as",
+    "options": [
+      "Democracy",
+      "Dictatorship",
+      "Civil rule",
+      "Federalism"
+    ],
+    "answer": "Dictatorship",
+    "explanation": "Military rule is a form of dictatorship controlled by armed forces."
+  },
+  {
+    "subject": "Government",
+    "category": "Military Rule",
+    "difficulty": "medium",
+    "question": "One feature of military rule is",
+    "options": [
+      "Free elections",
+      "Suspension of constitution",
+      "Rule of law",
+      "Separation of powers"
+    ],
+    "answer": "Suspension of constitution",
+    "explanation": "Military regimes often suspend democratic constitutions."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "easy",
+    "question": "The civil service is made up of",
+    "options": [
+      "Elected politicians",
+      "Permanent government workers",
+      "Judges only",
+      "Military officers only"
+    ],
+    "answer": "Permanent government workers",
+    "explanation": "Civil servants are permanent employees of government ministries."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "medium",
+    "question": "Proportional representation means",
+    "options": [
+      "Seats are given based on percentage of votes received",
+      "Only one party wins all seats",
+      "No elections are held",
+      "Military appoints leaders"
+    ],
+    "answer": "Seats are given based on percentage of votes received",
+    "explanation": "In proportional representation, seats are shared according to votes received."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral Body",
+    "difficulty": "easy",
+    "question": "An electoral commission is responsible for",
+    "options": [
+      "Making laws",
+      "Conducting and supervising elections",
+      "Judging court cases",
+      "Collecting taxes"
+    ],
+    "answer": "Conducting and supervising elections",
+    "explanation": "Electoral commissions organize and manage elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "medium",
+    "question": "One function of a constitution is to",
+    "options": [
+      "Promote war",
+      "Define powers of government",
+      "Control private businesses",
+      "Increase taxes only"
+    ],
+    "answer": "Define powers of government",
+    "explanation": "A constitution defines the structure and powers of government."
+  },
+  {
+    "subject": "Government",
+    "category": "Rights",
+    "difficulty": "easy",
+    "question": "A fundamental human right is",
+    "options": [
+      "Right to vote only",
+      "Right to life",
+      "Right to tax",
+      "Right to rule"
+    ],
+    "answer": "Right to life",
+    "explanation": "Right to life is a basic human right guaranteed in many constitutions."
+  },
+  {
+    "subject": "Government",
+    "category": "Rights",
+    "difficulty": "medium",
+    "question": "Freedom of speech means",
+    "options": [
+      "No one can talk",
+      "Right to express opinions freely",
+      "Government controls speech completely",
+      "Only leaders can speak"
+    ],
+    "answer": "Right to express opinions freely",
+    "explanation": "Freedom of speech allows citizens to express views without fear."
+  },
+  {
+    "subject": "Government",
+    "category": "Law",
+    "difficulty": "easy",
+    "question": "Law is made to",
+    "options": [
+      "Create disorder",
+      "Maintain peace and order",
+      "Increase crime",
+      "Reduce governance"
+    ],
+    "answer": "Maintain peace and order",
+    "explanation": "Laws help regulate behavior and maintain order in society."
+  },
+  {
+    "subject": "Government",
+    "category": "Law",
+    "difficulty": "medium",
+    "question": "One type of law is",
+    "options": [
+      "Economic law only",
+      "Criminal law",
+      "Agricultural law only",
+      "Social media law only"
+    ],
+    "answer": "Criminal law",
+    "explanation": "Criminal law deals with crimes and punishment."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "easy",
+    "question": "Capitalism is an economic system where",
+    "options": [
+      "Government owns everything",
+      "Private individuals own means of production",
+      "No ownership exists",
+      "Military controls economy"
+    ],
+    "answer": "Private individuals own means of production",
+    "explanation": "Capitalism allows private ownership of businesses and property."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "medium",
+    "question": "Socialism emphasizes",
+    "options": [
+      "Private ownership only",
+      "Government control of major industries",
+      "No government",
+      "Foreign rule"
+    ],
+    "answer": "Government control of major industries",
+    "explanation": "Socialism supports government ownership of key sectors."
+  },
+  {
+    "subject": "Government",
+    "category": "General",
+    "difficulty": "easy",
+    "question": "One aim of government is to",
+    "options": [
+      "Create insecurity",
+      "Promote welfare of citizens",
+      "Increase poverty",
+      "Stop development"
+    ],
+    "answer": "Promote welfare of citizens",
+    "explanation": "Governments exist to improve citizens' welfare."
+  }
+]

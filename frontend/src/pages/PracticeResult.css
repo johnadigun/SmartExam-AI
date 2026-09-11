@@ -1,0 +1,355 @@
+/* =====================================================
+   SMARTEXAM PRACTICE RESULT
+   MASTER REDESIGNED PROFESSIONAL LAYOUT
+===================================================== */
+
+
+/* =====================================================
+   PAGE CONTAINER
+===================================================== */
+
+.practice-result-container{
+
+    min-height:100vh;
+
+    background:#f4f7fb;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px 15px;
+
+}
+
+
+
+/* =====================================================
+   MAIN RESULT CARD
+===================================================== */
+
+.practice-result-card{
+
+    width:100%;
+
+    max-width:850px;
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    padding:35px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.12);
+
+}
+
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.practice-result-card h1{
+
+    text-align:center;
+
+    color:#003366;
+
+    font-size:30px;
+
+    margin-bottom:10px;
+
+    letter-spacing:.5px;
+
+}
+
+
+
+.practice-result-card h2{
+
+    text-align:center;
+
+    color:#198754;
+
+    font-size:22px;
+
+    margin-bottom:28px;
+
+    font-weight:bold;
+
+}
+
+
+
+/* =====================================================
+   RESULT SUMMARY TABLE STYLE
+===================================================== */
+
+.result-summary{
+
+    border:1px solid #d6dde8;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    margin-bottom:32px;
+
+}
+
+
+
+/* Each row */
+
+.summary-row{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    padding:18px 22px;
+
+    background:#ffffff;
+
+}
+
+
+
+/* Zebra effect */
+
+.summary-row:nth-child(odd){
+
+    background:#f8fafc;
+
+}
+
+
+
+/* Divider */
+
+.summary-row + .summary-row{
+
+    border-top:1px solid #d6dde8;
+
+}
+
+
+
+/* Label */
+
+.summary-row span{
+
+    color:#555;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+
+
+/* Value */
+
+.summary-row strong{
+
+    text-align:right;
+
+    color:#003366;
+
+    font-size:22px;
+
+}
+
+
+
+/* Highlight percentage */
+
+.summary-row:nth-last-child(2) strong{
+
+    color:#198754;
+
+}
+
+
+
+/* Highlight grade */
+
+.summary-row:last-child strong{
+
+    color:#1565c0;
+
+}
+
+
+
+/* =====================================================
+   BUTTON SECTION
+===================================================== */
+
+.result-buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+}
+
+
+
+/* General button */
+
+.result-buttons button{
+
+    padding:16px 18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+
+
+.result-buttons button:hover{
+
+    transform:translateY(-2px);
+
+    opacity:.92;
+
+}
+
+
+
+/* =====================================================
+   BUTTON COLORS
+===================================================== */
+
+.practice-btn{
+
+    background:#198754;
+
+}
+
+
+
+.review-btn{
+
+    background:#0d6efd;
+
+}
+
+
+
+.category-btn{
+
+    background:#fd7e14;
+
+}
+
+
+
+.dashboard-btn{
+
+    background:#6c757d;
+
+}
+
+
+
+/* =====================================================
+   LOADING
+===================================================== */
+
+.practice-result-loading{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    color:#003366;
+
+}
+
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:768px){
+
+
+    .practice-result-card{
+
+        padding:22px;
+
+    }
+
+
+    .practice-result-card h1{
+
+        font-size:24px;
+
+    }
+
+
+    .practice-result-card h2{
+
+        font-size:20px;
+
+    }
+
+
+    .summary-row{
+
+        grid-template-columns:1fr;
+
+        gap:6px;
+
+        text-align:left;
+
+    }
+
+
+    .summary-row strong{
+
+        text-align:left;
+
+        font-size:20px;
+
+    }
+
+
+    .result-buttons{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

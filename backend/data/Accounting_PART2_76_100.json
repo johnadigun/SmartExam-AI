@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Incomplete Records",
+    "difficulty": "medium",
+    "question": "Single entry system is",
+    "options": [
+      "An incomplete record system",
+      "A double entry system",
+      "A computerized ledger",
+      "An audit method"
+    ],
+    "answer": "An incomplete record system",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Incomplete Records",
+    "difficulty": "medium",
+    "question": "Statement of affairs resembles",
+    "options": [
+      "A balance sheet",
+      "A cash book",
+      "A journal",
+      "A trial balance"
+    ],
+    "answer": "A balance sheet",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Consignment",
+    "difficulty": "medium",
+    "question": "Consignor is",
+    "options": [
+      "Owner sending goods",
+      "Buyer",
+      "Retailer",
+      "Auditor"
+    ],
+    "answer": "Owner sending goods",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Consignment",
+    "difficulty": "medium",
+    "question": "Del credere commission covers",
+    "options": [
+      "Bad debts",
+      "Transport",
+      "Insurance",
+      "Packing"
+    ],
+    "answer": "Bad debts",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bills",
+    "difficulty": "medium",
+    "question": "A bill of exchange is",
+    "options": [
+      "A written order to pay",
+      "A receipt",
+      "An invoice",
+      "A cheque book"
+    ],
+    "answer": "A written order to pay",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bills",
+    "difficulty": "medium",
+    "question": "The acceptor of a bill is",
+    "options": [
+      "The debtor",
+      "The creditor",
+      "The bank",
+      "The auditor"
+    ],
+    "answer": "The debtor",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Accounts",
+    "difficulty": "medium",
+    "question": "Provision for doubtful debts is",
+    "options": [
+      "An estimate of bad debts",
+      "Cash",
+      "Capital",
+      "Sales"
+    ],
+    "answer": "An estimate of bad debts",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Accounts",
+    "difficulty": "medium",
+    "question": "Bad debts recovered are",
+    "options": [
+      "Income",
+      "Expense",
+      "Asset",
+      "Liability"
+    ],
+    "answer": "Income",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Goodwill represents",
+    "options": [
+      "Business reputation",
+      "Cash",
+      "Inventory",
+      "Loan"
+    ],
+    "answer": "Business reputation",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Admission of a new partner may require",
+    "options": [
+      "Revaluation of assets",
+      "Closing cash book",
+      "Tax audit",
+      "Stock count only"
+    ],
+    "answer": "Revaluation of assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company",
+    "difficulty": "medium",
+    "question": "Preference shareholders receive",
+    "options": [
+      "Fixed dividend",
+      "Unlimited dividend",
+      "Salary",
+      "Commission"
+    ],
+    "answer": "Fixed dividend",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company",
+    "difficulty": "medium",
+    "question": "Authorized share capital is",
+    "options": [
+      "Maximum share capital permitted",
+      "Issued shares only",
+      "Paid-up capital",
+      "Reserve"
+    ],
+    "answer": "Maximum share capital permitted",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Quick ratio excludes",
+    "options": [
+      "Inventory",
+      "Cash",
+      "Debtors",
+      "Bank"
+    ],
+    "answer": "Inventory",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Return on capital employed measures",
+    "options": [
+      "Profitability",
+      "Liquidity",
+      "Solvency",
+      "Turnover"
+    ],
+    "answer": "Profitability",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Work in progress is",
+    "options": [
+      "Partly completed goods",
+      "Finished goods",
+      "Raw materials",
+      "Sales"
+    ],
+    "answer": "Partly completed goods",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Factory cost includes",
+    "options": [
+      "Prime cost plus factory overhead",
+      "Selling expenses",
+      "Office rent only",
+      "Dividend"
+    ],
+    "answer": "Prime cost plus factory overhead",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "The main objective of an audit is",
+    "options": [
+      "Express an independent opinion",
+      "Prepare invoices",
+      "Collect debts",
+      "Pay tax"
+    ],
+    "answer": "Express an independent opinion",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "Internal control helps",
+    "options": [
+      "Prevent and detect errors",
+      "Increase drawings",
+      "Reduce sales",
+      "Create goodwill"
+    ],
+    "answer": "Prevent and detect errors",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "A vote book is used in",
+    "options": [
+      "Government accounting",
+      "Partnership",
+      "Company",
+      "Consignment"
+    ],
+    "answer": "Government accounting",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Treasury is responsible for",
+    "options": [
+      "Managing government finances",
+      "Making weather forecasts",
+      "Running factories",
+      "Transport"
+    ],
+    "answer": "Managing government finances",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Objectivity requires",
+    "options": [
+      "Freedom from bias",
+      "Higher profit",
+      "Lower expenses",
+      "More sales"
+    ],
+    "answer": "Freedom from bias",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Flow",
+    "difficulty": "medium",
+    "question": "Cash flow statement reports",
+    "options": [
+      "Cash movements",
+      "Profit only",
+      "Assets only",
+      "Liabilities only"
+    ],
+    "answer": "Cash movements",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Correction",
+    "difficulty": "medium",
+    "question": "Journal proper is used for",
+    "options": [
+      "Correction entries",
+      "Cash sales",
+      "Credit purchases",
+      "Stock valuation"
+    ],
+    "answer": "Correction entries",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Capital",
+    "difficulty": "medium",
+    "question": "Working capital equals",
+    "options": [
+      "Current assets minus current liabilities",
+      "Assets plus liabilities",
+      "Sales minus purchases",
+      "Capital minus drawings"
+    ],
+    "answer": "Current assets minus current liabilities",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Accounting information should be",
+    "options": [
+      "Relevant and reliable",
+      "Secret",
+      "Verbal only",
+      "Estimated only"
+    ],
+    "answer": "Relevant and reliable",
+    "explanation": "Standard accounting principle."
+  }
+]

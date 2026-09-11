@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Easy",
+    "question": "Agriculture refers to",
+    "options": {
+      "A": "Mining activities",
+      "B": "Cultivation of crops and rearing of animals",
+      "C": "Manufacturing",
+      "D": "Trading goods"
+    },
+    "answer": "B",
+    "explanation": "Agriculture involves farming and livestock."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Medium",
+    "question": "The main cash crop in West Africa is",
+    "options": {
+      "A": "Wheat",
+      "B": "Cocoa",
+      "C": "Rice",
+      "D": "Maize"
+    },
+    "answer": "B",
+    "explanation": "Cocoa is a major export crop."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Easy",
+    "question": "Mining is the extraction of",
+    "options": {
+      "A": "Water",
+      "B": "Minerals from the earth",
+      "C": "Plants",
+      "D": "Animals"
+    },
+    "answer": "B",
+    "explanation": "Mining involves mineral extraction."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Medium",
+    "question": "The major mineral in Nigeria is",
+    "options": {
+      "A": "Gold",
+      "B": "Coal",
+      "C": "Crude oil",
+      "D": "Iron ore"
+    },
+    "answer": "C",
+    "explanation": "Crude oil is Nigeria’s main mineral resource."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Easy",
+    "question": "Industries that make goods are called",
+    "options": {
+      "A": "Primary industries",
+      "B": "Secondary industries",
+      "C": "Tertiary industries",
+      "D": "Quaternary industries"
+    },
+    "answer": "B",
+    "explanation": "Secondary industries involve manufacturing."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Medium",
+    "question": "Transportation by water is called",
+    "options": {
+      "A": "Air transport",
+      "B": "Rail transport",
+      "C": "Water transport",
+      "D": "Road transport"
+    },
+    "answer": "C",
+    "explanation": "Ships and boats use water transport."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Easy",
+    "question": "A port is used for",
+    "options": {
+      "A": "Farming",
+      "B": "Loading and unloading ships",
+      "C": "Mining",
+      "D": "Fishing only"
+    },
+    "answer": "B",
+    "explanation": "Ports handle sea transport."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Medium",
+    "question": "The main export of Nigeria is",
+    "options": {
+      "A": "Cocoa",
+      "B": "Crude oil",
+      "C": "Rubber",
+      "D": "Palm oil"
+    },
+    "answer": "B",
+    "explanation": "Oil is Nigeria’s major export."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Easy",
+    "question": "Trade involves",
+    "options": {
+      "A": "Production only",
+      "B": "Exchange of goods and services",
+      "C": "Farming",
+      "D": "Mining"
+    },
+    "answer": "B",
+    "explanation": "Trade is buying and selling."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "Medium",
+    "question": "The highest level of industry is",
+    "options": {
+      "A": "Primary",
+      "B": "Secondary",
+      "C": "Tertiary",
+      "D": "Quaternary"
+    },
+    "answer": "C",
+    "explanation": "Tertiary industries provide services."
+  }
+]

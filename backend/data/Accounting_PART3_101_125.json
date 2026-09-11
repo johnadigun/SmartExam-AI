@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Current accounts record",
+    "options": [
+      "Partners' ongoing transactions",
+      "Cash sales",
+      "Stock",
+      "Loans"
+    ],
+    "answer": "Partners' ongoing transactions",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Drawings are",
+    "options": [
+      "Withdrawals by owner",
+      "Business income",
+      "Liabilities",
+      "Assets"
+    ],
+    "answer": "Withdrawals by owner",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company",
+    "difficulty": "medium",
+    "question": "Issued share capital is",
+    "options": [
+      "Shares offered to investors",
+      "Maximum capital",
+      "Loan capital",
+      "Reserves"
+    ],
+    "answer": "Shares offered to investors",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company",
+    "difficulty": "medium",
+    "question": "Debentures represent",
+    "options": [
+      "Long-term loans",
+      "Ordinary shares",
+      "Preference shares",
+      "Retained earnings"
+    ],
+    "answer": "Long-term loans",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Direct labour cost is",
+    "options": [
+      "Prime cost component",
+      "Selling expense",
+      "Office expense",
+      "Finance cost"
+    ],
+    "answer": "Prime cost component",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Factory rent is",
+    "options": [
+      "Factory overhead",
+      "Direct material",
+      "Selling expense",
+      "Drawing"
+    ],
+    "answer": "Factory overhead",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budget",
+    "difficulty": "medium",
+    "question": "A budget is",
+    "options": [
+      "A financial plan",
+      "A bank loan",
+      "A receipt",
+      "An invoice"
+    ],
+    "answer": "A financial plan",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budget",
+    "difficulty": "medium",
+    "question": "Cash budget estimates",
+    "options": [
+      "Future cash receipts and payments",
+      "Profit only",
+      "Assets",
+      "Liabilities"
+    ],
+    "answer": "Future cash receipts and payments",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "VAT",
+    "difficulty": "medium",
+    "question": "VAT means",
+    "options": [
+      "Value Added Tax",
+      "Variable Assets Tax",
+      "Verified Accounting Test",
+      "Value Assessment Tariff"
+    ],
+    "answer": "Value Added Tax",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "VAT",
+    "difficulty": "medium",
+    "question": "VAT is charged on",
+    "options": [
+      "Taxable goods and services",
+      "Capital only",
+      "Loans",
+      "Shares"
+    ],
+    "answer": "Taxable goods and services",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "An error of principle violates",
+    "options": [
+      "Accounting principles",
+      "Arithmetic rules only",
+      "Bank rules",
+      "Tax law only"
+    ],
+    "answer": "Accounting principles",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Suspense",
+    "difficulty": "medium",
+    "question": "A suspense account is cleared when",
+    "options": [
+      "Errors are corrected",
+      "Cash is received",
+      "Stock is counted",
+      "Audit ends"
+    ],
+    "answer": "Errors are corrected",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Inventory turnover measures",
+    "options": [
+      "Speed of selling inventory",
+      "Liquidity",
+      "Solvency",
+      "Capital"
+    ],
+    "answer": "Speed of selling inventory",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Debt ratio measures",
+    "options": [
+      "Extent of debt financing",
+      "Gross profit",
+      "Cash balance",
+      "Sales"
+    ],
+    "answer": "Extent of debt financing",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "Vouching involves",
+    "options": [
+      "Checking documentary evidence",
+      "Preparing statements",
+      "Posting ledgers",
+      "Stock valuation"
+    ],
+    "answer": "Checking documentary evidence",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "Audit working papers are",
+    "options": [
+      "Auditor's records",
+      "Client invoices",
+      "Bank statements",
+      "Receipts"
+    ],
+    "answer": "Auditor's records",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Consolidated Revenue Fund belongs to",
+    "options": [
+      "Government",
+      "Partnership",
+      "Company",
+      "Club"
+    ],
+    "answer": "Government",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Receipts and payments account summarizes",
+    "options": [
+      "Cash transactions",
+      "Profit",
+      "Assets",
+      "Stock"
+    ],
+    "answer": "Cash transactions",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Income and expenditure account resembles",
+    "options": [
+      "Profit and loss account",
+      "Balance sheet",
+      "Cash book",
+      "Ledger"
+    ],
+    "answer": "Profit and loss account",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Depreciation",
+    "difficulty": "medium",
+    "question": "Residual value means",
+    "options": [
+      "Estimated value at end of useful life",
+      "Purchase price",
+      "Market price today",
+      "Tax value"
+    ],
+    "answer": "Estimated value at end of useful life",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Confidentiality requires accountants to",
+    "options": [
+      "Protect client information",
+      "Reveal all records",
+      "Ignore laws",
+      "Destroy files"
+    ],
+    "answer": "Protect client information",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concept",
+    "difficulty": "medium",
+    "question": "Historical cost means assets are recorded at",
+    "options": [
+      "Original cost",
+      "Current market value",
+      "Replacement cost",
+      "Future value"
+    ],
+    "answer": "Original cost",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concept",
+    "difficulty": "medium",
+    "question": "Matching concept requires",
+    "options": [
+      "Related income and expenses in same period",
+      "Cash basis only",
+      "Ignore expenses",
+      "Ignore revenue"
+    ],
+    "answer": "Related income and expenses in same period",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Periodic inventory system updates stock",
+    "options": [
+      "At period end",
+      "Every sale",
+      "Every purchase only",
+      "Never"
+    ],
+    "answer": "At period end",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Accounting standards improve",
+    "options": [
+      "Consistency and comparability",
+      "Advertising",
+      "Tax rates",
+      "Sales volume"
+    ],
+    "answer": "Consistency and comparability",
+    "explanation": "Standard accounting principle."
+  }
+]

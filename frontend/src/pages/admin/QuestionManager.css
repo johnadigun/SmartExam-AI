@@ -1,0 +1,605 @@
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   QUESTION BANK ADMINISTRATION
+   PROFESSIONAL UNIFORM GREY / WHITE / BLACK / GREEN / RED
+========================================================== */
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+.question-page {
+  min-height: 100vh;
+  background: #eeeeee;
+  padding: 18px;
+}
+
+.question-manager {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.qm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.qm-header h1 {
+  margin: 0 0 6px;
+  color: #222222;
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.qm-header p {
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+}
+
+/* ==========================================================
+   ADD BUTTON
+========================================================== */
+
+.add-btn {
+  min-width: 145px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  background: #2e7d32;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+
+.add-btn:hover {
+  background: #1b5e20;
+}
+
+/* ==========================================================
+   SUMMARY
+========================================================== */
+
+.qm-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.summary-card {
+  min-height: 92px;
+  padding: 15px 17px;
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.summary-card h3 {
+  margin: 0 0 8px;
+  color: #666666;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.summary-card h2 {
+  margin: 0;
+  color: #222222;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+/* ==========================================================
+   FILTERS
+========================================================== */
+
+.qm-filters {
+  display: grid;
+  grid-template-columns: minmax(280px, 2fr) minmax(180px, 1fr) minmax(180px, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #f5f5f5;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.qm-filters input,
+.qm-filters select {
+  width: 100%;
+  min-height: 40px;
+  padding: 9px 11px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #222222;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+}
+
+.qm-filters input::placeholder {
+  color: #888888;
+}
+
+.qm-filters input:focus,
+.qm-filters select:focus {
+  border-color: #777777;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.04);
+}
+
+/* ==========================================================
+   TABLE WRAPPER
+========================================================== */
+
+.question-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* ==========================================================
+   TABLE HEADER
+========================================================== */
+
+.question-table thead th {
+  padding: 11px 12px;
+  background: #333333;
+  color: #ffffff;
+  border-bottom: 1px solid #222222;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ==========================================================
+   TABLE BODY
+========================================================== */
+
+.question-table tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e1e1e1;
+  color: #333333;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.question-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.question-table tbody tr:hover {
+  background: #f1f1f1;
+}
+
+.question-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ==========================================================
+   QUESTION COLUMN
+========================================================== */
+
+.question-table th:nth-child(1),
+.question-table td:nth-child(1) {
+  width: 55px;
+  text-align: center;
+}
+
+.question-table th:nth-child(2),
+.question-table td:nth-child(2) {
+  width: 135px;
+}
+
+.question-table th:nth-child(3),
+.question-table td:nth-child(3) {
+  width: 150px;
+}
+
+.question-table th:nth-child(4),
+.question-table td:nth-child(4) {
+  min-width: 300px;
+  max-width: 420px;
+}
+
+.question-table th:nth-child(5),
+.question-table td:nth-child(5) {
+  min-width: 170px;
+  max-width: 220px;
+}
+
+.question-table th:nth-child(6),
+.question-table td:nth-child(6) {
+  width: 100px;
+  text-align: center;
+}
+
+.question-table th:nth-child(7),
+.question-table td:nth-child(7) {
+  width: 125px;
+  white-space: nowrap;
+}
+
+/* ==========================================================
+   DIFFICULTY
+========================================================== */
+
+.difficulty {
+  display: inline-block;
+  min-width: 65px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.difficulty.easy {
+  background: #e2f3e5;
+  color: #1b5e20;
+}
+
+.difficulty.medium {
+  background: #eeeeee;
+  color: #333333;
+  border: 1px solid #cccccc;
+}
+
+.difficulty.hard {
+  background: #fbe4e4;
+  color: #b71c1c;
+}
+
+/* ==========================================================
+   ACTION BUTTONS
+========================================================== */
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.edit-btn {
+  background: #333333;
+  color: #ffffff;
+}
+
+.edit-btn:hover {
+  background: #111111;
+}
+
+.delete-btn {
+  background: #d32f2f;
+  color: #ffffff;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+/* ==========================================================
+   PAGINATION
+========================================================== */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+  padding: 12px 14px;
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+.pagination span {
+  color: #444444;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pagination button {
+  min-width: 105px;
+  padding: 8px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #eeeeee;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ==========================================================
+   LOADING
+========================================================== */
+
+.qm-loading {
+  width: 100%;
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 45px 20px;
+  text-align: center;
+  color: #444444;
+  font-size: 16px;
+  background: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+}
+
+/* ==========================================================
+   MODAL OVERLAY
+========================================================== */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.58);
+}
+
+/* ==========================================================
+   MODAL
+========================================================== */
+
+.question-modal {
+  width: 650px;
+  max-width: 100%;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* ==========================================================
+   MODAL HEADER
+========================================================== */
+
+.question-modal h2 {
+  margin: 0;
+  padding: 17px 20px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #dddddd;
+  color: #222222;
+  font-size: 20px;
+}
+
+/* ==========================================================
+   MODAL BODY
+========================================================== */
+
+.modal-body {
+  overflow-y: auto;
+  padding: 18px 20px;
+}
+
+/* ==========================================================
+   MODAL INPUTS
+========================================================== */
+
+.modal-body input,
+.modal-body select,
+.modal-body textarea {
+  width: 100%;
+  margin-bottom: 11px;
+  padding: 9px 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #222222;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+}
+
+.modal-body input,
+.modal-body select {
+  min-height: 39px;
+}
+
+.modal-body textarea {
+  min-height: 105px;
+  resize: vertical;
+}
+
+.modal-body input:focus,
+.modal-body select:focus,
+.modal-body textarea:focus {
+  border-color: #777777;
+}
+
+/* ==========================================================
+   MODAL FOOTER
+========================================================== */
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 13px 20px;
+  background: #f7f7f7;
+  border-top: 1px solid #dddddd;
+}
+
+.save-btn,
+.cancel-btn {
+  min-width: 110px;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: #2e7d32;
+  color: #ffffff;
+}
+
+.save-btn:hover:not(:disabled) {
+  background: #1b5e20;
+}
+
+.cancel-btn {
+  background: #757575;
+  color: #ffffff;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background: #616161;
+}
+
+.save-btn:disabled,
+.cancel-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 900px) {
+  .question-page {
+    padding: 10px;
+  }
+
+  .question-manager {
+    padding: 14px;
+  }
+
+  .qm-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .qm-summary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .qm-header {
+    flex-direction: column;
+  }
+
+  .add-btn {
+    width: 100%;
+  }
+
+  .qm-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pagination span {
+    width: 100%;
+    text-align: center;
+    order: -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-page {
+    padding: 5px;
+  }
+
+  .question-manager {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .qm-header h1 {
+    font-size: 21px;
+  }
+
+  .qm-header p {
+    font-size: 13px;
+  }
+
+  .qm-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-overlay {
+    padding: 8px;
+  }
+
+  .question-modal {
+    max-height: 95vh;
+  }
+
+  .question-modal h2,
+  .modal-body,
+  .modal-footer {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .modal-footer {
+    flex-direction: column-reverse;
+  }
+
+  .save-btn,
+  .cancel-btn {
+    width: 100%;
+  }
+}
+

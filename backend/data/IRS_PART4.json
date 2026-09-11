@@ -1,0 +1,661 @@
+[
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "Hadith means",
+    "options": {
+      "A": "Qur'an",
+      "B": "Sayings and actions of Prophet Muhammad",
+      "C": "Prayer",
+      "D": "Charity"
+    },
+    "answer": "B",
+    "explanation": "Hadith are sayings and actions of the Prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The most authentic collection of Hadith is",
+    "options": {
+      "A": "Sahih Bukhari",
+      "B": "Musnad Ahmad",
+      "C": "Muwatta Malik",
+      "D": "Sunan Abu Dawood"
+    },
+    "answer": "A",
+    "explanation": "Sahih Bukhari is most authentic."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The collector of Sahih Bukhari is",
+    "options": {
+      "A": "Imam Muslim",
+      "B": "Imam Bukhari",
+      "C": "Imam Malik",
+      "D": "Imam Shafi'i"
+    },
+    "answer": "B",
+    "explanation": "Imam Bukhari compiled Sahih Bukhari."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The Hadith teaches us about",
+    "options": {
+      "A": "Science",
+      "B": "Islamic lifestyle",
+      "C": "History only",
+      "D": "Geography"
+    },
+    "answer": "B",
+    "explanation": "Hadith guides Muslim lifestyle."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The second most authentic Hadith book is",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Sahih Bukhari",
+      "C": "Tirmidhi",
+      "D": "Nasai"
+    },
+    "answer": "A",
+    "explanation": "Sahih Muslim is second most authentic."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The term Sunnah means",
+    "options": {
+      "A": "Law",
+      "B": "Practice of Prophet Muhammad",
+      "C": "Charity",
+      "D": "Prayer"
+    },
+    "answer": "B",
+    "explanation": "Sunnah is Prophet’s way of life."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "Hadith Qudsi is",
+    "options": {
+      "A": "Words of Prophet only",
+      "B": "Words of Allah narrated by Prophet",
+      "C": "Poetry",
+      "D": "History"
+    },
+    "answer": "B",
+    "explanation": "Hadith Qudsi is divine message."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The science of Hadith authentication is called",
+    "options": {
+      "A": "Tafsir",
+      "B": "Ilm al-Hadith",
+      "C": "Fiqh",
+      "D": "Aqidah"
+    },
+    "answer": "B",
+    "explanation": "Ilm al-Hadith studies authenticity."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The chain of narrators is called",
+    "options": {
+      "A": "Matn",
+      "B": "Isnad",
+      "C": "Sunnah",
+      "D": "Fiqh"
+    },
+    "answer": "B",
+    "explanation": "Isnad is chain of narrators."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The text of Hadith is called",
+    "options": {
+      "A": "Isnad",
+      "B": "Matn",
+      "C": "Tafsir",
+      "D": "Fiqh"
+    },
+    "answer": "B",
+    "explanation": "Matn is the actual text."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The Prophet said: 'Actions are judged by'",
+    "options": {
+      "A": "Wealth",
+      "B": "Intentions",
+      "C": "Strength",
+      "D": "Knowledge"
+    },
+    "answer": "B",
+    "explanation": "Actions depend on intentions."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "Hadith encourages Muslims to",
+    "options": {
+      "A": "Fight always",
+      "B": "Do good deeds",
+      "C": "Avoid prayer",
+      "D": "Ignore charity"
+    },
+    "answer": "B",
+    "explanation": "Hadith promotes good actions."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "A weak Hadith is called",
+    "options": {
+      "A": "Sahih",
+      "B": "Da'if",
+      "C": "Hasan",
+      "D": "Marfu"
+    },
+    "answer": "B",
+    "explanation": "Da'if means weak Hadith."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "A strong Hadith is called",
+    "options": {
+      "A": "Da'if",
+      "B": "Sahih",
+      "C": "Mawdu",
+      "D": "Shadh"
+    },
+    "answer": "B",
+    "explanation": "Sahih means authentic Hadith."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The fabricated Hadith is called",
+    "options": {
+      "A": "Sahih",
+      "B": "Da'if",
+      "C": "Mawdu",
+      "D": "Hasan"
+    },
+    "answer": "C",
+    "explanation": "Mawdu means fabricated Hadith."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The first caliph after Prophet Muhammad was",
+    "options": {
+      "A": "Umar",
+      "B": "Uthman",
+      "C": "Abu Bakr",
+      "D": "Ali"
+    },
+    "answer": "C",
+    "explanation": "Abu Bakr was first caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The second caliph was",
+    "options": {
+      "A": "Uthman",
+      "B": "Umar",
+      "C": "Ali",
+      "D": "Abu Bakr"
+    },
+    "answer": "B",
+    "explanation": "Umar was second caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The third caliph was",
+    "options": {
+      "A": "Ali",
+      "B": "Uthman",
+      "C": "Umar",
+      "D": "Abu Bakr"
+    },
+    "answer": "B",
+    "explanation": "Uthman was third caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The fourth caliph was",
+    "options": {
+      "A": "Ali",
+      "B": "Umar",
+      "C": "Uthman",
+      "D": "Abu Bakr"
+    },
+    "answer": "A",
+    "explanation": "Ali was fourth caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The expansion of Islam happened during",
+    "options": {
+      "A": "Umayyad and Abbasid periods",
+      "B": "Roman period",
+      "C": "Greek period",
+      "D": "Modern period"
+    },
+    "answer": "A",
+    "explanation": "Islam expanded under caliphates."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The Islamic empire started from",
+    "options": {
+      "A": "Egypt",
+      "B": "Arabia",
+      "C": "Persia",
+      "D": "India"
+    },
+    "answer": "B",
+    "explanation": "Islam started in Arabia."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The capital of early Islamic state was",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Baghdad",
+      "D": "Cairo"
+    },
+    "answer": "B",
+    "explanation": "Madinah was early capital."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "Islam spread mainly through",
+    "options": {
+      "A": "War only",
+      "B": "Trade and preaching",
+      "C": "Force only",
+      "D": "Colonialism"
+    },
+    "answer": "B",
+    "explanation": "Islam spread through trade and preaching."
+  }
+,
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The collection of Hadith called Muwatta was compiled by",
+    "options": {
+      "A": "Imam Bukhari",
+      "B": "Imam Muslim",
+      "C": "Imam Malik",
+      "D": "Imam Tirmidhi"
+    },
+    "answer": "C",
+    "explanation": "Muwatta was compiled by Imam Malik."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The term 'Isnad' refers to",
+    "options": {
+      "A": "Text of Hadith",
+      "B": "Chain of narrators",
+      "C": "Meaning of Hadith",
+      "D": "Type of prayer"
+    },
+    "answer": "B",
+    "explanation": "Isnad is the chain of narrators."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The Prophet Muhammad said: 'The best among you are those who are best in'",
+    "options": {
+      "A": "Wealth",
+      "B": "Character",
+      "C": "Strength",
+      "D": "Knowledge"
+    },
+    "answer": "B",
+    "explanation": "Good character is highly valued in Islam."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "Hadith literature is important because it explains",
+    "options": {
+      "A": "Science",
+      "B": "Qur'an teachings",
+      "C": "History only",
+      "D": "Politics"
+    },
+    "answer": "B",
+    "explanation": "Hadith explains Qur'anic teachings."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The most authentic Hadith after Sahih Bukhari is",
+    "options": {
+      "A": "Sahih Muslim",
+      "B": "Tirmidhi",
+      "C": "Abu Dawood",
+      "D": "Nasai"
+    },
+    "answer": "A",
+    "explanation": "Sahih Muslim is second most authentic."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "Hadith Qudsi is",
+    "options": {
+      "A": "Words of Prophet only",
+      "B": "Words of Allah narrated by Prophet",
+      "C": "Stories of companions",
+      "D": "Islamic law"
+    },
+    "answer": "B",
+    "explanation": "Hadith Qudsi is divine message from Allah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "A weak Hadith is called",
+    "options": {
+      "A": "Sahih",
+      "B": "Da'if",
+      "C": "Hasan",
+      "D": "Marfu"
+    },
+    "answer": "B",
+    "explanation": "Da'if means weak Hadith."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "A fabricated Hadith is known as",
+    "options": {
+      "A": "Mawdu",
+      "B": "Sahih",
+      "C": "Hasan",
+      "D": "Da'if"
+    },
+    "answer": "A",
+    "explanation": "Mawdu means fabricated."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Easy",
+    "question": "The text of Hadith is called",
+    "options": {
+      "A": "Isnad",
+      "B": "Matn",
+      "C": "Fiqh",
+      "D": "Tafsir"
+    },
+    "answer": "B",
+    "explanation": "Matn is the actual content."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Hadith Studies",
+    "difficulty": "Medium",
+    "question": "The science of Hadith classification is called",
+    "options": {
+      "A": "Tafsir",
+      "B": "Ilm al-Hadith",
+      "C": "Fiqh",
+      "D": "Aqidah"
+    },
+    "answer": "B",
+    "explanation": "Ilm al-Hadith studies authenticity."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The first caliph was",
+    "options": {
+      "A": "Umar",
+      "B": "Ali",
+      "C": "Abu Bakr",
+      "D": "Uthman"
+    },
+    "answer": "C",
+    "explanation": "Abu Bakr was first caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The second caliph was",
+    "options": {
+      "A": "Uthman",
+      "B": "Umar",
+      "C": "Ali",
+      "D": "Abu Bakr"
+    },
+    "answer": "B",
+    "explanation": "Umar was second caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The third caliph was",
+    "options": {
+      "A": "Ali",
+      "B": "Uthman",
+      "C": "Umar",
+      "D": "Abu Bakr"
+    },
+    "answer": "B",
+    "explanation": "Uthman was third caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The fourth caliph was",
+    "options": {
+      "A": "Ali",
+      "B": "Umar",
+      "C": "Uthman",
+      "D": "Abu Bakr"
+    },
+    "answer": "A",
+    "explanation": "Ali was fourth caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "Islam began in",
+    "options": {
+      "A": "Egypt",
+      "B": "Arabia",
+      "C": "Persia",
+      "D": "Rome"
+    },
+    "answer": "B",
+    "explanation": "Islam started in Arabia."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The capital of the first Islamic state was",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Baghdad",
+      "D": "Damascus"
+    },
+    "answer": "B",
+    "explanation": "Madinah was the first capital."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "Islam spread mainly through",
+    "options": {
+      "A": "Force only",
+      "B": "Trade and preaching",
+      "C": "War only",
+      "D": "Politics"
+    },
+    "answer": "B",
+    "explanation": "Islam spread through trade and preaching."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The Umayyad Caliphate was established in",
+    "options": {
+      "A": "Madinah",
+      "B": "Damascus",
+      "C": "Makkah",
+      "D": "Cairo"
+    },
+    "answer": "B",
+    "explanation": "Umayyads ruled from Damascus."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The Abbasid Caliphate capital was",
+    "options": {
+      "A": "Baghdad",
+      "B": "Cairo",
+      "C": "Makkah",
+      "D": "Rome"
+    },
+    "answer": "A",
+    "explanation": "Abbasids ruled from Baghdad."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The Islamic calendar starts from",
+    "options": {
+      "A": "Birth of Prophet",
+      "B": "Hijrah",
+      "C": "Revelation",
+      "D": "Battle of Badr"
+    },
+    "answer": "B",
+    "explanation": "Islamic calendar begins with Hijrah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The leader after Prophet Muhammad is called",
+    "options": {
+      "A": "King",
+      "B": "Caliph",
+      "C": "Governor",
+      "D": "President"
+    },
+    "answer": "B",
+    "explanation": "Caliph means successor."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The Battle of Badr took place in",
+    "options": {
+      "A": "2 AH",
+      "B": "3 AH",
+      "C": "4 AH",
+      "D": "5 AH"
+    },
+    "answer": "A",
+    "explanation": "Badr was fought in 2 AH."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Easy",
+    "question": "The Qur'an was completed during the reign of",
+    "options": {
+      "A": "Umar",
+      "B": "Abu Bakr",
+      "C": "Uthman",
+      "D": "Ali"
+    },
+    "answer": "C",
+    "explanation": "Uthman standardized the Qur'an."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Islamic History",
+    "difficulty": "Medium",
+    "question": "The first mosque in Islam is",
+    "options": {
+      "A": "Masjid Nabawi",
+      "B": "Masjid Quba",
+      "C": "Masjid Haram",
+      "D": "Masjid Aqsa"
+    },
+    "answer": "B",
+    "explanation": "Masjid Quba is first mosque."
+  }
+]

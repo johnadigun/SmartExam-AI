@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "The removal of water from the soil by evaporation and transpiration is called",
+    "options": {
+      "A": "Infiltration",
+      "B": "Evapotranspiration",
+      "C": "Condensation",
+      "D": "Percolation"
+    },
+    "answer": "B",
+    "explanation": "Evapotranspiration is the combined loss of water from soil and plants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Soil pH mainly indicates the",
+    "options": {
+      "A": "Soil colour",
+      "B": "Acidity or alkalinity of soil",
+      "C": "Soil texture",
+      "D": "Soil depth"
+    },
+    "answer": "B",
+    "explanation": "Soil pH measures how acidic or alkaline the soil is."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Easy",
+    "question": "Fungi that attack crops are controlled using",
+    "options": {
+      "A": "Herbicides",
+      "B": "Fungicides",
+      "C": "Insecticides",
+      "D": "Rodenticides"
+    },
+    "answer": "B",
+    "explanation": "Fungicides are chemicals used to control fungal diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "Which of the following improves soil structure?",
+    "options": {
+      "A": "Sand",
+      "B": "Organic matter",
+      "C": "Stone",
+      "D": "Plastic"
+    },
+    "answer": "B",
+    "explanation": "Organic matter binds soil particles and improves structure."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The practice of removing excess seedlings to reduce overcrowding is called",
+    "options": {
+      "A": "Pricking out",
+      "B": "Thinning",
+      "C": "Grafting",
+      "D": "Mulching"
+    },
+    "answer": "B",
+    "explanation": "Thinning ensures proper spacing for better growth."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Easy",
+    "question": "Photosynthesis mainly occurs in the",
+    "options": {
+      "A": "Roots",
+      "B": "Leaves",
+      "C": "Stem",
+      "D": "Flowers"
+    },
+    "answer": "B",
+    "explanation": "Leaves contain chlorophyll where photosynthesis takes place."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "A method of planting where seeds are scattered randomly on the field is called",
+    "options": {
+      "A": "Drilling",
+      "B": "Broadcasting",
+      "C": "Transplanting",
+      "D": "Ridging"
+    },
+    "answer": "B",
+    "explanation": "Broadcasting involves scattering seeds evenly over the soil surface."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Conservation",
+    "difficulty": "Easy",
+    "question": "Windbreaks are used to",
+    "options": {
+      "A": "Increase soil erosion",
+      "B": "Reduce wind speed and soil erosion",
+      "C": "Increase rainfall",
+      "D": "Dry the soil"
+    },
+    "answer": "B",
+    "explanation": "Windbreaks protect crops and soil from strong winds."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A watering can is used to",
+    "options": {
+      "A": "Harvest crops",
+      "B": "Irrigate small plants",
+      "C": "Plough land",
+      "D": "Store grains"
+    },
+    "answer": "B",
+    "explanation": "Watering cans are used for small-scale irrigation."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The removal of the top part of a plant to encourage branching is called",
+    "options": {
+      "A": "Pruning",
+      "B": "Topping",
+      "C": "Germination",
+      "D": "Weeding"
+    },
+    "answer": "B",
+    "explanation": "Topping encourages lateral growth and increases yield."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "The process of removing wool from sheep is called",
+    "options": {
+      "A": "Milking",
+      "B": "Shearing",
+      "C": "Tanning",
+      "D": "Weaning"
+    },
+    "answer": "B",
+    "explanation": "Shearing is the removal of wool from sheep for textile use."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Medium",
+    "question": "Weaning in livestock refers to",
+    "options": {
+      "A": "Feeding animals only milk",
+      "B": "Separating young animals from their mothers",
+      "C": "Vaccinating animals",
+      "D": "Slaughtering animals"
+    },
+    "answer": "B",
+    "explanation": "Weaning is the process of stopping young animals from suckling milk."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Easy",
+    "question": "Silage is best described as",
+    "options": {
+      "A": "Dry grass only",
+      "B": "Fermented green fodder stored for livestock",
+      "C": "Animal waste",
+      "D": "Concentrated fertilizer"
+    },
+    "answer": "B",
+    "explanation": "Silage is preserved green fodder stored under anaerobic conditions."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Medium",
+    "question": "A symptom of foot-and-mouth disease in cattle is",
+    "options": {
+      "A": "Rapid growth",
+      "B": "Blisters on mouth and feet",
+      "C": "Increased milk production",
+      "D": "Leaf curling"
+    },
+    "answer": "B",
+    "explanation": "Foot-and-mouth disease causes blisters and lameness in livestock."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Easy",
+    "question": "The artificial rearing of fish in ponds is called",
+    "options": {
+      "A": "Aquaculture",
+      "B": "Agronomy",
+      "C": "Sericulture",
+      "D": "Horticulture"
+    },
+    "answer": "A",
+    "explanation": "Aquaculture involves controlled breeding and rearing of fish."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Medium",
+    "question": "One advantage of fish farming is",
+    "options": {
+      "A": "Increase in soil erosion",
+      "B": "Provision of cheap protein",
+      "C": "Reduction in food supply",
+      "D": "Increase in pollution"
+    },
+    "answer": "B",
+    "explanation": "Fish farming provides affordable animal protein."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Forestry",
+    "difficulty": "Easy",
+    "question": "Forest reserves are established mainly to",
+    "options": {
+      "A": "Encourage deforestation",
+      "B": "Conserve wildlife and forest resources",
+      "C": "Increase urbanization",
+      "D": "Destroy biodiversity"
+    },
+    "answer": "B",
+    "explanation": "Forest reserves protect trees, wildlife, and biodiversity."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Conservation",
+    "difficulty": "Medium",
+    "question": "Strip cropping helps to",
+    "options": {
+      "A": "Increase erosion",
+      "B": "Reduce soil erosion",
+      "C": "Destroy crops",
+      "D": "Increase flooding"
+    },
+    "answer": "B",
+    "explanation": "Strip cropping reduces the speed of runoff and soil loss."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Easy",
+    "question": "Fixed cost in farming refers to",
+    "options": {
+      "A": "Costs that vary with output",
+      "B": "Costs that remain constant regardless of output",
+      "C": "Daily food expenses",
+      "D": "Transport costs only"
+    },
+    "answer": "B",
+    "explanation": "Fixed costs do not change with the level of production."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "Germination of seeds requires",
+    "options": {
+      "A": "Light only",
+      "B": "Water, oxygen, and suitable temperature",
+      "C": "Salt only",
+      "D": "Wind only"
+    },
+    "answer": "B",
+    "explanation": "Seeds need moisture, oxygen, and proper temperature to germinate."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Easy",
+    "question": "Rodents on the farm are best controlled using",
+    "options": {
+      "A": "Herbicides",
+      "B": "Rodenticides",
+      "C": "Fungicides",
+      "D": "Fertilizers"
+    },
+    "answer": "B",
+    "explanation": "Rodenticides are chemicals used to kill or control rodents like rats and mice."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Medium",
+    "question": "A major disadvantage of chemical pesticides is that they",
+    "options": {
+      "A": "Increase crop yield",
+      "B": "May harm beneficial organisms",
+      "C": "Improve soil structure",
+      "D": "Increase rainfall"
+    },
+    "answer": "B",
+    "explanation": "Pesticides can kill useful insects and affect the environment negatively."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Easy",
+    "question": "The green pigment in plants responsible for photosynthesis is",
+    "options": {
+      "A": "Carotene",
+      "B": "Chlorophyll",
+      "C": "Xanthophyll",
+      "D": "Haemoglobin"
+    },
+    "answer": "B",
+    "explanation": "Chlorophyll captures light energy for photosynthesis."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Medium",
+    "question": "Water and mineral salts are transported in plants through",
+    "options": {
+      "A": "Phloem",
+      "B": "Xylem",
+      "C": "Cambium",
+      "D": "Epidermis"
+    },
+    "answer": "B",
+    "explanation": "Xylem vessels conduct water and minerals from roots to leaves."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Physiology",
+    "difficulty": "Medium",
+    "question": "Food manufactured in leaves is transported to other parts of the plant by",
+    "options": {
+      "A": "Xylem",
+      "B": "Phloem",
+      "C": "Root hairs",
+      "D": "Stomata"
+    },
+    "answer": "B",
+    "explanation": "Phloem transports manufactured food (sugars) throughout the plant."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "Soil with large particle size and low water retention is",
+    "options": {
+      "A": "Clay soil",
+      "B": "Loamy soil",
+      "C": "Sandy soil",
+      "D": "Peaty soil"
+    },
+    "answer": "C",
+    "explanation": "Sandy soil drains quickly due to large particle size."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "The most fertile soil type is",
+    "options": {
+      "A": "Sandy soil",
+      "B": "Clay soil",
+      "C": "Loamy soil",
+      "D": "Gravel soil"
+    },
+    "answer": "C",
+    "explanation": "Loamy soil contains a balanced mixture of sand, silt, and clay."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "The practice of growing crops without soil is called",
+    "options": {
+      "A": "Hydroponics",
+      "B": "Sericulture",
+      "C": "Aquaculture",
+      "D": "Apiculture"
+    },
+    "answer": "A",
+    "explanation": "Hydroponics is growing plants in nutrient solutions without soil."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "Transplanting is best defined as",
+    "options": {
+      "A": "Direct planting of seeds",
+      "B": "Moving seedlings from nursery to field",
+      "C": "Harvesting crops",
+      "D": "Storing seeds"
+    },
+    "answer": "B",
+    "explanation": "Transplanting involves moving young plants to their permanent field."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A spade is mainly used for",
+    "options": {
+      "A": "Cutting grass",
+      "B": "Digging and turning soil",
+      "C": "Spraying chemicals",
+      "D": "Harvesting grains"
+    },
+    "answer": "B",
+    "explanation": "A spade is used for digging, lifting, and turning soil."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Medium",
+    "question": "A hoe is mainly used for",
+    "options": {
+      "A": "Harvesting crops",
+      "B": "Weeding and making ridges",
+      "C": "Transporting goods",
+      "D": "Irrigation"
+    },
+    "answer": "B",
+    "explanation": "A hoe is used for weeding, ridging, and loosening soil."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Easy",
+    "question": "Organic manure improves soil fertility by increasing",
+    "options": {
+      "A": "Sand content",
+      "B": "Humus content",
+      "C": "Rock particles",
+      "D": "Plastic content"
+    },
+    "answer": "B",
+    "explanation": "Organic manure adds humus which improves soil fertility and structure."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Conservation",
+    "difficulty": "Medium",
+    "question": "Mulching helps to conserve soil moisture by",
+    "options": {
+      "A": "Increasing evaporation",
+      "B": "Covering the soil surface",
+      "C": "Reducing rainfall",
+      "D": "Increasing wind speed"
+    },
+    "answer": "B",
+    "explanation": "Mulch reduces evaporation by covering the soil surface."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "A nursery bed is used for",
+    "options": {
+      "A": "Storing tools",
+      "B": "Raising seedlings before transplanting",
+      "C": "Drying crops",
+      "D": "Selling animals"
+    },
+    "answer": "B",
+    "explanation": "A nursery bed is where seedlings are raised before field transplanting."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The process of removing weak seedlings from a nursery is called",
+    "options": {
+      "A": "Pricking out",
+      "B": "Thinning",
+      "C": "Grafting",
+      "D": "Mulching"
+    },
+    "answer": "A",
+    "explanation": "Pricking out involves transplanting or removing seedlings for better spacing."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Easy",
+    "question": "A budget in farming is",
+    "options": {
+      "A": "A list of crops only",
+      "B": "An estimate of income and expenditure",
+      "C": "A type of fertilizer",
+      "D": "A soil type"
+    },
+    "answer": "B",
+    "explanation": "A budget estimates expected income and expenses on the farm."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "Supply in agriculture refers to",
+    "options": {
+      "A": "Demand for goods",
+      "B": "Quantity of goods available for sale",
+      "C": "Storage of crops",
+      "D": "Cost of production"
+    },
+    "answer": "B",
+    "explanation": "Supply is the amount of goods producers are willing to sell."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Input",
+    "difficulty": "Easy",
+    "question": "Fertilizers are mainly used to",
+    "options": {
+      "A": "Kill crops",
+      "B": "Improve soil nutrients",
+      "C": "Increase pests",
+      "D": "Reduce rainfall"
+    },
+    "answer": "B",
+    "explanation": "Fertilizers supply essential nutrients to plants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The removal of excess water from farmland is known as",
+    "options": {
+      "A": "Irrigation",
+      "B": "Drainage",
+      "C": "Evaporation",
+      "D": "Condensation"
+    },
+    "answer": "B",
+    "explanation": "Drainage removes excess water to prevent waterlogging."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "One major aim of agriculture is to",
+    "options": {
+      "A": "Increase poverty",
+      "B": "Provide food and raw materials",
+      "C": "Reduce employment",
+      "D": "Destroy environment"
+    },
+    "answer": "B",
+    "explanation": "Agriculture provides food, raw materials, and employment."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Easy",
+    "question": "Weeds can best be controlled by",
+    "options": {
+      "A": "Irrigation",
+      "B": "Herbicides",
+      "C": "Fertilizers",
+      "D": "Pruning"
+    },
+    "answer": "B",
+    "explanation": "Herbicides are chemicals used to control weeds effectively."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The practice of growing different crops in sequence on the same land is called",
+    "options": {
+      "A": "Mixed cropping",
+      "B": "Crop rotation",
+      "C": "Shifting cultivation",
+      "D": "Monocropping"
+    },
+    "answer": "B",
+    "explanation": "Crop rotation involves planting different crops in succession on the same land."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "The layer of soil below the topsoil is called",
+    "options": {
+      "A": "Bedrock",
+      "B": "Subsoil",
+      "C": "Humus layer",
+      "D": "Organic layer"
+    },
+    "answer": "B",
+    "explanation": "Subsoil is the layer beneath topsoil with fewer nutrients."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Leaching in soil refers to",
+    "options": {
+      "A": "Formation of humus",
+      "B": "Removal of nutrients by water",
+      "C": "Soil heating",
+      "D": "Soil fertilization"
+    },
+    "answer": "B",
+    "explanation": "Leaching is the washing away of nutrients by rainwater."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "Eggs are mainly produced by",
+    "options": {
+      "A": "Cattle",
+      "B": "Poultry",
+      "C": "Goats",
+      "D": "Sheep"
+    },
+    "answer": "B",
+    "explanation": "Poultry birds such as chickens are raised for egg production."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Medium",
+    "question": "Parasites that live on the skin of animals are called",
+    "options": {
+      "A": "Endoparasites",
+      "B": "Ectoparasites",
+      "C": "Protozoa",
+      "D": "Helminths"
+    },
+    "answer": "B",
+    "explanation": "Ectoparasites live on the surface of animals, such as ticks and lice."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A sickle is used for",
+    "options": {
+      "A": "Cutting grass and harvesting crops",
+      "B": "Ploughing land",
+      "C": "Watering crops",
+      "D": "Transporting goods"
+    },
+    "answer": "A",
+    "explanation": "A sickle is used for harvesting and cutting grass."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Medium",
+    "question": "Nitrogen fixation in plants is mainly carried out by",
+    "options": {
+      "A": "Fungi",
+      "B": "Rhizobium bacteria",
+      "C": "Viruses",
+      "D": "Algae only"
+    },
+    "answer": "B",
+    "explanation": "Rhizobium bacteria in root nodules convert nitrogen into usable forms."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Easy",
+    "question": "Depreciation in farm machinery refers to",
+    "options": {
+      "A": "Increase in value",
+      "B": "Loss in value over time",
+      "C": "Repair cost only",
+      "D": "Purchase price"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is the reduction in value of assets due to wear and tear."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "Agriculture contributes to national development by",
+    "options": {
+      "A": "Increasing unemployment",
+      "B": "Providing food and income",
+      "C": "Reducing production",
+      "D": "Destroying industries"
+    },
+    "answer": "B",
+    "explanation": "Agriculture supports the economy through food production and revenue generation."
+  }
+]

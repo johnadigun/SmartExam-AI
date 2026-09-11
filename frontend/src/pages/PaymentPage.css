@@ -1,0 +1,386 @@
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   PAYMENT PAGE
+   COMPACT / PROFESSIONAL MASTER STYLESHEET
+========================================================== */
+
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100%;
+
+  background: #eeeeee;
+
+  font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+
+  color: #222222;
+
+  overflow-x: hidden;
+}
+
+
+/* ==========================================================
+   PAYMENT CONTAINER
+========================================================== */
+
+.payment-container {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+}
+
+
+/* ==========================================================
+   PAYMENT CARD
+========================================================== */
+
+.payment-card {
+  width: 100%;
+
+  max-width: 400px;
+
+  background: #ffffff;
+
+  border: 1px solid #d6d6d6;
+
+  border-radius: 9px;
+
+  padding: 19px;
+
+  box-shadow:
+    0 4px 13px rgba(0, 0, 0, 0.07);
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.payment-card h1 {
+  text-align: center;
+
+  color: #222222;
+
+  font-size: 21px;
+
+  font-weight: 800;
+
+  line-height: 1.2;
+
+  margin: 0 0 8px;
+}
+
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.payment-text {
+  text-align: center;
+
+  color: #666666;
+
+  font-size: 12px;
+
+  line-height: 1.45;
+
+  margin: 0 0 11px;
+}
+
+
+/* ==========================================================
+   PRICE
+========================================================== */
+
+.payment-price {
+  text-align: center;
+
+  font-size: 30px;
+
+  font-weight: 800;
+
+  line-height: 1.1;
+
+  color: #198754;
+
+  margin-bottom: 13px;
+}
+
+
+/* ==========================================================
+   PAYMENT INFORMATION
+========================================================== */
+
+.payment-info {
+  background: #f5f7fa;
+
+  border: 1px solid #e1e5e9;
+
+  border-radius: 8px;
+
+  padding: 11px 13px;
+
+  margin-bottom: 13px;
+}
+
+
+/* ==========================================================
+   CANDIDATE
+========================================================== */
+
+.payment-candidate {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 3px;
+}
+
+.payment-candidate strong {
+  color: #333333;
+
+  font-size: 11px;
+
+  font-weight: 700;
+}
+
+.payment-candidate span {
+  color: #555555;
+
+  font-size: 11px;
+
+  line-height: 1.35;
+
+  word-break: break-word;
+}
+
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+.payment-info hr {
+  border: none;
+
+  border-top: 1px solid #dddddd;
+
+  margin: 8px 0;
+}
+
+
+/* ==========================================================
+   ACCESS INFORMATION
+========================================================== */
+
+.payment-access strong {
+  display: block;
+
+  color: #333333;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  margin-bottom: 4px;
+}
+
+.payment-access ul {
+  margin: 0;
+
+  padding-left: 17px;
+}
+
+.payment-access li {
+  color: #555555;
+
+  font-size: 10px;
+
+  line-height: 1.45;
+
+  margin-bottom: 1px;
+}
+
+.payment-access li:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================
+   PAYMENT BUTTON
+========================================================== */
+
+.payment-button {
+  width: 100%;
+
+  padding: 10px 12px;
+
+  border: none;
+
+  border-radius: 7px;
+
+  background: #198754;
+
+  color: #ffffff;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.payment-button:hover:not(:disabled) {
+  background: #157347;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 4px 9px rgba(25, 135, 84, 0.16);
+}
+
+.payment-button:disabled {
+  background: #9e9e9e;
+
+  cursor: not-allowed;
+
+  transform: none;
+
+  box-shadow: none;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .payment-container {
+    padding: 12px;
+  }
+
+  .payment-card {
+    max-width: 390px;
+
+    padding: 17px;
+  }
+
+  .payment-card h1 {
+    font-size: 20px;
+  }
+
+  .payment-text {
+    font-size: 12px;
+  }
+
+  .payment-price {
+    font-size: 28px;
+  }
+
+  .payment-info {
+    padding: 10px 12px;
+  }
+
+  .payment-button {
+    padding: 10px;
+
+    font-size: 13px;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 400px) {
+
+  .payment-container {
+    padding: 8px;
+  }
+
+  .payment-card {
+    padding: 14px;
+
+    border-radius: 8px;
+  }
+
+  .payment-card h1 {
+    font-size: 18px;
+  }
+
+  .payment-text {
+    font-size: 11px;
+  }
+
+  .payment-price {
+    font-size: 26px;
+
+    margin-bottom: 11px;
+  }
+
+  .payment-info {
+    padding: 9px 10px;
+
+    margin-bottom: 11px;
+  }
+
+  .payment-candidate strong,
+  .payment-access strong {
+    font-size: 10px;
+  }
+
+  .payment-candidate span,
+  .payment-access li {
+    font-size: 9px;
+  }
+
+  .payment-button {
+    font-size: 12px;
+  }
+}
+
+
+/* ==========================================================
+   PRINT
+========================================================== */
+
+@media print {
+
+  .payment-button {
+    display: none;
+  }
+
+  .payment-card {
+    box-shadow: none;
+  }
+}

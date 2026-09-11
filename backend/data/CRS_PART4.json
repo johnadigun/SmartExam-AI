@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The last judge of Israel was",
+    "options": {
+      "A": "Samuel",
+      "B": "Saul",
+      "C": "David",
+      "D": "Elijah"
+    },
+    "answer": "A",
+    "explanation": "Samuel was the last judge of Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The mother of Samuel was",
+    "options": {
+      "A": "Hannah",
+      "B": "Mary",
+      "C": "Elizabeth",
+      "D": "Sarah"
+    },
+    "answer": "A",
+    "explanation": "Hannah dedicated Samuel to God."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "God called Samuel while he was",
+    "options": {
+      "A": "Praying",
+      "B": "Sleeping in the temple",
+      "C": "Farming",
+      "D": "Bathing"
+    },
+    "answer": "B",
+    "explanation": "God called Samuel at night in the temple."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The ark of the covenant was kept in",
+    "options": {
+      "A": "Temple",
+      "B": "Tabernacle",
+      "C": "House of David",
+      "D": "Palace"
+    },
+    "answer": "B",
+    "explanation": "The ark was kept in the tabernacle."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Ten Commandments were given to",
+    "options": {
+      "A": "Abraham",
+      "B": "Moses",
+      "C": "David",
+      "D": "Solomon"
+    },
+    "answer": "B",
+    "explanation": "God gave the commandments to Moses."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Israelites worshipped a golden",
+    "options": {
+      "A": "Lion",
+      "B": "Calf",
+      "C": "Eagle",
+      "D": "Serpent"
+    },
+    "answer": "B",
+    "explanation": "They worshipped a golden calf."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The book of Genesis tells about",
+    "options": {
+      "A": "Law",
+      "B": "Creation",
+      "C": "War",
+      "D": "Kings"
+    },
+    "answer": "B",
+    "explanation": "Genesis describes creation."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Noah built the ark because of",
+    "options": {
+      "A": "Fire",
+      "B": "Flood",
+      "C": "War",
+      "D": "Drought"
+    },
+    "answer": "B",
+    "explanation": "God sent a flood."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The rainbow symbolizes",
+    "options": {
+      "A": "War",
+      "B": "Peace",
+      "C": "Covenant",
+      "D": "Judgment"
+    },
+    "answer": "C",
+    "explanation": "It is a sign of God's covenant."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Abraham’s wife was",
+    "options": {
+      "A": "Rachel",
+      "B": "Sarah",
+      "C": "Leah",
+      "D": "Rebekah"
+    },
+    "answer": "B",
+    "explanation": "Sarah was Abraham’s wife."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Isaac was the son of",
+    "options": {
+      "A": "Jacob",
+      "B": "Abraham",
+      "C": "Noah",
+      "D": "Moses"
+    },
+    "answer": "B",
+    "explanation": "Isaac was Abraham’s son."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Jacob had how many sons?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Jacob had 12 sons."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Joseph was sold by his",
+    "options": {
+      "A": "Friends",
+      "B": "Brothers",
+      "C": "Father",
+      "D": "Neighbors"
+    },
+    "answer": "B",
+    "explanation": "His brothers sold him."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph became ruler in",
+    "options": {
+      "A": "Canaan",
+      "B": "Egypt",
+      "C": "Rome",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "Joseph ruled in Egypt."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Moses was placed in a",
+    "options": {
+      "A": "Boat",
+      "B": "Basket",
+      "C": "Box",
+      "D": "Cave"
+    },
+    "answer": "B",
+    "explanation": "Moses was placed in a basket."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Moses saw the burning",
+    "options": {
+      "A": "Tree",
+      "B": "Bush",
+      "C": "Stone",
+      "D": "Fire"
+    },
+    "answer": "B",
+    "explanation": "God appeared in a burning bush."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Israelites crossed the Red Sea by",
+    "options": {
+      "A": "Swimming",
+      "B": "Walking on dry land",
+      "C": "Boat",
+      "D": "Bridge"
+    },
+    "answer": "B",
+    "explanation": "God parted the sea."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Ten Commandments were written on",
+    "options": {
+      "A": "Paper",
+      "B": "Stone tablets",
+      "C": "Wood",
+      "D": "Gold"
+    },
+    "answer": "B",
+    "explanation": "They were written on stone tablets."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David was a",
+    "options": {
+      "A": "King only",
+      "B": "Shepherd",
+      "C": "Soldier",
+      "D": "Farmer"
+    },
+    "answer": "B",
+    "explanation": "David was a shepherd boy."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David became king after",
+    "options": {
+      "A": "Saul",
+      "B": "Solomon",
+      "C": "Samuel",
+      "D": "Moses"
+    },
+    "answer": "A",
+    "explanation": "David succeeded Saul."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Solomon was known for",
+    "options": {
+      "A": "Strength",
+      "B": "Wisdom",
+      "C": "War",
+      "D": "Hunting"
+    },
+    "answer": "B",
+    "explanation": "Solomon was wise."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elijah was taken to heaven in",
+    "options": {
+      "A": "Boat",
+      "B": "Chariot of fire",
+      "C": "Cloud",
+      "D": "Storm"
+    },
+    "answer": "B",
+    "explanation": "Elijah was taken in a chariot of fire."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Elisha succeeded",
+    "options": {
+      "A": "Moses",
+      "B": "Elijah",
+      "C": "David",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Elisha succeeded Elijah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus turned water into",
+    "options": {
+      "A": "Milk",
+      "B": "Wine",
+      "C": "Oil",
+      "D": "Honey"
+    },
+    "answer": "B",
+    "explanation": "First miracle at Cana."
+  }
+,
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The prophet who replaced Elijah was",
+    "options": {
+      "A": "Isaiah",
+      "B": "Elisha",
+      "C": "Jeremiah",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Elisha succeeded Elijah as prophet."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elijah called down fire from heaven on",
+    "options": {
+      "A": "Mount Sinai",
+      "B": "Mount Carmel",
+      "C": "Mount Zion",
+      "D": "Mount Horeb"
+    },
+    "answer": "B",
+    "explanation": "The miracle happened on Mount Carmel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The book of Psalms contains mostly",
+    "options": {
+      "A": "Laws",
+      "B": "Songs and prayers",
+      "C": "History",
+      "D": "Prophecies"
+    },
+    "answer": "B",
+    "explanation": "Psalms are songs and prayers."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon wrote many",
+    "options": {
+      "A": "Prophecies",
+      "B": "Proverbs",
+      "C": "Gospels",
+      "D": "Letters"
+    },
+    "answer": "B",
+    "explanation": "Solomon wrote Proverbs."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Job was tested by",
+    "options": {
+      "A": "God",
+      "B": "Satan",
+      "C": "Angels",
+      "D": "Men"
+    },
+    "answer": "B",
+    "explanation": "Satan tested Job's faith."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Job remained faithful despite",
+    "options": {
+      "A": "Riches",
+      "B": "Suffering",
+      "C": "Victory",
+      "D": "Power"
+    },
+    "answer": "B",
+    "explanation": "Job remained faithful during suffering."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Genesis is the book of",
+    "options": {
+      "A": "Law",
+      "B": "Beginnings",
+      "C": "War",
+      "D": "Kings"
+    },
+    "answer": "B",
+    "explanation": "Genesis means beginnings."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "God destroyed the world with a",
+    "options": {
+      "A": "Fire",
+      "B": "Flood",
+      "C": "Storm",
+      "D": "Earthquake"
+    },
+    "answer": "B",
+    "explanation": "The flood destroyed the earth in Noah’s time."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Noah built the ark for",
+    "options": {
+      "A": "War",
+      "B": "Flood survival",
+      "C": "Trade",
+      "D": "Hunting"
+    },
+    "answer": "B",
+    "explanation": "The ark saved Noah's family."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The rainbow is a sign of",
+    "options": {
+      "A": "Judgment",
+      "B": "Covenant",
+      "C": "War",
+      "D": "Power"
+    },
+    "answer": "B",
+    "explanation": "It represents God's covenant with Noah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Abraham is called the father of",
+    "options": {
+      "A": "Nations",
+      "B": "Faith",
+      "C": "War",
+      "D": "Kings"
+    },
+    "answer": "B",
+    "explanation": "He is the father of faith."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Abraham left his homeland for",
+    "options": {
+      "A": "Egypt",
+      "B": "Canaan",
+      "C": "Rome",
+      "D": "Babylon"
+    },
+    "answer": "B",
+    "explanation": "God sent him to Canaan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Isaac was the son of",
+    "options": {
+      "A": "Jacob",
+      "B": "Abraham",
+      "C": "Joseph",
+      "D": "Moses"
+    },
+    "answer": "B",
+    "explanation": "Isaac was Abraham’s son."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Jacob had how many sons?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Jacob had 12 sons."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Joseph was sold by his",
+    "options": {
+      "A": "Brothers",
+      "B": "Friends",
+      "C": "Father",
+      "D": "Neighbors"
+    },
+    "answer": "A",
+    "explanation": "Joseph was sold by his brothers."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph became governor in",
+    "options": {
+      "A": "Canaan",
+      "B": "Egypt",
+      "C": "Rome",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "Joseph ruled in Egypt."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Moses saw the burning",
+    "options": {
+      "A": "Tree",
+      "B": "Bush",
+      "C": "Stone",
+      "D": "Fire"
+    },
+    "answer": "B",
+    "explanation": "God appeared in burning bush."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Moses led Israel out of",
+    "options": {
+      "A": "Canaan",
+      "B": "Egypt",
+      "C": "Rome",
+      "D": "Babylon"
+    },
+    "answer": "B",
+    "explanation": "He led them out of Egypt."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Ten Commandments were given on",
+    "options": {
+      "A": "Stone tablets",
+      "B": "Paper",
+      "C": "Wood",
+      "D": "Gold"
+    },
+    "answer": "A",
+    "explanation": "They were written on stone tablets."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David killed",
+    "options": {
+      "A": "Saul",
+      "B": "Goliath",
+      "C": "Samson",
+      "D": "Solomon"
+    },
+    "answer": "B",
+    "explanation": "David defeated Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David was a",
+    "options": {
+      "A": "King",
+      "B": "Shepherd",
+      "C": "Prophet",
+      "D": "Soldier"
+    },
+    "answer": "B",
+    "explanation": "David was a shepherd."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon asked God for",
+    "options": {
+      "A": "Riches",
+      "B": "Wisdom",
+      "C": "Long life",
+      "D": "Power"
+    },
+    "answer": "B",
+    "explanation": "Solomon asked for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Elijah was taken to heaven in a",
+    "options": {
+      "A": "Boat",
+      "B": "Chariot of fire",
+      "C": "Cloud",
+      "D": "Wind"
+    },
+    "answer": "B",
+    "explanation": "Elijah was taken in a chariot of fire."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elisha received",
+    "options": {
+      "A": "Wealth",
+      "B": "Double portion of spirit",
+      "C": "Kingdom",
+      "D": "Army"
+    },
+    "answer": "B",
+    "explanation": "Elisha received Elijah’s spirit."
+  }
+]

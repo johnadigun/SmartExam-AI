@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "A character that supports the main character is",
+    "options": {
+      "A": "Antagonist",
+      "B": "Protagonist",
+      "C": "Foil",
+      "D": "Ally"
+    },
+    "answer": "D",
+    "explanation": "An ally helps or supports the main character."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "A character used to highlight another character’s traits is",
+    "options": {
+      "A": "Antagonist",
+      "B": "Foil",
+      "C": "Narrator",
+      "D": "Protagonist"
+    },
+    "answer": "B",
+    "explanation": "A foil contrasts with another character to highlight differences."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A part of a story where conflict is introduced is",
+    "options": {
+      "A": "Resolution",
+      "B": "Exposition",
+      "C": "Climax",
+      "D": "Falling action"
+    },
+    "answer": "B",
+    "explanation": "Exposition introduces characters and conflict."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "The ending part of a story is",
+    "options": {
+      "A": "Climax",
+      "B": "Resolution",
+      "C": "Exposition",
+      "D": "Conflict"
+    },
+    "answer": "B",
+    "explanation": "Resolution is the conclusion of a story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A tragic hero usually has",
+    "options": {
+      "A": "No flaws",
+      "B": "A fatal flaw",
+      "C": "No story",
+      "D": "No role"
+    },
+    "answer": "B",
+    "explanation": "A tragic hero has a weakness that leads to downfall."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "The reversal of fortune in tragedy is",
+    "options": {
+      "A": "Comedy",
+      "B": "Peripeteia",
+      "C": "Theme",
+      "D": "Setting"
+    },
+    "answer": "B",
+    "explanation": "Peripeteia is a sudden reversal in tragedy."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A collection of poems is called",
+    "options": {
+      "A": "Anthology",
+      "B": "Novel",
+      "C": "Drama",
+      "D": "Essay"
+    },
+    "answer": "A",
+    "explanation": "An anthology is a collection of poems or writings."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem that tells a heroic story is",
+    "options": {
+      "A": "Lyric",
+      "B": "Epic",
+      "C": "Elegy",
+      "D": "Sonnet"
+    },
+    "answer": "B",
+    "explanation": "Epic poems narrate heroic adventures."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A poem expressing love or emotion is",
+    "options": {
+      "A": "Epic",
+      "B": "Lyric",
+      "C": "Drama",
+      "D": "Novel"
+    },
+    "answer": "B",
+    "explanation": "Lyric poetry expresses personal emotions."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem with a fixed rhyme scheme is",
+    "options": {
+      "A": "Free verse",
+      "B": "Structured poem",
+      "C": "Blank verse",
+      "D": "Prose"
+    },
+    "answer": "B",
+    "explanation": "Structured poems follow rhyme schemes."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A repetition of words for emphasis is",
+    "options": {
+      "A": "Irony",
+      "B": "Repetition",
+      "C": "Metaphor",
+      "D": "Simile"
+    },
+    "answer": "B",
+    "explanation": "Repetition is used for emphasis in literature."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A humorous use of words with double meaning is",
+    "options": {
+      "A": "Pun",
+      "B": "Irony",
+      "C": "Hyperbole",
+      "D": "Metaphor"
+    },
+    "answer": "A",
+    "explanation": "A pun uses double meanings for humor."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A figure of speech comparing two things indirectly is",
+    "options": {
+      "A": "Simile",
+      "B": "Metaphor",
+      "C": "Pun",
+      "D": "Irony"
+    },
+    "answer": "B",
+    "explanation": "Metaphor makes indirect comparison."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A contradiction between what is expected and what happens is",
+    "options": {
+      "A": "Irony",
+      "B": "Theme",
+      "C": "Setting",
+      "D": "Mood"
+    },
+    "answer": "A",
+    "explanation": "Irony is contrast between expectation and reality."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A speaker who is alone on stage is",
+    "options": {
+      "A": "Monologue",
+      "B": "Soliloquy",
+      "C": "Chorus",
+      "D": "Dialogue"
+    },
+    "answer": "B",
+    "explanation": "Soliloquy is a speech when alone on stage."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "A group speaking in a play is",
+    "options": {
+      "A": "Chorus",
+      "B": "Audience",
+      "C": "Actor",
+      "D": "Narrator"
+    },
+    "answer": "A",
+    "explanation": "Chorus speaks together in drama."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A story based on real events is",
+    "options": {
+      "A": "Fiction",
+      "B": "Non-fiction",
+      "C": "Fantasy",
+      "D": "Myth"
+    },
+    "answer": "B",
+    "explanation": "Non-fiction is based on facts."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "A story passed through generations is",
+    "options": {
+      "A": "Legend",
+      "B": "Novel",
+      "C": "Essay",
+      "D": "Drama"
+    },
+    "answer": "A",
+    "explanation": "Legends are traditional stories."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A written record of personal events is",
+    "options": {
+      "A": "Diary",
+      "B": "Novel",
+      "C": "Play",
+      "D": "Poem"
+    },
+    "answer": "A",
+    "explanation": "A diary records personal experiences."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The message or lesson of a story is",
+    "options": {
+      "A": "Plot",
+      "B": "Theme",
+      "C": "Mood",
+      "D": "Setting"
+    },
+    "answer": "B",
+    "explanation": "Theme is the central message."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The place and time in a story is",
+    "options": {
+      "A": "Plot",
+      "B": "Setting",
+      "C": "Theme",
+      "D": "Conflict"
+    },
+    "answer": "B",
+    "explanation": "Setting is time and place."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem without rhyme or structure is",
+    "options": {
+      "A": "Sonnet",
+      "B": "Free verse",
+      "C": "Epic",
+      "D": "Ballad"
+    },
+    "answer": "B",
+    "explanation": "Free verse has no fixed structure."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A poem that tells a story in short stanzas is",
+    "options": {
+      "A": "Ballad",
+      "B": "Epic",
+      "C": "Ode",
+      "D": "Sonnet"
+    },
+    "answer": "A",
+    "explanation": "Ballads are narrative poems."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "Giving human qualities to objects is",
+    "options": {
+      "A": "Simile",
+      "B": "Personification",
+      "C": "Metaphor",
+      "D": "Irony"
+    },
+    "answer": "B",
+    "explanation": "Personification gives human traits to non-humans."
+  }
+,
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A dramatic work intended to be performed on stage is",
+    "options": {
+      "A": "Novel",
+      "B": "Play",
+      "C": "Epic",
+      "D": "Essay"
+    },
+    "answer": "B",
+    "explanation": "A play is written for stage performance."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "The person who directs a play is called",
+    "options": {
+      "A": "Producer",
+      "B": "Director",
+      "C": "Actor",
+      "D": "Author"
+    },
+    "answer": "B",
+    "explanation": "The director coordinates the performance of a play."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "The written text of a play is called",
+    "options": {
+      "A": "Script",
+      "B": "Novel",
+      "C": "Poem",
+      "D": "Essay"
+    },
+    "answer": "A",
+    "explanation": "A script is the written form of a play."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "The movement of actors on stage is",
+    "options": {
+      "A": "Blocking",
+      "B": "Plotting",
+      "C": "Editing",
+      "D": "Writing"
+    },
+    "answer": "A",
+    "explanation": "Blocking refers to actors' stage movement."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A speech addressed to the audience by one character is",
+    "options": {
+      "A": "Aside",
+      "B": "Dialogue",
+      "C": "Chorus",
+      "D": "Scene"
+    },
+    "answer": "A",
+    "explanation": "An aside is a brief comment to the audience."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "A long speech by one character is",
+    "options": {
+      "A": "Dialogue",
+      "B": "Monologue",
+      "C": "Chorus",
+      "D": "Narration"
+    },
+    "answer": "B",
+    "explanation": "Monologue is a long speech by one character."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A poem that expresses praise is",
+    "options": {
+      "A": "Ode",
+      "B": "Epic",
+      "C": "Novel",
+      "D": "Drama"
+    },
+    "answer": "A",
+    "explanation": "An ode is a poem of praise."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A sad poem written for the dead is",
+    "options": {
+      "A": "Elegy",
+      "B": "Ode",
+      "C": "Sonnet",
+      "D": "Ballad"
+    },
+    "answer": "A",
+    "explanation": "Elegy expresses mourning and loss."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A humorous poem is",
+    "options": {
+      "A": "Satire",
+      "B": "Comedy poem",
+      "C": "Epic",
+      "D": "Essay"
+    },
+    "answer": "B",
+    "explanation": "Humorous poems entertain and amuse."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem with no fixed pattern is",
+    "options": {
+      "A": "Free verse",
+      "B": "Sonnet",
+      "C": "Epic",
+      "D": "Ode"
+    },
+    "answer": "A",
+    "explanation": "Free verse has no regular structure."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A repeated line in a poem is called",
+    "options": {
+      "A": "Refrain",
+      "B": "Verse",
+      "C": "Stanza",
+      "D": "Theme"
+    },
+    "answer": "A",
+    "explanation": "A refrain is a repeated line in poetry."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem that tells a historical story is",
+    "options": {
+      "A": "Ballad",
+      "B": "Epic",
+      "C": "Lyric",
+      "D": "Ode"
+    },
+    "answer": "A",
+    "explanation": "Ballads often narrate historical events."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A comparison using 'as' or 'like' is",
+    "options": {
+      "A": "Metaphor",
+      "B": "Simile",
+      "C": "Irony",
+      "D": "Pun"
+    },
+    "answer": "B",
+    "explanation": "Simile uses 'as' or 'like' for comparison."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A direct contrast between ideas is",
+    "options": {
+      "A": "Antithesis",
+      "B": "Irony",
+      "C": "Theme",
+      "D": "Mood"
+    },
+    "answer": "A",
+    "explanation": "Antithesis presents opposite ideas."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A technique that hints at future events is",
+    "options": {
+      "A": "Flashback",
+      "B": "Foreshadowing",
+      "C": "Irony",
+      "D": "Plot"
+    },
+    "answer": "B",
+    "explanation": "Foreshadowing gives clues about future events."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "Words that imitate natural sounds are",
+    "options": {
+      "A": "Onomatopoeia",
+      "B": "Simile",
+      "C": "Metaphor",
+      "D": "Irony"
+    },
+    "answer": "A",
+    "explanation": "Onomatopoeia imitates sounds."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A written account of someone's life by themselves is",
+    "options": {
+      "A": "Biography",
+      "B": "Autobiography",
+      "C": "Novel",
+      "D": "Diary"
+    },
+    "answer": "B",
+    "explanation": "Autobiography is self-written life story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "A fictional prose story is",
+    "options": {
+      "A": "Novel",
+      "B": "Report",
+      "C": "Essay",
+      "D": "Diary"
+    },
+    "answer": "A",
+    "explanation": "A novel is fictional prose."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A traditional story explaining origins is",
+    "options": {
+      "A": "Myth",
+      "B": "Novel",
+      "C": "Essay",
+      "D": "Drama"
+    },
+    "answer": "A",
+    "explanation": "Myths explain origins and beliefs."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "A short story that teaches a lesson is",
+    "options": {
+      "A": "Fable",
+      "B": "Novel",
+      "C": "Epic",
+      "D": "Essay"
+    },
+    "answer": "A",
+    "explanation": "Fables teach moral lessons."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The main idea of a story is",
+    "options": {
+      "A": "Plot",
+      "B": "Theme",
+      "C": "Setting",
+      "D": "Conflict"
+    },
+    "answer": "B",
+    "explanation": "Theme is the central idea."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The sequence of events is",
+    "options": {
+      "A": "Plot",
+      "B": "Theme",
+      "C": "Mood",
+      "D": "Setting"
+    },
+    "answer": "A",
+    "explanation": "Plot is arrangement of events."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The emotional atmosphere of a story is",
+    "options": {
+      "A": "Mood",
+      "B": "Plot",
+      "C": "Theme",
+      "D": "Setting"
+    },
+    "answer": "A",
+    "explanation": "Mood is the feeling created in readers."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "A story with exaggerated events is",
+    "options": {
+      "A": "Myth",
+      "B": "Legend",
+      "C": "Drama",
+      "D": "Essay"
+    },
+    "answer": "B",
+    "explanation": "Legends often contain exaggerations."
+  }
+]

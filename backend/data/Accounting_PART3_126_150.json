@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Bonus shares are issued from",
+    "options": [
+      "Reserves",
+      "Bank loans",
+      "Sales",
+      "Expenses"
+    ],
+    "answer": "Reserves",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Rights issue is offered to",
+    "options": [
+      "Existing shareholders",
+      "Suppliers",
+      "Employees",
+      "Auditors"
+    ],
+    "answer": "Existing shareholders",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Realization account is prepared",
+    "options": [
+      "On dissolution",
+      "At formation",
+      "Monthly",
+      "Weekly"
+    ],
+    "answer": "On dissolution",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Dissolution means",
+    "options": [
+      "Closing the partnership",
+      "Admitting a partner",
+      "Changing name",
+      "Opening branch"
+    ],
+    "answer": "Closing the partnership",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Cost of production excludes",
+    "options": [
+      "Selling expenses",
+      "Direct labour",
+      "Factory overhead",
+      "Direct materials"
+    ],
+    "answer": "Selling expenses",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Finished goods are transferred to",
+    "options": [
+      "Trading account",
+      "Cash book",
+      "Journal",
+      "Bank"
+    ],
+    "answer": "Trading account",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Flow",
+    "difficulty": "medium",
+    "question": "Operating activities include",
+    "options": [
+      "Cash from normal business",
+      "Purchase of shares",
+      "Loan repayment",
+      "Owner drawings"
+    ],
+    "answer": "Cash from normal business",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Flow",
+    "difficulty": "medium",
+    "question": "Investing activities include",
+    "options": [
+      "Purchase of fixed assets",
+      "Payment of wages",
+      "Payment to creditors",
+      "Rent expense"
+    ],
+    "answer": "Purchase of fixed assets",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Financial Statements",
+    "difficulty": "medium",
+    "question": "Statement of financial position is another name for",
+    "options": [
+      "Balance sheet",
+      "Cash book",
+      "Journal",
+      "Invoice"
+    ],
+    "answer": "Balance sheet",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Financial Statements",
+    "difficulty": "medium",
+    "question": "Retained earnings represent",
+    "options": [
+      "Accumulated profits",
+      "Bank loans",
+      "Share capital",
+      "Inventory"
+    ],
+    "answer": "Accumulated profits",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Auditing",
+    "difficulty": "medium",
+    "question": "An unqualified audit report indicates",
+    "options": [
+      "True and fair view",
+      "Fraud detected",
+      "Company closed",
+      "No records"
+    ],
+    "answer": "True and fair view",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Auditing",
+    "difficulty": "medium",
+    "question": "Audit evidence should be",
+    "options": [
+      "Relevant and sufficient",
+      "Verbal only",
+      "Estimated only",
+      "Ignored"
+    ],
+    "answer": "Relevant and sufficient",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Appropriation account shows",
+    "options": [
+      "Use of allocated funds",
+      "Company profit",
+      "Bank balance",
+      "Stock"
+    ],
+    "answer": "Use of allocated funds",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "A warrant authorizes",
+    "options": [
+      "Release of government funds",
+      "Issue of shares",
+      "Audit report",
+      "Tax refund"
+    ],
+    "answer": "Release of government funds",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Taxation",
+    "difficulty": "medium",
+    "question": "PAYE stands for",
+    "options": [
+      "Pay As You Earn",
+      "Pay All Year End",
+      "Public Annual Yield Estimate",
+      "Personal Asset Year End"
+    ],
+    "answer": "Pay As You Earn",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Taxation",
+    "difficulty": "medium",
+    "question": "Company income tax is paid on",
+    "options": [
+      "Profits",
+      "Sales only",
+      "Assets",
+      "Capital"
+    ],
+    "answer": "Profits",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Weighted average method",
+    "options": [
+      "Uses average unit cost",
+      "Uses latest cost only",
+      "Uses first cost only",
+      "Ignores stock"
+    ],
+    "answer": "Uses average unit cost",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "Error of complete reversal affects",
+    "options": [
+      "Correct accounts wrong sides",
+      "One account only",
+      "No accounts",
+      "Cash only"
+    ],
+    "answer": "Correct accounts wrong sides",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Professional competence requires",
+    "options": [
+      "Maintaining knowledge and skill",
+      "Keeping secrets only",
+      "Maximizing profit",
+      "Reducing tax"
+    ],
+    "answer": "Maintaining knowledge and skill",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "Prudence requires",
+    "options": [
+      "Avoid overstating assets and income",
+      "Overstate profits",
+      "Ignore losses",
+      "Ignore liabilities"
+    ],
+    "answer": "Avoid overstating assets and income",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Net profit margin compares",
+    "options": [
+      "Net profit with sales",
+      "Sales with assets",
+      "Cash with debt",
+      "Stock with purchases"
+    ],
+    "answer": "Net profit with sales",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Working capital indicates",
+    "options": [
+      "Short-term financial health",
+      "Long-term debt",
+      "Profit only",
+      "Share value"
+    ],
+    "answer": "Short-term financial health",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Subscription in arrears is",
+    "options": [
+      "Amount owed by members",
+      "Advance payment",
+      "Government grant",
+      "Loan"
+    ],
+    "answer": "Amount owed by members",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Life membership fee is often treated as",
+    "options": [
+      "Capital receipt",
+      "Revenue receipt",
+      "Expense",
+      "Liability"
+    ],
+    "answer": "Capital receipt",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Financial accounting mainly provides information to",
+    "options": [
+      "External users",
+      "Machine operators",
+      "Drivers",
+      "Security staff"
+    ],
+    "answer": "External users",
+    "explanation": "Standard accounting concept."
+  }
+]

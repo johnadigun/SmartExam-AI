@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "Soil is best defined as",
+    "options": {
+      "A": "Solid rock only",
+      "B": "The upper layer of the earth that supports plant growth",
+      "C": "Water body",
+      "D": "Air surrounding plants"
+    },
+    "answer": "B",
+    "explanation": "Soil is the top layer of the earth that supports plant life."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a component of soil?",
+    "options": {
+      "A": "Air",
+      "B": "Water",
+      "C": "Plastic",
+      "D": "Organic matter"
+    },
+    "answer": "C",
+    "explanation": "Plastic is not a natural component of soil."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "The breaking of soil into fine particles is called",
+    "options": {
+      "A": "Ploughing",
+      "B": "Tilling",
+      "C": "Harvesting",
+      "D": "Weeding"
+    },
+    "answer": "B",
+    "explanation": "Tilling loosens and breaks soil for planting."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "One major benefit of crop rotation is",
+    "options": {
+      "A": "Increase in pests",
+      "B": "Maintenance of soil fertility",
+      "C": "Soil erosion",
+      "D": "Reduction in yield"
+    },
+    "answer": "B",
+    "explanation": "Crop rotation helps maintain soil nutrients and reduces pests."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "Poultry birds are mainly reared for",
+    "options": {
+      "A": "Milk only",
+      "B": "Eggs and meat",
+      "C": "Wool",
+      "D": "Leather only"
+    },
+    "answer": "B",
+    "explanation": "Poultry provides eggs and meat as major products."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Protection",
+    "difficulty": "Medium",
+    "question": "Integrated pest management involves",
+    "options": {
+      "A": "Only chemical control",
+      "B": "Combination of biological, chemical and cultural methods",
+      "C": "No pest control",
+      "D": "Burning all crops"
+    },
+    "answer": "B",
+    "explanation": "IPM uses multiple methods to control pests sustainably."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "A cutlass is commonly used for",
+    "options": {
+      "A": "Writing records",
+      "B": "Clearing bushes",
+      "C": "Irrigation",
+      "D": "Milking cows"
+    },
+    "answer": "B",
+    "explanation": "A cutlass is used for clearing vegetation on the farm."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Clay soil is characterized by",
+    "options": {
+      "A": "Large particles and quick drainage",
+      "B": "Small particles and high water retention",
+      "C": "No nutrients",
+      "D": "Loose sand structure only"
+    },
+    "answer": "B",
+    "explanation": "Clay soil has fine particles and retains water strongly."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "The removal of harvested crops from the field is called",
+    "options": {
+      "A": "Planting",
+      "B": "Harvesting",
+      "C": "Transportation",
+      "D": "Weeding"
+    },
+    "answer": "B",
+    "explanation": "Harvesting involves collecting mature crops from the field."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Medium",
+    "question": "Compost manure is produced from",
+    "options": {
+      "A": "Plastic waste only",
+      "B": "Decomposed organic materials",
+      "C": "Sand and stones",
+      "D": "Metal scraps"
+    },
+    "answer": "B",
+    "explanation": "Compost is made from decomposed plant and animal waste."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Easy",
+    "question": "Feed given to livestock mainly to supply energy is rich in",
+    "options": {
+      "A": "Carbohydrates",
+      "B": "Minerals",
+      "C": "Vitamins",
+      "D": "Water"
+    },
+    "answer": "A",
+    "explanation": "Carbohydrates are the primary source of energy in livestock feeds."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Medium",
+    "question": "Concentrate feeds are characterized by",
+    "options": {
+      "A": "High fibre content",
+      "B": "High nutrient density and low fibre",
+      "C": "High moisture only",
+      "D": "Poor digestibility"
+    },
+    "answer": "B",
+    "explanation": "Concentrates provide high levels of nutrients and relatively low fibre."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Housing",
+    "difficulty": "Easy",
+    "question": "A good livestock house should provide",
+    "options": {
+      "A": "Poor ventilation",
+      "B": "Adequate ventilation and protection",
+      "C": "Darkness throughout the day",
+      "D": "Flooded floors"
+    },
+    "answer": "B",
+    "explanation": "Proper housing protects animals from harsh weather and diseases while ensuring adequate ventilation."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Medium",
+    "question": "Vaccination of farm animals is mainly carried out to",
+    "options": {
+      "A": "Increase feed consumption",
+      "B": "Prevent infectious diseases",
+      "C": "Improve coat colour",
+      "D": "Reduce water intake"
+    },
+    "answer": "B",
+    "explanation": "Vaccination stimulates immunity against specific diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Poultry Production",
+    "difficulty": "Easy",
+    "question": "A mature female chicken kept mainly for egg production is called",
+    "options": {
+      "A": "Cock",
+      "B": "Hen",
+      "C": "Cockerel",
+      "D": "Chick"
+    },
+    "answer": "B",
+    "explanation": "A hen is an adult female chicken raised primarily for laying eggs."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Poultry Production",
+    "difficulty": "Medium",
+    "question": "Broilers are poultry birds raised mainly for",
+    "options": {
+      "A": "Egg production",
+      "B": "Meat production",
+      "C": "Feather production",
+      "D": "Breeding only"
+    },
+    "answer": "B",
+    "explanation": "Broilers are specially bred for rapid meat production."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Breeding",
+    "difficulty": "Medium",
+    "question": "Crossbreeding is carried out mainly to",
+    "options": {
+      "A": "Reduce productivity",
+      "B": "Combine desirable traits from different breeds",
+      "C": "Increase disease occurrence",
+      "D": "Produce sterile animals"
+    },
+    "answer": "B",
+    "explanation": "Crossbreeding improves performance through desirable inherited characteristics."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Easy",
+    "question": "A record showing the number of animals on a farm is called",
+    "options": {
+      "A": "Livestock inventory",
+      "B": "Cash book",
+      "C": "Sales ledger",
+      "D": "Weather chart"
+    },
+    "answer": "A",
+    "explanation": "A livestock inventory records the number and types of animals kept on the farm."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "Profit is obtained by",
+    "options": {
+      "A": "Adding total cost to total revenue",
+      "B": "Subtracting total cost from total revenue",
+      "C": "Subtracting revenue from labour",
+      "D": "Dividing revenue by expenses"
+    },
+    "answer": "B",
+    "explanation": "Profit equals total revenue minus total cost."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Extension",
+    "difficulty": "Easy",
+    "question": "One important function of agricultural extension services is to",
+    "options": {
+      "A": "Collect taxes",
+      "B": "Teach farmers improved farming practices",
+      "C": "Import farm machinery",
+      "D": "Issue driver's licenses"
+    },
+    "answer": "B",
+    "explanation": "Extension services transfer modern agricultural knowledge and technologies to farmers."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Easy",
+    "question": "The reward paid to labour in agricultural production is called",
+    "options": {
+      "A": "Rent",
+      "B": "Interest",
+      "C": "Wages",
+      "D": "Profit"
+    },
+    "answer": "C",
+    "explanation": "Wages are the payments made to labour for services rendered."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "The reward for the use of land in production is known as",
+    "options": {
+      "A": "Profit",
+      "B": "Interest",
+      "C": "Rent",
+      "D": "Salary"
+    },
+    "answer": "C",
+    "explanation": "Rent is the income earned from the use of land."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "The reward paid for the use of borrowed capital is called",
+    "options": {
+      "A": "Wages",
+      "B": "Interest",
+      "C": "Rent",
+      "D": "Commission"
+    },
+    "answer": "B",
+    "explanation": "Interest is the payment made for borrowing capital."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Easy",
+    "question": "The person who combines land, labour, capital, and management in production is the",
+    "options": {
+      "A": "Consumer",
+      "B": "Entrepreneur",
+      "C": "Wholesaler",
+      "D": "Retailer"
+    },
+    "answer": "B",
+    "explanation": "The entrepreneur organizes the factors of production and bears business risks."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Power",
+    "difficulty": "Easy",
+    "question": "Animal power is commonly provided by",
+    "options": {
+      "A": "Dogs",
+      "B": "Oxen",
+      "C": "Goats",
+      "D": "Poultry"
+    },
+    "answer": "B",
+    "explanation": "Oxen are widely used as draught animals for ploughing and transport."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Medium",
+    "question": "The implement attached to a tractor for turning over the soil is the",
+    "options": {
+      "A": "Harrow",
+      "B": "Plough",
+      "C": "Sprayer",
+      "D": "Planter"
+    },
+    "answer": "B",
+    "explanation": "A plough cuts and turns the soil during primary tillage."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Medium",
+    "question": "The main function of a knapsack sprayer is to",
+    "options": {
+      "A": "Harvest crops",
+      "B": "Apply pesticides and liquid fertilizers",
+      "C": "Plant seeds",
+      "D": "Thresh grains"
+    },
+    "answer": "B",
+    "explanation": "Knapsack sprayers are used to apply chemicals uniformly to crops."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Storage",
+    "difficulty": "Easy",
+    "question": "Proper storage of harvested crops helps to reduce",
+    "options": {
+      "A": "Crop yield",
+      "B": "Post-harvest losses",
+      "C": "Soil fertility",
+      "D": "Photosynthesis"
+    },
+    "answer": "B",
+    "explanation": "Good storage protects produce from pests, diseases, and spoilage."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Processing",
+    "difficulty": "Medium",
+    "question": "Winnowing is the process of separating",
+    "options": {
+      "A": "Seeds from fruits",
+      "B": "Grains from chaff using wind",
+      "C": "Roots from stems",
+      "D": "Leaves from branches"
+    },
+    "answer": "B",
+    "explanation": "Winnowing uses moving air to separate lighter chaff from heavier grains."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "Agriculture provides industries mainly with",
+    "options": {
+      "A": "Raw materials",
+      "B": "Finished products only",
+      "C": "Imported machinery",
+      "D": "Office equipment"
+    },
+    "answer": "A",
+    "explanation": "Agricultural products such as cotton, cocoa, rubber, and oil palm serve as raw materials for industries."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Easy",
+    "question": "The nutrient mainly responsible for body building and tissue repair in livestock is",
+    "options": {
+      "A": "Carbohydrate",
+      "B": "Protein",
+      "C": "Fat",
+      "D": "Water"
+    },
+    "answer": "B",
+    "explanation": "Proteins are essential for growth, tissue repair, and the development of muscles."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Nutrition",
+    "difficulty": "Medium",
+    "question": "Feed ingredients such as maize and sorghum are classified mainly as",
+    "options": {
+      "A": "Energy feeds",
+      "B": "Protein supplements",
+      "C": "Mineral supplements",
+      "D": "Vitamin supplements"
+    },
+    "answer": "A",
+    "explanation": "Maize and sorghum are rich in carbohydrates and serve as energy feeds."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Housing",
+    "difficulty": "Easy",
+    "question": "Good livestock housing should be kept clean primarily to",
+    "options": {
+      "A": "Increase pests",
+      "B": "Prevent diseases",
+      "C": "Reduce ventilation",
+      "D": "Increase humidity"
+    },
+    "answer": "B",
+    "explanation": "Clean housing reduces disease-causing organisms and promotes animal health."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Medium",
+    "question": "Debeaking is a management practice commonly carried out in",
+    "options": {
+      "A": "Cattle",
+      "B": "Goats",
+      "C": "Poultry",
+      "D": "Fish"
+    },
+    "answer": "C",
+    "explanation": "Debeaking reduces feather pecking and cannibalism among poultry birds."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Poultry Production",
+    "difficulty": "Easy",
+    "question": "The structure where chickens lay eggs is called the",
+    "options": {
+      "A": "Perch",
+      "B": "Nest box",
+      "C": "Brooder",
+      "D": "Feed trough"
+    },
+    "answer": "B",
+    "explanation": "Nest boxes provide a clean and comfortable place for hens to lay eggs."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Poultry Production",
+    "difficulty": "Medium",
+    "question": "The primary purpose of brooding chicks is to",
+    "options": {
+      "A": "Prepare them for slaughter",
+      "B": "Provide warmth during early growth",
+      "C": "Teach them to fly",
+      "D": "Increase egg production"
+    },
+    "answer": "B",
+    "explanation": "Young chicks require warmth because they cannot regulate their body temperature effectively."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Animal Health",
+    "difficulty": "Medium",
+    "question": "Ticks are harmful because they",
+    "options": {
+      "A": "Improve growth rate",
+      "B": "Transmit diseases and suck blood",
+      "C": "Increase milk production",
+      "D": "Improve digestion"
+    },
+    "answer": "B",
+    "explanation": "Ticks are ectoparasites that spread diseases and weaken animals by feeding on blood."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Easy",
+    "question": "A farm inventory is a record of",
+    "options": {
+      "A": "Farm assets and liabilities",
+      "B": "Weather conditions only",
+      "C": "Daily rainfall only",
+      "D": "Workers' attendance only"
+    },
+    "answer": "A",
+    "explanation": "Farm inventory records the farm's physical assets and, in some cases, liabilities."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Marketing",
+    "difficulty": "Medium",
+    "question": "One advantage of cooperative societies to farmers is that they",
+    "options": {
+      "A": "Increase production costs",
+      "B": "Provide easier access to loans and farm inputs",
+      "C": "Discourage savings",
+      "D": "Reduce market opportunities"
+    },
+    "answer": "B",
+    "explanation": "Cooperatives help members obtain credit, farm inputs, and better marketing opportunities."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "Agriculture plays an important role in national development by",
+    "options": {
+      "A": "Providing employment opportunities",
+      "B": "Increasing food shortages",
+      "C": "Reducing industrial growth",
+      "D": "Encouraging desertification"
+    },
+    "answer": "A",
+    "explanation": "Agriculture creates employment, improves food security, and supports economic growth."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Extension",
+    "difficulty": "Easy",
+    "question": "A demonstration farm is mainly established to",
+    "options": {
+      "A": "Store farm machinery",
+      "B": "Teach farmers improved agricultural practices",
+      "C": "Raise only livestock",
+      "D": "Produce food for export only"
+    },
+    "answer": "B",
+    "explanation": "Demonstration farms are used to train farmers by showing practical farming methods."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Management",
+    "difficulty": "Medium",
+    "question": "The process of estimating future income and expenditure on a farm is called",
+    "options": {
+      "A": "Depreciation",
+      "B": "Budgeting",
+      "C": "Inventory",
+      "D": "Auditing"
+    },
+    "answer": "B",
+    "explanation": "Budgeting helps farmers plan production and manage financial resources."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Easy",
+    "question": "Which of the following records shows money received and money spent on the farm?",
+    "options": {
+      "A": "Farm diary",
+      "B": "Cash book",
+      "C": "Inventory",
+      "D": "Livestock register"
+    },
+    "answer": "B",
+    "explanation": "A cash book records all cash receipts and payments."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "When the quantity supplied of a commodity is greater than the quantity demanded, there is",
+    "options": {
+      "A": "Scarcity",
+      "B": "Surplus",
+      "C": "Equilibrium",
+      "D": "Inflation"
+    },
+    "answer": "B",
+    "explanation": "A surplus occurs when supply exceeds demand."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Forestry",
+    "difficulty": "Easy",
+    "question": "One major product obtained from forests is",
+    "options": {
+      "A": "Crude oil",
+      "B": "Timber",
+      "C": "Natural gas",
+      "D": "Coal"
+    },
+    "answer": "B",
+    "explanation": "Forests provide timber for construction, furniture, and other industrial uses."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Environmental Conservation",
+    "difficulty": "Medium",
+    "question": "Planting trees along river banks helps to",
+    "options": {
+      "A": "Increase flooding",
+      "B": "Reduce soil erosion",
+      "C": "Pollute water",
+      "D": "Destroy aquatic life"
+    },
+    "answer": "B",
+    "explanation": "Tree roots stabilize the soil and reduce erosion along river banks."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Engineering",
+    "difficulty": "Medium",
+    "question": "Preventive maintenance of farm machinery is carried out mainly to",
+    "options": {
+      "A": "Increase machine breakdown",
+      "B": "Reduce operating efficiency",
+      "C": "Prolong machine lifespan and reduce repair costs",
+      "D": "Increase fuel consumption"
+    },
+    "answer": "C",
+    "explanation": "Routine maintenance prevents major faults and extends the service life of equipment."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Development",
+    "difficulty": "Easy",
+    "question": "Mechanized agriculture is characterized by the use of",
+    "options": {
+      "A": "Only hand tools",
+      "B": "Modern farm machines",
+      "C": "Animal power only",
+      "D": "Human labour only"
+    },
+    "answer": "B",
+    "explanation": "Mechanized farming relies on tractors and other machines to improve productivity."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "The law of demand states that, other things being equal, when price increases, quantity demanded",
+    "options": {
+      "A": "Increases",
+      "B": "Remains constant",
+      "C": "Decreases",
+      "D": "Becomes zero"
+    },
+    "answer": "C",
+    "explanation": "There is an inverse relationship between price and quantity demanded."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "The overall objective of agricultural education is to",
+    "options": {
+      "A": "Discourage farming",
+      "B": "Develop knowledge and skills for efficient agricultural production",
+      "C": "Reduce food production",
+      "D": "Promote environmental degradation"
+    },
+    "answer": "B",
+    "explanation": "Agricultural education equips learners with the knowledge, skills, and attitudes needed for sustainable and profitable agriculture."
+  }
+]

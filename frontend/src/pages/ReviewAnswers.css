@@ -1,0 +1,1117 @@
+/* ==========================================================
+   SMARTEXAM REVIEW ANSWERS
+   MASTER CSS
+   Part 1/4
+========================================================== */
+
+
+/* ==========================================================
+   ROOT
+========================================================== */
+
+:root{
+
+    --primary:#1565c0;
+    --primary-dark:#0d47a1;
+
+    --success:#2e7d32;
+    --success-light:#e8f5e9;
+
+    --danger:#d32f2f;
+    --danger-light:#ffebee;
+
+    --warning:#ef6c00;
+    --warning-light:#fff3e0;
+
+    --gray:#757575;
+    --light:#f4f7fb;
+    --white:#ffffff;
+
+    --border:#d9d9d9;
+
+    --shadow:0 4px 15px rgba(0,0,0,.08);
+
+    --radius:12px;
+
+}
+
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+.review-container{
+
+    width:96%;
+
+    max-width:1450px;
+
+    margin:30px auto;
+
+    display:grid;
+
+    grid-template-columns:
+        minmax(0,1fr)
+        280px;
+
+    gap:25px;
+
+    align-items:start;
+
+}
+
+
+/* ==========================================================
+   LEFT CONTENT
+========================================================== */
+
+.review-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.review-header{
+
+    background:var(--white);
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+    text-align:center;
+
+}
+
+
+.review-header h1{
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+
+}
+
+
+.review-header p{
+
+    color:#666;
+
+    font-size:17px;
+
+}
+
+
+/* ==========================================================
+   SUMMARY
+========================================================== */
+
+.review-summary{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-top:25px;
+
+}
+
+
+.review-summary div{
+
+    background:#fafbfc;
+
+    border:1px solid #e4e4e4;
+
+    border-radius:10px;
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+
+.review-summary strong{
+
+    display:block;
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+
+.review-summary span{
+
+    display:block;
+
+    color:var(--primary);
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+
+/* ==========================================================
+   QUESTION CARD
+========================================================== */
+
+.review-question-card{
+
+    background:var(--white);
+
+    border-radius:var(--radius);
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+/* ==========================================================
+   QUESTION NUMBER
+========================================================== */
+
+.review-question-card h2{
+
+    color:var(--primary);
+
+    font-size:26px;
+
+    margin-bottom:22px;
+
+    font-weight:700;
+
+}
+
+
+/* ==========================================================
+   QUESTION TEXT
+========================================================== */
+
+.review-question{
+
+    font-size:23px;
+
+    line-height:1.8;
+
+    color:#222;
+
+    font-weight:500;
+
+    margin-bottom:30px;
+
+}
+/* ==========================================================
+   SMARTEXAM REVIEW ANSWERS
+   MASTER CSS
+   Part 2/4
+========================================================== */
+
+
+/* ==========================================================
+   OPTIONS
+========================================================== */
+
+.review-options{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+
+/* ==========================================================
+   INDIVIDUAL OPTION
+========================================================== */
+
+.review-option{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+
+    padding:18px 20px;
+
+    background:#fafafa;
+
+    border:1px solid #dcdcdc;
+
+    border-radius:10px;
+
+    transition:.25s;
+
+    font-size:17px;
+
+    line-height:1.7;
+
+    cursor:default;
+
+}
+
+
+.review-option:hover{
+
+    background:#f5f9ff;
+
+}
+
+
+/* ==========================================================
+   OPTION LETTER
+========================================================== */
+
+.review-option strong{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-width:36px;
+
+    width:36px;
+
+    height:36px;
+
+    border-radius:50%;
+
+    background:#e3f2fd;
+
+    color:var(--primary);
+
+    font-size:16px;
+
+    font-weight:700;
+
+    flex-shrink:0;
+
+}
+
+
+/* ==========================================================
+   CORRECT ANSWER
+========================================================== */
+
+.review-option.correct{
+
+    background:var(--success-light);
+
+    border:2px solid var(--success);
+
+    color:#14532d;
+
+    font-weight:600;
+
+}
+
+
+.review-option.correct strong{
+
+    background:var(--success);
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   WRONG ANSWER
+========================================================== */
+
+.review-option.wrong{
+
+    background:var(--danger-light);
+
+    border:2px solid var(--danger);
+
+    color:#991b1b;
+
+    font-weight:600;
+
+}
+
+
+.review-option.wrong strong{
+
+    background:var(--danger);
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   MISSED CORRECT ANSWER
+========================================================== */
+
+.review-option.missed{
+
+    background:var(--warning-light);
+
+    border:2px solid var(--warning);
+
+}
+
+
+.review-option.missed strong{
+
+    background:var(--warning);
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   ANSWER SUMMARY
+========================================================== */
+
+.answer-summary{
+
+    margin-top:30px;
+
+    background:#f7f9fc;
+
+    border-left:6px solid var(--primary);
+
+    border-radius:10px;
+
+    padding:22px;
+
+}
+
+
+.answer-summary p{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    margin-bottom:12px;
+
+    color:#333;
+
+}
+
+
+.answer-summary p:last-child{
+
+    margin-bottom:0;
+
+}
+
+
+.answer-summary strong{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+
+/* ==========================================================
+   EXPLANATION PANEL
+========================================================== */
+
+.answer-explanation{
+
+    margin-top:25px;
+
+    background:#eef6ff;
+
+    border-left:6px solid var(--primary);
+
+    border-radius:10px;
+
+    padding:22px;
+
+}
+
+
+.answer-explanation strong{
+
+    display:block;
+
+    color:var(--primary);
+
+    font-size:18px;
+
+    margin-bottom:12px;
+
+}
+
+
+.answer-explanation p{
+
+    color:#333;
+
+    font-size:16px;
+
+    line-height:1.9;
+
+}
+
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+.review-divider{
+
+    margin:30px 0;
+
+    border:none;
+
+    border-top:1px solid #e0e0e0;
+
+}
+/* ==========================================================
+   SMARTEXAM REVIEW ANSWERS
+   MASTER CSS
+   PART 3/4
+========================================================== */
+
+
+/* ==========================================================
+   RIGHT PANEL
+========================================================== */
+
+.review-sidebar{
+
+    background:#f7f8fa;
+
+    border:1px solid #d9d9d9;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+    position:sticky;
+
+    top:15px;
+
+}
+
+
+/* ==========================================================
+   SIDEBAR TITLE
+========================================================== */
+
+.review-sidebar h3{
+
+    text-align:center;
+
+    color:#37474f;
+
+    font-size:20px;
+
+    margin-bottom:15px;
+
+    padding-bottom:12px;
+
+    border-bottom:1px solid #d0d0d0;
+
+}
+
+
+/* ==========================================================
+   QUESTION PALETTE
+========================================================== */
+
+.review-palette{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:10px;
+
+}
+
+
+/* ==========================================================
+   PALETTE BUTTON
+========================================================== */
+
+.palette-btn{
+
+    width:40px;
+
+    height:36px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#d9d9d9;
+
+    color:#333;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+
+.palette-btn:hover{
+
+    transform:scale(1.05);
+
+    background:#c7c7c7;
+
+}
+
+
+/* ==========================================================
+   CURRENT QUESTION
+========================================================== */
+
+.palette-active{
+
+    background:#1565c0 !important;
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   CORRECT QUESTION
+========================================================== */
+
+.palette-correct{
+
+    background:#28a745 !important;
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   WRONG QUESTION
+========================================================== */
+
+.palette-wrong{
+
+    background:#dc3545 !important;
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   NOT ANSWERED
+========================================================== */
+
+.palette-unanswered{
+
+    background:#bdbdbd;
+
+    color:#ffffff;
+
+}
+
+
+/* ==========================================================
+   LEGEND
+========================================================== */
+
+.review-legend{
+
+    margin-top:22px;
+
+    padding-top:18px;
+
+    border-top:1px solid #d5d5d5;
+
+}
+
+
+.review-legend h4{
+
+    font-size:16px;
+
+    color:#37474f;
+
+    margin-bottom:12px;
+
+}
+
+
+.legend-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:12px;
+
+    font-size:14px;
+
+    color:#444;
+
+}
+
+
+.legend-box{
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:4px;
+
+}
+
+
+.legend-current{
+
+    background:#1565c0;
+
+}
+
+
+.legend-correct{
+
+    background:#28a745;
+
+}
+
+
+.legend-wrong{
+
+    background:#dc3545;
+
+}
+
+
+.legend-unanswered{
+
+    background:#bdbdbd;
+
+}
+
+
+/* ==========================================================
+   NAVIGATION BUTTONS
+========================================================== */
+
+.review-navigation{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin-top:30px;
+
+}
+
+
+.review-navigation button{
+
+    min-width:160px;
+
+    padding:13px 20px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+}
+
+
+/* Previous */
+
+.review-navigation button:first-child{
+
+    background:#616161;
+
+}
+
+
+/* Next */
+
+.review-navigation button:nth-child(2){
+
+    background:#1565c0;
+
+}
+
+
+/* Print */
+
+.print-btn{
+
+    background:#2e7d32;
+
+}
+
+
+/* Back Result */
+
+.result-btn{
+
+    background:#ef6c00;
+
+}
+
+
+/* Dashboard */
+
+.dashboard-btn{
+
+    background:#455a64;
+
+}
+
+
+.review-navigation button:hover{
+
+    opacity:.92;
+
+    transform:translateY(-2px);
+
+}
+
+
+.review-navigation button:disabled{
+
+    background:#bdbdbd;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+}
+/* ==========================================================
+   QUESTION PALETTE
+========================================================== */
+
+.review-palette{
+
+    margin-top:35px;
+
+    padding:20px;
+
+    background:#fafafa;
+
+    border:1px solid #d9d9d9;
+
+    border-radius:12px;
+
+}
+
+.review-palette h3{
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+    color:#1565c0;
+
+    font-size:20px;
+
+}
+
+.palette-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(10,1fr);
+
+    gap:10px;
+
+}
+
+.palette-btn{
+
+    height:42px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    font-size:14px;
+
+    background:#d9d9d9;
+
+    transition:.25s;
+
+}
+
+.palette-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.palette-correct{
+
+    background:#2e7d32;
+
+    color:#ffffff;
+
+}
+
+.palette-wrong{
+
+    background:#d32f2f;
+
+    color:#ffffff;
+
+}
+
+.palette-active{
+
+    outline:3px solid #1565c0;
+
+    outline-offset:2px;
+
+}
+
+/* ==========================================================
+   PALETTE LEGEND
+========================================================== */
+
+.palette-legend{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+    margin-top:25px;
+
+    padding-top:20px;
+
+    border-top:1px solid #d9d9d9;
+
+}
+
+.legend-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:14px;
+
+    color:#555;
+
+}
+
+.legend-box{
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:4px;
+
+}
+
+.legend-box.correct{
+
+    background:#2e7d32;
+
+}
+
+.legend-box.wrong{
+
+    background:#d32f2f;
+
+}
+
+.legend-box.active{
+
+    background:#1565c0;
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:992px){
+
+    .palette-grid{
+
+        grid-template-columns:repeat(8,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .review-container{
+
+        width:100%;
+
+        padding:12px;
+
+    }
+
+    .review-question-card{
+
+        padding:18px;
+
+    }
+
+    .review-question{
+
+        font-size:17px;
+
+    }
+
+    .review-navigation{
+
+        flex-direction:column;
+
+    }
+
+    .review-navigation button{
+
+        width:100%;
+
+    }
+
+    .palette-grid{
+
+        grid-template-columns:repeat(5,1fr);
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .review-header h1{
+
+        font-size:22px;
+
+    }
+
+    .review-question-card h2{
+
+        font-size:18px;
+
+    }
+
+    .review-question{
+
+        font-size:16px;
+
+    }
+
+    .palette-grid{
+
+        grid-template-columns:repeat(4,1fr);
+
+    }
+
+}
+
+/* ==========================================================
+   PRINT
+========================================================== */
+
+@media print{
+
+    body{
+
+        background:#ffffff;
+
+    }
+
+    .review-navigation,
+
+    .review-palette{
+
+        display:none;
+
+    }
+
+    .review-container{
+
+        width:100%;
+
+        box-shadow:none;
+
+        margin:0;
+
+        padding:0;
+
+    }
+
+}

@@ -1,0 +1,377 @@
+[
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The simplest hydrocarbon is: (Q51)",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Metals",
+    "question": "Rusting mainly affects: (Q52)",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": "Iron",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Water",
+    "question": "Temporary hardness of water is caused by: (Q53)",
+    "options": [
+      "Sodium chloride",
+      "Calcium hydrogencarbonate",
+      "Sugar",
+      "Oxygen"
+    ],
+    "answer": "Calcium hydrogencarbonate",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Air",
+    "question": "The most abundant gas in air is: (Q54)",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "answer": "Nitrogen",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Environmental Chemistry",
+    "question": "Acid rain is mainly caused by: (Q55)",
+    "options": [
+      "Nitrogen",
+      "Hydrogen",
+      "Sulfur dioxide",
+      "Helium"
+    ],
+    "answer": "Sulfur dioxide",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The simplest hydrocarbon is: (Q56)",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Metals",
+    "question": "Rusting mainly affects: (Q57)",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": "Iron",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Water",
+    "question": "Temporary hardness of water is caused by: (Q58)",
+    "options": [
+      "Sodium chloride",
+      "Calcium hydrogencarbonate",
+      "Sugar",
+      "Oxygen"
+    ],
+    "answer": "Calcium hydrogencarbonate",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Air",
+    "question": "The most abundant gas in air is: (Q59)",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "answer": "Nitrogen",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Environmental Chemistry",
+    "question": "Acid rain is mainly caused by: (Q60)",
+    "options": [
+      "Nitrogen",
+      "Hydrogen",
+      "Sulfur dioxide",
+      "Helium"
+    ],
+    "answer": "Sulfur dioxide",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The simplest hydrocarbon is: (Q61)",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Metals",
+    "question": "Rusting mainly affects: (Q62)",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": "Iron",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Water",
+    "question": "Temporary hardness of water is caused by: (Q63)",
+    "options": [
+      "Sodium chloride",
+      "Calcium hydrogencarbonate",
+      "Sugar",
+      "Oxygen"
+    ],
+    "answer": "Calcium hydrogencarbonate",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Air",
+    "question": "The most abundant gas in air is: (Q64)",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "answer": "Nitrogen",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Environmental Chemistry",
+    "question": "Acid rain is mainly caused by: (Q65)",
+    "options": [
+      "Nitrogen",
+      "Hydrogen",
+      "Sulfur dioxide",
+      "Helium"
+    ],
+    "answer": "Sulfur dioxide",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The simplest hydrocarbon is: (Q66)",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Metals",
+    "question": "Rusting mainly affects: (Q67)",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": "Iron",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Water",
+    "question": "Temporary hardness of water is caused by: (Q68)",
+    "options": [
+      "Sodium chloride",
+      "Calcium hydrogencarbonate",
+      "Sugar",
+      "Oxygen"
+    ],
+    "answer": "Calcium hydrogencarbonate",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Air",
+    "question": "The most abundant gas in air is: (Q69)",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "answer": "Nitrogen",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Environmental Chemistry",
+    "question": "Acid rain is mainly caused by: (Q70)",
+    "options": [
+      "Nitrogen",
+      "Hydrogen",
+      "Sulfur dioxide",
+      "Helium"
+    ],
+    "answer": "Sulfur dioxide",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The simplest hydrocarbon is: (Q71)",
+    "options": [
+      "Ethane",
+      "Methane",
+      "Propane",
+      "Butane"
+    ],
+    "answer": "Methane",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Metals",
+    "question": "Rusting mainly affects: (Q72)",
+    "options": [
+      "Copper",
+      "Iron",
+      "Gold",
+      "Silver"
+    ],
+    "answer": "Iron",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Water",
+    "question": "Temporary hardness of water is caused by: (Q73)",
+    "options": [
+      "Sodium chloride",
+      "Calcium hydrogencarbonate",
+      "Sugar",
+      "Oxygen"
+    ],
+    "answer": "Calcium hydrogencarbonate",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Air",
+    "question": "The most abundant gas in air is: (Q74)",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "answer": "Nitrogen",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Environmental Chemistry",
+    "question": "Acid rain is mainly caused by: (Q75)",
+    "options": [
+      "Nitrogen",
+      "Hydrogen",
+      "Sulfur dioxide",
+      "Helium"
+    ],
+    "answer": "Sulfur dioxide",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  }
+]

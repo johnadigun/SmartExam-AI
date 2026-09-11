@@ -1,0 +1,702 @@
+[
+  {
+    "subject": "Economics",
+    "category": "National Income",
+    "difficulty": "easy",
+    "question": "National income can be measured by",
+    "options": [
+      "Only income method",
+      "Only expenditure method",
+      "Income, output and expenditure methods",
+      "Only production method"
+    ],
+    "answer": "Income, output and expenditure methods",
+    "explanation": "National income can be calculated using income, output, and expenditure approaches."
+  },
+  {
+    "subject": "Economics",
+    "category": "National Income",
+    "difficulty": "medium",
+    "question": "The circular flow of income shows",
+    "options": [
+      "Flow of goods only",
+      "Flow of money and goods between households and firms",
+      "Government spending only",
+      "Banking operations only"
+    ],
+    "answer": "Flow of money and goods between households and firms",
+    "explanation": "It shows how money and goods move between households and firms in the economy."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "easy",
+    "question": "Money is anything that is",
+    "options": [
+      "Heavy and valuable",
+      "Generally accepted as a medium of exchange",
+      "Printed by government only",
+      "Used for saving only"
+    ],
+    "answer": "Generally accepted as a medium of exchange",
+    "explanation": "Money is anything widely accepted in exchange for goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "medium",
+    "question": "One characteristic of good money is that it must be",
+    "options": [
+      "Perishable",
+      "Generally acceptable",
+      "Heavy",
+      "Rare only"
+    ],
+    "answer": "Generally acceptable",
+    "explanation": "Money must be widely accepted to function effectively."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "easy",
+    "question": "A cheque is",
+    "options": [
+      "A legal tender note",
+      "An instruction to a bank to pay a specified amount",
+      "A coin",
+      "A tax document"
+    ],
+    "answer": "An instruction to a bank to pay a specified amount",
+    "explanation": "A cheque is a written order directing a bank to pay money."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "medium",
+    "question": "Overdraft in banking refers to",
+    "options": [
+      "Saving money in bank",
+      "Withdrawing more than account balance",
+      "Depositing money only",
+      "Closing account"
+    ],
+    "answer": "Withdrawing more than account balance",
+    "explanation": "Overdraft allows customers to withdraw more than they have in their account."
+  },
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "easy",
+    "question": "Inflation reduces the",
+    "options": [
+      "Price level",
+      "Value of money",
+      "Population",
+      "Exports"
+    ],
+    "answer": "Value of money",
+    "explanation": "Inflation decreases the purchasing power of money."
+  },
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "medium",
+    "question": "Hyperinflation refers to",
+    "options": [
+      "Very low inflation",
+      "Very rapid and out-of-control inflation",
+      "No inflation",
+      "Deflation"
+    ],
+    "answer": "Very rapid and out-of-control inflation",
+    "explanation": "Hyperinflation is extremely high and accelerating inflation."
+  },
+  {
+    "subject": "Economics",
+    "category": "Employment",
+    "difficulty": "easy",
+    "question": "Full employment means",
+    "options": [
+      "Everyone is working abroad",
+      "All available labour is employed except natural unemployment",
+      "No one is working",
+      "Only government workers are employed"
+    ],
+    "answer": "All available labour is employed except natural unemployment",
+    "explanation": "Full employment exists when all willing and able workers are employed."
+  },
+  {
+    "subject": "Economics",
+    "category": "Employment",
+    "difficulty": "medium",
+    "question": "Frictional unemployment occurs when",
+    "options": [
+      "Workers are between jobs",
+      "There are no jobs at all",
+      "Technology is absent",
+      "Population decreases"
+    ],
+    "answer": "Workers are between jobs",
+    "explanation": "Frictional unemployment happens during job transitions."
+  },
+  {
+    "subject": "Economics",
+    "category": "Unemployment",
+    "difficulty": "easy",
+    "question": "Seasonal unemployment occurs when",
+    "options": [
+      "Workers lose jobs due to seasonal changes in demand",
+      "All workers are employed permanently",
+      "Jobs are permanently available",
+      "Inflation is zero"
+    ],
+    "answer": "Workers lose jobs due to seasonal changes in demand",
+    "explanation": "Seasonal unemployment happens when work is available only during certain seasons."
+  },
+  {
+    "subject": "Economics",
+    "category": "Unemployment",
+    "difficulty": "medium",
+    "question": "One major cause of unemployment in developing countries is",
+    "options": [
+      "Excess industrialization",
+      "Rapid population growth",
+      "Too many factories",
+      "High exports"
+    ],
+    "answer": "Rapid population growth",
+    "explanation": "Rapid population growth increases labour supply beyond available jobs."
+  },
+  {
+    "subject": "Economics",
+    "category": "Labour Market",
+    "difficulty": "easy",
+    "question": "Labour force refers to",
+    "options": [
+      "All people in a country",
+      "People willing and able to work",
+      "Only government workers",
+      "Only farmers"
+    ],
+    "answer": "People willing and able to work",
+    "explanation": "Labour force includes all economically active people."
+  },
+  {
+    "subject": "Economics",
+    "category": "Labour Market",
+    "difficulty": "medium",
+    "question": "Wage is determined mainly by",
+    "options": [
+      "Weather",
+      "Demand and supply of labour",
+      "Population only",
+      "Exports"
+    ],
+    "answer": "Demand and supply of labour",
+    "explanation": "Wages are influenced by labour demand and supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Population",
+    "difficulty": "easy",
+    "question": "Overpopulation means",
+    "options": [
+      "Too few people",
+      "Population exceeds available resources",
+      "No population growth",
+      "Stable population"
+    ],
+    "answer": "Population exceeds available resources",
+    "explanation": "Overpopulation occurs when resources are insufficient for the population."
+  },
+  {
+    "subject": "Economics",
+    "category": "Population",
+    "difficulty": "medium",
+    "question": "Population density refers to",
+    "options": [
+      "Number of industries",
+      "Number of people per unit area",
+      "Income level",
+      "Birth rate only"
+    ],
+    "answer": "Number of people per unit area",
+    "explanation": "It measures how many people live in a given area."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "easy",
+    "question": "A key indicator of economic development is",
+    "options": [
+      "High literacy rate",
+      "High inflation",
+      "High unemployment",
+      "Low exports"
+    ],
+    "answer": "High literacy rate",
+    "explanation": "Education level is an important development indicator."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "medium",
+    "question": "Human development index (HDI) measures",
+    "options": [
+      "Only income",
+      "Income, education and life expectancy",
+      "Exports only",
+      "Population only"
+    ],
+    "answer": "Income, education and life expectancy",
+    "explanation": "HDI combines income, education, and health indicators."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Sector",
+    "difficulty": "easy",
+    "question": "Public enterprises are owned by",
+    "options": [
+      "Private individuals",
+      "Government",
+      "Foreigners",
+      "Farmers only"
+    ],
+    "answer": "Government",
+    "explanation": "Public enterprises are government-owned organizations."
+  },
+  {
+    "subject": "Economics",
+    "category": "Private Sector",
+    "difficulty": "medium",
+    "question": "Privatization means",
+    "options": [
+      "Government takes over private firms",
+      "Selling public enterprises to private individuals",
+      "Closing all firms",
+      "Increasing taxes"
+    ],
+    "answer": "Selling public enterprises to private individuals",
+    "explanation": "Privatization involves transferring ownership from government to private sector."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "easy",
+    "question": "Government expenditure refers to",
+    "options": [
+      "Money spent by individuals only",
+      "Money spent by the government on goods and services",
+      "Money saved in banks",
+      "Exports earnings only"
+    ],
+    "answer": "Money spent by the government on goods and services",
+    "explanation": "Government expenditure includes all spending by the government on public goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "medium",
+    "question": "A capital expenditure is spending on",
+    "options": [
+      "Salaries only",
+      "Long-term assets like roads and buildings",
+      "Daily food items",
+      "Imports only"
+    ],
+    "answer": "Long-term assets like roads and buildings",
+    "explanation": "Capital expenditure is spending on assets that last long and support development."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "medium",
+    "question": "Recurrent expenditure includes",
+    "options": [
+      "Road construction",
+      "Salaries and maintenance costs",
+      "Purchase of machinery only",
+      "Foreign investment"
+    ],
+    "answer": "Salaries and maintenance costs",
+    "explanation": "Recurrent expenditure refers to regular government spending like salaries and upkeep."
+  },
+  {
+    "subject": "Economics",
+    "category": "Fiscal Policy",
+    "difficulty": "easy",
+    "question": "Fiscal policy involves",
+    "options": [
+      "Control of money supply",
+      "Government taxation and spending",
+      "Foreign trade only",
+      "Bank lending only"
+    ],
+    "answer": "Government taxation and spending",
+    "explanation": "Fiscal policy deals with government revenue and expenditure decisions."
+  },
+  {
+    "subject": "Economics",
+    "category": "Monetary Policy",
+    "difficulty": "medium",
+    "question": "Monetary policy is controlled by",
+    "options": [
+      "Private firms",
+      "Central Bank",
+      "Farmers union",
+      "Schools"
+    ],
+    "answer": "Central Bank",
+    "explanation": "The Central Bank regulates money supply and interest rates."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Systems",
+    "difficulty": "easy",
+    "question": "In a command economy, decisions are made by",
+    "options": [
+      "Consumers",
+      "Government",
+      "Private firms",
+      "Foreign investors"
+    ],
+    "answer": "Government",
+    "explanation": "The government controls production and distribution in a command economy."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Systems",
+    "difficulty": "medium",
+    "question": "One disadvantage of a command economy is",
+    "options": [
+      "Efficient resource allocation",
+      "Lack of consumer choice",
+      "High competition",
+      "Too many private firms"
+    ],
+    "answer": "Lack of consumer choice",
+    "explanation": "Central planning often reduces consumer choice and efficiency."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structure",
+    "difficulty": "easy",
+    "question": "Monopolistic competition is characterized by",
+    "options": [
+      "One seller",
+      "Many sellers with differentiated products",
+      "No sellers",
+      "Government control only"
+    ],
+    "answer": "Many sellers with differentiated products",
+    "explanation": "Firms sell similar but differentiated products in monopolistic competition."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structure",
+    "difficulty": "medium",
+    "question": "Price discrimination occurs when a firm",
+    "options": [
+      "Sells at one price to all",
+      "Charges different prices to different customers",
+      "Refuses to sell",
+      "Reduces production"
+    ],
+    "answer": "Charges different prices to different customers",
+    "explanation": "Price discrimination means charging different prices for the same product."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Growth",
+    "difficulty": "easy",
+    "question": "An increase in GDP generally indicates",
+    "options": [
+      "Economic growth",
+      "Economic decline",
+      "Inflation only",
+      "Population decrease"
+    ],
+    "answer": "Economic growth",
+    "explanation": "Rising GDP usually shows economic growth."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Growth",
+    "difficulty": "medium",
+    "question": "Economic growth can best be measured by",
+    "options": [
+      "Increase in population",
+      "Increase in real GDP",
+      "Increase in imports",
+      "Increase in taxes"
+    ],
+    "answer": "Increase in real GDP",
+    "explanation": "Real GDP measures the actual increase in output adjusted for inflation."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Development",
+    "difficulty": "easy",
+    "question": "Economic development differs from economic growth because it includes",
+    "options": [
+      "Only GDP increase",
+      "Improvement in living standards",
+      "Only industrial output",
+      "Only exports"
+    ],
+    "answer": "Improvement in living standards",
+    "explanation": "Development includes health, education, and welfare improvements."
+  },
+  {
+    "subject": "Economics",
+    "category": "Foreign Aid",
+    "difficulty": "medium",
+    "question": "Foreign aid is mainly used to",
+    "options": [
+      "Increase military power",
+      "Support development projects",
+      "Reduce population",
+      "Increase inflation"
+    ],
+    "answer": "Support development projects",
+    "explanation": "Foreign aid helps developing countries fund development programs."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "easy",
+    "question": "Protectionism refers to",
+    "options": [
+      "Free trade",
+      "Policies that restrict imports",
+      "Unlimited exports",
+      "No trade activities"
+    ],
+    "answer": "Policies that restrict imports",
+    "explanation": "Protectionism includes tariffs and quotas to protect domestic industries."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "medium",
+    "question": "A tariff is a tax imposed on",
+    "options": [
+      "Income",
+      "Imports",
+      "Exports only",
+      "Savings"
+    ],
+    "answer": "Imports",
+    "explanation": "Tariffs are taxes placed on imported goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "medium",
+    "question": "A quota is",
+    "options": [
+      "A tax on income",
+      "A limit on quantity of imports",
+      "A subsidy",
+      "A type of currency"
+    ],
+    "answer": "A limit on quantity of imports",
+    "explanation": "A quota restricts the quantity of goods that can be imported."
+  },
+  {
+    "subject": "Economics",
+    "category": "Subsidy",
+    "difficulty": "easy",
+    "question": "A subsidy is",
+    "options": [
+      "A tax on producers",
+      "Financial support given by government to producers",
+      "A loan from banks",
+      "A fine on firms"
+    ],
+    "answer": "Financial support given by government to producers",
+    "explanation": "Subsidies reduce production costs and encourage production."
+  },
+  {
+    "subject": "Economics",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "One reason governments subsidize farmers is to",
+    "options": [
+      "Reduce food production",
+      "Increase food supply and reduce prices",
+      "Increase unemployment",
+      "Reduce exports"
+    ],
+    "answer": "Increase food supply and reduce prices",
+    "explanation": "Subsidies encourage higher agricultural output and affordability."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Indicators",
+    "difficulty": "easy",
+    "question": "Inflation rate measures",
+    "options": [
+      "Increase in population",
+      "Increase in general price level over time",
+      "Decrease in exports",
+      "Increase in savings"
+    ],
+    "answer": "Increase in general price level over time",
+    "explanation": "Inflation rate tracks how fast prices are rising."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Indicators",
+    "difficulty": "medium",
+    "question": "A high unemployment rate usually indicates",
+    "options": [
+      "Strong economy",
+      "Weak economy",
+      "No production",
+      "No population"
+    ],
+    "answer": "Weak economy",
+    "explanation": "High unemployment often signals economic weakness."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "easy",
+    "question": "A standing order in banking refers to",
+    "options": [
+      "A one-time cash withdrawal",
+      "Regular automatic payments instructed by a customer",
+      "A bank loan",
+      "Foreign exchange transfer only"
+    ],
+    "answer": "Regular automatic payments instructed by a customer",
+    "explanation": "A standing order allows automatic repeated payments at fixed intervals."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "medium",
+    "question": "A cheque becomes stale when it is not cashed within",
+    "options": [
+      "1 month",
+      "3 months",
+      "1 year",
+      "5 years"
+    ],
+    "answer": "3 months",
+    "explanation": "Cheques are usually considered stale after 3 months."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "easy",
+    "question": "Legal tender means",
+    "options": [
+      "Foreign currency",
+      "Money that must be accepted in payment of debts",
+      "Bank loans",
+      "Cheques only"
+    ],
+    "answer": "Money that must be accepted in payment of debts",
+    "explanation": "Legal tender is currency that must be accepted when offered as payment."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "medium",
+    "question": "One disadvantage of barter system is",
+    "options": [
+      "Easy exchange",
+      "Double coincidence of wants problem",
+      "Use of money",
+      "Price stability"
+    ],
+    "answer": "Double coincidence of wants problem",
+    "explanation": "Barter requires both parties to want what the other offers."
+  },
+  {
+    "subject": "Economics",
+    "category": "Employment",
+    "difficulty": "easy",
+    "question": "Disguised unemployment occurs when",
+    "options": [
+      "Workers are fully productive",
+      "More workers are employed than needed",
+      "No workers are available",
+      "Jobs are permanent"
+    ],
+    "answer": "More workers are employed than needed",
+    "explanation": "Some workers contribute little or nothing to output but remain employed."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Planning",
+    "difficulty": "medium",
+    "question": "Economic planning involves",
+    "options": [
+      "Random allocation of resources",
+      "Deliberate allocation of resources by government",
+      "Private speculation only",
+      "Foreign borrowing only"
+    ],
+    "answer": "Deliberate allocation of resources by government",
+    "explanation": "Planning is the conscious effort by government to allocate resources efficiently."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "easy",
+    "question": "A major goal of economic development is to",
+    "options": [
+      "Increase poverty",
+      "Improve living standards",
+      "Reduce education",
+      "Increase inflation"
+    ],
+    "answer": "Improve living standards",
+    "explanation": "Development aims at improving quality of life."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "medium",
+    "question": "Dumping occurs when a country",
+    "options": [
+      "Stops trading",
+      "Sells goods abroad at very low prices",
+      "Imports goods at high prices",
+      "Refuses exports"
+    ],
+    "answer": "Sells goods abroad at very low prices",
+    "explanation": "Dumping is selling goods in foreign markets below normal value."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Sector",
+    "difficulty": "easy",
+    "question": "Nationalization means",
+    "options": [
+      "Selling government firms to individuals",
+      "Government taking over private enterprises",
+      "Closing all businesses",
+      "Foreign ownership of firms"
+    ],
+    "answer": "Government taking over private enterprises",
+    "explanation": "Nationalization is transfer of private assets to government control."
+  },
+  {
+    "subject": "Economics",
+    "category": "General Economics",
+    "difficulty": "medium",
+    "question": "Economics helps individuals mainly to",
+    "options": [
+      "Avoid all work",
+      "Make rational choices with scarce resources",
+      "Eliminate scarcity",
+      "Stop production"
+    ],
+    "answer": "Make rational choices with scarce resources",
+    "explanation": "Economics teaches rational decision-making under scarcity."
+  }
+]

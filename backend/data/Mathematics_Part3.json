@@ -1,0 +1,752 @@
+[
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q101)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q102)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q103)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q104)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q105)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q106)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q107)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q108)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q109)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Trigonometry",
+    "question": "sin 90\u00b0 is: (Q110)",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": "1",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q111)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q112)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q113)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q114)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q115)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q116)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q117)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q118)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q119)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Probability",
+    "question": "Probability of getting a head in one fair coin toss is: (Q120)",
+    "options": [
+      "0",
+      "1/2",
+      "1/3",
+      "1"
+    ],
+    "answer": "1/2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q121)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q122)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q123)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q124)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q125)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q126)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q127)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q128)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q129)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Graphs",
+    "question": "The graph of y = c, where c is a constant, is: (Q130)",
+    "options": [
+      "Horizontal line",
+      "Vertical line",
+      "Circle",
+      "Parabola"
+    ],
+    "answer": "Horizontal line",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q131)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q132)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q133)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q134)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q135)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q136)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q137)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q138)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q139)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Logarithms",
+    "question": "log\u2081\u2080100 equals: (Q140)",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": "2",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q141)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q142)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q143)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q144)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q145)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q146)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q147)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q148)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q149)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Sets",
+    "question": "The symbol \u2229 means: (Q150)",
+    "options": [
+      "Union",
+      "Intersection",
+      "Subset",
+      "Complement"
+    ],
+    "answer": "Intersection",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  }
+]

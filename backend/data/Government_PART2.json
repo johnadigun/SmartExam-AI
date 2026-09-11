@@ -1,0 +1,661 @@
+[
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Easy",
+    "question": "A written constitution is one that",
+    "options": {
+      "A": "Is not documented",
+      "B": "Is formally written in a single document",
+      "C": "Changes daily",
+      "D": "Is based on customs only"
+    },
+    "answer": "B",
+    "explanation": "A written constitution is codified in a formal document."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Medium",
+    "question": "An unwritten constitution is mainly based on",
+    "options": {
+      "A": "Military orders",
+      "B": "Customs, conventions and court decisions",
+      "C": "Foreign laws only",
+      "D": "Religious texts"
+    },
+    "answer": "B",
+    "explanation": "Unwritten constitutions rely on traditions and precedents."
+  },
+  {
+    "subject": "Government",
+    "category": "Rule of Law",
+    "difficulty": "Easy",
+    "question": "One requirement of rule of law is",
+    "options": {
+      "A": "Arbitrary punishment",
+      "B": "Independent judiciary",
+      "C": "Military control",
+      "D": "No courts"
+    },
+    "answer": "B",
+    "explanation": "An independent judiciary ensures fairness in applying the law."
+  },
+  {
+    "subject": "Government",
+    "category": "Rule of Law",
+    "difficulty": "Medium",
+    "question": "Habeas corpus protects",
+    "options": {
+      "A": "Freedom of speech",
+      "B": "Freedom from unlawful detention",
+      "C": "Tax evasion",
+      "D": "Election fraud"
+    },
+    "answer": "B",
+    "explanation": "Habeas corpus ensures a person cannot be detained illegally."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Easy",
+    "question": "Dual citizenship means",
+    "options": {
+      "A": "No citizenship",
+      "B": "Being a citizen of two countries",
+      "C": "Only one country citizenship",
+      "D": "Loss of nationality"
+    },
+    "answer": "B",
+    "explanation": "Dual citizenship allows a person to belong to two countries."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Medium",
+    "question": "One way citizenship can be lost is through",
+    "options": {
+      "A": "Birth",
+      "B": "Renunciation",
+      "C": "Voting",
+      "D": "Marriage"
+    },
+    "answer": "B",
+    "explanation": "Citizens can voluntarily give up their citizenship."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Easy",
+    "question": "Indirect democracy is also called",
+    "options": {
+      "A": "Absolute monarchy",
+      "B": "Representative democracy",
+      "C": "Military rule",
+      "D": "Dictatorship"
+    },
+    "answer": "B",
+    "explanation": "Citizens elect representatives to make decisions for them."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Medium",
+    "question": "One disadvantage of democracy is",
+    "options": {
+      "A": "Too much participation",
+      "B": "Slow decision-making process",
+      "C": "No elections",
+      "D": "No constitution"
+    },
+    "answer": "B",
+    "explanation": "Democratic processes can be slow due to consultations."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Easy",
+    "question": "A one-party system means",
+    "options": {
+      "A": "Many parties exist",
+      "B": "Only one political party is allowed",
+      "C": "No elections",
+      "D": "Military rule"
+    },
+    "answer": "B",
+    "explanation": "Only one party dominates political power."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Medium",
+    "question": "One advantage of a multi-party system is",
+    "options": {
+      "A": "No competition",
+      "B": "More political choices for citizens",
+      "C": "No elections",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Citizens can choose from different political ideologies."
+  },
+  {
+    "subject": "Government",
+    "category": "Election",
+    "difficulty": "Easy",
+    "question": "Ballot box is used for",
+    "options": {
+      "A": "Storing money",
+      "B": "Casting votes",
+      "C": "Counting taxes",
+      "D": "Writing laws"
+    },
+    "answer": "B",
+    "explanation": "Voters drop their votes into a ballot box during elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Election",
+    "difficulty": "Medium",
+    "question": "Electoral fraud refers to",
+    "options": {
+      "A": "Free voting",
+      "B": "Manipulation of election process",
+      "C": "Voting peacefully",
+      "D": "Counting votes fairly"
+    },
+    "answer": "B",
+    "explanation": "Electoral fraud involves cheating in elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Easy",
+    "question": "One aim of pressure groups is to",
+    "options": {
+      "A": "Replace government",
+      "B": "Influence public policy",
+      "C": "Conduct elections",
+      "D": "Write constitution"
+    },
+    "answer": "B",
+    "explanation": "Pressure groups influence decisions without contesting elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Medium",
+    "question": "Trade unions mainly represent",
+    "options": {
+      "A": "Farmers",
+      "B": "Workers",
+      "C": "Politicians",
+      "D": "Judges"
+    },
+    "answer": "B",
+    "explanation": "Trade unions protect workers' rights and interests."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Administration",
+    "difficulty": "Easy",
+    "question": "Public administration refers to",
+    "options": {
+      "A": "Private business management",
+      "B": "Management of government affairs",
+      "C": "Religious leadership",
+      "D": "Sports management"
+    },
+    "answer": "B",
+    "explanation": "It involves running government activities and services."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Administration",
+    "difficulty": "Medium",
+    "question": "One function of public administration is",
+    "options": {
+      "A": "Making laws",
+      "B": "Implementing government policies",
+      "C": "Judging cases",
+      "D": "Running elections only"
+    },
+    "answer": "B",
+    "explanation": "Public administration ensures policies are carried out."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Easy",
+    "question": "One feature of local government is",
+    "options": {
+      "A": "Centralized power",
+      "B": "Grassroots participation",
+      "C": "Military control",
+      "D": "Foreign administration"
+    },
+    "answer": "B",
+    "explanation": "Local government allows citizen participation at community level."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Medium",
+    "question": "Local government councils are headed by",
+    "options": {
+      "A": "Chief Justice",
+      "B": "Chairmen or mayors",
+      "C": "President",
+      "D": "Army generals"
+    },
+    "answer": "B",
+    "explanation": "Local governments are led by elected chairmen or mayors."
+  },
+  {
+    "subject": "Government",
+    "category": "Federalism",
+    "difficulty": "Easy",
+    "question": "In a federal system, powers are",
+    "options": {
+      "A": "Concentrated in one body",
+      "B": "Shared between central and regional governments",
+      "C": "Held by military only",
+      "D": "Not defined"
+    },
+    "answer": "B",
+    "explanation": "Federal systems divide powers between different levels of government."
+  },
+  {
+    "subject": "Government",
+    "category": "Federalism",
+    "difficulty": "Medium",
+    "question": "One disadvantage of federalism is",
+    "options": {
+      "A": "Over-centralization",
+      "B": "Duplication of government functions",
+      "C": "No elections",
+      "D": "No constitution"
+    },
+    "answer": "B",
+    "explanation": "Federal systems may lead to overlapping responsibilities."
+  },
+  {
+    "subject": "Government",
+    "category": "Suffrage",
+    "difficulty": "Easy",
+    "question": "Limited suffrage means",
+    "options": {
+      "A": "Everyone votes",
+      "B": "Only certain people can vote",
+      "C": "No one votes",
+      "D": "Military votes only"
+    },
+    "answer": "B",
+    "explanation": "Voting is restricted to certain groups."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Medium",
+    "question": "Run-off election is conducted when",
+    "options": {
+      "A": "No candidate wins majority",
+      "B": "All candidates win",
+      "C": "No election is held",
+      "D": "Votes are invalid"
+    },
+    "answer": "A",
+    "explanation": "Run-off occurs when no candidate meets required majority."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Easy",
+    "question": "Civil servants are",
+    "options": {
+      "A": "Elected officials",
+      "B": "Permanent government employees",
+      "C": "Military officers",
+      "D": "Party leaders"
+    },
+    "answer": "B",
+    "explanation": "They are non-political permanent workers in government ministries."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Medium",
+    "question": "One advantage of civil service is",
+    "options": {
+      "A": "Political bias",
+      "B": "Continuity of government work",
+      "C": "Corruption always",
+      "D": "Instability"
+    },
+    "answer": "B",
+    "explanation": "Civil service ensures continuity regardless of government changes."
+  }
+,
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "Easy",
+    "question": "Liberal democracy emphasizes",
+    "options": {
+      "A": "Military rule",
+      "B": "Individual freedoms and rights",
+      "C": "One-party system",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Liberal democracy focuses on protecting individual rights and freedoms."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Ideology",
+    "difficulty": "Medium",
+    "question": "One feature of socialism is",
+    "options": {
+      "A": "Private ownership of all property",
+      "B": "Collective ownership of means of production",
+      "C": "No government involvement",
+      "D": "Unlimited competition"
+    },
+    "answer": "B",
+    "explanation": "Socialism supports public or collective ownership of major industries."
+  },
+  {
+    "subject": "Government",
+    "category": "Federalism",
+    "difficulty": "Easy",
+    "question": "Residual powers in a federal system belong to",
+    "options": {
+      "A": "Central government",
+      "B": "Regional/state governments",
+      "C": "Judiciary",
+      "D": "Military"
+    },
+    "answer": "B",
+    "explanation": "Residual powers are those not listed in the constitution and belong to states."
+  },
+  {
+    "subject": "Government",
+    "category": "Federalism",
+    "difficulty": "Medium",
+    "question": "Concurrent powers are exercised by",
+    "options": {
+      "A": "Only local government",
+      "B": "Both central and regional governments",
+      "C": "Only judiciary",
+      "D": "Only president"
+    },
+    "answer": "B",
+    "explanation": "Concurrent powers are shared between federal and state governments."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Easy",
+    "question": "One importance of a constitution is to",
+    "options": {
+      "A": "Promote confusion",
+      "B": "Limit government powers",
+      "C": "Remove elections",
+      "D": "Increase corruption"
+    },
+    "answer": "B",
+    "explanation": "A constitution controls and limits government authority."
+  },
+  {
+    "subject": "Government",
+    "category": "Constitution",
+    "difficulty": "Medium",
+    "question": "A flexible constitution can be",
+    "options": {
+      "A": "Changed easily",
+      "B": "Never changed",
+      "C": "Controlled by military only",
+      "D": "Unwritten only"
+    },
+    "answer": "A",
+    "explanation": "Flexible constitutions can be amended easily."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Easy",
+    "question": "Direct democracy means",
+    "options": {
+      "A": "People vote through representatives",
+      "B": "People make decisions themselves",
+      "C": "Military rule",
+      "D": "One-party rule"
+    },
+    "answer": "B",
+    "explanation": "Citizens directly participate in decision-making."
+  },
+  {
+    "subject": "Government",
+    "category": "Democracy",
+    "difficulty": "Medium",
+    "question": "One limitation of direct democracy is",
+    "options": {
+      "A": "Too simple",
+      "B": "Impractical in large populations",
+      "C": "Too fast",
+      "D": "No voting"
+    },
+    "answer": "B",
+    "explanation": "It is difficult to apply in large modern states."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Easy",
+    "question": "Secret ballot ensures",
+    "options": {
+      "A": "Public voting",
+      "B": "Voter privacy",
+      "C": "Military control",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Secret ballot protects voters from intimidation."
+  },
+  {
+    "subject": "Government",
+    "category": "Electoral System",
+    "difficulty": "Medium",
+    "question": "Gerrymandering refers to",
+    "options": {
+      "A": "Free voting",
+      "B": "Manipulation of electoral boundaries",
+      "C": "Counting votes fairly",
+      "D": "Voter registration"
+    },
+    "answer": "B",
+    "explanation": "It involves redrawing districts to favor a party."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Easy",
+    "question": "Deprivation of citizenship means",
+    "options": {
+      "A": "Gaining citizenship",
+      "B": "Loss of citizenship by law",
+      "C": "Voting rights",
+      "D": "Tax payment"
+    },
+    "answer": "B",
+    "explanation": "Citizenship can be withdrawn under certain conditions."
+  },
+  {
+    "subject": "Government",
+    "category": "Citizenship",
+    "difficulty": "Medium",
+    "question": "One cause of citizenship by birth is",
+    "options": {
+      "A": "Naturalization",
+      "B": "Jus soli principle",
+      "C": "Marriage",
+      "D": "Employment"
+    },
+    "answer": "B",
+    "explanation": "Jus soli means citizenship by place of birth."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Easy",
+    "question": "Pressure groups differ from political parties because they",
+    "options": {
+      "A": "Contest elections",
+      "B": "Do not seek political office",
+      "C": "Make laws",
+      "D": "Control courts"
+    },
+    "answer": "B",
+    "explanation": "Pressure groups influence policy without contesting elections."
+  },
+  {
+    "subject": "Government",
+    "category": "Pressure Group",
+    "difficulty": "Medium",
+    "question": "One method used by pressure groups is",
+    "options": {
+      "A": "War",
+      "B": "Lobbying",
+      "C": "Judging cases",
+      "D": "Taxation"
+    },
+    "answer": "B",
+    "explanation": "Lobbying is influencing government decisions directly."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Easy",
+    "question": "Political parties help to",
+    "options": {
+      "A": "Ban elections",
+      "B": "Aggregate public opinions",
+      "C": "Replace constitution",
+      "D": "Control judiciary"
+    },
+    "answer": "B",
+    "explanation": "They bring together citizens' views and present policies."
+  },
+  {
+    "subject": "Government",
+    "category": "Political Party",
+    "difficulty": "Medium",
+    "question": "Party manifesto is",
+    "options": {
+      "A": "Court judgment",
+      "B": "Party policy document",
+      "C": "Military order",
+      "D": "Tax law"
+    },
+    "answer": "B",
+    "explanation": "It contains promises and policies of a political party."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Easy",
+    "question": "One source of public opinion is",
+    "options": {
+      "A": "Courts",
+      "B": "Mass media",
+      "C": "Army",
+      "D": "Banks"
+    },
+    "answer": "B",
+    "explanation": "Media helps shape and express public opinion."
+  },
+  {
+    "subject": "Government",
+    "category": "Public Opinion",
+    "difficulty": "Medium",
+    "question": "Public opinion can influence",
+    "options": {
+      "A": "Weather",
+      "B": "Government policies",
+      "C": "Bank interest",
+      "D": "Geography"
+    },
+    "answer": "B",
+    "explanation": "Governments often adjust policies based on public views."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Easy",
+    "question": "One principle of civil service is",
+    "options": {
+      "A": "Corruption",
+      "B": "Anonymity",
+      "C": "Political bias",
+      "D": "Electioneering"
+    },
+    "answer": "B",
+    "explanation": "Civil servants work without public political recognition."
+  },
+  {
+    "subject": "Government",
+    "category": "Civil Service",
+    "difficulty": "Medium",
+    "question": "One problem facing civil service is",
+    "options": {
+      "A": "Efficiency",
+      "B": "Bureaucracy",
+      "C": "Transparency",
+      "D": "Neutrality"
+    },
+    "answer": "B",
+    "explanation": "Excess bureaucracy can slow down decision-making."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Easy",
+    "question": "Local governments are created to",
+    "options": {
+      "A": "Increase military power",
+      "B": "Bring government closer to people",
+      "C": "Replace federal government",
+      "D": "Control judiciary"
+    },
+    "answer": "B",
+    "explanation": "They improve grassroots participation."
+  },
+  {
+    "subject": "Government",
+    "category": "Local Government",
+    "difficulty": "Medium",
+    "question": "One limitation of local government is",
+    "options": {
+      "A": "Too much revenue",
+      "B": "Limited financial resources",
+      "C": "Too much power",
+      "D": "No elections"
+    },
+    "answer": "B",
+    "explanation": "Local governments often face funding constraints."
+  },
+  {
+    "subject": "Government",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "The main aim of government is",
+    "options": {
+      "A": "Personal enrichment",
+      "B": "Welfare of citizens",
+      "C": "Military expansion",
+      "D": "Trade restriction"
+    },
+    "answer": "B",
+    "explanation": "Government exists to promote the welfare and security of citizens."
+  }
+]

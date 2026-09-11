@@ -1,0 +1,208 @@
+[
+
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "Which reagent is commonly used to test for unsaturation in an organic compound?",
+    "options": {
+      "A": "Lime water",
+      "B": "Bromine water",
+      "C": "Sodium chloride solution",
+      "D": "Hydrochloric acid"
+    },
+    "answer": "B",
+    "explanation": "Bromine water is decolourized by unsaturated compounds such as alkenes."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Petroleum Chemistry",
+    "question": "Crude petroleum is separated into useful fractions mainly by",
+    "options": {
+      "A": "Simple distillation",
+      "B": "Fractional distillation",
+      "C": "Crystallization",
+      "D": "Filtration"
+    },
+    "answer": "B",
+    "explanation": "Fractional distillation separates petroleum fractions based on differences in boiling points."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Alcohols",
+    "question": "Which of the following is produced when ethanol reacts with sodium metal?",
+    "options": {
+      "A": "Hydrogen gas",
+      "B": "Carbon dioxide",
+      "C": "Chlorine gas",
+      "D": "Oxygen gas"
+    },
+    "answer": "A",
+    "explanation": "Ethanol reacts with sodium to form sodium ethoxide and hydrogen gas."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "question": "The IUPAC name of CH₃COOH is",
+    "options": {
+      "A": "Methanoic acid",
+      "B": "Ethanoic acid",
+      "C": "Propanoic acid",
+      "D": "Ethanol"
+    },
+    "answer": "B",
+    "explanation": "CH₃COOH is ethanoic acid, commonly known as acetic acid."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Polymers",
+    "question": "Polyethene is produced by the polymerization of",
+    "options": {
+      "A": "Ethane",
+      "B": "Ethene",
+      "C": "Ethyne",
+      "D": "Ethanol"
+    },
+    "answer": "B",
+    "explanation": "Ethene molecules undergo addition polymerization to form polyethene."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "Which hydrocarbon is the simplest alkene?",
+    "options": {
+      "A": "Methane",
+      "B": "Ethene",
+      "C": "Ethane",
+      "D": "Propane"
+    },
+    "answer": "B",
+    "explanation": "Ethene is the simplest alkene."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "The functional group of carboxylic acids is",
+    "options": {
+      "A": "-OH",
+      "B": "-CHO",
+      "C": "-COOH",
+      "D": "-NH₂"
+    },
+    "answer": "C",
+    "explanation": "Carboxylic acids contain the -COOH group."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Hydrocarbons",
+    "difficulty": "Medium",
+    "question": "Incomplete combustion of hydrocarbons produces",
+    "options": {
+      "A": "Carbon dioxide only",
+      "B": "Carbon monoxide and soot",
+      "C": "Hydrogen only",
+      "D": "Nitrogen gas"
+    },
+    "answer": "B",
+    "explanation": "Limited oxygen causes incomplete combustion."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Industrial Chemistry",
+    "difficulty": "Medium",
+    "question": "Catalytic cracking is used to",
+    "options": {
+      "A": "Produce heavier hydrocarbons",
+      "B": "Convert large hydrocarbons into smaller ones",
+      "C": "Purify water",
+      "D": "Produce oxygen"
+    },
+    "answer": "B",
+    "explanation": "Cracking breaks large hydrocarbon molecules into smaller useful ones."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "Which compound belongs to the alcohol family?",
+    "options": {
+      "A": "CH₃OH",
+      "B": "CH₄",
+      "C": "C₂H₄",
+      "D": "C₂H₂"
+    },
+    "answer": "A",
+    "explanation": "CH₃OH is methanol."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Addition reactions are characteristic of",
+    "options": {
+      "A": "Alkanes",
+      "B": "Alkenes",
+      "C": "Alcohols",
+      "D": "Esters"
+    },
+    "answer": "B",
+    "explanation": "Alkenes undergo addition reactions because of the C=C bond."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Polymers",
+    "difficulty": "Medium",
+    "question": "PVC is produced from the polymerization of",
+    "options": {
+      "A": "Ethene",
+      "B": "Vinyl chloride",
+      "C": "Methane",
+      "D": "Propene"
+    },
+    "answer": "B",
+    "explanation": "PVC is polyvinyl chloride."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "The homologous series of compounds containing only single carbon-carbon bonds is",
+    "options": {
+      "A": "Alkenes",
+      "B": "Alkynes",
+      "C": "Alkanes",
+      "D": "Arenes"
+    },
+    "answer": "C",
+    "explanation": "Alkanes are saturated hydrocarbons."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Petroleum Chemistry",
+    "difficulty": "Medium",
+    "question": "The main constituent of natural gas is",
+    "options": {
+      "A": "Ethene",
+      "B": "Methane",
+      "C": "Propane",
+      "D": "Butane"
+    },
+    "answer": "B",
+    "explanation": "Natural gas consists mainly of methane."
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "The process by which alcohol is converted to ethanoic acid is",
+    "options": {
+      "A": "Reduction",
+      "B": "Oxidation",
+      "C": "Polymerization",
+      "D": "Hydrogenation"
+    },
+    "answer": "B",
+    "explanation": "Alcohols are oxidized to carboxylic acids."
+  }
+]

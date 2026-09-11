@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Accounting Cycle",
+    "difficulty": "medium",
+    "question": "The accounting cycle ends with",
+    "options": [
+      "Preparation of financial statements",
+      "Recording invoices",
+      "Opening a bank account",
+      "Hiring staff"
+    ],
+    "answer": "Preparation of financial statements",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Journals",
+    "difficulty": "medium",
+    "question": "Credit purchases are first recorded in",
+    "options": [
+      "Purchases Day Book",
+      "Sales Day Book",
+      "Cash Book",
+      "Ledger"
+    ],
+    "answer": "Purchases Day Book",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Journals",
+    "difficulty": "medium",
+    "question": "Credit sales are recorded in",
+    "options": [
+      "Sales Day Book",
+      "Purchases Day Book",
+      "Journal Proper only",
+      "Cash Book"
+    ],
+    "answer": "Sales Day Book",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Returns",
+    "difficulty": "medium",
+    "question": "Returns inward means",
+    "options": [
+      "Goods returned by customers",
+      "Goods returned to suppliers",
+      "Cash refunds",
+      "Bad debts"
+    ],
+    "answer": "Goods returned by customers",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Returns",
+    "difficulty": "medium",
+    "question": "Returns outward means",
+    "options": [
+      "Goods returned to suppliers",
+      "Goods returned by customers",
+      "Cash sales",
+      "Discounts"
+    ],
+    "answer": "Goods returned to suppliers",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash",
+    "difficulty": "medium",
+    "question": "Petty cash is used for",
+    "options": [
+      "Small routine expenses",
+      "Buying fixed assets",
+      "Paying dividends",
+      "Bank loans"
+    ],
+    "answer": "Small routine expenses",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank",
+    "difficulty": "medium",
+    "question": "A bank overdraft is",
+    "options": [
+      "A liability",
+      "An asset",
+      "Capital",
+      "Income"
+    ],
+    "answer": "A liability",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Discount",
+    "difficulty": "medium",
+    "question": "Cash discount encourages",
+    "options": [
+      "Prompt payment",
+      "Late payment",
+      "Higher taxes",
+      "More borrowing"
+    ],
+    "answer": "Prompt payment",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ledger",
+    "difficulty": "medium",
+    "question": "Posting means",
+    "options": [
+      "Transferring entries to ledger accounts",
+      "Preparing invoices",
+      "Counting stock",
+      "Auditing"
+    ],
+    "answer": "Transferring entries to ledger accounts",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Trial Balance",
+    "difficulty": "medium",
+    "question": "A balanced trial balance does not guarantee",
+    "options": [
+      "Absence of all errors",
+      "Correct addition",
+      "Equal debits and credits",
+      "Ledger posting"
+    ],
+    "answer": "Absence of all errors",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "Compensating errors",
+    "options": [
+      "Cancel each other's effect",
+      "Always affect one account",
+      "Prevent balancing",
+      "Occur only in cash book"
+    ],
+    "answer": "Cancel each other's effect",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Depreciation",
+    "difficulty": "medium",
+    "question": "Straight-line depreciation charges",
+    "options": [
+      "Equal amount each year",
+      "Increasing amount",
+      "No depreciation",
+      "Random amounts"
+    ],
+    "answer": "Equal amount each year",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Opening stock is",
+    "options": [
+      "Stock at beginning of period",
+      "Stock at year end",
+      "Damaged stock",
+      "Returned goods"
+    ],
+    "answer": "Stock at beginning of period",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Capital",
+    "difficulty": "medium",
+    "question": "Drawings reduce",
+    "options": [
+      "Owner's capital",
+      "Liabilities",
+      "Revenue",
+      "Sales"
+    ],
+    "answer": "Owner's capital",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Interest on capital is",
+    "options": [
+      "An appropriation of profit",
+      "An expense",
+      "A liability",
+      "An asset"
+    ],
+    "answer": "An appropriation of profit",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The trading account determines",
+    "options": [
+      "Gross profit",
+      "Net profit",
+      "Capital",
+      "Cash"
+    ],
+    "answer": "Gross profit",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "The profit and loss account determines",
+    "options": [
+      "Net profit",
+      "Gross profit",
+      "Sales",
+      "Purchases"
+    ],
+    "answer": "Net profit",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Balance Sheet",
+    "difficulty": "medium",
+    "question": "A balance sheet shows",
+    "options": [
+      "Financial position",
+      "Daily cash receipts",
+      "Sales only",
+      "Expenses only"
+    ],
+    "answer": "Financial position",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Current Assets",
+    "difficulty": "medium",
+    "question": "Debtors are",
+    "options": [
+      "Current assets",
+      "Current liabilities",
+      "Fixed assets",
+      "Expenses"
+    ],
+    "answer": "Current assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Current Liabilities",
+    "difficulty": "medium",
+    "question": "Creditors are",
+    "options": [
+      "Current liabilities",
+      "Assets",
+      "Capital",
+      "Revenue"
+    ],
+    "answer": "Current liabilities",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank Reconciliation",
+    "difficulty": "medium",
+    "question": "An unpresented cheque has been",
+    "options": [
+      "Issued but not yet paid by bank",
+      "Deposited",
+      "Cancelled",
+      "Lost"
+    ],
+    "answer": "Issued but not yet paid by bank",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Control Accounts",
+    "difficulty": "medium",
+    "question": "Creditors control account summarizes",
+    "options": [
+      "Payables",
+      "Receivables",
+      "Cash",
+      "Sales"
+    ],
+    "answer": "Payables",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Principles",
+    "difficulty": "medium",
+    "question": "Consistency means",
+    "options": [
+      "Using same accounting methods over time",
+      "Changing methods yearly",
+      "Ignoring standards",
+      "Recording twice"
+    ],
+    "answer": "Using same accounting methods over time",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Principles",
+    "difficulty": "medium",
+    "question": "Materiality requires",
+    "options": [
+      "Important items to be disclosed",
+      "Ignoring all expenses",
+      "Recording estimates only",
+      "Avoiding journals"
+    ],
+    "answer": "Important items to be disclosed",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Users",
+    "difficulty": "medium",
+    "question": "Managers use accounting information for",
+    "options": [
+      "Planning and decision making",
+      "Entertainment",
+      "Advertising only",
+      "Weather forecasting"
+    ],
+    "answer": "Planning and decision making",
+    "explanation": "Standard accounting principle."
+  }
+]

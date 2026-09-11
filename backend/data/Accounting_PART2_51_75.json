@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Subsidiary Books",
+    "difficulty": "medium",
+    "question": "The Purchases Day Book records",
+    "options": [
+      "Credit purchases of goods",
+      "Cash purchases",
+      "Credit sales",
+      "Cash sales"
+    ],
+    "answer": "Credit purchases of goods",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Subsidiary Books",
+    "difficulty": "medium",
+    "question": "The Sales Day Book records",
+    "options": [
+      "Credit sales of goods",
+      "Cash sales",
+      "Purchases",
+      "Returns"
+    ],
+    "answer": "Credit sales of goods",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Control Accounts",
+    "difficulty": "medium",
+    "question": "The purpose of a debtors control account is to",
+    "options": [
+      "Summarize receivables",
+      "Summarize cash",
+      "Record fixed assets",
+      "Calculate depreciation"
+    ],
+    "answer": "Summarize receivables",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Control Accounts",
+    "difficulty": "medium",
+    "question": "A creditors control account summarizes",
+    "options": [
+      "Amounts owed to suppliers",
+      "Cash receipts",
+      "Sales",
+      "Capital"
+    ],
+    "answer": "Amounts owed to suppliers",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Depreciation",
+    "difficulty": "medium",
+    "question": "The reducing balance method charges",
+    "options": [
+      "Higher depreciation in early years",
+      "Equal depreciation yearly",
+      "No depreciation",
+      "Random depreciation"
+    ],
+    "answer": "Higher depreciation in early years",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Depreciation",
+    "difficulty": "medium",
+    "question": "Accumulated depreciation is shown as",
+    "options": [
+      "A deduction from the asset",
+      "Current asset",
+      "Revenue",
+      "Expense"
+    ],
+    "answer": "A deduction from the asset",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank Reconciliation",
+    "difficulty": "medium",
+    "question": "A bank charge appears first in the",
+    "options": [
+      "Bank statement",
+      "Sales day book",
+      "Purchases book",
+      "Ledger only"
+    ],
+    "answer": "Bank statement",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank Reconciliation",
+    "difficulty": "medium",
+    "question": "An outstanding lodgement is",
+    "options": [
+      "Money paid into bank but not yet credited",
+      "Cash theft",
+      "Dishonoured cheque",
+      "Loan"
+    ],
+    "answer": "Money paid into bank but not yet credited",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Carriage inward is included in",
+    "options": [
+      "Cost of goods sold",
+      "Operating expenses",
+      "Capital",
+      "Drawings"
+    ],
+    "answer": "Cost of goods sold",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Carriage outward is treated as",
+    "options": [
+      "Selling expense",
+      "Direct material",
+      "Asset",
+      "Capital"
+    ],
+    "answer": "Selling expense",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Interest on drawings is",
+    "options": [
+      "Income to the partnership",
+      "An asset",
+      "A liability",
+      "A purchase"
+    ],
+    "answer": "Income to the partnership",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Salary paid to a partner is usually",
+    "options": [
+      "An appropriation of profit",
+      "A trade expense",
+      "A liability",
+      "A fixed asset"
+    ],
+    "answer": "An appropriation of profit",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Prime cost equals",
+    "options": [
+      "Direct materials + direct labour + direct expenses",
+      "Sales - purchases",
+      "Assets - liabilities",
+      "Gross profit"
+    ],
+    "answer": "Direct materials + direct labour + direct expenses",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Manufacturing",
+    "difficulty": "medium",
+    "question": "Factory overhead is",
+    "options": [
+      "Indirect manufacturing cost",
+      "Direct material",
+      "Selling expense",
+      "Capital"
+    ],
+    "answer": "Indirect manufacturing cost",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "A suspense account is opened when",
+    "options": [
+      "Trial balance disagrees",
+      "Cash is stolen",
+      "Profit rises",
+      "Stock increases"
+    ],
+    "answer": "Trial balance disagrees",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "Error of commission involves",
+    "options": [
+      "Posting to wrong account of same class",
+      "Ignoring a transaction",
+      "Wrong principle",
+      "Double entry omitted"
+    ],
+    "answer": "Posting to wrong account of same class",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Capital vs Revenue",
+    "difficulty": "medium",
+    "question": "Purchase of machinery is",
+    "options": [
+      "Capital expenditure",
+      "Revenue expenditure",
+      "Income",
+      "Liability"
+    ],
+    "answer": "Capital expenditure",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Capital vs Revenue",
+    "difficulty": "medium",
+    "question": "Repairs to office equipment are",
+    "options": [
+      "Revenue expenditure",
+      "Capital expenditure",
+      "Asset",
+      "Drawing"
+    ],
+    "answer": "Revenue expenditure",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "FIFO means",
+    "options": [
+      "First In First Out",
+      "Final Inventory First Out",
+      "Fixed Item Flow Out",
+      "First Item Final Order"
+    ],
+    "answer": "First In First Out",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Stock valuation follows",
+    "options": [
+      "Lower of cost and net realizable value",
+      "Selling price only",
+      "Highest cost",
+      "Average sales"
+    ],
+    "answer": "Lower of cost and net realizable value",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Current ratio measures",
+    "options": [
+      "Short-term liquidity",
+      "Profitability",
+      "Efficiency",
+      "Market price"
+    ],
+    "answer": "Short-term liquidity",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Gross profit margin is based on",
+    "options": [
+      "Gross profit and sales",
+      "Net profit and assets",
+      "Cash only",
+      "Capital only"
+    ],
+    "answer": "Gross profit and sales",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Dividend is paid to",
+    "options": [
+      "Shareholders",
+      "Creditors",
+      "Employees",
+      "Customers"
+    ],
+    "answer": "Shareholders",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Ordinary shareholders are the",
+    "options": [
+      "Owners of the company",
+      "Suppliers",
+      "Managers",
+      "Auditors"
+    ],
+    "answer": "Owners of the company",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "An auditor's independence helps ensure",
+    "options": [
+      "Objective reporting",
+      "Higher sales",
+      "Lower taxes",
+      "More borrowing"
+    ],
+    "answer": "Objective reporting",
+    "explanation": "Standard accounting concept."
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Geomorphology",
+    "difficulty": "medium",
+    "question": "A delta is formed where",
+    "options": [
+      "A river deposits sediments at its mouth",
+      "A glacier melts",
+      "A volcano erupts",
+      "Wind erodes rocks"
+    ],
+    "answer": "A river deposits sediments at its mouth",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "The ozone layer protects Earth from",
+    "options": [
+      "Harmful ultraviolet radiation",
+      "Earthquakes",
+      "Floods",
+      "Acid rain"
+    ],
+    "answer": "Harmful ultraviolet radiation",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map Reading",
+    "difficulty": "medium",
+    "question": "North on most maps is found at the",
+    "options": [
+      "Top",
+      "Bottom",
+      "Left",
+      "Right"
+    ],
+    "answer": "Top",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Settlement",
+    "difficulty": "medium",
+    "question": "A conurbation is",
+    "options": [
+      "A large built-up area formed by merging towns",
+      "An isolated village",
+      "A mining camp",
+      "A farm"
+    ],
+    "answer": "A large built-up area formed by merging towns",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "Irrigation is practiced mainly to",
+    "options": [
+      "Supply water to crops",
+      "Reduce sunshine",
+      "Increase wind",
+      "Prevent harvesting"
+    ],
+    "answer": "Supply water to crops",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Resources",
+    "difficulty": "medium",
+    "question": "Coal is classified as",
+    "options": [
+      "A non-renewable resource",
+      "A renewable resource",
+      "An inexhaustible resource",
+      "A forest product"
+    ],
+    "answer": "A non-renewable resource",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Transport",
+    "difficulty": "medium",
+    "question": "Rail transport is most suitable for",
+    "options": [
+      "Heavy and bulky goods",
+      "Emergency air rescue",
+      "Fishing",
+      "Mail only"
+    ],
+    "answer": "Heavy and bulky goods",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Industry",
+    "difficulty": "medium",
+    "question": "Location of industries depends largely on",
+    "options": [
+      "Raw materials and markets",
+      "Moon phases",
+      "Earthquakes only",
+      "Volcanoes"
+    ],
+    "answer": "Raw materials and markets",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Population",
+    "difficulty": "medium",
+    "question": "Census is",
+    "options": [
+      "An official population count",
+      "A weather forecast",
+      "A land survey",
+      "A tax"
+    ],
+    "answer": "An official population count",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Environment",
+    "difficulty": "medium",
+    "question": "Afforestation means",
+    "options": [
+      "Planting trees",
+      "Cutting forests",
+      "Mining",
+      "Building roads"
+    ],
+    "answer": "Planting trees",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical",
+    "difficulty": "medium",
+    "question": "An island is",
+    "options": [
+      "Land surrounded by water",
+      "Water surrounded by land",
+      "A mountain",
+      "A valley"
+    ],
+    "answer": "Land surrounded by water",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Oceanography",
+    "difficulty": "medium",
+    "question": "High tide is mainly caused by",
+    "options": [
+      "Gravitational pull of the Moon",
+      "Wind alone",
+      "Earthquakes",
+      "Rainfall"
+    ],
+    "answer": "Gravitational pull of the Moon",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "The driest biome is",
+    "options": [
+      "Desert",
+      "Rainforest",
+      "Savanna",
+      "Tundra"
+    ],
+    "answer": "Desert",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map",
+    "difficulty": "medium",
+    "question": "Bearing is measured in",
+    "options": [
+      "Degrees",
+      "Metres",
+      "Kilometres",
+      "Litres"
+    ],
+    "answer": "Degrees",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic",
+    "difficulty": "medium",
+    "question": "Exports are goods",
+    "options": [
+      "Sold to other countries",
+      "Bought from abroad",
+      "Stored",
+      "Destroyed"
+    ],
+    "answer": "Sold to other countries",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Human",
+    "difficulty": "medium",
+    "question": "Life expectancy refers to",
+    "options": [
+      "Average years a person is expected to live",
+      "Birth rate",
+      "Death rate",
+      "Migration"
+    ],
+    "answer": "Average years a person is expected to live",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Relief",
+    "difficulty": "medium",
+    "question": "A plateau is",
+    "options": [
+      "An elevated flat land",
+      "A deep valley",
+      "A river",
+      "A beach"
+    ],
+    "answer": "An elevated flat land",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Weather",
+    "difficulty": "medium",
+    "question": "A barometer measures",
+    "options": [
+      "Air pressure",
+      "Temperature",
+      "Humidity",
+      "Rainfall"
+    ],
+    "answer": "Air pressure",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "Terracing helps to reduce",
+    "options": [
+      "Soil erosion",
+      "Rainfall",
+      "Sunlight",
+      "Humidity"
+    ],
+    "answer": "Soil erosion",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Resources",
+    "difficulty": "medium",
+    "question": "Petroleum is refined into",
+    "options": [
+      "Fuel products",
+      "Timber",
+      "Cement",
+      "Glass"
+    ],
+    "answer": "Fuel products",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Urban",
+    "difficulty": "medium",
+    "question": "Urban sprawl means",
+    "options": [
+      "Expansion of cities into surrounding areas",
+      "Decline of cities",
+      "Village relocation",
+      "Mountain growth"
+    ],
+    "answer": "Expansion of cities into surrounding areas",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map",
+    "difficulty": "medium",
+    "question": "An atlas is",
+    "options": [
+      "A collection of maps",
+      "A weather chart",
+      "A globe",
+      "A census report"
+    ],
+    "answer": "A collection of maps",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Hydrology",
+    "difficulty": "medium",
+    "question": "Groundwater is stored in",
+    "options": [
+      "Aquifers",
+      "Clouds",
+      "Rivers",
+      "Glaciers"
+    ],
+    "answer": "Aquifers",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Environment",
+    "difficulty": "medium",
+    "question": "Recycling helps to",
+    "options": [
+      "Reduce waste",
+      "Increase pollution",
+      "Destroy forests",
+      "Cause erosion"
+    ],
+    "answer": "Reduce waste",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "The study of the relationship between people and their environment is",
+    "options": [
+      "Geography",
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ],
+    "answer": "Geography",
+    "explanation": "Standard geography concept."
+  }
+]

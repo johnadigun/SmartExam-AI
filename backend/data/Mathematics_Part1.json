@@ -1,0 +1,752 @@
+[
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 6 + 3 = ?",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 7 + 4 = ?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 8 + 5 = ?",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 9 + 6 = ?",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 10 + 7 = ?",
+    "options": [
+      "17",
+      "18",
+      "16",
+      "19"
+    ],
+    "answer": "17",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 11 + 8 = ?",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "21"
+    ],
+    "answer": "19",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 12 + 9 = ?",
+    "options": [
+      "21",
+      "22",
+      "20",
+      "23"
+    ],
+    "answer": "21",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 13 + 10 = ?",
+    "options": [
+      "23",
+      "24",
+      "22",
+      "25"
+    ],
+    "answer": "23",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 14 + 2 = ?",
+    "options": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "answer": "16",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 15 + 3 = ?",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "answer": "18",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 16 + 4 = ?",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "answer": "20",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 17 + 5 = ?",
+    "options": [
+      "22",
+      "23",
+      "21",
+      "24"
+    ],
+    "answer": "22",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 18 + 6 = ?",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "26"
+    ],
+    "answer": "24",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 19 + 7 = ?",
+    "options": [
+      "26",
+      "27",
+      "25",
+      "28"
+    ],
+    "answer": "26",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 20 + 8 = ?",
+    "options": [
+      "28",
+      "29",
+      "27",
+      "30"
+    ],
+    "answer": "28",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 21 + 9 = ?",
+    "options": [
+      "30",
+      "31",
+      "29",
+      "32"
+    ],
+    "answer": "30",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 22 + 10 = ?",
+    "options": [
+      "32",
+      "33",
+      "31",
+      "34"
+    ],
+    "answer": "32",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 23 + 2 = ?",
+    "options": [
+      "25",
+      "26",
+      "24",
+      "27"
+    ],
+    "answer": "25",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 24 + 3 = ?",
+    "options": [
+      "27",
+      "28",
+      "26",
+      "29"
+    ],
+    "answer": "27",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 25 + 4 = ?",
+    "options": [
+      "29",
+      "30",
+      "28",
+      "31"
+    ],
+    "answer": "29",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 26 + 5 = ?",
+    "options": [
+      "31",
+      "32",
+      "30",
+      "33"
+    ],
+    "answer": "31",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 27 + 6 = ?",
+    "options": [
+      "33",
+      "34",
+      "32",
+      "35"
+    ],
+    "answer": "33",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 28 + 7 = ?",
+    "options": [
+      "35",
+      "36",
+      "34",
+      "37"
+    ],
+    "answer": "35",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 29 + 8 = ?",
+    "options": [
+      "37",
+      "38",
+      "36",
+      "39"
+    ],
+    "answer": "37",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 30 + 9 = ?",
+    "options": [
+      "39",
+      "40",
+      "38",
+      "41"
+    ],
+    "answer": "39",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 31 + 10 = ?",
+    "options": [
+      "41",
+      "42",
+      "40",
+      "43"
+    ],
+    "answer": "41",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 32 + 2 = ?",
+    "options": [
+      "34",
+      "35",
+      "33",
+      "36"
+    ],
+    "answer": "34",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 33 + 3 = ?",
+    "options": [
+      "36",
+      "37",
+      "35",
+      "38"
+    ],
+    "answer": "36",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 34 + 4 = ?",
+    "options": [
+      "38",
+      "39",
+      "37",
+      "40"
+    ],
+    "answer": "38",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 35 + 5 = ?",
+    "options": [
+      "40",
+      "41",
+      "39",
+      "42"
+    ],
+    "answer": "40",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 36 + 6 = ?",
+    "options": [
+      "42",
+      "43",
+      "41",
+      "44"
+    ],
+    "answer": "42",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 37 + 7 = ?",
+    "options": [
+      "44",
+      "45",
+      "43",
+      "46"
+    ],
+    "answer": "44",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 38 + 8 = ?",
+    "options": [
+      "46",
+      "47",
+      "45",
+      "48"
+    ],
+    "answer": "46",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 39 + 9 = ?",
+    "options": [
+      "48",
+      "49",
+      "47",
+      "50"
+    ],
+    "answer": "48",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 40 + 10 = ?",
+    "options": [
+      "50",
+      "51",
+      "49",
+      "52"
+    ],
+    "answer": "50",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 41 + 2 = ?",
+    "options": [
+      "43",
+      "44",
+      "42",
+      "45"
+    ],
+    "answer": "43",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 42 + 3 = ?",
+    "options": [
+      "45",
+      "46",
+      "44",
+      "47"
+    ],
+    "answer": "45",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 43 + 4 = ?",
+    "options": [
+      "47",
+      "48",
+      "46",
+      "49"
+    ],
+    "answer": "47",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 44 + 5 = ?",
+    "options": [
+      "49",
+      "50",
+      "48",
+      "51"
+    ],
+    "answer": "49",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 45 + 6 = ?",
+    "options": [
+      "51",
+      "52",
+      "50",
+      "53"
+    ],
+    "answer": "51",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 46 + 7 = ?",
+    "options": [
+      "53",
+      "54",
+      "52",
+      "55"
+    ],
+    "answer": "53",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 47 + 8 = ?",
+    "options": [
+      "55",
+      "56",
+      "54",
+      "57"
+    ],
+    "answer": "55",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 48 + 9 = ?",
+    "options": [
+      "57",
+      "58",
+      "56",
+      "59"
+    ],
+    "answer": "57",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 49 + 10 = ?",
+    "options": [
+      "59",
+      "60",
+      "58",
+      "61"
+    ],
+    "answer": "59",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 50 + 2 = ?",
+    "options": [
+      "52",
+      "53",
+      "51",
+      "54"
+    ],
+    "answer": "52",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 51 + 3 = ?",
+    "options": [
+      "54",
+      "55",
+      "53",
+      "56"
+    ],
+    "answer": "54",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 52 + 4 = ?",
+    "options": [
+      "56",
+      "57",
+      "55",
+      "58"
+    ],
+    "answer": "56",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 53 + 5 = ?",
+    "options": [
+      "58",
+      "59",
+      "57",
+      "60"
+    ],
+    "answer": "58",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 54 + 6 = ?",
+    "options": [
+      "60",
+      "61",
+      "59",
+      "62"
+    ],
+    "answer": "60",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Mathematics",
+    "category": "Arithmetic",
+    "question": "Evaluate: 55 + 7 = ?",
+    "options": [
+      "62",
+      "63",
+      "61",
+      "64"
+    ],
+    "answer": "62",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  }
+]

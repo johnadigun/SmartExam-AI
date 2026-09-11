@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "International trade refers to",
+    "options": {
+      "A": "Trade within a country",
+      "B": "Trade between countries",
+      "C": "Trade within a town",
+      "D": "Trade in villages only"
+    },
+    "answer": "B",
+    "explanation": "International trade involves exchange of goods and services between countries."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "One barrier to international trade is",
+    "options": {
+      "A": "Free trade",
+      "B": "Tariffs",
+      "C": "Population",
+      "D": "Education"
+    },
+    "answer": "B",
+    "explanation": "Tariffs are taxes on imports that restrict trade."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "A bank draft is",
+    "options": {
+      "A": "A cheque book",
+      "B": "A written order issued by a bank to pay money",
+      "C": "A loan agreement",
+      "D": "A deposit slip"
+    },
+    "answer": "B",
+    "explanation": "A bank draft is a guaranteed payment issued by a bank."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One function of microfinance banks is",
+    "options": {
+      "A": "Printing money",
+      "B": "Providing small loans",
+      "C": "Making laws",
+      "D": "Judging cases"
+    },
+    "answer": "B",
+    "explanation": "Microfinance banks provide credit to small businesses."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Money is a medium of",
+    "options": {
+      "A": "Production",
+      "B": "Exchange",
+      "C": "Transport",
+      "D": "Communication"
+    },
+    "answer": "B",
+    "explanation": "Money facilitates exchange of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "Inflation means",
+    "options": {
+      "A": "Decrease in prices",
+      "B": "Increase in general price level",
+      "C": "No change in prices",
+      "D": "Increase in population"
+    },
+    "answer": "B",
+    "explanation": "Inflation is a sustained rise in prices."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Road transport is most suitable for",
+    "options": {
+      "A": "Very heavy cargo across oceans",
+      "B": "Short distances",
+      "C": "Air travel",
+      "D": "Space travel"
+    },
+    "answer": "B",
+    "explanation": "Road transport is best for short-distance movement."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One disadvantage of sea transport is",
+    "options": {
+      "A": "Low cost",
+      "B": "Slow speed",
+      "C": "High capacity",
+      "D": "Safety"
+    },
+    "answer": "B",
+    "explanation": "Sea transport is slow compared to other means."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "Life insurance policy covers",
+    "options": {
+      "A": "Goods",
+      "B": "Human life",
+      "C": "Buildings only",
+      "D": "Vehicles only"
+    },
+    "answer": "B",
+    "explanation": "Life insurance protects against loss of life."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "One principle of insurance is",
+    "options": {
+      "A": "Speculation",
+      "B": "Utmost good faith",
+      "C": "Fraud",
+      "D": "Profit maximization"
+    },
+    "answer": "B",
+    "explanation": "Insurance contracts require honesty from both parties."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One example of communication media is",
+    "options": {
+      "A": "Road",
+      "B": "Newspaper",
+      "C": "Farm",
+      "D": "Factory"
+    },
+    "answer": "B",
+    "explanation": "Newspapers are print media for communication."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One advantage of email is",
+    "options": {
+      "A": "Slow delivery",
+      "B": "Instant communication",
+      "C": "High cost",
+      "D": "Limited access"
+    },
+    "answer": "B",
+    "explanation": "Email allows fast exchange of messages."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "Warehousing helps in",
+    "options": {
+      "A": "Production",
+      "B": "Storage of goods",
+      "C": "Tax collection",
+      "D": "Law enforcement"
+    },
+    "answer": "B",
+    "explanation": "Warehousing stores goods until needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "One benefit of warehousing is",
+    "options": {
+      "A": "Goods spoil faster",
+      "B": "Price stabilization",
+      "C": "Reduced trade",
+      "D": "Increased loss"
+    },
+    "answer": "B",
+    "explanation": "Warehousing helps stabilize supply and prices."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "Marketing involves",
+    "options": {
+      "A": "Only production",
+      "B": "Identifying and satisfying needs",
+      "C": "Only storage",
+      "D": "Only transport"
+    },
+    "answer": "B",
+    "explanation": "Marketing focuses on satisfying customer needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "One function of marketing is",
+    "options": {
+      "A": "Law enforcement",
+      "B": "Distribution of goods",
+      "C": "Judging cases",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Marketing ensures goods reach consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "Advertising helps to",
+    "options": {
+      "A": "Reduce awareness",
+      "B": "Promote goods",
+      "C": "Stop production",
+      "D": "Reduce demand"
+    },
+    "answer": "B",
+    "explanation": "Advertising promotes products and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One disadvantage of advertising is",
+    "options": {
+      "A": "Increases demand",
+      "B": "Can mislead consumers",
+      "C": "Improves sales",
+      "D": "Creates awareness"
+    },
+    "answer": "B",
+    "explanation": "Some adverts may be misleading."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A partnership involves",
+    "options": {
+      "A": "One owner",
+      "B": "Two or more owners",
+      "C": "Government only",
+      "D": "No owner"
+    },
+    "answer": "B",
+    "explanation": "Partnership is owned by two or more persons."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One disadvantage of partnership is",
+    "options": {
+      "A": "Easy decision making",
+      "B": "Disagreement among partners",
+      "C": "More capital",
+      "D": "Shared risk"
+    },
+    "answer": "B",
+    "explanation": "Partners may disagree on business decisions."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "One factor affecting business is",
+    "options": {
+      "A": "Weather only",
+      "B": "Economic conditions",
+      "C": "Sports",
+      "D": "Music"
+    },
+    "answer": "B",
+    "explanation": "Economic conditions influence business activities."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Inflation affects business by",
+    "options": {
+      "A": "Reducing prices always",
+      "B": "Increasing cost of goods",
+      "C": "Stopping trade",
+      "D": "Reducing population"
+    },
+    "answer": "B",
+    "explanation": "Inflation raises the cost of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Commerce is concerned with",
+    "options": {
+      "A": "Only farming",
+      "B": "Trade and exchange",
+      "C": "Only law",
+      "D": "Only war"
+    },
+    "answer": "B",
+    "explanation": "Commerce deals with buying and selling activities."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "One importance of commerce is",
+    "options": {
+      "A": "Reduces trade",
+      "B": "Promotes economic growth",
+      "C": "Stops production",
+      "D": "Creates war"
+    },
+    "answer": "B",
+    "explanation": "Commerce contributes to economic development."
+  }
+,
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Foreign trade is also called",
+    "options": {
+      "A": "Domestic trade",
+      "B": "International trade",
+      "C": "Retail trade",
+      "D": "Local trade"
+    },
+    "answer": "B",
+    "explanation": "Foreign trade means trade between different countries."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "One advantage of international trade is",
+    "options": {
+      "A": "Limited goods",
+      "B": "Access to wider markets",
+      "C": "Higher taxes only",
+      "D": "Reduced production"
+    },
+    "answer": "B",
+    "explanation": "Countries benefit from larger markets and variety of goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "Cheque is",
+    "options": {
+      "A": "A verbal instruction",
+      "B": "A written order to a bank to pay money",
+      "C": "A loan agreement",
+      "D": "A receipt"
+    },
+    "answer": "B",
+    "explanation": "A cheque instructs a bank to pay a stated amount."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One type of bank account is",
+    "options": {
+      "A": "School account",
+      "B": "Savings account",
+      "C": "Market account",
+      "D": "Farm account"
+    },
+    "answer": "B",
+    "explanation": "Savings accounts are used to store money safely."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "One characteristic of money is",
+    "options": {
+      "A": "Durability",
+      "B": "Fragility",
+      "C": "Perishability",
+      "D": "Bulkiness"
+    },
+    "answer": "A",
+    "explanation": "Money must be durable to last long in circulation."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "Deflation means",
+    "options": {
+      "A": "Increase in prices",
+      "B": "Decrease in general price level",
+      "C": "Increase in population",
+      "D": "Increase in taxes"
+    },
+    "answer": "B",
+    "explanation": "Deflation is a fall in the general price level."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Air transport is best for",
+    "options": {
+      "A": "Heavy goods",
+      "B": "Perishable goods and passengers",
+      "C": "Farm tools only",
+      "D": "Building materials"
+    },
+    "answer": "B",
+    "explanation": "Air transport is fast and suitable for urgent goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One advantage of pipeline transport is",
+    "options": {
+      "A": "Very slow",
+      "B": "Low operating cost",
+      "C": "Only for passengers",
+      "D": "Very risky always"
+    },
+    "answer": "B",
+    "explanation": "Pipelines are cheap to operate after installation."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "One purpose of insurance is",
+    "options": {
+      "A": "To increase loss",
+      "B": "To reduce financial risk",
+      "C": "To stop trade",
+      "D": "To create debt"
+    },
+    "answer": "B",
+    "explanation": "Insurance helps reduce financial losses."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Subrogation in insurance means",
+    "options": {
+      "A": "Ownership transfer after compensation",
+      "B": "Double payment",
+      "C": "No claim system",
+      "D": "Fraudulent claim"
+    },
+    "answer": "A",
+    "explanation": "Insurer takes rights of insured after paying compensation."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One traditional communication method is",
+    "options": {
+      "A": "Internet",
+      "B": "Town crier",
+      "C": "Email",
+      "D": "Social media"
+    },
+    "answer": "B",
+    "explanation": "Town crier was used in traditional societies."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One feature of communication is",
+    "options": {
+      "A": "Distortion",
+      "B": "Feedback",
+      "C": "Silence",
+      "D": "Delay always"
+    },
+    "answer": "B",
+    "explanation": "Feedback shows response from receiver."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "One type of warehouse is",
+    "options": {
+      "A": "Public warehouse",
+      "B": "School warehouse",
+      "C": "Court warehouse",
+      "D": "Church warehouse"
+    },
+    "answer": "A",
+    "explanation": "Public warehouses are available for public use."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "Warehousing helps in",
+    "options": {
+      "A": "Increasing spoilage",
+      "B": "Time utility creation",
+      "C": "Stopping trade",
+      "D": "Reducing demand"
+    },
+    "answer": "B",
+    "explanation": "Warehousing creates time utility for goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "One aim of marketing is",
+    "options": {
+      "A": "Loss creation",
+      "B": "Customer satisfaction",
+      "C": "Production stop",
+      "D": "Tax increase"
+    },
+    "answer": "B",
+    "explanation": "Marketing focuses on satisfying customers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "Product branding helps to",
+    "options": {
+      "A": "Confuse customers",
+      "B": "Identify goods easily",
+      "C": "Stop advertising",
+      "D": "Reduce quality"
+    },
+    "answer": "B",
+    "explanation": "Branding distinguishes products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "Advertising is used to",
+    "options": {
+      "A": "Hide products",
+      "B": "Inform consumers",
+      "C": "Stop buying",
+      "D": "Increase taxes"
+    },
+    "answer": "B",
+    "explanation": "Advertising informs and persuades buyers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One media of advertising is",
+    "options": {
+      "A": "Hospital",
+      "B": "Radio",
+      "C": "Court",
+      "D": "Farm"
+    },
+    "answer": "B",
+    "explanation": "Radio is a common advertising medium."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A company is owned by",
+    "options": {
+      "A": "One person",
+      "B": "Shareholders",
+      "C": "Government only",
+      "D": "Students"
+    },
+    "answer": "B",
+    "explanation": "Companies are owned by shareholders."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One advantage of a company is",
+    "options": {
+      "A": "Limited capital",
+      "B": "Limited liability",
+      "C": "Unlimited risk",
+      "D": "Poor management"
+    },
+    "answer": "B",
+    "explanation": "Shareholders have limited liability."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "One factor in business environment is",
+    "options": {
+      "A": "Fashion",
+      "B": "Economic system",
+      "C": "Sports",
+      "D": "Religion only"
+    },
+    "answer": "B",
+    "explanation": "Economic systems affect businesses."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Government policy affects business by",
+    "options": {
+      "A": "Stopping all trade",
+      "B": "Regulating activities",
+      "C": "Eliminating demand",
+      "D": "Reducing population"
+    },
+    "answer": "B",
+    "explanation": "Policies guide business operations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Commerce is important because it",
+    "options": {
+      "A": "Stops production",
+      "B": "Facilitates exchange",
+      "C": "Creates war",
+      "D": "Reduces goods"
+    },
+    "answer": "B",
+    "explanation": "Commerce enables exchange of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "One importance of commerce is",
+    "options": {
+      "A": "Economic development",
+      "B": "Unemployment",
+      "C": "Inflation only",
+      "D": "War"
+    },
+    "answer": "A",
+    "explanation": "Commerce contributes to economic growth."
+  }
+]

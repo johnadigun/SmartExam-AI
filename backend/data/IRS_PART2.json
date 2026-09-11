@@ -1,0 +1,703 @@
+[
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The belief in one God in Islam is called",
+    "options": {
+      "A": "Shirk",
+      "B": "Tawhid",
+      "C": "Sunnah",
+      "D": "Hijrah"
+    },
+    "answer": "B",
+    "explanation": "Tawhid means belief in the oneness of Allah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "Associating partners with Allah is called",
+    "options": {
+      "A": "Tawhid",
+      "B": "Shirk",
+      "C": "Zakat",
+      "D": "Salah"
+    },
+    "answer": "B",
+    "explanation": "Shirk is associating partners with Allah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The angels are created from",
+    "options": {
+      "A": "Fire",
+      "B": "Light",
+      "C": "Clay",
+      "D": "Water"
+    },
+    "answer": "B",
+    "explanation": "Angels are created from light."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The devil (Shaytan) was created from",
+    "options": {
+      "A": "Light",
+      "B": "Clay",
+      "C": "Fire",
+      "D": "Water"
+    },
+    "answer": "C",
+    "explanation": "Shaytan was created from fire."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The number of pillars of Iman is",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "explanation": "There are six pillars of Iman."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "Belief in angels is part of",
+    "options": {
+      "A": "Shariah",
+      "B": "Iman",
+      "C": "Salah",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Belief in angels is part of Iman."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The last day is also called",
+    "options": {
+      "A": "Yawm al-Jumuah",
+      "B": "Yawm al-Qiyamah",
+      "C": "Yawm al-Hajj",
+      "D": "Yawm al-Nur"
+    },
+    "answer": "B",
+    "explanation": "Yawm al-Qiyamah means Day of Judgment."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "Belief in destiny is called",
+    "options": {
+      "A": "Qadr",
+      "B": "Hijrah",
+      "C": "Salah",
+      "D": "Zakat"
+    },
+    "answer": "A",
+    "explanation": "Qadr means divine destiny."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The book of deeds is written by",
+    "options": {
+      "A": "Angels",
+      "B": "Humans",
+      "C": "Prophets",
+      "D": "Kings"
+    },
+    "answer": "A",
+    "explanation": "Angels record human deeds."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "Paradise in Islam is called",
+    "options": {
+      "A": "Jannah",
+      "B": "Jahannam",
+      "C": "Barzakh",
+      "D": "Dunya"
+    },
+    "answer": "A",
+    "explanation": "Jannah is Paradise."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "Hellfire is called",
+    "options": {
+      "A": "Jannah",
+      "B": "Jahannam",
+      "C": "Makkah",
+      "D": "Madinah"
+    },
+    "answer": "B",
+    "explanation": "Jahannam is Hellfire."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The bridge over Hell is called",
+    "options": {
+      "A": "Sirat",
+      "B": "Jabal",
+      "C": "Safa",
+      "D": "Marwah"
+    },
+    "answer": "A",
+    "explanation": "Sirat is the bridge over Hell."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The scale of justice on the Day of Judgment is called",
+    "options": {
+      "A": "Mizan",
+      "B": "Qiblah",
+      "C": "Salah",
+      "D": "Zakat"
+    },
+    "answer": "A",
+    "explanation": "Mizan is the scale of deeds."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The unseen world is called",
+    "options": {
+      "A": "Ghaib",
+      "B": "Dunya",
+      "C": "Akhirah",
+      "D": "Barzakh"
+    },
+    "answer": "A",
+    "explanation": "Ghaib means unseen."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The final prophet is",
+    "options": {
+      "A": "Isa (AS)",
+      "B": "Musa (AS)",
+      "C": "Muhammad (SAW)",
+      "D": "Ibrahim (AS)"
+    },
+    "answer": "C",
+    "explanation": "Muhammad (SAW) is the last prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The Arabic word for prayer is",
+    "options": {
+      "A": "Zakat",
+      "B": "Salah",
+      "C": "Hajj",
+      "D": "Sawm"
+    },
+    "answer": "B",
+    "explanation": "Salah means prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Purification before prayer is called",
+    "options": {
+      "A": "Tayammum",
+      "B": "Wudu",
+      "C": "Ghusl",
+      "D": "Salah"
+    },
+    "answer": "B",
+    "explanation": "Wudu is ablution."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "Dry ablution is called",
+    "options": {
+      "A": "Wudu",
+      "B": "Ghusl",
+      "C": "Tayammum",
+      "D": "Zakat"
+    },
+    "answer": "C",
+    "explanation": "Tayammum is dry purification."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Friday congregational prayer is called",
+    "options": {
+      "A": "Hajj",
+      "B": "Jumu'ah",
+      "C": "Sawm",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Jumu'ah is Friday prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The call to prayer is",
+    "options": {
+      "A": "Iqamah",
+      "B": "Adhan",
+      "C": "Takbir",
+      "D": "Taslim"
+    },
+    "answer": "B",
+    "explanation": "Adhan is the call to prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Fasting means",
+    "options": {
+      "A": "Eating more",
+      "B": "Abstaining from food and drink",
+      "C": "Sleeping",
+      "D": "Travelling"
+    },
+    "answer": "B",
+    "explanation": "Fasting is abstaining from food and drink."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The breaking of fast is called",
+    "options": {
+      "A": "Iftar",
+      "B": "Suhur",
+      "C": "Zakat",
+      "D": "Hajj"
+    },
+    "answer": "A",
+    "explanation": "Iftar is breaking fast."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "The meal before fasting is",
+    "options": {
+      "A": "Iftar",
+      "B": "Suhur",
+      "C": "Dinner",
+      "D": "Lunch"
+    },
+    "answer": "B",
+    "explanation": "Suhur is pre-dawn meal."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "Zakat is given to",
+    "options": {
+      "A": "Rich people",
+      "B": "Poor people",
+      "C": "Kings",
+      "D": "Soldiers"
+    },
+    "answer": "B",
+    "explanation": "Zakat is for the needy."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Hajj is performed in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "Hajj is in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The black stone is found in",
+    "options": {
+      "A": "Masjid Nabawi",
+      "B": "Ka'bah",
+      "C": "Al-Aqsa",
+      "D": "Mount Uhud"
+    },
+    "answer": "B",
+    "explanation": "The Black Stone is in the Ka'bah."
+  }
+,
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "Belief in the Day of Judgment is part of",
+    "options": {
+      "A": "Five pillars of Islam",
+      "B": "Six pillars of Iman",
+      "C": "Salah",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Belief in the Last Day is part of Iman."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The recording angels are called",
+    "options": {
+      "A": "Munkar and Nakir",
+      "B": "Kiraman Katibin",
+      "C": "Jibril and Mika'il",
+      "D": "Harut and Marut"
+    },
+    "answer": "B",
+    "explanation": "Kiraman Katibin record human deeds."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The questioning angels in the grave are",
+    "options": {
+      "A": "Jibril and Mika'il",
+      "B": "Munkar and Nakir",
+      "C": "Israfil and Malik",
+      "D": "Harut and Marut"
+    },
+    "answer": "B",
+    "explanation": "Munkar and Nakir question the dead."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The trumpet will be blown by",
+    "options": {
+      "A": "Jibril",
+      "B": "Israfil",
+      "C": "Malik",
+      "D": "Mika'il"
+    },
+    "answer": "B",
+    "explanation": "Israfil will blow the trumpet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The guardian of Hell is",
+    "options": {
+      "A": "Malik",
+      "B": "Ridwan",
+      "C": "Jibril",
+      "D": "Israfil"
+    },
+    "answer": "A",
+    "explanation": "Malik is the keeper of Hell."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The guardian of Paradise is",
+    "options": {
+      "A": "Malik",
+      "B": "Ridwan",
+      "C": "Israfil",
+      "D": "Jibril"
+    },
+    "answer": "B",
+    "explanation": "Ridwan is keeper of Paradise."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The unseen world is known as",
+    "options": {
+      "A": "Dunya",
+      "B": "Ghaib",
+      "C": "Akhirah",
+      "D": "Barzakh"
+    },
+    "answer": "B",
+    "explanation": "Ghaib means unseen realm."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "Life after death is called",
+    "options": {
+      "A": "Dunya",
+      "B": "Akhirah",
+      "C": "Barzakh",
+      "D": "Hijrah"
+    },
+    "answer": "B",
+    "explanation": "Akhirah is life after death."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Easy",
+    "question": "The period between death and resurrection is",
+    "options": {
+      "A": "Dunya",
+      "B": "Barzakh",
+      "C": "Akhirah",
+      "D": "Qiyamah"
+    },
+    "answer": "B",
+    "explanation": "Barzakh is the intermediate stage."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Aqidah (Faith)",
+    "difficulty": "Medium",
+    "question": "The final accountability of deeds is",
+    "options": {
+      "A": "Salah",
+      "B": "Hisab",
+      "C": "Zakat",
+      "D": "Sawm"
+    },
+    "answer": "B",
+    "explanation": "Hisab means accounting of deeds."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "The direction of prayer is",
+    "options": {
+      "A": "Madinah",
+      "B": "Ka'bah",
+      "C": "Jerusalem",
+      "D": "Mount Sinai"
+    },
+    "answer": "B",
+    "explanation": "Muslims face Ka'bah in prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The minimum amount for Zakat is called",
+    "options": {
+      "A": "Nisab",
+      "B": "Sadaqah",
+      "C": "Waqf",
+      "D": "Hajj"
+    },
+    "answer": "A",
+    "explanation": "Nisab is minimum Zakat threshold."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "The month of fasting is",
+    "options": {
+      "A": "Rajab",
+      "B": "Ramadan",
+      "C": "Shawwal",
+      "D": "Muharram"
+    },
+    "answer": "B",
+    "explanation": "Fasting is done in Ramadan."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "Breaking fast is called",
+    "options": {
+      "A": "Suhur",
+      "B": "Iftar",
+      "C": "Zakat",
+      "D": "Salah"
+    },
+    "answer": "B",
+    "explanation": "Iftar means breaking fast."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Pre-dawn meal before fasting is",
+    "options": {
+      "A": "Iftar",
+      "B": "Suhur",
+      "C": "Dinner",
+      "D": "Lunch"
+    },
+    "answer": "B",
+    "explanation": "Suhur is eaten before dawn."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The pilgrimage is performed in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Taif",
+      "D": "Cairo"
+    },
+    "answer": "B",
+    "explanation": "Hajj is in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "The number of daily prayers is",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "Muslims pray 5 times daily."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The call to prayer is",
+    "options": {
+      "A": "Iqamah",
+      "B": "Adhan",
+      "C": "Takbir",
+      "D": "Tasbih"
+    },
+    "answer": "B",
+    "explanation": "Adhan is the call to prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Purification before prayer is",
+    "options": {
+      "A": "Tayammum",
+      "B": "Wudu",
+      "C": "Hajj",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Wudu is ablution."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "Dry ablution is called",
+    "options": {
+      "A": "Wudu",
+      "B": "Tayammum",
+      "C": "Ghusl",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Tayammum is dry purification."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "Friday congregational prayer is",
+    "options": {
+      "A": "Jumu'ah",
+      "B": "Hajj",
+      "C": "Zakat",
+      "D": "Sawm"
+    },
+    "answer": "A",
+    "explanation": "Jumu'ah is Friday prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "Charity in Islam is",
+    "options": {
+      "A": "Sawm",
+      "B": "Zakat",
+      "C": "Salah",
+      "D": "Hajj"
+    },
+    "answer": "B",
+    "explanation": "Zakat is obligatory charity."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Easy",
+    "question": "The pilgrimage is",
+    "options": {
+      "A": "Salah",
+      "B": "Hajj",
+      "C": "Zakat",
+      "D": "Sawm"
+    },
+    "answer": "B",
+    "explanation": "Hajj is pilgrimage to Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Fiqh (Worship)",
+    "difficulty": "Medium",
+    "question": "The sacred mosque in Makkah is",
+    "options": {
+      "A": "Masjid Nabawi",
+      "B": "Masjid Quba",
+      "C": "Masjid al-Haram",
+      "D": "Al-Aqsa Mosque"
+    },
+    "answer": "C",
+    "explanation": "Masjid al-Haram contains the Ka'bah."
+  }
+]

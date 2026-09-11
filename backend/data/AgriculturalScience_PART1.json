@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Agricultural Science",
+    "category": "Introduction to Agriculture",
+    "difficulty": "Easy",
+    "question": "Agriculture is best defined as the",
+    "options": {
+      "A": "Study of rocks",
+      "B": "Science and practice of cultivating crops and rearing animals",
+      "C": "Manufacture of farm tools",
+      "D": "Processing of food only"
+    },
+    "answer": "B",
+    "explanation": "Agriculture involves crop production, animal husbandry, and related activities."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Importance of Agriculture",
+    "difficulty": "Easy",
+    "question": "One major importance of agriculture is that it",
+    "options": {
+      "A": "Produces crude oil",
+      "B": "Provides food for the population",
+      "C": "Manufactures vehicles",
+      "D": "Produces electricity"
+    },
+    "answer": "B",
+    "explanation": "Agriculture is the primary source of food for humans and livestock."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Branches of Agriculture",
+    "difficulty": "Easy",
+    "question": "The branch of agriculture concerned with the production of crops is called",
+    "options": {
+      "A": "Animal Husbandry",
+      "B": "Agricultural Engineering",
+      "C": "Crop Production",
+      "D": "Forestry"
+    },
+    "answer": "C",
+    "explanation": "Crop production deals with cultivating food and cash crops."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "Which of the following tools is mainly used for weeding?",
+    "options": {
+      "A": "Cutlass",
+      "B": "Hoe",
+      "C": "Wheelbarrow",
+      "D": "Spade"
+    },
+    "answer": "B",
+    "explanation": "A hoe is commonly used for weeding and making ridges."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Tools",
+    "difficulty": "Easy",
+    "question": "The primary use of a cutlass on the farm is to",
+    "options": {
+      "A": "Measure land",
+      "B": "Clear bushes and cut small trees",
+      "C": "Apply fertilizer",
+      "D": "Harvest grains"
+    },
+    "answer": "B",
+    "explanation": "A cutlass is mainly used for bush clearing and pruning."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Medium",
+    "question": "Which soil type has the highest water-holding capacity?",
+    "options": {
+      "A": "Sandy soil",
+      "B": "Clay soil",
+      "C": "Loamy soil",
+      "D": "Gravel soil"
+    },
+    "answer": "B",
+    "explanation": "Clay soil has very fine particles and retains the most water."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Science",
+    "difficulty": "Easy",
+    "question": "The best soil for most crop production is",
+    "options": {
+      "A": "Clay soil",
+      "B": "Sandy soil",
+      "C": "Loamy soil",
+      "D": "Rocky soil"
+    },
+    "answer": "C",
+    "explanation": "Loamy soil provides a good balance of drainage, aeration, and nutrients."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Fertility",
+    "difficulty": "Medium",
+    "question": "Organic manure improves soil mainly by",
+    "options": {
+      "A": "Reducing rainfall",
+      "B": "Increasing soil organic matter",
+      "C": "Destroying all soil organisms",
+      "D": "Changing sand into clay"
+    },
+    "answer": "B",
+    "explanation": "Organic manure adds humus and improves soil structure and fertility."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "Which of the following is a cereal crop?",
+    "options": {
+      "A": "Cassava",
+      "B": "Maize",
+      "C": "Yam",
+      "D": "Cocoyam"
+    },
+    "answer": "B",
+    "explanation": "Maize is one of the major cereal crops grown in Nigeria."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "Cassava is propagated mainly through",
+    "options": {
+      "A": "Seeds",
+      "B": "Stem cuttings",
+      "C": "Leaves",
+      "D": "Roots"
+    },
+    "answer": "B",
+    "explanation": "Cassava is commonly propagated using healthy stem cuttings."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Easy",
+    "question": "Which of the following is a leguminous crop?",
+    "options": {
+      "A": "Maize",
+      "B": "Rice",
+      "C": "Cowpea",
+      "D": "Millet"
+    },
+    "answer": "C",
+    "explanation": "Cowpea is a legume capable of fixing atmospheric nitrogen."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "The practice of growing different crops on the same piece of land at the same time is known as",
+    "options": {
+      "A": "Crop rotation",
+      "B": "Mixed cropping",
+      "C": "Bush fallowing",
+      "D": "Monocropping"
+    },
+    "answer": "B",
+    "explanation": "Mixed cropping involves cultivating two or more crops simultaneously on the same land."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Production",
+    "difficulty": "Medium",
+    "question": "Crop rotation helps to",
+    "options": {
+      "A": "Increase soil erosion",
+      "B": "Reduce soil fertility",
+      "C": "Maintain soil fertility and control pests",
+      "D": "Destroy useful microorganisms"
+    },
+    "answer": "C",
+    "explanation": "Crop rotation conserves soil nutrients and breaks pest and disease cycles."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Plant Nutrition",
+    "difficulty": "Easy",
+    "question": "The nutrient required by plants in the largest quantity is",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Zinc",
+      "C": "Copper",
+      "D": "Iron"
+    },
+    "answer": "A",
+    "explanation": "Nitrogen is a major macronutrient essential for leafy growth."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fertilizers",
+    "difficulty": "Medium",
+    "question": "Urea fertilizer is mainly valued because it contains a high percentage of",
+    "options": {
+      "A": "Phosphorus",
+      "B": "Nitrogen",
+      "C": "Potassium",
+      "D": "Calcium"
+    },
+    "answer": "B",
+    "explanation": "Urea contains about 46% nitrogen, making it a common nitrogen fertilizer."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Soil Conservation",
+    "difficulty": "Medium",
+    "question": "Planting cover crops primarily helps to",
+    "options": {
+      "A": "Increase soil erosion",
+      "B": "Protect the soil from erosion",
+      "C": "Reduce soil fertility",
+      "D": "Increase soil salinity"
+    },
+    "answer": "B",
+    "explanation": "Cover crops protect the soil surface and reduce erosion."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Pests and Diseases",
+    "difficulty": "Easy",
+    "question": "An organism that damages crops in the field is known as a",
+    "options": {
+      "A": "Producer",
+      "B": "Pest",
+      "C": "Decomposer",
+      "D": "Pollinator"
+    },
+    "answer": "B",
+    "explanation": "Agricultural pests reduce crop yield and quality."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Pests and Diseases",
+    "difficulty": "Medium",
+    "question": "One effective method of controlling weeds is",
+    "options": {
+      "A": "Overgrazing",
+      "B": "Mulching",
+      "C": "Burning harvested crops",
+      "D": "Waterlogging"
+    },
+    "answer": "B",
+    "explanation": "Mulching suppresses weed growth and conserves soil moisture."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "The rearing of domestic animals for food and other products is called",
+    "options": {
+      "A": "Forestry",
+      "B": "Animal Husbandry",
+      "C": "Fishery",
+      "D": "Horticulture"
+    },
+    "answer": "B",
+    "explanation": "Animal husbandry involves breeding and managing livestock."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "Which of the following animals is classified as poultry?",
+    "options": {
+      "A": "Goat",
+      "B": "Chicken",
+      "C": "Sheep",
+      "D": "Pig"
+    },
+    "answer": "B",
+    "explanation": "Chicken is one of the most common poultry birds raised for meat and eggs."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Production",
+    "difficulty": "Easy",
+    "question": "Which of the following livestock is classified as a ruminant?",
+    "options": {
+      "A": "Pig",
+      "B": "Chicken",
+      "C": "Goat",
+      "D": "Rabbit"
+    },
+    "answer": "C",
+    "explanation": "Goats are ruminants because they possess a four-chambered stomach."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Nutrition",
+    "difficulty": "Medium",
+    "question": "The main function of carbohydrates in livestock feed is to provide",
+    "options": {
+      "A": "Vitamins",
+      "B": "Energy",
+      "C": "Minerals",
+      "D": "Enzymes"
+    },
+    "answer": "B",
+    "explanation": "Carbohydrates are the major source of energy for farm animals."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Nutrition",
+    "difficulty": "Easy",
+    "question": "Feed rich in protein is essential for",
+    "options": {
+      "A": "Body building and growth",
+      "B": "Providing colour",
+      "C": "Increasing soil fertility",
+      "D": "Preventing evaporation"
+    },
+    "answer": "A",
+    "explanation": "Proteins are required for growth, tissue repair and body development."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Management",
+    "difficulty": "Medium",
+    "question": "A building specially constructed for keeping poultry birds is called a",
+    "options": {
+      "A": "Pen",
+      "B": "Sty",
+      "C": "Poultry house",
+      "D": "Stable"
+    },
+    "answer": "C",
+    "explanation": "A poultry house provides shelter and protection for poultry birds."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Livestock Health",
+    "difficulty": "Medium",
+    "question": "Vaccination of farm animals is primarily carried out to",
+    "options": {
+      "A": "Increase their body weight instantly",
+      "B": "Prevent diseases",
+      "C": "Improve soil fertility",
+      "D": "Reduce feed consumption"
+    },
+    "answer": "B",
+    "explanation": "Vaccination protects livestock against infectious diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Easy",
+    "question": "The reward for labour in agricultural production is known as",
+    "options": {
+      "A": "Rent",
+      "B": "Interest",
+      "C": "Wages",
+      "D": "Profit"
+    },
+    "answer": "C",
+    "explanation": "Labour is rewarded with wages."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Medium",
+    "question": "A farm inventory is a record showing the",
+    "options": {
+      "A": "Daily weather conditions",
+      "B": "Assets and liabilities of the farm",
+      "C": "Names of farm workers only",
+      "D": "Annual rainfall only"
+    },
+    "answer": "B",
+    "explanation": "Farm inventory records the farm's assets and liabilities."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "The amount realized after deducting total cost from total revenue is called",
+    "options": {
+      "A": "Capital",
+      "B": "Loss",
+      "C": "Profit",
+      "D": "Interest"
+    },
+    "answer": "C",
+    "explanation": "Profit equals total revenue minus total cost."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Power",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of mechanical farm power?",
+    "options": {
+      "A": "Human labour",
+      "B": "Oxen",
+      "C": "Tractor",
+      "D": "Horse"
+    },
+    "answer": "C",
+    "explanation": "A tractor is a common source of mechanical power on modern farms."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Medium",
+    "question": "The primary function of a plough is to",
+    "options": {
+      "A": "Harvest crops",
+      "B": "Spray chemicals",
+      "C": "Turn and loosen the soil",
+      "D": "Transport produce"
+    },
+    "answer": "C",
+    "explanation": "A plough prepares land by turning and loosening the soil before planting."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Easy",
+    "question": "A harrow is mainly used to",
+    "options": {
+      "A": "Harvest crops",
+      "B": "Break soil clods and level the seedbed",
+      "C": "Spray pesticides",
+      "D": "Transport farm produce"
+    },
+    "answer": "B",
+    "explanation": "A harrow breaks large soil clods and smooths the soil after ploughing."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Machinery",
+    "difficulty": "Medium",
+    "question": "Routine servicing of farm machinery helps to",
+    "options": {
+      "A": "Increase fuel consumption",
+      "B": "Reduce efficiency",
+      "C": "Extend the life of the machine",
+      "D": "Increase breakdowns"
+    },
+    "answer": "C",
+    "explanation": "Regular maintenance improves efficiency and prolongs the lifespan of farm machinery."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Forestry",
+    "difficulty": "Easy",
+    "question": "The practice of planting new trees to replace those that have been cut down is called",
+    "options": {
+      "A": "Deforestation",
+      "B": "Afforestation",
+      "C": "Bush burning",
+      "D": "Grazing"
+    },
+    "answer": "B",
+    "explanation": "Afforestation is the establishment of forests by planting trees."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Forestry",
+    "difficulty": "Medium",
+    "question": "One major importance of forests is that they",
+    "options": {
+      "A": "Increase desertification",
+      "B": "Provide timber and protect the environment",
+      "C": "Reduce rainfall permanently",
+      "D": "Destroy wildlife habitats"
+    },
+    "answer": "B",
+    "explanation": "Forests provide timber, conserve biodiversity, and help protect the environment."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Easy",
+    "question": "The branch of agriculture concerned with the production and management of fish is called",
+    "options": {
+      "A": "Forestry",
+      "B": "Horticulture",
+      "C": "Fisheries",
+      "D": "Apiculture"
+    },
+    "answer": "C",
+    "explanation": "Fisheries deals with breeding, rearing, and harvesting fish."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Fisheries",
+    "difficulty": "Easy",
+    "question": "Which of the following is a common freshwater fish cultured in Nigeria?",
+    "options": {
+      "A": "Tilapia",
+      "B": "Shark",
+      "C": "Whale",
+      "D": "Octopus"
+    },
+    "answer": "A",
+    "explanation": "Tilapia is widely cultured in freshwater fish farming."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Apiculture",
+    "difficulty": "Medium",
+    "question": "The practice of keeping bees for honey production is known as",
+    "options": {
+      "A": "Sericulture",
+      "B": "Apiculture",
+      "C": "Horticulture",
+      "D": "Aquaculture"
+    },
+    "answer": "B",
+    "explanation": "Apiculture is the rearing and management of honey bees."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Horticulture",
+    "difficulty": "Easy",
+    "question": "Horticulture is mainly concerned with the cultivation of",
+    "options": {
+      "A": "Only cereals",
+      "B": "Fruits, vegetables and ornamental plants",
+      "C": "Livestock only",
+      "D": "Forest trees only"
+    },
+    "answer": "B",
+    "explanation": "Horticulture focuses on fruits, vegetables, flowers, and ornamental plants."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Environmental Conservation",
+    "difficulty": "Medium",
+    "question": "One effective method of controlling soil erosion on sloping land is",
+    "options": {
+      "A": "Overgrazing",
+      "B": "Contour farming",
+      "C": "Bush burning",
+      "D": "Deforestation"
+    },
+    "answer": "B",
+    "explanation": "Contour farming reduces the speed of runoff and minimizes soil erosion."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Environmental Conservation",
+    "difficulty": "Medium",
+    "question": "Indiscriminate bush burning is discouraged because it",
+    "options": {
+      "A": "Improves soil microorganisms",
+      "B": "Destroys soil organic matter and useful organisms",
+      "C": "Increases soil fertility permanently",
+      "D": "Improves water retention"
+    },
+    "answer": "B",
+    "explanation": "Bush burning destroys beneficial organisms, reduces organic matter, and exposes the soil to erosion."
+  }
+,
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Extension",
+    "difficulty": "Easy",
+    "question": "The main duty of an agricultural extension officer is to",
+    "options": {
+      "A": "Sell farm produce",
+      "B": "Provide technical advice and education to farmers",
+      "C": "Manufacture farm machinery",
+      "D": "Collect taxes from farmers"
+    },
+    "answer": "B",
+    "explanation": "Agricultural extension officers educate farmers on improved farming methods and technologies."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Economics",
+    "difficulty": "Medium",
+    "question": "Capital used in agricultural production refers to",
+    "options": {
+      "A": "Only cash available",
+      "B": "Goods and money used to produce other goods and services",
+      "C": "Farm labour only",
+      "D": "Natural vegetation"
+    },
+    "answer": "B",
+    "explanation": "Capital includes money, machinery, buildings, and equipment used in production."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Farm Records",
+    "difficulty": "Medium",
+    "question": "Keeping accurate farm records helps a farmer to",
+    "options": {
+      "A": "Forget previous farm activities",
+      "B": "Evaluate farm performance and make informed decisions",
+      "C": "Reduce crop yield",
+      "D": "Avoid harvesting"
+    },
+    "answer": "B",
+    "explanation": "Farm records assist in planning, budgeting, and assessing profitability."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Crop Improvement",
+    "difficulty": "Medium",
+    "question": "Hybrid crop varieties are mainly developed to",
+    "options": {
+      "A": "Reduce productivity",
+      "B": "Improve yield and disease resistance",
+      "C": "Increase weed growth",
+      "D": "Delay germination"
+    },
+    "answer": "B",
+    "explanation": "Hybrid varieties often produce higher yields and possess better resistance to pests and diseases."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Seed Technology",
+    "difficulty": "Easy",
+    "question": "One important characteristic of good planting seeds is that they should be",
+    "options": {
+      "A": "Diseased",
+      "B": "Immature",
+      "C": "Viable and healthy",
+      "D": "Broken"
+    },
+    "answer": "C",
+    "explanation": "Healthy, viable seeds produce vigorous seedlings and better yields."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Irrigation",
+    "difficulty": "Medium",
+    "question": "Irrigation is mainly practiced to",
+    "options": {
+      "A": "Prevent harvesting",
+      "B": "Supply water to crops when rainfall is inadequate",
+      "C": "Control wind erosion only",
+      "D": "Increase soil acidity"
+    },
+    "answer": "B",
+    "explanation": "Irrigation provides water needed for crop growth during dry periods."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Drainage",
+    "difficulty": "Medium",
+    "question": "Farm drainage is necessary mainly to",
+    "options": {
+      "A": "Increase waterlogging",
+      "B": "Remove excess water from farmland",
+      "C": "Reduce soil fertility",
+      "D": "Increase soil salinity"
+    },
+    "answer": "B",
+    "explanation": "Proper drainage removes excess water, preventing root damage and poor aeration."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Marketing",
+    "difficulty": "Easy",
+    "question": "Agricultural marketing involves",
+    "options": {
+      "A": "Producing crops only",
+      "B": "The buying and selling of agricultural products",
+      "C": "Making fertilizers only",
+      "D": "Constructing farm buildings"
+    },
+    "answer": "B",
+    "explanation": "Agricultural marketing covers the distribution and sale of farm produce."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "Agricultural Development",
+    "difficulty": "Medium",
+    "question": "Mechanized farming is characterized by the use of",
+    "options": {
+      "A": "Simple hand tools only",
+      "B": "Modern machines and equipment",
+      "C": "Animal power only",
+      "D": "Traditional farming methods only"
+    },
+    "answer": "B",
+    "explanation": "Mechanized farming uses tractors, harvesters, and other modern equipment to improve productivity."
+  },
+  {
+    "subject": "Agricultural Science",
+    "category": "General Agriculture",
+    "difficulty": "Easy",
+    "question": "The ultimate goal of agricultural production is to",
+    "options": {
+      "A": "Destroy natural resources",
+      "B": "Produce food, raw materials, and income sustainably",
+      "C": "Reduce employment opportunities",
+      "D": "Increase environmental pollution"
+    },
+    "answer": "B",
+    "explanation": "Agriculture aims to provide food, industrial raw materials, employment, and income while ensuring sustainability."
+  }
+]

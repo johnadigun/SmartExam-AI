@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Entrepot trade refers to",
+    "options": {
+      "A": "Trade within a village",
+      "B": "Importing goods for re-export",
+      "C": "Buying from retailers only",
+      "D": "Manufacturing goods"
+    },
+    "answer": "B",
+    "explanation": "Entrepot trade involves importing goods and exporting them again."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "Visible trade refers to",
+    "options": {
+      "A": "Services only",
+      "B": "Trade in physical goods",
+      "C": "Invisible services",
+      "D": "Banking activities"
+    },
+    "answer": "B",
+    "explanation": "Visible trade involves tangible goods like cars and food."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Invisible trade includes",
+    "options": {
+      "A": "Goods export",
+      "B": "Services like banking and tourism",
+      "C": "Farming products",
+      "D": "Manufacturing only"
+    },
+    "answer": "B",
+    "explanation": "Invisible trade involves services, not physical goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One function of a central bank is",
+    "options": {
+      "A": "Printing textbooks",
+      "B": "Acting as banker to government",
+      "C": "Selling goods",
+      "D": "Running supermarkets"
+    },
+    "answer": "B",
+    "explanation": "Central bank manages government accounts."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "Commercial banks create money through",
+    "options": {
+      "A": "Advertising",
+      "B": "Credit creation",
+      "C": "Tax collection",
+      "D": "Printing currency"
+    },
+    "answer": "B",
+    "explanation": "Banks create money through lending."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "One quality of good money is",
+    "options": {
+      "A": "Fragility",
+      "B": "Acceptability",
+      "C": "Heavy weight",
+      "D": "Perishability"
+    },
+    "answer": "B",
+    "explanation": "Money must be widely accepted."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Barter system means",
+    "options": {
+      "A": "Use of money",
+      "B": "Exchange of goods for goods",
+      "C": "Banking system",
+      "D": "Tax system"
+    },
+    "answer": "B",
+    "explanation": "Barter is direct exchange without money."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "Pipeline transport is used mainly for",
+    "options": {
+      "A": "Passengers",
+      "B": "Liquids and gases",
+      "C": "Mail delivery",
+      "D": "Food items only"
+    },
+    "answer": "B",
+    "explanation": "Pipelines transport oil and gas."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "One disadvantage of air transport is",
+    "options": {
+      "A": "Speed",
+      "B": "High cost",
+      "C": "Comfort",
+      "D": "Safety"
+    },
+    "answer": "B",
+    "explanation": "Air transport is expensive."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Marine insurance covers",
+    "options": {
+      "A": "Life only",
+      "B": "Sea transport risks",
+      "C": "School fees",
+      "D": "Bank loans"
+    },
+    "answer": "B",
+    "explanation": "Marine insurance covers ships and cargo risks."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "One principle of insurance is",
+    "options": {
+      "A": "Fraud",
+      "B": "Insurable interest",
+      "C": "Gambling",
+      "D": "Loss avoidance"
+    },
+    "answer": "B",
+    "explanation": "Insurable interest means you must suffer loss."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One advantage of modern communication is",
+    "options": {
+      "A": "Slow delivery",
+      "B": "Fast information transfer",
+      "C": "Limited reach",
+      "D": "High cost always"
+    },
+    "answer": "B",
+    "explanation": "Modern communication is fast and efficient."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "Telecommunication includes",
+    "options": {
+      "A": "Farming",
+      "B": "Telephone and internet",
+      "C": "Mining",
+      "D": "Fishing"
+    },
+    "answer": "B",
+    "explanation": "Telecommunication involves electronic communication."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "One function of warehouse is",
+    "options": {
+      "A": "Production",
+      "B": "Storage of goods",
+      "C": "Tax collection",
+      "D": "Judging cases"
+    },
+    "answer": "B",
+    "explanation": "Warehouses store goods safely."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "A public warehouse is owned by",
+    "options": {
+      "A": "Individuals",
+      "B": "Government or public authority",
+      "C": "Farmers",
+      "D": "Students"
+    },
+    "answer": "B",
+    "explanation": "Public warehouses are open for public use."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "Market segmentation means",
+    "options": {
+      "A": "Destroying market",
+      "B": "Dividing market into groups",
+      "C": "Stopping trade",
+      "D": "Taxing goods"
+    },
+    "answer": "B",
+    "explanation": "It involves grouping customers with similar needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "One aim of marketing is",
+    "options": {
+      "A": "Reduce sales",
+      "B": "Satisfy customer needs",
+      "C": "Stop production",
+      "D": "Increase losses"
+    },
+    "answer": "B",
+    "explanation": "Marketing aims to satisfy consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "Advertising helps to",
+    "options": {
+      "A": "Reduce awareness",
+      "B": "Promote products",
+      "C": "Stop trade",
+      "D": "Increase taxes"
+    },
+    "answer": "B",
+    "explanation": "Advertising increases product visibility."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "One disadvantage of advertising is",
+    "options": {
+      "A": "Increases sales",
+      "B": "Can be costly",
+      "C": "Improves awareness",
+      "D": "Helps consumers"
+    },
+    "answer": "B",
+    "explanation": "Advertising can be expensive for firms."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One feature of cooperative society is",
+    "options": {
+      "A": "One owner",
+      "B": "Democratic control",
+      "C": "Military control",
+      "D": "Government ownership only"
+    },
+    "answer": "B",
+    "explanation": "Members have equal voting rights."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "Cooperative societies aim to",
+    "options": {
+      "A": "Make loss",
+      "B": "Help members economically",
+      "C": "Stop production",
+      "D": "Control government"
+    },
+    "answer": "B",
+    "explanation": "They exist to benefit members financially."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "One factor affecting business is",
+    "options": {
+      "A": "Social environment",
+      "B": "School system",
+      "C": "Religion only",
+      "D": "Sports"
+    },
+    "answer": "A",
+    "explanation": "Social conditions affect business activities."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "The main objective of commerce is",
+    "options": {
+      "A": "Loss making",
+      "B": "Satisfying human wants",
+      "C": "Stopping trade",
+      "D": "Reducing goods"
+    },
+    "answer": "B",
+    "explanation": "Commerce exists to satisfy human needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "Business success depends on",
+    "options": {
+      "A": "Luck only",
+      "B": "Good management",
+      "C": "Government only",
+      "D": "Weather only"
+    },
+    "answer": "B",
+    "explanation": "Proper management leads to business success."
+  }
+,
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Home trade refers to",
+    "options": {
+      "A": "Trade between countries",
+      "B": "Trade within a country",
+      "C": "Trade on sea only",
+      "D": "Trade by air only"
+    },
+    "answer": "B",
+    "explanation": "Home trade is domestic trade within the same country."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "Entrepot trade is also known as",
+    "options": {
+      "A": "Import trade",
+      "B": "Re-export trade",
+      "C": "Retail trade",
+      "D": "Wholesale trade"
+    },
+    "answer": "B",
+    "explanation": "Goods are imported and exported again without processing."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "One function of commercial banks is",
+    "options": {
+      "A": "Law making",
+      "B": "Accepting deposits",
+      "C": "Judging cases",
+      "D": "Military control"
+    },
+    "answer": "B",
+    "explanation": "Banks accept deposits from customers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "Overdraft means",
+    "options": {
+      "A": "No borrowing",
+      "B": "Withdrawing more than balance",
+      "C": "Saving money",
+      "D": "Buying goods"
+    },
+    "answer": "B",
+    "explanation": "Customers can withdraw more than their account balance."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "One function of money is",
+    "options": {
+      "A": "Decoration",
+      "B": "Store of value",
+      "C": "Production tool",
+      "D": "Transport system"
+    },
+    "answer": "B",
+    "explanation": "Money preserves value over time."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "Legal tender means",
+    "options": {
+      "A": "Fake money",
+      "B": "Money accepted by law",
+      "C": "Foreign currency only",
+      "D": "Bank notes only"
+    },
+    "answer": "B",
+    "explanation": "Legal tender must be accepted for payment of debts."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "One advantage of rail transport is",
+    "options": {
+      "A": "Very expensive",
+      "B": "Carries heavy goods",
+      "C": "Only for letters",
+      "D": "Very slow always"
+    },
+    "answer": "B",
+    "explanation": "Rail transport is suitable for bulky goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "Inland waterways transport uses",
+    "options": {
+      "A": "Roads",
+      "B": "Rivers and canals",
+      "C": "Airports",
+      "D": "Railways"
+    },
+    "answer": "B",
+    "explanation": "It uses natural or artificial water routes."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "Premium is",
+    "options": {
+      "A": "Insurance claim",
+      "B": "Payment for insurance",
+      "C": "Loss compensation",
+      "D": "Bank interest"
+    },
+    "answer": "B",
+    "explanation": "Premium is the amount paid for insurance cover."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Indemnity in insurance means",
+    "options": {
+      "A": "Profit making",
+      "B": "Restoration to original position",
+      "C": "Loss creation",
+      "D": "Investment plan"
+    },
+    "answer": "B",
+    "explanation": "Indemnity restores the insured to original financial position."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One example of modern communication is",
+    "options": {
+      "A": "Town crier",
+      "B": "Email",
+      "C": "Drum beating",
+      "D": "Smoke signals"
+    },
+    "answer": "B",
+    "explanation": "Email is a modern electronic communication tool."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One disadvantage of communication technology is",
+    "options": {
+      "A": "Speed",
+      "B": "Cybercrime",
+      "C": "Efficiency",
+      "D": "Accuracy"
+    },
+    "answer": "B",
+    "explanation": "Technology can expose users to cybercrime."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "One function of warehousing is",
+    "options": {
+      "A": "Production",
+      "B": "Preservation of goods",
+      "C": "Tax collection",
+      "D": "Manufacturing"
+    },
+    "answer": "B",
+    "explanation": "Warehousing helps preserve goods until needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "A bonded warehouse stores",
+    "options": {
+      "A": "Local goods only",
+      "B": "Imported goods",
+      "C": "Agricultural tools",
+      "D": "Bank documents"
+    },
+    "answer": "B",
+    "explanation": "Bonded warehouses store imported goods under customs control."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "Marketing begins with",
+    "options": {
+      "A": "Production",
+      "B": "Consumer needs",
+      "C": "Advertising",
+      "D": "Selling only"
+    },
+    "answer": "B",
+    "explanation": "Marketing starts with identifying consumer needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "The 4Ps of marketing include product, price, place and",
+    "options": {
+      "A": "Policy",
+      "B": "Promotion",
+      "C": "Power",
+      "D": "Profit"
+    },
+    "answer": "B",
+    "explanation": "Promotion is part of the marketing mix."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "One medium of advertising is",
+    "options": {
+      "A": "Hospital",
+      "B": "Television",
+      "C": "Court",
+      "D": "School"
+    },
+    "answer": "B",
+    "explanation": "Television is a popular advertising medium."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One aim of advertising is to",
+    "options": {
+      "A": "Reduce demand",
+      "B": "Increase awareness",
+      "C": "Stop trade",
+      "D": "Reduce production"
+    },
+    "answer": "B",
+    "explanation": "Advertising creates awareness of products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A sole proprietorship is owned by",
+    "options": {
+      "A": "Government",
+      "B": "One person",
+      "C": "Many people",
+      "D": "Banks"
+    },
+    "answer": "B",
+    "explanation": "A sole proprietorship is owned by a single individual."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One disadvantage of sole proprietorship is",
+    "options": {
+      "A": "Easy control",
+      "B": "Limited capital",
+      "C": "Quick decision making",
+      "D": "Full ownership"
+    },
+    "answer": "B",
+    "explanation": "It usually suffers from limited capital."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "One element of business environment is",
+    "options": {
+      "A": "Air only",
+      "B": "Economic factors",
+      "C": "Space travel",
+      "D": "Sports"
+    },
+    "answer": "B",
+    "explanation": "Economic conditions affect business operations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "Political stability helps business by",
+    "options": {
+      "A": "Creating war",
+      "B": "Encouraging investment",
+      "C": "Stopping trade",
+      "D": "Reducing demand"
+    },
+    "answer": "B",
+    "explanation": "Stable politics attract investors."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Commerce deals mainly with",
+    "options": {
+      "A": "Production only",
+      "B": "Trade and distribution",
+      "C": "Law making",
+      "D": "Judiciary"
+    },
+    "answer": "B",
+    "explanation": "Commerce involves buying and selling of goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "One benefit of commerce is",
+    "options": {
+      "A": "Unemployment",
+      "B": "Economic growth",
+      "C": "War",
+      "D": "Inflation only"
+    },
+    "answer": "B",
+    "explanation": "Commerce promotes economic development."
+  }
+]

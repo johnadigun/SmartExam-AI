@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "God made a covenant with Noah after the flood. The sign of this covenant was",
+    "options": {
+      "A": "Cross",
+      "B": "Rainbow",
+      "C": "Star",
+      "D": "Dove"
+    },
+    "answer": "B",
+    "explanation": "The rainbow was the sign of God’s covenant with Noah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Tower of Babel was built by people who wanted to",
+    "options": {
+      "A": "Build a temple",
+      "B": "Reach heaven",
+      "C": "Farm land",
+      "D": "Escape flood"
+    },
+    "answer": "B",
+    "explanation": "They wanted to reach heaven through the tower."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "God confused the language of people at",
+    "options": {
+      "A": "Eden",
+      "B": "Jericho",
+      "C": "Babel",
+      "D": "Canaan"
+    },
+    "answer": "C",
+    "explanation": "God confused languages at Babel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Abraham left his home because God told him to go to",
+    "options": {
+      "A": "Egypt",
+      "B": "Canaan",
+      "C": "Rome",
+      "D": "Assyria"
+    },
+    "answer": "B",
+    "explanation": "God instructed Abraham to go to Canaan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Abraham’s faith was tested when God asked him to sacrifice",
+    "options": {
+      "A": "Isaac",
+      "B": "Jacob",
+      "C": "Joseph",
+      "D": "Esau"
+    },
+    "answer": "A",
+    "explanation": "Isaac was the test of Abraham’s faith."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph was made ruler in Egypt after interpreting the dream of",
+    "options": {
+      "A": "Pharaoh",
+      "B": "King Saul",
+      "C": "Nebuchadnezzar",
+      "D": "Herod"
+    },
+    "answer": "A",
+    "explanation": "Pharaoh promoted Joseph."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Moses saw God in a",
+    "options": {
+      "A": "Tree",
+      "B": "Burning bush",
+      "C": "Cloud",
+      "D": "River"
+    },
+    "answer": "B",
+    "explanation": "God appeared to Moses in a burning bush."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Israelites ate manna in the",
+    "options": {
+      "A": "Temple",
+      "B": "Wilderness",
+      "C": "City",
+      "D": "Palace"
+    },
+    "answer": "B",
+    "explanation": "Manna was eaten in the wilderness."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Red Sea was parted by",
+    "options": {
+      "A": "Aaron",
+      "B": "Joshua",
+      "C": "Moses",
+      "D": "David"
+    },
+    "answer": "C",
+    "explanation": "God used Moses to part the Red Sea."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The Ten Commandments were written on",
+    "options": {
+      "A": "Paper",
+      "B": "Stone tablets",
+      "C": "Wood",
+      "D": "Gold plates"
+    },
+    "answer": "B",
+    "explanation": "God wrote them on stone tablets."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first king of Israel was",
+    "options": {
+      "A": "David",
+      "B": "Solomon",
+      "C": "Saul",
+      "D": "Samuel"
+    },
+    "answer": "C",
+    "explanation": "Saul was the first king of Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David was chosen as king while he was",
+    "options": {
+      "A": "A soldier",
+      "B": "A shepherd",
+      "C": "A priest",
+      "D": "A farmer"
+    },
+    "answer": "B",
+    "explanation": "David was a shepherd boy."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David defeated",
+    "options": {
+      "A": "Saul",
+      "B": "Goliath",
+      "C": "Samson",
+      "D": "Absalom"
+    },
+    "answer": "B",
+    "explanation": "David killed Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon asked God for",
+    "options": {
+      "A": "Riches",
+      "B": "Wisdom",
+      "C": "Long life",
+      "D": "Victory"
+    },
+    "answer": "B",
+    "explanation": "Solomon asked for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Solomon built the",
+    "options": {
+      "A": "Ark",
+      "B": "Temple",
+      "C": "Palace",
+      "D": "Wall"
+    },
+    "answer": "B",
+    "explanation": "Solomon built the temple in Jerusalem."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Elijah defeated the prophets of",
+    "options": {
+      "A": "Baal",
+      "B": "Zeus",
+      "C": "Asherah",
+      "D": "Apollo"
+    },
+    "answer": "A",
+    "explanation": "Elijah defeated the prophets of Baal."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Elisha succeeded",
+    "options": {
+      "A": "Moses",
+      "B": "David",
+      "C": "Elijah",
+      "D": "Samuel"
+    },
+    "answer": "C",
+    "explanation": "Elisha succeeded Elijah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus turned water into wine at",
+    "options": {
+      "A": "Cana",
+      "B": "Bethlehem",
+      "C": "Jericho",
+      "D": "Nazareth"
+    },
+    "answer": "A",
+    "explanation": "The miracle happened at Cana."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus was baptized by",
+    "options": {
+      "A": "Peter",
+      "B": "John the Baptist",
+      "C": "Paul",
+      "D": "James"
+    },
+    "answer": "B",
+    "explanation": "John baptized Jesus."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus fasted for how many days?",
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "40",
+      "D": "50"
+    },
+    "answer": "C",
+    "explanation": "Jesus fasted for 40 days."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus had how many disciples?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "Jesus had 12 disciples."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Judas betrayed Jesus for",
+    "options": {
+      "A": "Gold",
+      "B": "Silver",
+      "C": "Copper",
+      "D": "Bronze"
+    },
+    "answer": "B",
+    "explanation": "Judas received silver coins."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus rose from the dead after",
+    "options": {
+      "A": "1 day",
+      "B": "2 days",
+      "C": "3 days",
+      "D": "7 days"
+    },
+    "answer": "C",
+    "explanation": "Jesus resurrected on the third day."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Sermon on the Mount was given by",
+    "options": {
+      "A": "Moses",
+      "B": "Jesus",
+      "C": "Peter",
+      "D": "Paul"
+    },
+    "answer": "B",
+    "explanation": "Jesus delivered the Sermon on the Mount."
+  }
+,
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The place where Jesus was born is",
+    "options": {
+      "A": "Nazareth",
+      "B": "Bethlehem",
+      "C": "Jerusalem",
+      "D": "Capernaum"
+    },
+    "answer": "B",
+    "explanation": "Jesus was born in Bethlehem."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The mother of Jesus is",
+    "options": {
+      "A": "Elizabeth",
+      "B": "Mary",
+      "C": "Martha",
+      "D": "Anna"
+    },
+    "answer": "B",
+    "explanation": "Mary was the mother of Jesus."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The angel who announced Jesus' birth was",
+    "options": {
+      "A": "Gabriel",
+      "B": "Michael",
+      "C": "Raphael",
+      "D": "Uriel"
+    },
+    "answer": "A",
+    "explanation": "Angel Gabriel announced the birth of Jesus."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus was baptized in the river",
+    "options": {
+      "A": "Nile",
+      "B": "Jordan",
+      "C": "Euphrates",
+      "D": "Tigris"
+    },
+    "answer": "B",
+    "explanation": "Jesus was baptized in River Jordan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus performed his first miracle at",
+    "options": {
+      "A": "Cana",
+      "B": "Bethlehem",
+      "C": "Jericho",
+      "D": "Jerusalem"
+    },
+    "answer": "A",
+    "explanation": "Jesus turned water into wine at Cana."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus fed 5000 people with",
+    "options": {
+      "A": "7 loaves and 5 fish",
+      "B": "5 loaves and 2 fish",
+      "C": "3 loaves and 1 fish",
+      "D": "10 loaves"
+    },
+    "answer": "B",
+    "explanation": "Jesus multiplied 5 loaves and 2 fish."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The parable of the Good Samaritan teaches",
+    "options": {
+      "A": "Wealth",
+      "B": "Love and kindness",
+      "C": "War",
+      "D": "Power"
+    },
+    "answer": "B",
+    "explanation": "It teaches love for others."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The disciple who betrayed Jesus was",
+    "options": {
+      "A": "Peter",
+      "B": "Judas Iscariot",
+      "C": "John",
+      "D": "James"
+    },
+    "answer": "B",
+    "explanation": "Judas betrayed Jesus for silver."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus died on the cross at",
+    "options": {
+      "A": "Bethlehem",
+      "B": "Calvary",
+      "C": "Nazareth",
+      "D": "Cana"
+    },
+    "answer": "B",
+    "explanation": "Jesus was crucified at Calvary."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus rose from the dead after",
+    "options": {
+      "A": "1 day",
+      "B": "2 days",
+      "C": "3 days",
+      "D": "7 days"
+    },
+    "answer": "C",
+    "explanation": "Jesus resurrected on the third day."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus had how many disciples?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "Jesus had 12 disciples."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Sermon on the Mount was delivered by",
+    "options": {
+      "A": "Moses",
+      "B": "Jesus",
+      "C": "Peter",
+      "D": "Paul"
+    },
+    "answer": "B",
+    "explanation": "Jesus delivered the Sermon on the Mount."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The Lord's Prayer begins with",
+    "options": {
+      "A": "Our Father",
+      "B": "Hail Mary",
+      "C": "Holy God",
+      "D": "Blessed are you"
+    },
+    "answer": "A",
+    "explanation": "The prayer starts with 'Our Father'."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus prayed in the garden called",
+    "options": {
+      "A": "Gethsemane",
+      "B": "Eden",
+      "C": "Sinai",
+      "D": "Carmel"
+    },
+    "answer": "A",
+    "explanation": "Jesus prayed in Gethsemane."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The Apostle Paul was formerly called",
+    "options": {
+      "A": "Saul",
+      "B": "Simon",
+      "C": "John",
+      "D": "James"
+    },
+    "answer": "A",
+    "explanation": "Paul was originally Saul."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Paul was converted on the road to",
+    "options": {
+      "A": "Egypt",
+      "B": "Damascus",
+      "C": "Rome",
+      "D": "Jericho"
+    },
+    "answer": "B",
+    "explanation": "Paul met Jesus on the Damascus road."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The first Christian martyr was",
+    "options": {
+      "A": "Peter",
+      "B": "Stephen",
+      "C": "John",
+      "D": "Paul"
+    },
+    "answer": "B",
+    "explanation": "Stephen was the first martyr."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The book of Acts was written by",
+    "options": {
+      "A": "Paul",
+      "B": "Luke",
+      "C": "John",
+      "D": "Peter"
+    },
+    "answer": "B",
+    "explanation": "Luke wrote the Acts of the Apostles."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The fruit of the Spirit includes",
+    "options": {
+      "A": "Anger",
+      "B": "Love",
+      "C": "Fear",
+      "D": "Hatred"
+    },
+    "answer": "B",
+    "explanation": "Love is part of the fruit of the Spirit."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The last book of the Bible is",
+    "options": {
+      "A": "Genesis",
+      "B": "Revelation",
+      "C": "Matthew",
+      "D": "Romans"
+    },
+    "answer": "B",
+    "explanation": "Revelation is the final book."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The Holy Spirit descended on the apostles during",
+    "options": {
+      "A": "Passover",
+      "B": "Pentecost",
+      "C": "Easter",
+      "D": "Christmas"
+    },
+    "answer": "B",
+    "explanation": "This happened on the day of Pentecost."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus called himself the",
+    "options": {
+      "A": "King of Israel",
+      "B": "Son of God",
+      "C": "Prophet",
+      "D": "Teacher only"
+    },
+    "answer": "B",
+    "explanation": "Jesus identified as the Son of God."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "The symbol of Christianity is the",
+    "options": {
+      "A": "Crescent",
+      "B": "Cross",
+      "C": "Star",
+      "D": "Sword"
+    },
+    "answer": "B",
+    "explanation": "The cross represents Christianity."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Great Commission tells Christians to",
+    "options": {
+      "A": "Build temples",
+      "B": "Preach the gospel",
+      "C": "Fight wars",
+      "D": "Collect money"
+    },
+    "answer": "B",
+    "explanation": "Jesus commanded preaching the gospel."
+  }
+]

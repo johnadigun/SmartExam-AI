@@ -1,0 +1,703 @@
+[
+  {
+    "subject": "Physics",
+    "category": "Elasticity",
+    "difficulty": "Easy",
+    "question": "Hooke's law is valid provided the elastic limit is not exceeded. It states that",
+    "options": {
+      "A": "Stress is inversely proportional to strain",
+      "B": "Stress is directly proportional to strain",
+      "C": "Force is inversely proportional to extension",
+      "D": "Pressure is proportional to volume"
+    },
+    "answer": "B",
+    "explanation": "Within the elastic limit, stress is directly proportional to strain."
+  },
+  {
+    "subject": "Physics",
+    "category": "Oscillations",
+    "difficulty": "Easy",
+    "question": "One complete to-and-fro movement of a pendulum is called",
+    "options": {
+      "A": "Frequency",
+      "B": "Amplitude",
+      "C": "Oscillation",
+      "D": "Vibration energy"
+    },
+    "answer": "C",
+    "explanation": "A complete to-and-fro motion is one oscillation."
+  },
+  {
+    "subject": "Physics",
+    "category": "Oscillations",
+    "difficulty": "Medium",
+    "question": "The SI unit of frequency is",
+    "options": {
+      "A": "Second",
+      "B": "Hertz",
+      "C": "Radian",
+      "D": "Metre"
+    },
+    "answer": "B",
+    "explanation": "Frequency is measured in hertz (Hz)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Oscillations",
+    "difficulty": "Medium",
+    "question": "The time taken to complete one oscillation is known as",
+    "options": {
+      "A": "Amplitude",
+      "B": "Period",
+      "C": "Frequency",
+      "D": "Phase"
+    },
+    "answer": "B",
+    "explanation": "The period is the time for one complete oscillation."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gravitation",
+    "difficulty": "Easy",
+    "question": "The weight of an object is greatest on",
+    "options": {
+      "A": "The Moon",
+      "B": "The Earth",
+      "C": "Jupiter",
+      "D": "Mars"
+    },
+    "answer": "C",
+    "explanation": "Jupiter has a much stronger gravitational field than Earth."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Easy",
+    "question": "The distance between two successive crests of a wave is called",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Wavelength",
+      "D": "Period"
+    },
+    "answer": "C",
+    "explanation": "The wavelength is the distance between successive crests or troughs."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Medium",
+    "question": "The loudness of a sound depends mainly on its",
+    "options": {
+      "A": "Frequency",
+      "B": "Amplitude",
+      "C": "Velocity",
+      "D": "Wavelength"
+    },
+    "answer": "B",
+    "explanation": "Greater amplitude produces a louder sound."
+  },
+  {
+    "subject": "Physics",
+    "category": "Sound",
+    "difficulty": "Medium",
+    "question": "The pitch of a musical note depends on its",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Intensity",
+      "D": "Velocity"
+    },
+    "answer": "B",
+    "explanation": "Higher frequency corresponds to higher pitch."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Easy",
+    "question": "A transparent material that refracts light to form images is called",
+    "options": {
+      "A": "Mirror",
+      "B": "Lens",
+      "C": "Prism",
+      "D": "Screen"
+    },
+    "answer": "B",
+    "explanation": "A lens refracts light to produce images."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "A concave mirror is commonly used as",
+    "options": {
+      "A": "A rear-view mirror",
+      "B": "A shaving mirror",
+      "C": "A window glass",
+      "D": "A camera filter"
+    },
+    "answer": "B",
+    "explanation": "A concave mirror produces a magnified upright image when the object is within its focal length."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "The angle of incidence is equal to the angle of reflection according to",
+    "options": {
+      "A": "Snell's Law",
+      "B": "Law of Reflection",
+      "C": "Ohm's Law",
+      "D": "Hooke's Law"
+    },
+    "answer": "B",
+    "explanation": "The law of reflection states that the angle of incidence equals the angle of reflection."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Easy",
+    "question": "The normal to a reflecting surface is drawn",
+    "options": {
+      "A": "Parallel to the surface",
+      "B": "Perpendicular to the surface",
+      "C": "At 45° to the surface",
+      "D": "Along the reflected ray"
+    },
+    "answer": "B",
+    "explanation": "The normal is always perpendicular to the reflecting surface."
+  },
+  {
+    "subject": "Physics",
+    "category": "Optics",
+    "difficulty": "Medium",
+    "question": "A prism separates white light into its component colours due to",
+    "options": {
+      "A": "Reflection",
+      "B": "Diffraction",
+      "C": "Dispersion",
+      "D": "Interference"
+    },
+    "answer": "C",
+    "explanation": "Dispersion occurs because different colours refract by different amounts."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Easy",
+    "question": "The SI unit of heat energy is",
+    "options": {
+      "A": "Watt",
+      "B": "Joule",
+      "C": "Newton",
+      "D": "Kelvin"
+    },
+    "answer": "B",
+    "explanation": "Heat is a form of energy measured in joules."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Medium",
+    "question": "The quantity of heat required to raise the temperature of 1 kg of a substance by 1 K is called",
+    "options": {
+      "A": "Latent heat",
+      "B": "Specific heat capacity",
+      "C": "Heat capacity",
+      "D": "Thermal conductivity"
+    },
+    "answer": "B",
+    "explanation": "Specific heat capacity is the heat required per kilogram per kelvin."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Easy",
+    "question": "The process in which a solid changes directly into vapour is known as",
+    "options": {
+      "A": "Condensation",
+      "B": "Evaporation",
+      "C": "Sublimation",
+      "D": "Fusion"
+    },
+    "answer": "C",
+    "explanation": "Sublimation is the direct change from solid to vapour."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gas Laws",
+    "difficulty": "Medium",
+    "question": "At constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature. This is",
+    "options": {
+      "A": "Boyle's Law",
+      "B": "Charles's Law",
+      "C": "Hooke's Law",
+      "D": "Ohm's Law"
+    },
+    "answer": "B",
+    "explanation": "Charles's law relates volume and absolute temperature at constant pressure."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gas Laws",
+    "difficulty": "Medium",
+    "question": "Boyle's law applies when the",
+    "options": {
+      "A": "Temperature is constant",
+      "B": "Pressure is constant",
+      "C": "Volume is constant",
+      "D": "Mass is changing"
+    },
+    "answer": "A",
+    "explanation": "Boyle's law states that pressure is inversely proportional to volume at constant temperature."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Easy",
+    "question": "The material commonly used for making fuse wire has",
+    "options": {
+      "A": "High melting point",
+      "B": "Low melting point",
+      "C": "High resistance only",
+      "D": "Zero resistance"
+    },
+    "answer": "B",
+    "explanation": "Fuse wire melts easily when excessive current flows."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "Electrical energy consumed is commonly measured in",
+    "options": {
+      "A": "Joule",
+      "B": "Kilowatt-hour",
+      "C": "Newton",
+      "D": "Volt"
+    },
+    "answer": "B",
+    "explanation": "Electricity meters measure energy in kilowatt-hours (kWh)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "Two 6 Ω resistors connected in series have an equivalent resistance of",
+    "options": {
+      "A": "3 Ω",
+      "B": "6 Ω",
+      "C": "12 Ω",
+      "D": "18 Ω"
+    },
+    "answer": "C",
+    "explanation": "In series, resistances are added together."
+  },
+  {
+    "subject": "Physics",
+    "category": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "Two resistors of 6 Ω each connected in parallel have an equivalent resistance of",
+    "options": {
+      "A": "3 Ω",
+      "B": "6 Ω",
+      "C": "9 Ω",
+      "D": "12 Ω"
+    },
+    "answer": "A",
+    "explanation": "For equal resistors in parallel, the equivalent resistance is half the value of one resistor."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electrostatics",
+    "difficulty": "Easy",
+    "question": "A positively charged body has",
+    "options": {
+      "A": "Gained electrons",
+      "B": "Lost electrons",
+      "C": "Gained protons",
+      "D": "Lost neutrons"
+    },
+    "answer": "B",
+    "explanation": "A body becomes positively charged by losing electrons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electrostatics",
+    "difficulty": "Easy",
+    "question": "The SI unit of capacitance is",
+    "options": {
+      "A": "Farad",
+      "B": "Henry",
+      "C": "Tesla",
+      "D": "Weber"
+    },
+    "answer": "A",
+    "explanation": "Capacitance is measured in farads (F)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Magnetism",
+    "difficulty": "Medium",
+    "question": "The Earth behaves like a giant",
+    "options": {
+      "A": "Battery",
+      "B": "Electromagnet",
+      "C": "Bar magnet",
+      "D": "Solenoid"
+    },
+    "answer": "C",
+    "explanation": "The Earth's magnetic field is similar to that of a bar magnet."
+  },
+  {
+    "subject": "Physics",
+    "category": "Magnetism",
+    "difficulty": "Medium",
+    "question": "The horizontal component of the Earth's magnetic field is strongest near the",
+    "options": {
+      "A": "Magnetic poles",
+      "B": "Equator",
+      "C": "North Pole only",
+      "D": "South Pole only"
+    },
+    "answer": "B",
+    "explanation": "The horizontal component is greatest near the magnetic equator."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "An induced e.m.f. is produced when there is a change in",
+    "options": {
+      "A": "Temperature",
+      "B": "Magnetic flux",
+      "C": "Mass",
+      "D": "Pressure"
+    },
+    "answer": "B",
+    "explanation": "Changing magnetic flux induces an e.m.f."
+  },
+  {
+    "subject": "Physics",
+    "category": "Alternating Current",
+    "difficulty": "Easy",
+    "question": "A device used to increase or decrease alternating voltage is called a",
+    "options": {
+      "A": "Generator",
+      "B": "Motor",
+      "C": "Transformer",
+      "D": "Rectifier"
+    },
+    "answer": "C",
+    "explanation": "A transformer changes AC voltage levels."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "The instrument used to detect ionizing radiation is the",
+    "options": {
+      "A": "Hydrometer",
+      "B": "Geiger–Müller counter",
+      "C": "Voltmeter",
+      "D": "Spectrometer"
+    },
+    "answer": "B",
+    "explanation": "A Geiger–Müller counter detects radioactive emissions."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "The half-life of a radioactive substance is the time required for",
+    "options": {
+      "A": "All the atoms to decay",
+      "B": "Half of the radioactive nuclei to decay",
+      "C": "Its temperature to reduce by half",
+      "D": "Its mass to become zero"
+    },
+    "answer": "B",
+    "explanation": "Half-life is the time taken for half of the radioactive nuclei to decay."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Easy",
+    "question": "The negatively charged particle in an atom is the",
+    "options": {
+      "A": "Proton",
+      "B": "Electron",
+      "C": "Neutron",
+      "D": "Positron"
+    },
+    "answer": "B",
+    "explanation": "Electrons carry a negative charge."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Easy",
+    "question": "The particle with no electric charge is the",
+    "options": {
+      "A": "Electron",
+      "B": "Proton",
+      "C": "Neutron",
+      "D": "Positron"
+    },
+    "answer": "C",
+    "explanation": "Neutrons are electrically neutral."
+  },
+  {
+    "subject": "Physics",
+    "category": "Atomic Physics",
+    "difficulty": "Medium",
+    "question": "The mass number of an atom is the total number of",
+    "options": {
+      "A": "Electrons and protons",
+      "B": "Protons and neutrons",
+      "C": "Neutrons only",
+      "D": "Protons only"
+    },
+    "answer": "B",
+    "explanation": "Mass number = protons + neutrons."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "A semiconductor diode is mainly used for",
+    "options": {
+      "A": "Amplification",
+      "B": "Rectification",
+      "C": "Cooling",
+      "D": "Measurement"
+    },
+    "answer": "B",
+    "explanation": "A diode converts alternating current to direct current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "An electronic device used for amplification is the",
+    "options": {
+      "A": "Resistor",
+      "B": "Capacitor",
+      "C": "Transistor",
+      "D": "Fuse"
+    },
+    "answer": "C",
+    "explanation": "A transistor is widely used as an amplifier."
+  },
+  {
+    "subject": "Physics",
+    "category": "Communication Systems",
+    "difficulty": "Easy",
+    "question": "Electromagnetic waves travel in a vacuum with a speed of approximately",
+    "options": {
+      "A": "3 × 10⁵ m/s",
+      "B": "3 × 10⁶ m/s",
+      "C": "3 × 10⁸ m/s",
+      "D": "3 × 10¹⁰ m/s"
+    },
+    "answer": "C",
+    "explanation": "The speed of electromagnetic waves in a vacuum is about 3 × 10⁸ m/s."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Medium",
+    "question": "Which electromagnetic radiation is commonly used for satellite communication?",
+    "options": {
+      "A": "Gamma rays",
+      "B": "Microwaves",
+      "C": "Ultraviolet rays",
+      "D": "Infrared rays"
+    },
+    "answer": "B",
+    "explanation": "Microwaves are widely used for satellite communication."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Medium",
+    "question": "X-rays are commonly used in hospitals for",
+    "options": {
+      "A": "Cooking",
+      "B": "Medical imaging",
+      "C": "Television transmission",
+      "D": "Water purification"
+    },
+    "answer": "B",
+    "explanation": "X-rays are used to produce images of bones and internal organs."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Easy",
+    "question": "Visible light lies between",
+    "options": {
+      "A": "Radio waves and Microwaves",
+      "B": "Infrared and Ultraviolet rays",
+      "C": "Gamma rays and X-rays",
+      "D": "Microwaves and Gamma rays"
+    },
+    "answer": "B",
+    "explanation": "Visible light is between infrared and ultraviolet in the electromagnetic spectrum."
+  },
+  {
+    "subject": "Physics",
+    "category": "Nuclear Physics",
+    "difficulty": "Medium",
+    "question": "The process in which two light nuclei combine to form a heavier nucleus is called",
+    "options": {
+      "A": "Radioactivity",
+      "B": "Nuclear fission",
+      "C": "Nuclear fusion",
+      "D": "Ionization"
+    },
+    "answer": "C",
+    "explanation": "Fusion is the combination of light nuclei to form a heavier nucleus."
+  },
+  {
+    "subject": "Physics",
+    "category": "Nuclear Physics",
+    "difficulty": "Medium",
+    "question": "Which of the following is a use of radioactive isotopes in medicine?",
+    "options": {
+      "A": "Food preservation",
+      "B": "Diagnosis and treatment of diseases",
+      "C": "Generation of hydroelectric power",
+      "D": "Manufacture of plastics"
+    },
+    "answer": "B",
+    "explanation": "Radioisotopes are used in medical diagnosis and cancer treatment."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Easy",
+    "question": "Which electromagnetic wave has the longest wavelength?",
+    "options": {
+      "A": "Gamma rays",
+      "B": "X-rays",
+      "C": "Visible light",
+      "D": "Radio waves"
+    },
+    "answer": "D",
+    "explanation": "Radio waves have the longest wavelength."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Easy",
+    "question": "Infrared radiation is commonly used in",
+    "options": {
+      "A": "Night vision devices",
+      "B": "Nuclear reactors",
+      "C": "Electric generators",
+      "D": "Hydroelectric dams"
+    },
+    "answer": "A",
+    "explanation": "Infrared radiation is used in thermal imaging and night vision."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electromagnetic Spectrum",
+    "difficulty": "Medium",
+    "question": "Microwaves are mainly used for",
+    "options": {
+      "A": "Medical X-ray imaging",
+      "B": "Satellite communication and radar",
+      "C": "Sterilization",
+      "D": "Photosynthesis"
+    },
+    "answer": "B",
+    "explanation": "Microwaves are used in radar and satellite communication."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Easy",
+    "question": "The colour of white light with the longest wavelength is",
+    "options": {
+      "A": "Violet",
+      "B": "Blue",
+      "C": "Green",
+      "D": "Red"
+    },
+    "answer": "D",
+    "explanation": "Red light has the longest wavelength in the visible spectrum."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Easy",
+    "question": "The colour of visible light with the shortest wavelength is",
+    "options": {
+      "A": "Red",
+      "B": "Yellow",
+      "C": "Blue",
+      "D": "Violet"
+    },
+    "answer": "D",
+    "explanation": "Violet light has the shortest wavelength."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "A capacitor is primarily used to",
+    "options": {
+      "A": "Store electric charge",
+      "B": "Increase resistance",
+      "C": "Measure current",
+      "D": "Produce magnetic fields only"
+    },
+    "answer": "A",
+    "explanation": "Capacitors store electrical charge and energy."
+  },
+  {
+    "subject": "Physics",
+    "category": "Electronics",
+    "difficulty": "Medium",
+    "question": "The SI unit of capacitance is",
+    "options": {
+      "A": "Henry",
+      "B": "Farad",
+      "C": "Tesla",
+      "D": "Weber"
+    },
+    "answer": "B",
+    "explanation": "Capacitance is measured in farads."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "The photoelectric effect provides evidence that light behaves as",
+    "options": {
+      "A": "A mechanical wave only",
+      "B": "Particles called photons",
+      "C": "A longitudinal wave",
+      "D": "A sound wave"
+    },
+    "answer": "B",
+    "explanation": "The photoelectric effect supports the particle nature of light."
+  },
+  {
+    "subject": "Physics",
+    "category": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "Einstein received the Nobel Prize mainly for his explanation of the",
+    "options": {
+      "A": "Theory of Relativity",
+      "B": "Photoelectric Effect",
+      "C": "Atomic Model",
+      "D": "Law of Gravitation"
+    },
+    "answer": "B",
+    "explanation": "Einstein's Nobel Prize recognized his work on the photoelectric effect."
+  }
+
+]

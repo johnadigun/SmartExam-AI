@@ -1,0 +1,273 @@
+/* ==========================================================
+   SMARTEXAM UTILITIES
+========================================================== */
+
+/* ==========================================
+   DISPLAY
+========================================== */
+
+.d-none{display:none !important;}
+.d-block{display:block !important;}
+.d-inline{display:inline !important;}
+.d-inline-block{display:inline-block !important;}
+
+.d-flex{display:flex !important;}
+.d-grid{display:grid !important;}
+
+/* ==========================================
+   FLEX
+========================================== */
+
+.justify-start{justify-content:flex-start !important;}
+.justify-center{justify-content:center !important;}
+.justify-end{justify-content:flex-end !important;}
+.justify-between{justify-content:space-between !important;}
+.justify-around{justify-content:space-around !important;}
+
+.align-start{align-items:flex-start !important;}
+.align-center{align-items:center !important;}
+.align-end{align-items:flex-end !important;}
+
+.flex-column{flex-direction:column !important;}
+.flex-wrap{flex-wrap:wrap !important;}
+
+.gap-1{gap:5px !important;}
+.gap-2{gap:10px !important;}
+.gap-3{gap:20px !important;}
+.gap-4{gap:30px !important;}
+
+/* ==========================================
+   WIDTH
+========================================== */
+
+.w-25{width:25% !important;}
+.w-50{width:50% !important;}
+.w-75{width:75% !important;}
+.w-100{width:100% !important;}
+
+.max-w-400{max-width:400px;}
+.max-w-600{max-width:600px;}
+.max-w-800{max-width:800px;}
+.max-w-1200{max-width:1200px;}
+
+/* ==========================================
+   HEIGHT
+========================================== */
+
+.h-100{height:100% !important;}
+.min-vh-100{min-height:100vh !important;}
+
+/* ==========================================
+   MARGIN
+========================================== */
+
+.m-0{margin:0 !important;}
+.m-1{margin:5px !important;}
+.m-2{margin:10px !important;}
+.m-3{margin:20px !important;}
+.m-4{margin:30px !important;}
+
+.mt-0{margin-top:0 !important;}
+.mt-1{margin-top:5px !important;}
+.mt-2{margin-top:10px !important;}
+.mt-3{margin-top:20px !important;}
+.mt-4{margin-top:30px !important;}
+.mt-5{margin-top:40px !important;}
+
+.mb-0{margin-bottom:0 !important;}
+.mb-1{margin-bottom:5px !important;}
+.mb-2{margin-bottom:10px !important;}
+.mb-3{margin-bottom:20px !important;}
+.mb-4{margin-bottom:30px !important;}
+.mb-5{margin-bottom:40px !important;}
+
+.ml-auto{margin-left:auto !important;}
+.mr-auto{margin-right:auto !important;}
+
+/* ==========================================
+   PADDING
+========================================== */
+
+.p-0{padding:0 !important;}
+.p-1{padding:5px !important;}
+.p-2{padding:10px !important;}
+.p-3{padding:20px !important;}
+.p-4{padding:30px !important;}
+.p-5{padding:40px !important;}
+
+.pt-1{padding-top:5px !important;}
+.pt-2{padding-top:10px !important;}
+.pt-3{padding-top:20px !important;}
+.pt-4{padding-top:30px !important;}
+
+.pb-1{padding-bottom:5px !important;}
+.pb-2{padding-bottom:10px !important;}
+.pb-3{padding-bottom:20px !important;}
+.pb-4{padding-bottom:30px !important;}
+
+.px-1{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.px-2{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.px-3{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.py-1{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.py-2{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.py-3{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* ==========================================
+   TEXT
+========================================== */
+
+.text-left{text-align:left !important;}
+.text-center{text-align:center !important;}
+.text-right{text-align:right !important;}
+
+.fw-light{font-weight:300 !important;}
+.fw-normal{font-weight:400 !important;}
+.fw-medium{font-weight:500 !important;}
+.fw-bold{font-weight:700 !important;}
+
+.fs-small{font-size:.9rem !important;}
+.fs-normal{font-size:1rem !important;}
+.fs-medium{font-size:1.1rem !important;}
+.fs-large{font-size:1.3rem !important;}
+.fs-title{font-size:2rem !important;}
+
+/* ==========================================
+   COLORS
+========================================== */
+
+.text-primary{color:var(--primary) !important;}
+.text-success{color:var(--success) !important;}
+.text-danger{color:var(--danger) !important;}
+.text-warning{color:#b8860b !important;}
+.text-muted{color:var(--text-light) !important;}
+.text-white{color:white !important;}
+
+.bg-primary{background:var(--primary) !important;}
+.bg-success{background:var(--success) !important;}
+.bg-danger{background:var(--danger) !important;}
+.bg-warning{background:var(--warning) !important;}
+.bg-white{background:white !important;}
+.bg-light{background:var(--surface-alt) !important;}
+
+/* ==========================================
+   BORDER
+========================================== */
+
+.border{
+    border:1px solid var(--border);
+}
+
+.border-0{
+    border:none !important;
+}
+
+.rounded{
+    border-radius:var(--radius);
+}
+
+.rounded-sm{
+    border-radius:var(--radius-small);
+}
+
+.rounded-lg{
+    border-radius:var(--radius-large);
+}
+
+/* ==========================================
+   SHADOW
+========================================== */
+
+.shadow-sm{
+    box-shadow:var(--shadow-small);
+}
+
+.shadow{
+    box-shadow:var(--shadow-medium);
+}
+
+.shadow-lg{
+    box-shadow:var(--shadow-large);
+}
+
+/* ==========================================
+   CURSOR
+========================================== */
+
+.pointer{
+    cursor:pointer;
+}
+
+/* ==========================================
+   OVERFLOW
+========================================== */
+
+.overflow-hidden{
+    overflow:hidden;
+}
+
+.overflow-auto{
+    overflow:auto;
+}
+
+/* ==========================================
+   TRANSITIONS
+========================================== */
+
+.transition{
+    transition:var(--transition);
+}
+
+/* ==========================================
+   HOVER SCALE
+========================================== */
+
+.hover-scale:hover{
+    transform:scale(1.03);
+}
+
+.hover-lift:hover{
+    transform:translateY(-3px);
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .mobile-center{
+        text-align:center !important;
+    }
+
+    .mobile-full{
+        width:100% !important;
+    }
+
+    .mobile-hide{
+        display:none !important;
+    }
+
+}

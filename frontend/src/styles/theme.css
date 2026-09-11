@@ -1,0 +1,360 @@
+/* ==========================================================
+   SMARTEXAM MASTER THEME
+   Version 1.0
+========================================================== */
+
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* ==========================================
+   ROOT VARIABLES
+========================================== */
+
+:root {
+
+  /* ========= BRAND ========= */
+
+  --primary: #0B5394;
+  --primary-light: #1565C0;
+  --primary-dark: #063970;
+
+  /* ========= SUCCESS ========= */
+
+  --success: #198754;
+  --success-light: #D1E7DD;
+
+  /* ========= DANGER ========= */
+
+  --danger: #DC3545;
+  --danger-light: #F8D7DA;
+
+  /* ========= WARNING ========= */
+
+  --warning: #FFC107;
+  --warning-light: #FFF3CD;
+
+  /* ========= INFO ========= */
+
+  --info: #0DCAF0;
+
+  /* ========= BACKGROUND ========= */
+
+  --background: #F4F7FB;
+  --surface: #FFFFFF;
+  --surface-alt: #F8F9FA;
+
+  /* ========= TEXT ========= */
+
+  --text: #212529;
+  --text-light: #6C757D;
+  --text-white: #FFFFFF;
+
+  /* ========= BORDER ========= */
+
+  --border: #DEE2E6;
+
+  /* ========= SHADOW ========= */
+
+  --shadow-small:
+      0 2px 8px rgba(0,0,0,.08);
+
+  --shadow-medium:
+      0 5px 18px rgba(0,0,0,.10);
+
+  --shadow-large:
+      0 10px 30px rgba(0,0,0,.15);
+
+  /* ========= BORDER RADIUS ========= */
+
+  --radius-small: 6px;
+
+  --radius: 10px;
+
+  --radius-large: 16px;
+
+  /* ========= SPACING ========= */
+
+  --space-xs: 5px;
+  --space-sm: 10px;
+  --space-md: 20px;
+  --space-lg: 30px;
+  --space-xl: 40px;
+  --space-xxl: 60px;
+
+  /* ========= FONT ========= */
+
+  --font-family:
+      "Poppins",
+      sans-serif;
+
+  --font-small: .90rem;
+
+  --font-normal: 1rem;
+
+  --font-medium: 1.10rem;
+
+  --font-large: 1.35rem;
+
+  --font-title: 2rem;
+
+  /* ========= TRANSITION ========= */
+
+  --transition:
+      all .30s ease;
+
+}
+
+/* ==========================================
+   GLOBAL RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================================
+   HTML
+========================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+/* ==========================================
+   BODY
+========================================== */
+
+body{
+
+    font-family:var(--font-family);
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-size:var(--font-normal);
+
+    line-height:1.6;
+
+    overflow-x:hidden;
+
+}
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* ==========================================
+   LIST
+========================================== */
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+button{
+
+    font-family:inherit;
+
+}
+
+/* ==========================================
+   INPUT
+========================================== */
+
+input,
+textarea,
+select{
+
+    font-family:inherit;
+
+}
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1{
+
+    font-size:var(--font-title);
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+h2{
+
+    font-size:1.6rem;
+
+    color:var(--primary);
+
+}
+
+h3{
+
+    font-size:1.3rem;
+
+}
+
+h4{
+
+    font-size:1.1rem;
+
+}
+
+/* ==========================================
+   PARAGRAPH
+========================================== */
+
+p{
+
+    color:var(--text);
+
+}
+
+/* ==========================================
+   SCROLL BAR
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary-dark);
+
+}
+
+/* ==========================================
+   TEXT HELPERS
+========================================== */
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-right{
+
+    text-align:right;
+
+}
+
+.text-left{
+
+    text-align:left;
+
+}
+
+/* ==========================================
+   COLOR HELPERS
+========================================== */
+
+.text-primary{
+
+    color:var(--primary);
+
+}
+
+.text-success{
+
+    color:var(--success);
+
+}
+
+.text-danger{
+
+    color:var(--danger);
+
+}
+
+.text-warning{
+
+    color:#CC8B00;
+
+}
+
+.text-muted{
+
+    color:var(--text-light);
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:1.7rem;
+
+    }
+
+    h2{
+
+        font-size:1.4rem;
+
+    }
+
+    body{
+
+        font-size:.95rem;
+
+    }
+
+}

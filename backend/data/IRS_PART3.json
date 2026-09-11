@@ -1,0 +1,647 @@
+[
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet Muhammad was born in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He was born in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The year of the Prophet's birth is called",
+    "options": {
+      "A": "Year of Hijrah",
+      "B": "Year of Elephant",
+      "C": "Year of Battle",
+      "D": "Year of Revelation"
+    },
+    "answer": "B",
+    "explanation": "He was born in the Year of the Elephant."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet's father died",
+    "options": {
+      "A": "After his birth",
+      "B": "Before his birth",
+      "C": "During Hijrah",
+      "D": "After marriage"
+    },
+    "answer": "B",
+    "explanation": "His father died before he was born."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet's mother died when he was",
+    "options": {
+      "A": "6 years old",
+      "B": "8 years old",
+      "C": "10 years old",
+      "D": "12 years old"
+    },
+    "answer": "A",
+    "explanation": "Aminah died when he was 6."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet was raised by",
+    "options": {
+      "A": "Abu Bakr",
+      "B": "Abdul-Muttalib and Abu Talib",
+      "C": "Umar",
+      "D": "Uthman"
+    },
+    "answer": "B",
+    "explanation": "He was cared for by his grandfather and uncle."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet worked as a",
+    "options": {
+      "A": "Carpenter",
+      "B": "Shepherd and merchant",
+      "C": "Soldier",
+      "D": "Farmer"
+    },
+    "answer": "B",
+    "explanation": "He was a shepherd and trader."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The first wife of the Prophet is",
+    "options": {
+      "A": "Aisha",
+      "B": "Khadijah",
+      "C": "Hafsa",
+      "D": "Zaynab"
+    },
+    "answer": "B",
+    "explanation": "Khadijah was his first wife."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet received his first revelation in",
+    "options": {
+      "A": "Cave of Thawr",
+      "B": "Cave of Hira",
+      "C": "Mount Uhud",
+      "D": "Mount Sinai"
+    },
+    "answer": "B",
+    "explanation": "Revelation began in Cave of Hira."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The angel who brought revelation is",
+    "options": {
+      "A": "Mika'il",
+      "B": "Jibril",
+      "C": "Israfil",
+      "D": "Malik"
+    },
+    "answer": "B",
+    "explanation": "Jibril brought the Qur'an."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The migration of the Prophet is called",
+    "options": {
+      "A": "Hajj",
+      "B": "Hijrah",
+      "C": "Salah",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Hijrah is migration to Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The city the Prophet migrated to is",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He migrated to Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The first mosque built in Islam is",
+    "options": {
+      "A": "Masjid Nabawi",
+      "B": "Masjid Quba",
+      "C": "Masjid al-Haram",
+      "D": "Al-Aqsa"
+    },
+    "answer": "B",
+    "explanation": "Masjid Quba is first mosque."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The battle fought first by Muslims is",
+    "options": {
+      "A": "Uhud",
+      "B": "Badr",
+      "C": "Khandaq",
+      "D": "Hunayn"
+    },
+    "answer": "B",
+    "explanation": "Battle of Badr was first."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet had how many children?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "C",
+    "explanation": "He had 7 children."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The son of the Prophet was named",
+    "options": {
+      "A": "Ibrahim",
+      "B": "Hamza",
+      "C": "Ali",
+      "D": "Abu Bakr"
+    },
+    "answer": "A",
+    "explanation": "His son was Ibrahim."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet's uncle who supported him was",
+    "options": {
+      "A": "Abu Lahab",
+      "B": "Abu Talib",
+      "C": "Hamza",
+      "D": "Abbas"
+    },
+    "answer": "B",
+    "explanation": "Abu Talib protected him."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet's close friend was",
+    "options": {
+      "A": "Umar",
+      "B": "Abu Bakr",
+      "C": "Ali",
+      "D": "Uthman"
+    },
+    "answer": "B",
+    "explanation": "Abu Bakr was his closest companion."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet was buried in",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He was buried in Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet lived for",
+    "options": {
+      "A": "50 years",
+      "B": "60 years",
+      "C": "63 years",
+      "D": "70 years"
+    },
+    "answer": "C",
+    "explanation": "He lived for 63 years."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet started preaching Islam at age",
+    "options": {
+      "A": "30",
+      "B": "35",
+      "C": "40",
+      "D": "45"
+    },
+    "answer": "C",
+    "explanation": "He began at age 40."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The first revelation command was",
+    "options": {
+      "A": "Pray",
+      "B": "Read (Iqra)",
+      "C": "Fast",
+      "D": "Give charity"
+    },
+    "answer": "B",
+    "explanation": "First word was 'Iqra'."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet belonged to the tribe of",
+    "options": {
+      "A": "Aws",
+      "B": "Khazraj",
+      "C": "Quraysh",
+      "D": "Ansar"
+    },
+    "answer": "C",
+    "explanation": "He was from Quraysh."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet’s father was named",
+    "options": {
+      "A": "Abdullah",
+      "B": "Abu Talib",
+      "C": "Hamza",
+      "D": "Abbas"
+    },
+    "answer": "A",
+    "explanation": "His father was Abdullah."
+  }
+,
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet's mother was named",
+    "options": {
+      "A": "Aminah",
+      "B": "Khadijah",
+      "C": "Fatimah",
+      "D": "Hafsa"
+    },
+    "answer": "A",
+    "explanation": "His mother was Aminah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet was cared for in his childhood by",
+    "options": {
+      "A": "Abu Bakr",
+      "B": "Halima Sa'diyyah",
+      "C": "Umar",
+      "D": "Ali"
+    },
+    "answer": "B",
+    "explanation": "Halima was his foster mother."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet’s foster tribe was",
+    "options": {
+      "A": "Quraysh",
+      "B": "Banu Sa'd",
+      "C": "Aws",
+      "D": "Khazraj"
+    },
+    "answer": "B",
+    "explanation": "He was raised among Banu Sa'd."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet worked as a shepherd in his youth for",
+    "options": {
+      "A": "Makkah leaders",
+      "B": "Quraysh people",
+      "C": "Egyptians",
+      "D": "Ansar"
+    },
+    "answer": "B",
+    "explanation": "He tended sheep for Quraysh."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet's honesty earned him the title",
+    "options": {
+      "A": "Al-Amin",
+      "B": "Al-Farooq",
+      "C": "Al-Siddiq",
+      "D": "Al-Karim"
+    },
+    "answer": "A",
+    "explanation": "Al-Amin means the trustworthy."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet’s close companion in the cave during Hijrah was",
+    "options": {
+      "A": "Umar",
+      "B": "Ali",
+      "C": "Abu Bakr",
+      "D": "Uthman"
+    },
+    "answer": "C",
+    "explanation": "Abu Bakr accompanied him."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The cave used during Hijrah was",
+    "options": {
+      "A": "Hira",
+      "B": "Thawr",
+      "C": "Uhud",
+      "D": "Safaa"
+    },
+    "answer": "B",
+    "explanation": "Cave of Thawr was used."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Ansar were people of",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Yemen"
+    },
+    "answer": "B",
+    "explanation": "Ansar were helpers in Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Muhajirun were",
+    "options": {
+      "A": "People of Makkah who migrated",
+      "B": "People of Madinah",
+      "C": "Enemies of Islam",
+      "D": "Traders"
+    },
+    "answer": "A",
+    "explanation": "They migrated from Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The constitution of Madinah established",
+    "options": {
+      "A": "Trade laws",
+      "B": "Peace among tribes",
+      "C": "War rules",
+      "D": "Taxes"
+    },
+    "answer": "B",
+    "explanation": "It ensured peace and unity."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The battle of Uhud was fought in",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "It was near Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The trench was dug during the battle of",
+    "options": {
+      "A": "Badr",
+      "B": "Uhud",
+      "C": "Khandaq",
+      "D": "Hunayn"
+    },
+    "answer": "C",
+    "explanation": "Battle of Khandaq used a trench."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The treaty of Hudaybiyyah was a",
+    "options": {
+      "A": "War treaty",
+      "B": "Peace treaty",
+      "C": "Trade agreement",
+      "D": "Marriage contract"
+    },
+    "answer": "B",
+    "explanation": "It was a peace agreement."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet entered Makkah peacefully during",
+    "options": {
+      "A": "Battle of Badr",
+      "B": "Hijrah",
+      "C": "Conquest of Makkah",
+      "D": "Battle of Uhud"
+    },
+    "answer": "C",
+    "explanation": "Makkah was conquered peacefully."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet destroyed idols in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "Idols in Ka'bah were destroyed."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The farewell pilgrimage is called",
+    "options": {
+      "A": "Hajj al-Akbar",
+      "B": "Hajj al-Wada",
+      "C": "Umrah",
+      "D": "Hijrah"
+    },
+    "answer": "B",
+    "explanation": "Hajj al-Wada was final pilgrimage."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet died in",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He died in Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The year the Prophet died is",
+    "options": {
+      "A": "10 AH",
+      "B": "11 AH",
+      "C": "12 AH",
+      "D": "13 AH"
+    },
+    "answer": "B",
+    "explanation": "He died in 11 AH."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet was buried in",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He was buried in Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet lived for",
+    "options": {
+      "A": "60 years",
+      "B": "61 years",
+      "C": "63 years",
+      "D": "65 years"
+    },
+    "answer": "C",
+    "explanation": "He lived 63 years."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The first word revealed was",
+    "options": {
+      "A": "Salah",
+      "B": "Iqra",
+      "C": "Zakat",
+      "D": "Hajj"
+    },
+    "answer": "B",
+    "explanation": "First revelation was 'Iqra'."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Medium",
+    "question": "The Prophet’s tribe was",
+    "options": {
+      "A": "Aws",
+      "B": "Khazraj",
+      "C": "Quraysh",
+      "D": "Ansar"
+    },
+    "answer": "C",
+    "explanation": "He belonged to Quraysh."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Seerah (Life of the Prophet)",
+    "difficulty": "Easy",
+    "question": "The Prophet’s father name was",
+    "options": {
+      "A": "Abdullah",
+      "B": "Abu Talib",
+      "C": "Hamza",
+      "D": "Abbas"
+    },
+    "answer": "A",
+    "explanation": "His father was Abdullah."
+  }
+]

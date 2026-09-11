@@ -1,0 +1,855 @@
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   PROFESSIONAL PRACTICE MODE
+   COMPACT QUESTION + 8-COLUMN PALETTE
+========================================================== */
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+.practice-container,
+.practice-container * {
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+.practice-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 18px;
+  color: #1f2937;
+  font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+/* ==========================================================
+   LOADING
+========================================================== */
+
+.practice-loading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 30px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.practice-loading h2 {
+  margin: 0;
+  color: #1565c0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.practice-loading p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* ==========================================================
+   START SCREEN
+========================================================== */
+
+.practice-start-container {
+  min-height: calc(100vh - 36px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 12px;
+}
+
+.practice-start-card {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.practice-start-card h2 {
+  margin: 0 0 7px;
+  color: #1565c0;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.practice-start-card h3 {
+  margin: 0 0 18px;
+  color: #374151;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.practice-start-card p {
+  margin: 9px auto;
+  max-width: 600px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.practice-start-card strong {
+  color: #1565c0;
+}
+
+/* ==========================================================
+   PRACTICE SUMMARY
+========================================================== */
+
+.practice-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 22px 0;
+}
+
+.summary-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.summary-box h2 {
+  margin: 0 0 5px;
+  color: #1565c0;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.summary-box span {
+  display: block;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ==========================================================
+   START BUTTON
+========================================================== */
+
+.start-practice-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 24px;
+  margin-top: 16px;
+  background: #1565c0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.start-practice-btn:hover {
+  background: #0d47a1;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(21, 101, 192, 0.18);
+}
+
+.start-practice-btn:active {
+  transform: translateY(0);
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.practice-header {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto 14px;
+  padding: 17px 21px;
+  border-radius: 11px;
+  background: #1565c0;
+  color: #ffffff;
+  box-shadow: 0 4px 13px rgba(15, 23, 42, 0.10);
+}
+
+.practice-header h2 {
+  margin: 0 0 11px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 750;
+  text-align: left;
+}
+
+.practice-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.practice-header-info span {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 11px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.13);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ==========================================================
+   PROGRESS CARDS
+========================================================== */
+
+.practice-progress {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto 14px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.progress-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 9px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+.progress-card h3 {
+  margin: 0 0 3px;
+  color: #1565c0;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.progress-card span {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* ==========================================================
+   MAIN LAYOUT
+========================================================== */
+
+.practice-layout {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 350px;
+  gap: 14px;
+  align-items: start;
+}
+
+.question-section {
+  min-width: 0;
+}
+
+/* ==========================================================
+   QUESTION CARD
+========================================================== */
+
+.practice-question-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 11px;
+  padding: 21px;
+  box-shadow: 0 3px 11px rgba(15, 23, 42, 0.06);
+}
+
+.question-number {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  margin-bottom: 13px;
+  border-radius: 6px;
+  background: #e8f1fc;
+  color: #1565c0;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+}
+
+.practice-question {
+  margin-bottom: 19px;
+  color: #111827;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+/* ==========================================================
+   OPTIONS
+========================================================== */
+
+.practice-options {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.practice-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  width: 100%;
+  padding: 11px 13px;
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.18s ease;
+}
+
+.practice-option:hover {
+  background: #f5f9ff;
+  border-color: #1565c0;
+  transform: translateX(1px);
+}
+
+.practice-option input {
+  width: 17px;
+  height: 17px;
+  margin: 2px 0 0;
+  flex-shrink: 0;
+  accent-color: #1565c0;
+  cursor: pointer;
+}
+
+.practice-option span {
+  color: #374151;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.practice-option.correct {
+  background: #ecfdf3;
+  border: 2px solid #2e7d32;
+}
+
+.practice-option.correct span {
+  color: #166534;
+  font-weight: 700;
+}
+
+.practice-option.wrong {
+  background: #fff1f2;
+  border: 2px solid #c62828;
+}
+
+.practice-option.wrong span {
+  color: #991b1b;
+  font-weight: 700;
+}
+
+.practice-option:has(input:checked) {
+  border-color: #1565c0;
+  background: #eff6ff;
+}
+
+.practice-option.correct:has(input:checked) {
+  border-color: #2e7d32;
+  background: #ecfdf3;
+}
+
+.practice-option.wrong:has(input:checked) {
+  border-color: #c62828;
+  background: #fff1f2;
+}
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.practice-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 13px;
+  flex-wrap: wrap;
+}
+
+.practice-btn,
+.submit-practice-btn {
+  min-width: 100px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.practice-btn {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.practice-btn:hover:not(:disabled) {
+  background: #d1d5db;
+}
+
+.practice-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.submit-practice-btn {
+  background: #1565c0;
+  color: #ffffff;
+}
+
+.submit-practice-btn:hover:not(:disabled) {
+  background: #0d47a1;
+  box-shadow: 0 4px 10px rgba(21, 101, 192, 0.18);
+}
+
+.submit-practice-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* ==========================================================
+   QUESTION PALETTE
+========================================================== */
+
+.practice-palette {
+  position: sticky;
+  top: 14px;
+
+  width: 100%;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 11px;
+
+  padding: 15px;
+
+  box-shadow: 0 3px 11px rgba(15, 23, 42, 0.06);
+
+  min-width: 0;
+}
+
+.practice-palette h3 {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #1565c0;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+/* ==========================================================
+   PALETTE SCROLL AREA
+========================================================== */
+
+.palette-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(8, minmax(0, 1fr));
+
+  gap: 6px;
+
+  max-height: 330px;
+
+  overflow-y: auto;
+
+  overflow-x: hidden;
+
+  padding: 2px 4px 5px 2px;
+
+  scrollbar-width: thin;
+
+  scrollbar-color: #b0bec5 #f5f7fa;
+}
+
+/* Chrome / Edge scrollbar */
+
+.palette-grid::-webkit-scrollbar {
+  width: 7px;
+}
+
+.palette-grid::-webkit-scrollbar-track {
+  background: #f5f7fa;
+  border-radius: 8px;
+}
+
+.palette-grid::-webkit-scrollbar-thumb {
+  background: #b0bec5;
+  border-radius: 8px;
+}
+
+.palette-grid::-webkit-scrollbar-thumb:hover {
+  background: #90a4ae;
+}
+
+/* ==========================================================
+   PALETTE BUTTON
+========================================================== */
+
+.palette-btn {
+  width: 100%;
+
+  min-width: 0;
+
+  height: 35px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  background: #f8fafc;
+
+  color: #374151;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.16s ease;
+}
+
+.palette-btn:hover {
+  border-color: #1565c0;
+  color: #1565c0;
+  transform: translateY(-1px);
+}
+
+.palette-btn.active {
+  background: #1565c0;
+  border-color: #1565c0;
+  color: #ffffff;
+}
+
+.palette-btn.answered {
+  background: #2e7d32;
+  border-color: #2e7d32;
+  color: #ffffff;
+}
+
+.palette-btn.answered.active {
+  background: #1565c0;
+  border-color: #1565c0;
+  color: #ffffff;
+}
+
+/* ==========================================================
+   PALETTE LEGEND
+========================================================== */
+
+.palette-legend {
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 7px;
+
+  margin-top: 12px;
+
+  padding-top: 11px;
+
+  border-top: 1px solid #e5e7eb;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #64748b;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+.legend-box {
+  width: 15px;
+  height: 15px;
+
+  border-radius: 4px;
+
+  border: 1px solid #cbd5e1;
+
+  flex-shrink: 0;
+}
+
+.legend-box.current {
+  background: #1565c0;
+  border-color: #1565c0;
+}
+
+.legend-box.answered {
+  background: #2e7d32;
+  border-color: #2e7d32;
+}
+
+.legend-box.unanswered {
+  background: #f8fafc;
+}
+
+/* ==========================================================
+   RESULT PANEL
+========================================================== */
+
+.practice-result-panel {
+  width: 100%;
+  max-width: 1350px;
+  margin: 15px auto 0;
+  padding: 20px;
+  border: 1px solid #bbf7d0;
+  border-radius: 11px;
+  background: #f0fdf4;
+  text-align: center;
+}
+
+.practice-result-panel h2 {
+  margin: 0 0 7px;
+  color: #166534;
+  font-size: 20px;
+}
+
+.practice-result-panel p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 13px;
+}
+
+.practice-result-actions {
+  margin-top: 8px;
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1100px) {
+
+  .practice-layout {
+    grid-template-columns: minmax(0, 1fr) 300px;
+  }
+
+  .palette-grid {
+    grid-template-columns:
+      repeat(8, minmax(0, 1fr));
+  }
+
+}
+
+/* ==========================================================
+   SMALL TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+
+  .practice-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-palette {
+    position: static;
+  }
+
+  .palette-grid {
+    max-height: 300px;
+
+    grid-template-columns:
+      repeat(8, minmax(0, 1fr));
+  }
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .practice-container {
+    padding: 10px;
+  }
+
+  .practice-start-container {
+    min-height: calc(100vh - 20px);
+    padding: 15px 5px;
+  }
+
+  .practice-start-card {
+    padding: 24px 17px;
+    border-radius: 11px;
+  }
+
+  .practice-start-card h2 {
+    font-size: 22px;
+  }
+
+  .practice-start-card h3 {
+    font-size: 17px;
+  }
+
+  .practice-summary {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .summary-box {
+    padding: 12px;
+  }
+
+  .summary-box h2 {
+    font-size: 21px;
+  }
+
+  .practice-header {
+    padding: 15px;
+    border-radius: 9px;
+  }
+
+  .practice-header h2 {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .practice-header-info {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .practice-header-info span {
+    justify-content: center;
+  }
+
+  .practice-progress {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+  }
+
+  .progress-card {
+    padding: 11px 4px;
+  }
+
+  .progress-card h3 {
+    font-size: 19px;
+  }
+
+  .progress-card span {
+    font-size: 11px;
+  }
+
+  .practice-question-card {
+    padding: 17px 14px;
+  }
+
+  .practice-question {
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .practice-option {
+    padding: 11px;
+  }
+
+  .practice-option span {
+    font-size: 14px;
+  }
+
+  .practice-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .practice-btn,
+  .submit-practice-btn {
+    width: 100%;
+  }
+
+  .submit-practice-btn {
+    grid-column: 1 / -1;
+  }
+
+  .practice-palette {
+    padding: 13px;
+  }
+
+  .palette-grid {
+    grid-template-columns:
+      repeat(8, minmax(0, 1fr));
+
+    max-height: 280px;
+
+    gap: 5px;
+  }
+
+  .palette-btn {
+    height: 34px;
+    font-size: 10px;
+  }
+
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 480px) {
+
+  .practice-progress {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-header h2 {
+    font-size: 17px;
+  }
+
+  .practice-question {
+    font-size: 15px;
+  }
+
+  .palette-grid {
+    grid-template-columns:
+      repeat(8, minmax(0, 1fr));
+
+    max-height: 250px;
+  }
+
+  .palette-btn {
+    height: 32px;
+    font-size: 9px;
+  }
+
+  .start-practice-btn {
+    width: 100%;
+  }
+
+}

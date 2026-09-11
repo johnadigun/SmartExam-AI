@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Cartography",
+    "difficulty": "medium",
+    "question": "A thematic map is designed to show",
+    "options": [
+      "A specific subject or theme",
+      "Only political boundaries",
+      "Only roads",
+      "Only rivers"
+    ],
+    "answer": "A specific subject or theme",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "The main cause of seasons is",
+    "options": [
+      "Earth's axial tilt",
+      "Daily rotation",
+      "Ocean tides",
+      "Volcanic eruptions"
+    ],
+    "answer": "Earth's axial tilt",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Population",
+    "difficulty": "medium",
+    "question": "Dependency ratio compares",
+    "options": [
+      "Dependents to working-age population",
+      "Births to deaths",
+      "Urban to rural people",
+      "Men to women"
+    ],
+    "answer": "Dependents to working-age population",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "Crop rotation helps to",
+    "options": [
+      "Maintain soil fertility",
+      "Reduce rainfall",
+      "Increase erosion",
+      "Eliminate farming"
+    ],
+    "answer": "Maintain soil fertility",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "medium",
+    "question": "Imports are goods",
+    "options": [
+      "Bought from other countries",
+      "Sold abroad",
+      "Produced locally",
+      "Stored in warehouses"
+    ],
+    "answer": "Bought from other countries",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Relief",
+    "difficulty": "medium",
+    "question": "A valley is typically formed by",
+    "options": [
+      "River erosion",
+      "Wind only",
+      "Earth rotation",
+      "Sunlight"
+    ],
+    "answer": "River erosion",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Weather",
+    "difficulty": "medium",
+    "question": "Clouds form when",
+    "options": [
+      "Water vapour condenses",
+      "Air pressure disappears",
+      "The wind stops",
+      "Humidity becomes zero"
+    ],
+    "answer": "Water vapour condenses",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Environment",
+    "difficulty": "medium",
+    "question": "Desertification is",
+    "options": [
+      "Spread of desert conditions",
+      "Formation of deltas",
+      "Ocean pollution",
+      "Forest growth"
+    ],
+    "answer": "Spread of desert conditions",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Hydrology",
+    "difficulty": "medium",
+    "question": "A tributary is",
+    "options": [
+      "A smaller river joining a larger river",
+      "River mouth",
+      "Waterfall",
+      "Lake outlet"
+    ],
+    "answer": "A smaller river joining a larger river",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Transport",
+    "difficulty": "medium",
+    "question": "Pipelines are mainly used to transport",
+    "options": [
+      "Oil and gas",
+      "Passengers",
+      "Livestock",
+      "Timber"
+    ],
+    "answer": "Oil and gas",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Settlement",
+    "difficulty": "medium",
+    "question": "Site refers to",
+    "options": [
+      "The actual location of a settlement",
+      "Population size",
+      "Climate only",
+      "Road network"
+    ],
+    "answer": "The actual location of a settlement",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map Reading",
+    "difficulty": "medium",
+    "question": "Six-figure grid references identify",
+    "options": [
+      "A precise location",
+      "A continent",
+      "A climate zone",
+      "A latitude"
+    ],
+    "answer": "A precise location",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Industry",
+    "difficulty": "medium",
+    "question": "Cottage industries are usually",
+    "options": [
+      "Small-scale",
+      "Government-owned only",
+      "Located at seaports",
+      "Mining industries"
+    ],
+    "answer": "Small-scale",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Resources",
+    "difficulty": "medium",
+    "question": "Solar energy is",
+    "options": [
+      "Renewable",
+      "Non-renewable",
+      "Fossil fuel",
+      "Nuclear"
+    ],
+    "answer": "Renewable",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Vegetation",
+    "difficulty": "medium",
+    "question": "Mangrove forests are common",
+    "options": [
+      "Along tropical coasts",
+      "On mountain tops",
+      "In deserts",
+      "In tundra"
+    ],
+    "answer": "Along tropical coasts",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Climate",
+    "difficulty": "medium",
+    "question": "Isobars join places of equal",
+    "options": [
+      "Air pressure",
+      "Rainfall",
+      "Temperature",
+      "Altitude"
+    ],
+    "answer": "Air pressure",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Earth",
+    "difficulty": "medium",
+    "question": "The International Date Line is near",
+    "options": [
+      "180° longitude",
+      "0° latitude",
+      "90°N",
+      "90°S"
+    ],
+    "answer": "180° longitude",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Population",
+    "difficulty": "medium",
+    "question": "Emigration means",
+    "options": [
+      "Leaving a country",
+      "Entering a country",
+      "Population count",
+      "Urban growth"
+    ],
+    "answer": "Leaving a country",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Agriculture",
+    "difficulty": "medium",
+    "question": "Mechanized farming uses",
+    "options": [
+      "Modern machinery",
+      "Only hand tools",
+      "Animals only",
+      "Fishing boats"
+    ],
+    "answer": "Modern machinery",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Environment",
+    "difficulty": "medium",
+    "question": "Conservation aims to",
+    "options": [
+      "Protect natural resources",
+      "Increase pollution",
+      "Remove forests",
+      "Expand deserts"
+    ],
+    "answer": "Protect natural resources",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Economic Geography",
+    "difficulty": "medium",
+    "question": "Commerce includes",
+    "options": [
+      "Trade and aids to trade",
+      "Mining only",
+      "Fishing only",
+      "Manufacturing only"
+    ],
+    "answer": "Trade and aids to trade",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Relief",
+    "difficulty": "medium",
+    "question": "An escarpment is",
+    "options": [
+      "A steep slope",
+      "A river island",
+      "A coral reef",
+      "A sand dune"
+    ],
+    "answer": "A steep slope",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Weather",
+    "difficulty": "medium",
+    "question": "The Beaufort scale measures",
+    "options": [
+      "Wind force",
+      "Rainfall",
+      "Humidity",
+      "Sunshine"
+    ],
+    "answer": "Wind force",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Map",
+    "difficulty": "medium",
+    "question": "A legend on a map explains",
+    "options": [
+      "Symbols used",
+      "Latitude",
+      "Longitude",
+      "Scale only"
+    ],
+    "answer": "Symbols used",
+    "explanation": "Standard geography concept."
+  },
+  {
+    "subject": "Geography",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "GIS stands for",
+    "options": [
+      "Geographic Information System",
+      "Global Internet Service",
+      "General Imaging Study",
+      "Geological Index Survey"
+    ],
+    "answer": "Geographic Information System",
+    "explanation": "Standard geography concept."
+  }
+]

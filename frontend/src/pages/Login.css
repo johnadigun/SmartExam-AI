@@ -1,0 +1,170 @@
+/* ===========================
+   SMART CBT LOGIN
+=========================== */
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#edf2f7;
+}
+
+.login-page{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+.login-card{
+
+    width:100%;
+    max-width:430px;
+
+    background:#ffffff;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.login-card h1{
+
+    margin:0;
+
+    color:#0d47a1;
+
+    text-align:center;
+
+    font-size:32px;
+
+}
+
+.login-subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-top:10px;
+
+    margin-bottom:35px;
+
+}
+
+.login-card input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:18px;
+
+    border:1px solid #cccccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.login-card input:focus{
+
+    border-color:#1565c0;
+
+}
+
+.login-card button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#1565c0;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+}
+
+.login-card button:hover{
+
+    background:#0d47a1;
+
+}
+
+.login-card button:disabled{
+
+    background:#999;
+
+    cursor:not-allowed;
+
+}
+
+.register-link{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.register-link a{
+
+    margin-left:8px;
+
+    color:#1565c0;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+}
+
+.register-link a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:768px){
+
+.login-card{
+
+padding:25px;
+
+}
+
+.login-card h1{
+
+font-size:26px;
+
+}
+
+}

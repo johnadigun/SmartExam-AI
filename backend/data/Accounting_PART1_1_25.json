@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Introduction",
+    "difficulty": "medium",
+    "question": "Accounting is the process of",
+    "options": [
+      "Recording, classifying and summarizing financial transactions",
+      "Buying goods",
+      "Selling goods",
+      "Auditing only"
+    ],
+    "answer": "Recording, classifying and summarizing financial transactions",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "The accounting equation is",
+    "options": [
+      "Assets = Liabilities + Capital",
+      "Assets = Capital - Liabilities",
+      "Capital = Assets + Liabilities",
+      "Assets = Income + Expenses"
+    ],
+    "answer": "Assets = Liabilities + Capital",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Books",
+    "difficulty": "medium",
+    "question": "The book used to first record transactions is the",
+    "options": [
+      "Journal",
+      "Ledger",
+      "Trial Balance",
+      "Cash Book"
+    ],
+    "answer": "Journal",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Source Documents",
+    "difficulty": "medium",
+    "question": "A receipt is issued to acknowledge",
+    "options": [
+      "Cash received",
+      "Cash paid",
+      "Credit sales",
+      "Purchases"
+    ],
+    "answer": "Cash received",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ledger",
+    "difficulty": "medium",
+    "question": "A ledger contains",
+    "options": [
+      "Individual accounts",
+      "Business letters",
+      "Invoices",
+      "Budgets"
+    ],
+    "answer": "Individual accounts",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Book",
+    "difficulty": "medium",
+    "question": "The cash book records",
+    "options": [
+      "Cash and bank transactions",
+      "Credit sales only",
+      "Credit purchases only",
+      "Depreciation"
+    ],
+    "answer": "Cash and bank transactions",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Trial Balance",
+    "difficulty": "medium",
+    "question": "The trial balance checks",
+    "options": [
+      "Arithmetic accuracy",
+      "Profit",
+      "Liquidity",
+      "Inventory"
+    ],
+    "answer": "Arithmetic accuracy",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Double Entry",
+    "difficulty": "medium",
+    "question": "Every transaction affects",
+    "options": [
+      "At least two accounts",
+      "One account only",
+      "Three accounts",
+      "No accounts"
+    ],
+    "answer": "At least two accounts",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Capital",
+    "difficulty": "medium",
+    "question": "Owner's investment is called",
+    "options": [
+      "Capital",
+      "Liability",
+      "Expense",
+      "Revenue"
+    ],
+    "answer": "Capital",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Assets",
+    "difficulty": "medium",
+    "question": "Cash is classified as",
+    "options": [
+      "Current asset",
+      "Fixed asset",
+      "Liability",
+      "Capital"
+    ],
+    "answer": "Current asset",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Liabilities",
+    "difficulty": "medium",
+    "question": "Bank loan is a",
+    "options": [
+      "Liability",
+      "Asset",
+      "Income",
+      "Expense"
+    ],
+    "answer": "Liability",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Depreciation",
+    "difficulty": "medium",
+    "question": "Depreciation applies to",
+    "options": [
+      "Fixed assets",
+      "Cash",
+      "Inventory",
+      "Debtors"
+    ],
+    "answer": "Fixed assets",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Closing stock appears in",
+    "options": [
+      "Trading account and balance sheet",
+      "Cash book only",
+      "Journal",
+      "Bank statement"
+    ],
+    "answer": "Trading account and balance sheet",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank",
+    "difficulty": "medium",
+    "question": "A cheque is",
+    "options": [
+      "An order to pay money",
+      "A receipt",
+      "An invoice",
+      "A voucher"
+    ],
+    "answer": "An order to pay money",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "medium",
+    "question": "An error of omission means",
+    "options": [
+      "A transaction is not recorded",
+      "Wrong addition",
+      "Wrong balance",
+      "Duplicate entry"
+    ],
+    "answer": "A transaction is not recorded",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Journal",
+    "difficulty": "medium",
+    "question": "Narration explains",
+    "options": [
+      "The transaction",
+      "Profit",
+      "Assets",
+      "Capital"
+    ],
+    "answer": "The transaction",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Discount",
+    "difficulty": "medium",
+    "question": "Trade discount is deducted",
+    "options": [
+      "Before recording invoice",
+      "After payment",
+      "In trial balance",
+      "In bank reconciliation"
+    ],
+    "answer": "Before recording invoice",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Control",
+    "difficulty": "medium",
+    "question": "Debtors control account summarizes",
+    "options": [
+      "Receivables",
+      "Payables",
+      "Cash",
+      "Capital"
+    ],
+    "answer": "Receivables",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Partnership",
+    "difficulty": "medium",
+    "question": "Profit-sharing ratio is agreed in",
+    "options": [
+      "Partnership deed",
+      "Invoice",
+      "Receipt",
+      "Ledger"
+    ],
+    "answer": "Partnership deed",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Gross profit equals",
+    "options": [
+      "Sales minus cost of goods sold",
+      "Sales minus expenses",
+      "Assets minus liabilities",
+      "Income minus drawings"
+    ],
+    "answer": "Sales minus cost of goods sold",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "Net profit is",
+    "options": [
+      "Gross profit minus expenses",
+      "Sales minus purchases",
+      "Capital minus drawings",
+      "Assets minus liabilities"
+    ],
+    "answer": "Gross profit minus expenses",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank Reconciliation",
+    "difficulty": "medium",
+    "question": "Outstanding cheque is",
+    "options": [
+      "Issued but not yet presented",
+      "Deposited cash",
+      "Dishonoured cheque",
+      "Cancelled cheque"
+    ],
+    "answer": "Issued but not yet presented",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Principles",
+    "difficulty": "medium",
+    "question": "Business entity concept separates",
+    "options": [
+      "Business from owner",
+      "Assets from liabilities",
+      "Income from expenses",
+      "Cash from bank"
+    ],
+    "answer": "Business from owner",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Principles",
+    "difficulty": "medium",
+    "question": "Going concern assumes the business",
+    "options": [
+      "Will continue operating",
+      "Will close immediately",
+      "Makes losses",
+      "Pays no tax"
+    ],
+    "answer": "Will continue operating",
+    "explanation": "Standard accounting concept."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Users",
+    "difficulty": "medium",
+    "question": "Financial statements are useful to",
+    "options": [
+      "Owners, investors and creditors",
+      "Customers only",
+      "Drivers only",
+      "Farmers only"
+    ],
+    "answer": "Owners, investors and creditors",
+    "explanation": "Standard accounting concept."
+  }
+]

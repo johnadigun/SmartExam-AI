@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Share premium arises when shares are",
+    "options": [
+      "Issued above par value",
+      "Issued below par",
+      "Redeemed",
+      "Cancelled"
+    ],
+    "answer": "Issued above par value",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Called-up capital is",
+    "options": [
+      "Amount demanded from shareholders",
+      "Authorized capital",
+      "Reserve",
+      "Loan"
+    ],
+    "answer": "Amount demanded from shareholders",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Dissolution",
+    "difficulty": "medium",
+    "question": "Realization expenses are paid from",
+    "options": [
+      "Business assets",
+      "Partner salary",
+      "Sales returns",
+      "Drawings"
+    ],
+    "answer": "Business assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Dissolution",
+    "difficulty": "medium",
+    "question": "Cash remaining after dissolution is shared",
+    "options": [
+      "According to final claims",
+      "Equally always",
+      "By age",
+      "By salary"
+    ],
+    "answer": "According to final claims",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budgeting",
+    "difficulty": "medium",
+    "question": "Flexible budget changes with",
+    "options": [
+      "Level of activity",
+      "Weather",
+      "Tax rate",
+      "Bank balance"
+    ],
+    "answer": "Level of activity",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budgeting",
+    "difficulty": "medium",
+    "question": "Variance is",
+    "options": [
+      "Difference between budget and actual",
+      "Gross profit",
+      "Cash balance",
+      "Capital"
+    ],
+    "answer": "Difference between budget and actual",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Standard Costing",
+    "difficulty": "medium",
+    "question": "A favorable variance",
+    "options": [
+      "Improves profit",
+      "Reduces assets",
+      "Creates debt",
+      "Increases drawings"
+    ],
+    "answer": "Improves profit",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Payroll",
+    "difficulty": "medium",
+    "question": "Gross pay is",
+    "options": [
+      "Pay before deductions",
+      "Net salary",
+      "Tax only",
+      "Bonus only"
+    ],
+    "answer": "Pay before deductions",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Payroll",
+    "difficulty": "medium",
+    "question": "Net pay equals",
+    "options": [
+      "Gross pay minus deductions",
+      "Gross pay plus tax",
+      "Bonus only",
+      "Allowances only"
+    ],
+    "answer": "Gross pay minus deductions",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Taxation",
+    "difficulty": "medium",
+    "question": "VAT collected from customers is",
+    "options": [
+      "Output VAT",
+      "Input VAT",
+      "Income tax",
+      "PAYE"
+    ],
+    "answer": "Output VAT",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Taxation",
+    "difficulty": "medium",
+    "question": "VAT paid on purchases is",
+    "options": [
+      "Input VAT",
+      "Output VAT",
+      "Corporation tax",
+      "Custom duty"
+    ],
+    "answer": "Input VAT",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Internal Control",
+    "difficulty": "medium",
+    "question": "Segregation of duties helps",
+    "options": [
+      "Reduce fraud",
+      "Increase expenses",
+      "Reduce assets",
+      "Increase tax"
+    ],
+    "answer": "Reduce fraud",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Internal Control",
+    "difficulty": "medium",
+    "question": "Authorization control means",
+    "options": [
+      "Approval before transactions",
+      "Daily balancing",
+      "Posting only",
+      "Depreciation"
+    ],
+    "answer": "Approval before transactions",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash",
+    "difficulty": "medium",
+    "question": "Cash float is",
+    "options": [
+      "Amount kept for petty cash",
+      "Bank loan",
+      "Inventory",
+      "Revenue"
+    ],
+    "answer": "Amount kept for petty cash",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank",
+    "difficulty": "medium",
+    "question": "Dishonoured cheque means",
+    "options": [
+      "Cheque not paid by bank",
+      "Cheque cleared",
+      "Cash deposit",
+      "Money transfer"
+    ],
+    "answer": "Cheque not paid by bank",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Financial Analysis",
+    "difficulty": "medium",
+    "question": "Acid test ratio is also called",
+    "options": [
+      "Quick ratio",
+      "Debt ratio",
+      "Current ratio",
+      "Profit ratio"
+    ],
+    "answer": "Quick ratio",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Financial Analysis",
+    "difficulty": "medium",
+    "question": "Return on equity measures",
+    "options": [
+      "Profit earned for owners",
+      "Liquidity",
+      "Stock level",
+      "Cash flow"
+    ],
+    "answer": "Profit earned for owners",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Integrity requires",
+    "options": [
+      "Honesty in reporting",
+      "High profit",
+      "Tax avoidance",
+      "Secrecy only"
+    ],
+    "answer": "Honesty in reporting",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "Accrual concept recognizes",
+    "options": [
+      "Income and expenses when incurred",
+      "Cash only",
+      "Assets only",
+      "Liabilities only"
+    ],
+    "answer": "Income and expenses when incurred",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "Consistency improves",
+    "options": [
+      "Comparability",
+      "Tax",
+      "Cash",
+      "Sales"
+    ],
+    "answer": "Comparability",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Capital expenditure creates",
+    "options": [
+      "Long-term assets",
+      "Revenue",
+      "Expenses only",
+      "Liabilities only"
+    ],
+    "answer": "Long-term assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Recurrent expenditure covers",
+    "options": [
+      "Day-to-day running costs",
+      "Purchase of buildings",
+      "Machinery",
+      "Land"
+    ],
+    "answer": "Day-to-day running costs",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Entrance fees are usually treated as",
+    "options": [
+      "Revenue receipt",
+      "Capital receipt always",
+      "Loan",
+      "Asset"
+    ],
+    "answer": "Revenue receipt",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "Management letter is issued to",
+    "options": [
+      "Management",
+      "Customers",
+      "Suppliers",
+      "Tax office"
+    ],
+    "answer": "Management",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Accounting information should be understandable to",
+    "options": [
+      "Users with reasonable knowledge",
+      "Auditors only",
+      "Managers only",
+      "Banks only"
+    ],
+    "answer": "Users with reasonable knowledge",
+    "explanation": "Standard accounting principle."
+  }
+]

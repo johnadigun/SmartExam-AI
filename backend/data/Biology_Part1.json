@@ -1,0 +1,377 @@
+[
+  {
+    "subject": "Biology",
+    "category": "Cell Biology",
+    "question": "The basic structural and functional unit of life is the: (Q1)",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Organism"
+    ],
+    "answer": "Cell",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Classification",
+    "question": "The scientific name of an organism is written in: (Q2)",
+    "options": [
+      "Common language",
+      "Binomial nomenclature",
+      "French",
+      "Numbers"
+    ],
+    "answer": "Binomial nomenclature",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Nutrition",
+    "question": "Green plants manufacture food by: (Q3)",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Respiration",
+    "question": "The main gas used during aerobic respiration is: (Q4)",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "A group of organisms of the same species living together is called: (Q5)",
+    "options": [
+      "Community",
+      "Population",
+      "Habitat",
+      "Ecosystem"
+    ],
+    "answer": "Population",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Cell Biology",
+    "question": "The basic structural and functional unit of life is the: (Q6)",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Organism"
+    ],
+    "answer": "Cell",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Classification",
+    "question": "The scientific name of an organism is written in: (Q7)",
+    "options": [
+      "Common language",
+      "Binomial nomenclature",
+      "French",
+      "Numbers"
+    ],
+    "answer": "Binomial nomenclature",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Nutrition",
+    "question": "Green plants manufacture food by: (Q8)",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Respiration",
+    "question": "The main gas used during aerobic respiration is: (Q9)",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "A group of organisms of the same species living together is called: (Q10)",
+    "options": [
+      "Community",
+      "Population",
+      "Habitat",
+      "Ecosystem"
+    ],
+    "answer": "Population",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Biology",
+    "category": "Cell Biology",
+    "question": "The basic structural and functional unit of life is the: (Q11)",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Organism"
+    ],
+    "answer": "Cell",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Classification",
+    "question": "The scientific name of an organism is written in: (Q12)",
+    "options": [
+      "Common language",
+      "Binomial nomenclature",
+      "French",
+      "Numbers"
+    ],
+    "answer": "Binomial nomenclature",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Nutrition",
+    "question": "Green plants manufacture food by: (Q13)",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Respiration",
+    "question": "The main gas used during aerobic respiration is: (Q14)",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "A group of organisms of the same species living together is called: (Q15)",
+    "options": [
+      "Community",
+      "Population",
+      "Habitat",
+      "Ecosystem"
+    ],
+    "answer": "Population",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Cell Biology",
+    "question": "The basic structural and functional unit of life is the: (Q16)",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Organism"
+    ],
+    "answer": "Cell",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Classification",
+    "question": "The scientific name of an organism is written in: (Q17)",
+    "options": [
+      "Common language",
+      "Binomial nomenclature",
+      "French",
+      "Numbers"
+    ],
+    "answer": "Binomial nomenclature",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Nutrition",
+    "question": "Green plants manufacture food by: (Q18)",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Respiration",
+    "question": "The main gas used during aerobic respiration is: (Q19)",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "A group of organisms of the same species living together is called: (Q20)",
+    "options": [
+      "Community",
+      "Population",
+      "Habitat",
+      "Ecosystem"
+    ],
+    "answer": "Population",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Cell Biology",
+    "question": "The basic structural and functional unit of life is the: (Q21)",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Cell",
+      "Organism"
+    ],
+    "answer": "Cell",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Classification",
+    "question": "The scientific name of an organism is written in: (Q22)",
+    "options": [
+      "Common language",
+      "Binomial nomenclature",
+      "French",
+      "Numbers"
+    ],
+    "answer": "Binomial nomenclature",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Nutrition",
+    "question": "Green plants manufacture food by: (Q23)",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "answer": "Photosynthesis",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Respiration",
+    "question": "The main gas used during aerobic respiration is: (Q24)",
+    "options": [
+      "Nitrogen",
+      "Carbon dioxide",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "answer": "Oxygen",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "A group of organisms of the same species living together is called: (Q25)",
+    "options": [
+      "Community",
+      "Population",
+      "Habitat",
+      "Ecosystem"
+    ],
+    "answer": "Population",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  }
+]

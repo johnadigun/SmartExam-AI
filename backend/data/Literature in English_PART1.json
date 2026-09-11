@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The central message in a literary work is called",
+    "options": {
+      "A": "Plot",
+      "B": "Theme",
+      "C": "Setting",
+      "D": "Tone"
+    },
+    "answer": "B",
+    "explanation": "Theme is the main idea or message in a literary work."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A drama written to be performed on stage is called",
+    "options": {
+      "A": "Novel",
+      "B": "Play",
+      "C": "Poem",
+      "D": "Essay"
+    },
+    "answer": "B",
+    "explanation": "A play is a dramatic work meant for performance."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The sequence of events in a story is",
+    "options": {
+      "A": "Character",
+      "B": "Plot",
+      "C": "Theme",
+      "D": "Mood"
+    },
+    "answer": "B",
+    "explanation": "Plot refers to the arrangement of events in a story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A group of lines in a poem is called",
+    "options": {
+      "A": "Paragraph",
+      "B": "Stanza",
+      "C": "Chapter",
+      "D": "Verse only"
+    },
+    "answer": "B",
+    "explanation": "A stanza is a section of a poem."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "The repetition of consonant sounds is",
+    "options": {
+      "A": "Assonance",
+      "B": "Alliteration",
+      "C": "Rhyme",
+      "D": "Rhythm"
+    },
+    "answer": "B",
+    "explanation": "Alliteration is repetition of initial consonant sounds."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "The repetition of vowel sounds is called",
+    "options": {
+      "A": "Alliteration",
+      "B": "Assonance",
+      "C": "Metaphor",
+      "D": "Simile"
+    },
+    "answer": "B",
+    "explanation": "Assonance is repetition of vowel sounds."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A comparison using 'like' or 'as' is",
+    "options": {
+      "A": "Metaphor",
+      "B": "Simile",
+      "C": "Personification",
+      "D": "Irony"
+    },
+    "answer": "B",
+    "explanation": "Simile compares using 'like' or 'as'."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A direct comparison without 'like' or 'as' is",
+    "options": {
+      "A": "Simile",
+      "B": "Metaphor",
+      "C": "Hyperbole",
+      "D": "Alliteration"
+    },
+    "answer": "B",
+    "explanation": "Metaphor directly compares two things."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "A person who writes plays is called",
+    "options": {
+      "A": "Novelist",
+      "B": "Dramatist",
+      "C": "Poet",
+      "D": "Editor"
+    },
+    "answer": "B",
+    "explanation": "A dramatist writes plays."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "Words spoken by a character alone on stage is",
+    "options": {
+      "A": "Dialogue",
+      "B": "Monologue",
+      "C": "Chorus",
+      "D": "Narration"
+    },
+    "answer": "B",
+    "explanation": "A monologue is a long speech by one character."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A long fictional story is called",
+    "options": {
+      "A": "Poem",
+      "B": "Novel",
+      "C": "Drama",
+      "D": "Riddle"
+    },
+    "answer": "B",
+    "explanation": "A novel is a long narrative fiction."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "The person who tells a story is the",
+    "options": {
+      "A": "Character",
+      "B": "Narrator",
+      "C": "Author",
+      "D": "Reader"
+    },
+    "answer": "B",
+    "explanation": "The narrator tells the story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The time and place of a story is",
+    "options": {
+      "A": "Plot",
+      "B": "Setting",
+      "C": "Theme",
+      "D": "Mood"
+    },
+    "answer": "B",
+    "explanation": "Setting refers to time and place."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The feelings created in a reader is called",
+    "options": {
+      "A": "Tone",
+      "B": "Mood",
+      "C": "Plot",
+      "D": "Style"
+    },
+    "answer": "B",
+    "explanation": "Mood is the emotional atmosphere of a text."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "Words that have similar ending sounds are",
+    "options": {
+      "A": "Rhymes",
+      "B": "Verbs",
+      "C": "Nouns",
+      "D": "Adjectives"
+    },
+    "answer": "A",
+    "explanation": "Rhyming words share similar endings."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "The rhythm in poetry is called",
+    "options": {
+      "A": "Meter",
+      "B": "Tone",
+      "C": "Plot",
+      "D": "Theme"
+    },
+    "answer": "A",
+    "explanation": "Meter is the rhythmic structure of a poem."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "Giving human qualities to non-human things is",
+    "options": {
+      "A": "Metaphor",
+      "B": "Personification",
+      "C": "Simile",
+      "D": "Irony"
+    },
+    "answer": "B",
+    "explanation": "Personification gives human traits to objects."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "Exaggeration for effect is called",
+    "options": {
+      "A": "Hyperbole",
+      "B": "Alliteration",
+      "C": "Simile",
+      "D": "Pun"
+    },
+    "answer": "A",
+    "explanation": "Hyperbole is deliberate exaggeration."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A tragedy is a play that",
+    "options": {
+      "A": "Has happy ending",
+      "B": "Ends sadly",
+      "C": "Has no story",
+      "D": "Is funny"
+    },
+    "answer": "B",
+    "explanation": "Tragedy usually ends in sorrow or death."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "Comedy is a play that",
+    "options": {
+      "A": "Ends sadly",
+      "B": "Makes audience laugh",
+      "C": "Has no actors",
+      "D": "Has no dialogue"
+    },
+    "answer": "B",
+    "explanation": "Comedy is humorous and entertaining."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A short fictional story is called",
+    "options": {
+      "A": "Novel",
+      "B": "Short story",
+      "C": "Epic",
+      "D": "Drama"
+    },
+    "answer": "B",
+    "explanation": "A short story is a brief narrative."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "A biography is a story of",
+    "options": {
+      "A": "Animals",
+      "B": "A person's life written by another",
+      "C": "Fictional events",
+      "D": "Places only"
+    },
+    "answer": "B",
+    "explanation": "Biography tells a real person's life story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The main character in a story is",
+    "options": {
+      "A": "Antagonist",
+      "B": "Protagonist",
+      "C": "Narrator",
+      "D": "Writer"
+    },
+    "answer": "B",
+    "explanation": "The protagonist is the central character."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The opposite of protagonist is",
+    "options": {
+      "A": "Hero",
+      "B": "Antagonist",
+      "C": "Narrator",
+      "D": "Author"
+    },
+    "answer": "B",
+    "explanation": "The antagonist opposes the main character."
+  }
+,
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A statement that means the opposite of what is said is",
+    "options": {
+      "A": "Irony",
+      "B": "Simile",
+      "C": "Metaphor",
+      "D": "Alliteration"
+    },
+    "answer": "A",
+    "explanation": "Irony involves saying one thing but meaning another."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A figure of speech that uses 'life is a journey' is",
+    "options": {
+      "A": "Simile",
+      "B": "Metaphor",
+      "C": "Hyperbole",
+      "D": "Pun"
+    },
+    "answer": "B",
+    "explanation": "A metaphor compares without using 'like' or 'as'."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "A person who acts in a play is called",
+    "options": {
+      "A": "Author",
+      "B": "Actor",
+      "C": "Poet",
+      "D": "Editor"
+    },
+    "answer": "B",
+    "explanation": "An actor performs roles in a play."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "Stage directions in a play are used to",
+    "options": {
+      "A": "Tell actors how to behave",
+      "B": "Replace dialogue",
+      "C": "Write poems",
+      "D": "Describe novels"
+    },
+    "answer": "A",
+    "explanation": "Stage directions guide actors’ movements and actions."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A poem that tells a story is called",
+    "options": {
+      "A": "Lyric poem",
+      "B": "Narrative poem",
+      "C": "Epic poem",
+      "D": "Free verse"
+    },
+    "answer": "B",
+    "explanation": "Narrative poems tell stories."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "An epic is a",
+    "options": {
+      "A": "Short poem",
+      "B": "Long narrative poem",
+      "C": "Song",
+      "D": "Play"
+    },
+    "answer": "B",
+    "explanation": "An epic is a long poem about heroic deeds."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A fictional prose work is",
+    "options": {
+      "A": "Novel",
+      "B": "Drama",
+      "C": "Poem",
+      "D": "Song"
+    },
+    "answer": "A",
+    "explanation": "A novel is a fictional prose narrative."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "A fable is a story that",
+    "options": {
+      "A": "Has no meaning",
+      "B": "Teaches moral lesson",
+      "C": "Is always true",
+      "D": "Is about science only"
+    },
+    "answer": "B",
+    "explanation": "Fables teach moral lessons, often using animals."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The person against the hero is",
+    "options": {
+      "A": "Protagonist",
+      "B": "Antagonist",
+      "C": "Narrator",
+      "D": "Author"
+    },
+    "answer": "B",
+    "explanation": "The antagonist opposes the main character."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "The attitude of a writer is",
+    "options": {
+      "A": "Mood",
+      "B": "Tone",
+      "C": "Plot",
+      "D": "Setting"
+    },
+    "answer": "B",
+    "explanation": "Tone reflects the writer’s attitude."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A free verse poem is one that",
+    "options": {
+      "A": "Has no rhyme scheme",
+      "B": "Has strict rhythm",
+      "C": "Is always short",
+      "D": "Is a song"
+    },
+    "answer": "A",
+    "explanation": "Free verse has no fixed rhyme pattern."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "The beat of a poem is called",
+    "options": {
+      "A": "Tone",
+      "B": "Rhythm",
+      "C": "Plot",
+      "D": "Theme"
+    },
+    "answer": "B",
+    "explanation": "Rhythm is the beat pattern of poetry."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "A play on words is called",
+    "options": {
+      "A": "Pun",
+      "B": "Irony",
+      "C": "Simile",
+      "D": "Metaphor"
+    },
+    "answer": "A",
+    "explanation": "A pun uses words with double meanings."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A hint given in a story about future events is",
+    "options": {
+      "A": "Flashback",
+      "B": "Foreshadowing",
+      "C": "Irony",
+      "D": "Theme"
+    },
+    "answer": "B",
+    "explanation": "Foreshadowing gives clues about what will happen later."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Easy",
+    "question": "The main villain in a play is",
+    "options": {
+      "A": "Hero",
+      "B": "Antagonist",
+      "C": "Narrator",
+      "D": "Actor"
+    },
+    "answer": "B",
+    "explanation": "The antagonist is the villain or opponent."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Drama",
+    "difficulty": "Medium",
+    "question": "A short speech delivered to the audience by a character is",
+    "options": {
+      "A": "Dialogue",
+      "B": "Aside",
+      "C": "Monologue",
+      "D": "Scene"
+    },
+    "answer": "B",
+    "explanation": "An aside is a brief comment to the audience."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Easy",
+    "question": "A writer of novels is called",
+    "options": {
+      "A": "Dramatist",
+      "B": "Novelist",
+      "C": "Poet",
+      "D": "Actor"
+    },
+    "answer": "B",
+    "explanation": "A novelist writes novels."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Prose",
+    "difficulty": "Medium",
+    "question": "Autobiography is a story written by",
+    "options": {
+      "A": "Another person",
+      "B": "The author about himself",
+      "C": "Animals",
+      "D": "Government"
+    },
+    "answer": "B",
+    "explanation": "Autobiography is written by the subject himself."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Easy",
+    "question": "The struggle in a story is",
+    "options": {
+      "A": "Theme",
+      "B": "Conflict",
+      "C": "Setting",
+      "D": "Mood"
+    },
+    "answer": "B",
+    "explanation": "Conflict is the problem or struggle in a story."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Terms",
+    "difficulty": "Medium",
+    "question": "External conflict is between",
+    "options": {
+      "A": "Character and self",
+      "B": "Character and outside forces",
+      "C": "Two narrators",
+      "D": "Two authors"
+    },
+    "answer": "B",
+    "explanation": "External conflict involves outside forces."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Easy",
+    "question": "A short line in a poem is called",
+    "options": {
+      "A": "Verse",
+      "B": "Sentence",
+      "C": "Paragraph",
+      "D": "Chapter"
+    },
+    "answer": "A",
+    "explanation": "A verse is a single line in poetry."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Poetry",
+    "difficulty": "Medium",
+    "question": "A poem without regular structure is",
+    "options": {
+      "A": "Sonnet",
+      "B": "Free verse",
+      "C": "Epic",
+      "D": "Ballad"
+    },
+    "answer": "B",
+    "explanation": "Free verse has no fixed structure."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Easy",
+    "question": "Excessive exaggeration for effect is",
+    "options": {
+      "A": "Irony",
+      "B": "Hyperbole",
+      "C": "Simile",
+      "D": "Metaphor"
+    },
+    "answer": "B",
+    "explanation": "Hyperbole is deliberate exaggeration."
+  },
+  {
+    "subject": "Literature in English",
+    "category": "Literary Devices",
+    "difficulty": "Medium",
+    "question": "A contrast between expectation and reality is",
+    "options": {
+      "A": "Irony",
+      "B": "Theme",
+      "C": "Plot",
+      "D": "Setting"
+    },
+    "answer": "A",
+    "explanation": "Irony involves contrast between expectation and reality."
+  }
+]

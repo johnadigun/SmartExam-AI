@@ -1,0 +1,675 @@
+[
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "Commerce is best defined as",
+    "options": {
+      "A": "Production of goods only",
+      "B": "Buying and selling of goods and services",
+      "C": "Distribution of money only",
+      "D": "Manufacturing only"
+    },
+    "answer": "B",
+    "explanation": "Commerce involves all activities related to buying and selling of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "The main purpose of commerce is to",
+    "options": {
+      "A": "Stop production",
+      "B": "Satisfy human wants",
+      "C": "Increase taxes",
+      "D": "Reduce population"
+    },
+    "answer": "B",
+    "explanation": "Commerce exists to satisfy human wants through exchange of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Production",
+    "difficulty": "Easy",
+    "question": "Production refers to",
+    "options": {
+      "A": "Consumption of goods",
+      "B": "Creation of goods and services",
+      "C": "Buying goods only",
+      "D": "Selling goods only"
+    },
+    "answer": "B",
+    "explanation": "Production is the creation of goods and services to satisfy needs."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Production",
+    "difficulty": "Medium",
+    "question": "One factor of production is",
+    "options": {
+      "A": "Money only",
+      "B": "Land",
+      "C": "Trade only",
+      "D": "Marketing"
+    },
+    "answer": "B",
+    "explanation": "Land is one of the major factors of production."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Distribution",
+    "difficulty": "Easy",
+    "question": "Distribution means",
+    "options": {
+      "A": "Destroying goods",
+      "B": "Making goods available to consumers",
+      "C": "Producing goods",
+      "D": "Hiding goods"
+    },
+    "answer": "B",
+    "explanation": "Distribution ensures goods reach final consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "Home trade refers to",
+    "options": {
+      "A": "Trade between countries",
+      "B": "Trade within a country",
+      "C": "Illegal trade",
+      "D": "Sea trade only"
+    },
+    "answer": "B",
+    "explanation": "Home trade is domestic trade within a country."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "International trade is",
+    "options": {
+      "A": "Trade within a city",
+      "B": "Trade between countries",
+      "C": "Trade within a family",
+      "D": "Trade without money"
+    },
+    "answer": "B",
+    "explanation": "International trade involves exchange between countries."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Retail Trade",
+    "difficulty": "Medium",
+    "question": "Retail trade involves selling goods to",
+    "options": {
+      "A": "Manufacturers",
+      "B": "Final consumers",
+      "C": "Wholesalers only",
+      "D": "Banks"
+    },
+    "answer": "B",
+    "explanation": "Retailers sell goods directly to final consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Wholesale Trade",
+    "difficulty": "Easy",
+    "question": "Wholesalers mainly buy goods in",
+    "options": {
+      "A": "Small quantities",
+      "B": "Large quantities",
+      "C": "No quantities",
+      "D": "Random quantities only"
+    },
+    "answer": "B",
+    "explanation": "Wholesalers buy in bulk from producers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "A retailer is a trader who",
+    "options": {
+      "A": "Sells to producers",
+      "B": "Sells directly to consumers",
+      "C": "Only produces goods",
+      "D": "Imports goods only"
+    },
+    "answer": "B",
+    "explanation": "Retailers deal directly with final consumers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "Banking involves",
+    "options": {
+      "A": "Storage of goods",
+      "B": "Accepting deposits and giving loans",
+      "C": "Manufacturing products",
+      "D": "Fishing activities"
+    },
+    "answer": "B",
+    "explanation": "Banks handle deposits, withdrawals, and lending."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "A commercial bank mainly",
+    "options": {
+      "A": "Prints currency",
+      "B": "Accepts deposits and gives loans",
+      "C": "Controls elections",
+      "D": "Makes laws"
+    },
+    "answer": "B",
+    "explanation": "Commercial banks provide financial services to the public."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Money is anything that is",
+    "options": {
+      "A": "Heavy",
+      "B": "Generally accepted as a medium of exchange",
+      "C": "Made of paper only",
+      "D": "Controlled by farmers"
+    },
+    "answer": "B",
+    "explanation": "Money must be widely accepted for exchange."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "One function of money is",
+    "options": {
+      "A": "Decoration",
+      "B": "Measure of value",
+      "C": "Production tool",
+      "D": "Tax tool only"
+    },
+    "answer": "B",
+    "explanation": "Money is used to measure the value of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Transport helps in",
+    "options": {
+      "A": "Production only",
+      "B": "Movement of goods and people",
+      "C": "Tax collection",
+      "D": "Law making"
+    },
+    "answer": "B",
+    "explanation": "Transport moves goods and people from place to place."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One advantage of road transport is",
+    "options": {
+      "A": "No flexibility",
+      "B": "Door-to-door delivery",
+      "C": "Very slow always",
+      "D": "No access to villages"
+    },
+    "answer": "B",
+    "explanation": "Road transport provides flexible door-to-door services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "Insurance is a system of",
+    "options": {
+      "A": "Trading goods",
+      "B": "Risk sharing",
+      "C": "Manufacturing",
+      "D": "Banking only"
+    },
+    "answer": "B",
+    "explanation": "Insurance spreads risk among many people."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Insurance premium is",
+    "options": {
+      "A": "Money paid to insured",
+      "B": "Money paid by insured to insurer",
+      "C": "Government tax",
+      "D": "Bank interest"
+    },
+    "answer": "B",
+    "explanation": "Premium is the amount paid for insurance coverage."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "Communication in commerce means",
+    "options": {
+      "A": "Exchange of goods",
+      "B": "Exchange of information",
+      "C": "Production of goods",
+      "D": "Tax payment"
+    },
+    "answer": "B",
+    "explanation": "Communication involves sharing information for business."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One example of modern communication is",
+    "options": {
+      "A": "Town crier",
+      "B": "Television",
+      "C": "Drums",
+      "D": "Smoke signals"
+    },
+    "answer": "B",
+    "explanation": "Television is a modern electronic communication tool."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "Warehousing means",
+    "options": {
+      "A": "Selling goods",
+      "B": "Storing goods until needed",
+      "C": "Producing goods",
+      "D": "Transporting goods"
+    },
+    "answer": "B",
+    "explanation": "Warehousing involves storage of goods before distribution."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "One benefit of warehousing is",
+    "options": {
+      "A": "Increases spoilage",
+      "B": "Ensures steady supply of goods",
+      "C": "Stops production",
+      "D": "Reduces trade"
+    },
+    "answer": "B",
+    "explanation": "Warehousing ensures goods are available when needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A sole proprietorship is owned by",
+    "options": {
+      "A": "Many people",
+      "B": "One person",
+      "C": "Government",
+      "D": "Banks"
+    },
+    "answer": "B",
+    "explanation": "A sole proprietorship is a business owned by one person."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One disadvantage of sole proprietorship is",
+    "options": {
+      "A": "Easy management",
+      "B": "Unlimited liability",
+      "C": "Low taxes",
+      "D": "Quick decisions"
+    },
+    "answer": "B",
+    "explanation": "The owner bears all business debts personally."
+  }
+,
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A partnership is formed when business is owned by",
+    "options": {
+      "A": "One person",
+      "B": "Two or more persons",
+      "C": "Government only",
+      "D": "Customers"
+    },
+    "answer": "B",
+    "explanation": "Partnership involves two or more people running a business together."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "One disadvantage of partnership is",
+    "options": {
+      "A": "Easy management",
+      "B": "Unlimited liability",
+      "C": "More capital",
+      "D": "Shared responsibility"
+    },
+    "answer": "B",
+    "explanation": "Partners may be personally liable for business debts."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Company Formation",
+    "difficulty": "Easy",
+    "question": "A limited liability company means",
+    "options": {
+      "A": "Owners lose all property",
+      "B": "Owners liability is limited to their investment",
+      "C": "No ownership exists",
+      "D": "Government owns everything"
+    },
+    "answer": "B",
+    "explanation": "Shareholders are only liable up to their investment."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Company Formation",
+    "difficulty": "Medium",
+    "question": "A public limited company can",
+    "options": {
+      "A": "Sell shares to the public",
+      "B": "Only one owner exists",
+      "C": "Avoid regulation",
+      "D": "Not issue shares"
+    },
+    "answer": "A",
+    "explanation": "Public companies can offer shares to the public."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "Marketing is",
+    "options": {
+      "A": "Production process",
+      "B": "Process of promoting and selling goods",
+      "C": "Tax collection",
+      "D": "Banking activity"
+    },
+    "answer": "B",
+    "explanation": "Marketing involves promoting and selling goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Medium",
+    "question": "One element of marketing mix is",
+    "options": {
+      "A": "Power",
+      "B": "Price",
+      "C": "Politics",
+      "D": "Population"
+    },
+    "answer": "B",
+    "explanation": "Price is one of the 4Ps of marketing."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Marketing",
+    "difficulty": "Easy",
+    "question": "Promotion in marketing means",
+    "options": {
+      "A": "Hiding goods",
+      "B": "Advertising and selling products",
+      "C": "Stopping trade",
+      "D": "Tax payment"
+    },
+    "answer": "B",
+    "explanation": "Promotion involves informing customers about products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Medium",
+    "question": "One aim of advertising is to",
+    "options": {
+      "A": "Reduce sales",
+      "B": "Increase demand for goods",
+      "C": "Stop production",
+      "D": "Hide information"
+    },
+    "answer": "B",
+    "explanation": "Advertising encourages people to buy products."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Advertising",
+    "difficulty": "Easy",
+    "question": "A medium of advertising is",
+    "options": {
+      "A": "Court",
+      "B": "Radio",
+      "C": "Police",
+      "D": "Bank"
+    },
+    "answer": "B",
+    "explanation": "Radio is a common advertising medium."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "Sea transport is best for",
+    "options": {
+      "A": "Small goods only",
+      "B": "Heavy and bulky goods",
+      "C": "Short distances only",
+      "D": "Emergency services only"
+    },
+    "answer": "B",
+    "explanation": "Sea transport is ideal for heavy and bulky goods."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Air transport is mainly used for",
+    "options": {
+      "A": "Slow delivery",
+      "B": "Fast delivery of goods and passengers",
+      "C": "Heavy cargo only",
+      "D": "Local farming"
+    },
+    "answer": "B",
+    "explanation": "Air transport is the fastest means of transport."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Life insurance covers",
+    "options": {
+      "A": "Goods only",
+      "B": "Human life",
+      "C": "Buildings only",
+      "D": "Vehicles only"
+    },
+    "answer": "B",
+    "explanation": "Life insurance protects against loss of human life."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "Insurance helps to",
+    "options": {
+      "A": "Increase risk",
+      "B": "Reduce financial loss",
+      "C": "Stop business",
+      "D": "Eliminate trade"
+    },
+    "answer": "B",
+    "explanation": "Insurance reduces the impact of financial risks."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "Cheque is a",
+    "options": {
+      "A": "Bank loan",
+      "B": "Written order to pay money",
+      "C": "Credit card",
+      "D": "Insurance document"
+    },
+    "answer": "B",
+    "explanation": "A cheque instructs a bank to pay a specified amount."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "One function of a central bank is",
+    "options": {
+      "A": "Selling goods",
+      "B": "Issuing currency",
+      "C": "Advertising products",
+      "D": "Conducting elections"
+    },
+    "answer": "B",
+    "explanation": "Central banks control money supply and issue currency."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "One characteristic of money is",
+    "options": {
+      "A": "Perishable",
+      "B": "Durable",
+      "C": "Heavy",
+      "D": "Invisible"
+    },
+    "answer": "B",
+    "explanation": "Money must be durable for repeated use."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Money serves as",
+    "options": {
+      "A": "Only decoration",
+      "B": "Medium of exchange",
+      "C": "Only tax tool",
+      "D": "Production factor"
+    },
+    "answer": "B",
+    "explanation": "Money is used to facilitate exchange of goods and services."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Medium",
+    "question": "One type of warehouse is",
+    "options": {
+      "A": "Court warehouse",
+      "B": "Bonded warehouse",
+      "C": "School warehouse",
+      "D": "Bank warehouse"
+    },
+    "answer": "B",
+    "explanation": "Bonded warehouses store imported goods under customs control."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Warehousing",
+    "difficulty": "Easy",
+    "question": "Warehousing helps to",
+    "options": {
+      "A": "Destroy goods",
+      "B": "Preserve goods",
+      "C": "Reduce trade",
+      "D": "Stop production"
+    },
+    "answer": "B",
+    "explanation": "Warehousing ensures goods are preserved until needed."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One disadvantage of traditional communication is",
+    "options": {
+      "A": "Fast delivery",
+      "B": "Slow transmission",
+      "C": "High accuracy",
+      "D": "Wide reach"
+    },
+    "answer": "B",
+    "explanation": "Traditional methods like drums are slow."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "Internet is a form of",
+    "options": {
+      "A": "Traditional communication",
+      "B": "Modern communication",
+      "C": "Manual transport",
+      "D": "Banking system"
+    },
+    "answer": "B",
+    "explanation": "The internet is a modern digital communication system."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Medium",
+    "question": "One factor affecting business is",
+    "options": {
+      "A": "Weather only",
+      "B": "Economic environment",
+      "C": "School system",
+      "D": "Religion only"
+    },
+    "answer": "B",
+    "explanation": "Economic conditions affect business operations."
+  },
+  {
+    "subject": "Commerce",
+    "category": "Business Environment",
+    "difficulty": "Easy",
+    "question": "Competition in business means",
+    "options": {
+      "A": "No sellers exist",
+      "B": "Firms trying to attract customers",
+      "C": "Government control",
+      "D": "No production"
+    },
+    "answer": "B",
+    "explanation": "Competition occurs when firms compete for customers."
+  },
+  {
+    "subject": "Commerce",
+    "category": "General",
+    "difficulty": "Medium",
+    "question": "The main aim of business is",
+    "options": {
+      "A": "Loss making",
+      "B": "Profit making",
+      "C": "Stopping trade",
+      "D": "Increasing taxes"
+    },
+    "answer": "B",
+    "explanation": "Businesses aim to make profit."
+  }
+]

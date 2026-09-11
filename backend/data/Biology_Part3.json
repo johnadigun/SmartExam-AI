@@ -1,0 +1,377 @@
+[
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "The place where an organism naturally lives is called: (Q51)",
+    "options": [
+      "Habitat",
+      "Niche",
+      "Community",
+      "Biome"
+    ],
+    "answer": "Habitat",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Plant Physiology",
+    "question": "Loss of water vapour from leaves is known as: (Q52)",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Guttation"
+    ],
+    "answer": "Transpiration",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Human Physiology",
+    "question": "The largest organ in the human body is the: (Q53)",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Microbiology",
+    "question": "Organisms that cannot be seen with the naked eye are called: (Q54)",
+    "options": [
+      "Vertebrates",
+      "Microorganisms",
+      "Mammals",
+      "Protozoa"
+    ],
+    "answer": "Microorganisms",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Conservation",
+    "question": "National parks are primarily established to: (Q55)",
+    "options": [
+      "Encourage hunting",
+      "Protect wildlife",
+      "Build industries",
+      "Promote trade"
+    ],
+    "answer": "Protect wildlife",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "The place where an organism naturally lives is called: (Q56)",
+    "options": [
+      "Habitat",
+      "Niche",
+      "Community",
+      "Biome"
+    ],
+    "answer": "Habitat",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Plant Physiology",
+    "question": "Loss of water vapour from leaves is known as: (Q57)",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Guttation"
+    ],
+    "answer": "Transpiration",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Human Physiology",
+    "question": "The largest organ in the human body is the: (Q58)",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Microbiology",
+    "question": "Organisms that cannot be seen with the naked eye are called: (Q59)",
+    "options": [
+      "Vertebrates",
+      "Microorganisms",
+      "Mammals",
+      "Protozoa"
+    ],
+    "answer": "Microorganisms",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Conservation",
+    "question": "National parks are primarily established to: (Q60)",
+    "options": [
+      "Encourage hunting",
+      "Protect wildlife",
+      "Build industries",
+      "Promote trade"
+    ],
+    "answer": "Protect wildlife",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "The place where an organism naturally lives is called: (Q61)",
+    "options": [
+      "Habitat",
+      "Niche",
+      "Community",
+      "Biome"
+    ],
+    "answer": "Habitat",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Plant Physiology",
+    "question": "Loss of water vapour from leaves is known as: (Q62)",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Guttation"
+    ],
+    "answer": "Transpiration",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Human Physiology",
+    "question": "The largest organ in the human body is the: (Q63)",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Microbiology",
+    "question": "Organisms that cannot be seen with the naked eye are called: (Q64)",
+    "options": [
+      "Vertebrates",
+      "Microorganisms",
+      "Mammals",
+      "Protozoa"
+    ],
+    "answer": "Microorganisms",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Conservation",
+    "question": "National parks are primarily established to: (Q65)",
+    "options": [
+      "Encourage hunting",
+      "Protect wildlife",
+      "Build industries",
+      "Promote trade"
+    ],
+    "answer": "Protect wildlife",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "The place where an organism naturally lives is called: (Q66)",
+    "options": [
+      "Habitat",
+      "Niche",
+      "Community",
+      "Biome"
+    ],
+    "answer": "Habitat",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Plant Physiology",
+    "question": "Loss of water vapour from leaves is known as: (Q67)",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Guttation"
+    ],
+    "answer": "Transpiration",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Human Physiology",
+    "question": "The largest organ in the human body is the: (Q68)",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Microbiology",
+    "question": "Organisms that cannot be seen with the naked eye are called: (Q69)",
+    "options": [
+      "Vertebrates",
+      "Microorganisms",
+      "Mammals",
+      "Protozoa"
+    ],
+    "answer": "Microorganisms",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Conservation",
+    "question": "National parks are primarily established to: (Q70)",
+    "options": [
+      "Encourage hunting",
+      "Protect wildlife",
+      "Build industries",
+      "Promote trade"
+    ],
+    "answer": "Protect wildlife",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Ecology",
+    "question": "The place where an organism naturally lives is called: (Q71)",
+    "options": [
+      "Habitat",
+      "Niche",
+      "Community",
+      "Biome"
+    ],
+    "answer": "Habitat",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Plant Physiology",
+    "question": "Loss of water vapour from leaves is known as: (Q72)",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Guttation"
+    ],
+    "answer": "Transpiration",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Human Physiology",
+    "question": "The largest organ in the human body is the: (Q73)",
+    "options": [
+      "Heart",
+      "Liver",
+      "Skin",
+      "Lung"
+    ],
+    "answer": "Skin",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Microbiology",
+    "question": "Organisms that cannot be seen with the naked eye are called: (Q74)",
+    "options": [
+      "Vertebrates",
+      "Microorganisms",
+      "Mammals",
+      "Protozoa"
+    ],
+    "answer": "Microorganisms",
+    "year": "2024",
+    "exam": "NECO",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Biology",
+    "category": "Conservation",
+    "question": "National parks are primarily established to: (Q75)",
+    "options": [
+      "Encourage hunting",
+      "Protect wildlife",
+      "Build industries",
+      "Promote trade"
+    ],
+    "answer": "Protect wildlife",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  }
+]

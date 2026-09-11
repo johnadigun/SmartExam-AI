@@ -1,0 +1,604 @@
+
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   PROFESSIONAL ADMIN DASHBOARD
+   CLEAN / UNIFORM GREY / BLACK / GREEN / RED THEME
+========================================================== */
+
+
+/* ==========================================================
+   GLOBAL RESET
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+
+/* ==========================================================
+   MAIN ADMIN LAYOUT
+   IMPORTANT:
+   Keep the main content as the single vertical scroll area.
+========================================================== */
+
+.admin-container {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: stretch;
+
+    background: #eeeeee;
+
+    overflow: hidden;
+}
+
+
+/* ==========================================================
+   SIDEBAR
+========================================================== */
+
+.admin-sidebar {
+    width: 240px;
+    min-width: 240px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 18px 13px;
+
+    background: #2f343a;
+    color: #ffffff;
+
+    border-right: 1px solid #202428;
+
+    box-shadow: 2px 0 7px rgba(0, 0, 0, 0.12);
+
+    overflow-y: auto;
+}
+
+
+/* ==========================================================
+   SIDEBAR BRAND
+========================================================== */
+
+.admin-sidebar h2 {
+    margin: 0 0 7px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    letter-spacing: 0.3px;
+}
+
+.admin-email {
+    margin: 0 0 20px;
+
+    padding: 0 5px;
+
+    text-align: center;
+
+    color: #cfd3d6;
+
+    font-size: 12px;
+    line-height: 1.45;
+
+    word-break: break-word;
+}
+
+
+/* ==========================================================
+   SIDEBAR BUTTONS
+========================================================== */
+
+.admin-sidebar button {
+    width: 100%;
+
+    margin: 0 0 6px;
+    padding: 10px 13px;
+
+    border: 1px solid #454b51;
+    border-radius: 5px;
+
+    outline: none;
+
+    background: #393f45;
+    color: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        background 0.18s ease,
+        border-color 0.18s ease,
+        transform 0.18s ease;
+}
+
+.admin-sidebar button:hover {
+    background: #43494f;
+
+    border-color: #16834b;
+
+    color: #ffffff;
+
+    transform: translateX(2px);
+}
+
+.admin-sidebar button:focus-visible {
+    border-color: #35a66f;
+    box-shadow: 0 0 0 2px rgba(53, 166, 111, 0.22);
+}
+
+
+/* ==========================================================
+   LOGOUT
+========================================================== */
+
+.logout-btn {
+    margin-top: auto !important;
+
+    background: #b3261e !important;
+
+    border-color: #951f1a !important;
+
+    color: #ffffff !important;
+}
+
+.logout-btn:hover {
+    background: #8f1e19 !important;
+
+    border-color: #751914 !important;
+
+    color: #ffffff !important;
+
+    transform: none !important;
+}
+
+
+/* ==========================================================
+   MAIN CONTENT AREA
+   DO NOT ADD ANOTHER SCROLL CONTAINER TO ADMIN BODY.
+========================================================== */
+
+.admin-content {
+    flex: 1;
+    width: calc(100% - 240px);
+
+    min-width: 0;
+
+    height: 100vh;
+    min-height: 0;
+
+    padding: 15px;
+
+    background: #eeeeee;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+/* ==========================================================
+   ADMIN HEADER
+========================================================== */
+
+.admin-header {
+    width: 100%;
+
+    margin-bottom: 12px;
+    padding: 13px 17px;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d9dc;
+    border-left: 4px solid #16834b;
+
+    border-radius: 6px;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+}
+
+.admin-header h1 {
+    margin: 0;
+
+    color: #222222;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+
+/* ==========================================================
+   ADMIN BODY
+   IMPORTANT:
+   overflow MUST remain visible so the main
+   .admin-content remains the vertical scroll container.
+========================================================== */
+
+.admin-body {
+    width: 100%;
+
+    min-width: 0;
+    min-height: 300px;
+
+    padding: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d9dc;
+    border-radius: 6px;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.06);
+
+    overflow: visible;
+}
+
+
+/* ==========================================================
+   DASHBOARD CARDS
+========================================================== */
+
+.dashboard-cards {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(145px, 1fr));
+
+    gap: 12px;
+
+    align-items: stretch;
+}
+
+
+/* ==========================================================
+   DASHBOARD CARD
+========================================================== */
+
+.dashboard-card {
+    width: 100%;
+    min-height: 88px;
+
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #343a40;
+
+    border: 1px solid #292e33;
+    border-radius: 6px;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.09);
+
+    transition:
+        background 0.18s ease,
+        transform 0.18s ease;
+}
+
+.dashboard-card:hover {
+    background: #2f343a;
+
+    transform: translateY(-1px);
+}
+
+.dashboard-card h3 {
+    margin: 0 0 6px;
+
+    color: #d9dde0;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    line-height: 1.25;
+}
+
+.dashboard-card h1 {
+    margin: 0;
+
+    color: #35a66f;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+
+/* ==========================================================
+   COMMON ADMIN SECTIONS
+========================================================== */
+
+.admin-section {
+    width: 100%;
+    min-width: 0;
+}
+
+.admin-section h2 {
+    margin: 0 0 13px;
+
+    color: #222222;
+
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.admin-section p {
+    margin-bottom: 10px;
+
+    color: #555555;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* ==========================================================
+   FORM ELEMENT SAFETY
+========================================================== */
+
+.admin-body input,
+.admin-body select,
+.admin-body textarea {
+    max-width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ==========================================================
+   TABLE SAFETY
+========================================================== */
+
+.admin-body table {
+    max-width: 100%;
+}
+
+.admin-body .table-container,
+.admin-body .table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+/* ==========================================================
+   LOADING SCREEN
+========================================================== */
+
+.admin-loading {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #eeeeee;
+
+    color: #222222;
+
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.admin-loading h2 {
+    margin: 0;
+}
+
+
+/* ==========================================================
+   LARGE DESKTOP
+========================================================== */
+
+@media (min-width: 1400px) {
+
+    .admin-sidebar {
+        width: 250px;
+        min-width: 250px;
+    }
+
+    .admin-content {
+        width: calc(100% - 250px);
+        padding: 17px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns:
+            repeat(4, minmax(160px, 1fr));
+    }
+}
+
+
+/* ==========================================================
+   TABLET / SMALL DESKTOP
+========================================================== */
+
+@media (max-width: 1100px) {
+
+    .admin-sidebar {
+        width: 220px;
+        min-width: 220px;
+    }
+
+    .admin-content {
+        width: calc(100% - 220px);
+        padding: 12px;
+    }
+
+    .admin-body {
+        padding: 12px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns:
+            repeat(auto-fit, minmax(135px, 1fr));
+    }
+}
+
+
+/* ==========================================================
+   MOBILE / NARROW SCREEN
+========================================================== */
+
+@media (max-width: 800px) {
+
+    .admin-container {
+        flex-direction: column;
+    }
+
+    .admin-sidebar {
+        width: 100%;
+        min-width: 100%;
+        min-height: auto;
+
+        padding: 13px;
+
+        border-right: none;
+        border-bottom: 1px solid #202428;
+
+        overflow: visible;
+    }
+
+    .admin-sidebar h2 {
+        width: 100%;
+
+        margin-bottom: 5px;
+    }
+
+    .admin-email {
+        width: 100%;
+
+        margin-bottom: 13px;
+    }
+
+    .admin-sidebar button {
+        width: auto;
+        flex: 1 1 150px;
+
+        text-align: center;
+    }
+
+    .logout-btn {
+        margin-top: 6px !important;
+    }
+
+    .admin-content {
+        width: 100%;
+        min-height: auto;
+
+        padding: 10px;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .admin-header {
+        padding: 11px 14px;
+    }
+
+    .admin-header h1 {
+        font-size: 18px;
+    }
+
+    .admin-body {
+        padding: 10px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns:
+            repeat(auto-fit, minmax(130px, 1fr));
+
+        gap: 10px;
+    }
+
+    .dashboard-card {
+        min-height: 82px;
+    }
+}
+
+
+/* ==========================================================
+   VERY SMALL SCREENS
+========================================================== */
+
+@media (max-width: 480px) {
+
+    .admin-content {
+        padding: 7px;
+    }
+
+    .admin-header {
+        padding: 10px 12px;
+    }
+
+    .admin-header h1 {
+        font-size: 16px;
+    }
+
+    .admin-body {
+        padding: 8px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .dashboard-card {
+        min-height: 78px;
+        padding: 8px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 11px;
+    }
+
+    .dashboard-card h1 {
+        font-size: 21px;
+    }
+}
+

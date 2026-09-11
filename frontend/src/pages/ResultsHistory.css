@@ -1,0 +1,621 @@
+/* ==========================================================
+   SMARTEXAM RESULTS HISTORY
+========================================================== */
+
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ==========================================
+   LOADING
+========================================== */
+
+.history-loading{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#1565c0;
+
+}
+
+/* ==========================================
+   PAGE CONTAINER
+========================================== */
+
+.history-container{
+
+    width:96%;
+
+    max-width:1300px;
+
+    margin:25px auto;
+
+}
+
+/* ==========================================
+   MAIN CARD
+========================================== */
+
+.history-card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.12);
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.history-card h1{
+
+    text-align:center;
+
+    color:#1565c0;
+
+    font-size:30px;
+
+    margin-bottom:8px;
+
+}
+
+.history-card>p{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+    font-size:15px;
+
+}
+
+/* ==========================================
+   TOOLBAR
+========================================== */
+
+.history-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:25px;
+
+}
+
+/* ==========================================
+   SEARCH BOX
+========================================== */
+
+.history-search{
+
+    flex:1;
+
+    min-width:260px;
+
+    padding:12px 15px;
+
+    border:1px solid #cfcfcf;
+
+    border-radius:6px;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.25s;
+
+}
+
+.history-search:focus{
+
+    border-color:#1565c0;
+
+}
+
+/* ==========================================
+   FILTER
+========================================== */
+
+.history-filter{
+
+    width:170px;
+
+    padding:12px;
+
+    border:1px solid #cfcfcf;
+
+    border-radius:6px;
+
+    background:#ffffff;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+}
+
+/* ==========================================
+   CLEAR HISTORY BUTTON
+========================================== */
+
+.clear-history-btn{
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#d32f2f;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.clear-history-btn:hover{
+
+    background:#b71c1c;
+
+}
+/* ==========================================
+   RESULTS TABLE
+========================================== */
+
+.history-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:10px;
+
+    background:#ffffff;
+
+}
+
+.history-table thead{
+
+    background:#1565c0;
+
+}
+
+.history-table th{
+
+    padding:14px 12px;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    white-space:nowrap;
+
+}
+
+.history-table td{
+
+    padding:12px 10px;
+
+    border-bottom:1px solid #e2e2e2;
+
+    font-size:14px;
+
+    color:#333;
+
+    text-align:center;
+
+    vertical-align:middle;
+
+}
+
+.history-table tbody tr{
+
+    transition:.25s;
+
+}
+
+.history-table tbody tr:hover{
+
+    background:#f5f9ff;
+
+}
+
+/* ==========================================
+   COLUMN STYLES
+========================================== */
+
+.history-table td:nth-child(2),
+
+.history-table td:nth-child(3){
+
+    font-weight:600;
+
+}
+
+.history-table td:nth-child(4){
+
+    color:#1565c0;
+
+    font-weight:bold;
+
+}
+
+.history-table td:nth-child(5){
+
+    font-weight:bold;
+
+}
+
+.history-table td:nth-child(6){
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+/* ==========================================
+   ACTION BUTTONS
+========================================== */
+
+.history-table td:last-child{
+
+    white-space:nowrap;
+
+}
+
+/* ---------- VIEW ---------- */
+
+.view-btn{
+
+    background:#1565c0;
+
+    color:#ffffff;
+
+    border:none;
+
+    border-radius:5px;
+
+    padding:8px 14px;
+
+    margin-right:8px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.view-btn:hover{
+
+    background:#0d47a1;
+
+}
+
+/* ---------- DELETE ---------- */
+
+.delete-btn{
+
+    background:#d32f2f;
+
+    color:#ffffff;
+
+    border:none;
+
+    border-radius:5px;
+
+    padding:8px 14px;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.delete-btn:hover{
+
+    background:#b71c1c;
+
+}
+
+/* ==========================================
+   EMPTY HISTORY
+========================================== */
+
+.no-history{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+.no-history h3{
+
+    color:#1565c0;
+
+    font-size:26px;
+
+    margin-bottom:12px;
+
+}
+
+.no-history p{
+
+    color:#666;
+
+    font-size:16px;
+
+    line-height:1.7;
+
+}
+/* ==========================================
+   RESPONSIVE - TABLET
+========================================== */
+
+@media screen and (max-width:992px){
+
+    .history-container{
+
+        width:98%;
+
+    }
+
+    .history-card{
+
+        padding:18px;
+
+    }
+
+    .history-toolbar{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+    }
+
+    .history-search{
+
+        width:100%;
+
+        min-width:100%;
+
+    }
+
+    .history-filter{
+
+        width:100%;
+
+    }
+
+    .clear-history-btn{
+
+        width:100%;
+
+    }
+
+    .history-table{
+
+        display:block;
+
+        overflow-x:auto;
+
+        white-space:nowrap;
+
+    }
+
+}
+
+
+/* ==========================================
+   RESPONSIVE - MOBILE
+========================================== */
+
+@media screen and (max-width:768px){
+
+    .history-container{
+
+        width:100%;
+
+        margin:10px auto;
+
+    }
+
+    .history-card{
+
+        border-radius:0;
+
+        padding:15px;
+
+    }
+
+    .history-card h1{
+
+        font-size:24px;
+
+    }
+
+    .history-card>p{
+
+        font-size:14px;
+
+    }
+
+    .history-table th{
+
+        font-size:13px;
+
+        padding:10px;
+
+    }
+
+    .history-table td{
+
+        font-size:13px;
+
+        padding:10px;
+
+    }
+
+    .view-btn,
+
+    .delete-btn{
+
+        width:100%;
+
+        margin:4px 0;
+
+        padding:10px;
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media screen and (max-width:480px){
+
+    .history-card h1{
+
+        font-size:21px;
+
+    }
+
+    .history-card>p{
+
+        font-size:13px;
+
+    }
+
+    .history-search{
+
+        font-size:14px;
+
+    }
+
+    .history-filter{
+
+        font-size:14px;
+
+    }
+
+    .clear-history-btn{
+
+        font-size:14px;
+
+    }
+
+    .history-table{
+
+        font-size:12px;
+
+    }
+
+}
+
+
+/* ==========================================
+   PRINT
+========================================== */
+
+@media print{
+
+    body{
+
+        background:#ffffff;
+
+    }
+
+    .history-container{
+
+        width:100%;
+
+        margin:0;
+
+    }
+
+    .history-card{
+
+        box-shadow:none;
+
+        border:none;
+
+    }
+
+    .history-toolbar{
+
+        display:none;
+
+    }
+
+    .view-btn,
+
+    .delete-btn,
+
+    .clear-history-btn{
+
+        display:none;
+
+    }
+
+}

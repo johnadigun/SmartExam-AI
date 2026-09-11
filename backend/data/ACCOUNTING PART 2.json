@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Source Documents",
+    "difficulty": "Easy",
+    "question": "A document issued by a seller to a buyer requesting payment is called",
+    "options": {
+      "A": "Receipt",
+      "B": "Invoice",
+      "C": "Voucher",
+      "D": "Cheque"
+    },
+    "answer": "B",
+    "explanation": "An invoice requests payment for goods or services supplied."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Source Documents",
+    "difficulty": "Easy",
+    "question": "Evidence of cash received from a customer is a",
+    "options": {
+      "A": "Receipt",
+      "B": "Debit note",
+      "C": "Invoice",
+      "D": "Ledger"
+    },
+    "answer": "A",
+    "explanation": "A receipt acknowledges payment received."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Books of Original Entry",
+    "difficulty": "Medium",
+    "question": "The Purchases Day Book records",
+    "options": {
+      "A": "Cash purchases",
+      "B": "Credit purchases of goods",
+      "C": "Credit sales",
+      "D": "Cash sales"
+    },
+    "answer": "B",
+    "explanation": "Only credit purchases of goods for resale are recorded."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Books of Original Entry",
+    "difficulty": "Medium",
+    "question": "The Sales Day Book is used to record",
+    "options": {
+      "A": "Cash sales",
+      "B": "Credit sales of goods",
+      "C": "Returns inward",
+      "D": "Returns outward"
+    },
+    "answer": "B",
+    "explanation": "The Sales Day Book records credit sales only."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Book",
+    "difficulty": "Easy",
+    "question": "The Cash Book serves as both",
+    "options": {
+      "A": "Journal and ledger",
+      "B": "Ledger and trial balance",
+      "C": "Invoice and receipt",
+      "D": "Profit and loss account"
+    },
+    "answer": "A",
+    "explanation": "The Cash Book is both a book of original entry and a ledger account."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ledger",
+    "difficulty": "Easy",
+    "question": "A ledger contains",
+    "options": {
+      "A": "Personal letters",
+      "B": "Individual accounts",
+      "C": "Business plans",
+      "D": "Stock records only"
+    },
+    "answer": "B",
+    "explanation": "A ledger contains all business accounts."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Trial Balance",
+    "difficulty": "Medium",
+    "question": "A trial balance is prepared mainly to",
+    "options": {
+      "A": "Calculate tax",
+      "B": "Test the arithmetic accuracy of ledger entries",
+      "C": "Prepare invoices",
+      "D": "Determine selling price"
+    },
+    "answer": "B",
+    "explanation": "A trial balance checks whether debit and credit totals agree."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Trial Balance",
+    "difficulty": "Medium",
+    "question": "If the trial balance does not agree, one possible cause is",
+    "options": {
+      "A": "Correct posting",
+      "B": "Error in addition",
+      "C": "Balanced accounts",
+      "D": "Proper classification"
+    },
+    "answer": "B",
+    "explanation": "Errors in addition can make the trial balance disagree."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Errors",
+    "difficulty": "Medium",
+    "question": "An error that does not affect the agreement of the trial balance is",
+    "options": {
+      "A": "Error of omission",
+      "B": "Error of commission",
+      "C": "Error of principle",
+      "D": "All of the above"
+    },
+    "answer": "C",
+    "explanation": "An error of principle may not affect the trial balance."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Bank Reconciliation",
+    "difficulty": "Medium",
+    "question": "The purpose of a bank reconciliation statement is to",
+    "options": {
+      "A": "Increase cash balance",
+      "B": "Explain differences between cash book and bank statement balances",
+      "C": "Calculate profit",
+      "D": "Prepare a trial balance"
+    },
+    "answer": "B",
+    "explanation": "It reconciles differences between the two balances."
+  }
+]

@@ -1,0 +1,716 @@
+[
+  {
+    "subject": "Economics",
+    "category": "Agriculture",
+    "difficulty": "Easy",
+    "question": "Subsistence farming is mainly carried out for",
+    "options": {
+      "A": "Export purposes",
+      "B": "Commercial profit only",
+      "C": "Family consumption",
+      "D": "Industrial use only"
+    },
+    "answer": "C",
+    "explanation": "Subsistence farming is production mainly for the farmer’s own family consumption."
+  },
+  {
+    "subject": "Economics",
+    "category": "Agriculture",
+    "difficulty": "Medium",
+    "question": "One major problem facing agriculture in developing countries is",
+    "options": {
+      "A": "Excess machinery",
+      "B": "Low capital investment",
+      "C": "Too many exports",
+      "D": "High rainfall only"
+    },
+    "answer": "B",
+    "explanation": "Many developing economies suffer from inadequate capital for modern farming."
+  },
+  {
+    "subject": "Economics",
+    "category": "Industrialization",
+    "difficulty": "Easy",
+    "question": "Industrialization leads to",
+    "options": {
+      "A": "Reduced production",
+      "B": "Increased employment opportunities",
+      "C": "Less trade",
+      "D": "No economic growth"
+    },
+    "answer": "B",
+    "explanation": "Industries create jobs and increase economic output."
+  },
+  {
+    "subject": "Economics",
+    "category": "Industrialization",
+    "difficulty": "Medium",
+    "question": "One advantage of industrialization is",
+    "options": {
+      "A": "Increased unemployment",
+      "B": "Improved standard of living",
+      "C": "Reduced output",
+      "D": "No exports"
+    },
+    "answer": "B",
+    "explanation": "Industrial growth improves income and living standards."
+  },
+  {
+    "subject": "Economics",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Transport in economics helps mainly in",
+    "options": {
+      "A": "Production only",
+      "B": "Distribution of goods",
+      "C": "Tax collection",
+      "D": "Saving money"
+    },
+    "answer": "B",
+    "explanation": "Transport facilitates movement of goods from producers to consumers."
+  },
+  {
+    "subject": "Economics",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "A major advantage of road transport is",
+    "options": {
+      "A": "High cost",
+      "B": "Flexibility and accessibility",
+      "C": "Slow speed",
+      "D": "Limited reach"
+    },
+    "answer": "B",
+    "explanation": "Road transport is flexible and can reach remote areas."
+  },
+  {
+    "subject": "Economics",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "Communication in economics refers to",
+    "options": {
+      "A": "Exchange of information",
+      "B": "Exchange of goods only",
+      "C": "Production of goods",
+      "D": "Taxation system"
+    },
+    "answer": "A",
+    "explanation": "Communication helps exchange of information for economic activities."
+  },
+  {
+    "subject": "Economics",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "One importance of communication is",
+    "options": {
+      "A": "Slows down trade",
+      "B": "Improves market information flow",
+      "C": "Increases poverty",
+      "D": "Reduces production"
+    },
+    "answer": "B",
+    "explanation": "Good communication improves efficiency in markets."
+  },
+  {
+    "subject": "Economics",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "Insurance is mainly used to",
+    "options": {
+      "A": "Increase profit",
+      "B": "Protect against risk",
+      "C": "Reduce trade",
+      "D": "Increase taxes"
+    },
+    "answer": "B",
+    "explanation": "Insurance provides protection against financial loss."
+  },
+  {
+    "subject": "Economics",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Premium in insurance refers to",
+    "options": {
+      "A": "Money paid to insured person",
+      "B": "Money paid by insured to insurer",
+      "C": "Government tax",
+      "D": "Bank interest"
+    },
+    "answer": "B",
+    "explanation": "Premium is the payment made by the insured to the insurance company."
+  },
+  {
+    "subject": "Economics",
+    "category": "Insurance",
+    "difficulty": "Easy",
+    "question": "The principle of insurance that requires utmost honesty is called",
+    "options": {
+      "A": "Indemnity",
+      "B": "Utmost good faith",
+      "C": "Insurable interest",
+      "D": "Subrogation"
+    },
+    "answer": "B",
+    "explanation": "Utmost good faith requires both parties to disclose all material facts honestly."
+  },
+  {
+    "subject": "Economics",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Indemnity in insurance means",
+    "options": {
+      "A": "Making profit from insurance",
+      "B": "Restoring the insured to original financial position after loss",
+      "C": "Avoiding insurance claims",
+      "D": "Increasing premiums"
+    },
+    "answer": "B",
+    "explanation": "Indemnity ensures compensation equal to the actual loss suffered."
+  },
+  {
+    "subject": "Economics",
+    "category": "Insurance",
+    "difficulty": "Medium",
+    "question": "Insurable interest means",
+    "options": {
+      "A": "Interest on bank savings",
+      "B": "Financial stake in the subject matter insured",
+      "C": "Government tax on insurance",
+      "D": "Bank loan interest"
+    },
+    "answer": "B",
+    "explanation": "Insurable interest means the insured must suffer financial loss if risk occurs."
+  },
+  {
+    "subject": "Economics",
+    "category": "Transport",
+    "difficulty": "Easy",
+    "question": "Air transport is mainly used for",
+    "options": {
+      "A": "Heavy goods only",
+      "B": "Fast movement of passengers and light goods",
+      "C": "Local farming",
+      "D": "Construction work"
+    },
+    "answer": "B",
+    "explanation": "Air transport is fast and used for passengers and urgent/light cargo."
+  },
+  {
+    "subject": "Economics",
+    "category": "Transport",
+    "difficulty": "Medium",
+    "question": "One disadvantage of rail transport is",
+    "options": {
+      "A": "Low cost",
+      "B": "High speed",
+      "C": "Inflexibility of routes",
+      "D": "High safety"
+    },
+    "answer": "C",
+    "explanation": "Rail transport is limited to fixed tracks and routes."
+  },
+  {
+    "subject": "Economics",
+    "category": "Communication",
+    "difficulty": "Easy",
+    "question": "One example of modern communication is",
+    "options": {
+      "A": "Drums",
+      "B": "Television",
+      "C": "Smoke signals",
+      "D": "Town crier"
+    },
+    "answer": "B",
+    "explanation": "Television is a modern electronic communication system."
+  },
+  {
+    "subject": "Economics",
+    "category": "Communication",
+    "difficulty": "Medium",
+    "question": "The internet mainly improves",
+    "options": {
+      "A": "Isolation",
+      "B": "Global communication and information access",
+      "C": "Agriculture only",
+      "D": "Taxation"
+    },
+    "answer": "B",
+    "explanation": "The internet connects people globally and improves information flow."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "ATM stands for",
+    "options": {
+      "A": "Automatic Transfer Machine",
+      "B": "Automated Teller Machine",
+      "C": "Account Transfer Money",
+      "D": "Advanced Tax Method"
+    },
+    "answer": "B",
+    "explanation": "ATM is a machine used for cash withdrawals and banking services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "Cheque clearing means",
+    "options": {
+      "A": "Printing cheques",
+      "B": "Process of transferring funds between banks",
+      "C": "Destroying cheques",
+      "D": "Issuing loans"
+    },
+    "answer": "B",
+    "explanation": "Cheque clearing is the settlement process between banks."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "One function of money is",
+    "options": {
+      "A": "Consumption only",
+      "B": "Store of value",
+      "C": "Production only",
+      "D": "Tax collection"
+    },
+    "answer": "B",
+    "explanation": "Money can be saved for future use as a store of value."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "The demand for money is mainly for",
+    "options": {
+      "A": "Production only",
+      "B": "Transactions, precaution and speculation",
+      "C": "Export only",
+      "D": "Tax payment only"
+    },
+    "answer": "B",
+    "explanation": "People demand money for transactions, precautionary needs, and speculation."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money Supply",
+    "difficulty": "Easy",
+    "question": "An increase in money supply may lead to",
+    "options": {
+      "A": "Deflation",
+      "B": "Inflation",
+      "C": "Unemployment reduction only",
+      "D": "No effect"
+    },
+    "answer": "B",
+    "explanation": "More money in circulation can increase demand and raise prices."
+  },
+  {
+    "subject": "Economics",
+    "category": "Central Bank",
+    "difficulty": "Medium",
+    "question": "One tool used by Central Bank to control money supply is",
+    "options": {
+      "A": "Weather control",
+      "B": "Open Market Operations",
+      "C": "Import ban",
+      "D": "Population control"
+    },
+    "answer": "B",
+    "explanation": "Open market operations involve buying and selling government securities."
+  },
+  {
+    "subject": "Economics",
+    "category": "Central Bank",
+    "difficulty": "Easy",
+    "question": "Bank rate refers to",
+    "options": {
+      "A": "Retail price of goods",
+      "B": "Interest rate charged by Central Bank to commercial banks",
+      "C": "Tax rate",
+      "D": "Exchange rate"
+    },
+    "answer": "B",
+    "explanation": "Bank rate is the rate at which Central Bank lends to commercial banks."
+  },
+  {
+    "subject": "Economics",
+    "category": "Interest",
+    "difficulty": "Medium",
+    "question": "Interest rate is",
+    "options": {
+      "A": "Price of labour",
+      "B": "Price paid for borrowing money",
+      "C": "Tax on income",
+      "D": "Cost of goods"
+    },
+    "answer": "B",
+    "explanation": "Interest is the cost of borrowing money."
+  },
+  {
+    "subject": "Economics",
+    "category": "Savings",
+    "difficulty": "Easy",
+    "question": "Higher interest rates usually encourage",
+    "options": {
+      "A": "Less saving",
+      "B": "More saving",
+      "C": "Less production",
+      "D": "More imports only"
+    },
+    "answer": "B",
+    "explanation": "Higher returns on savings encourage people to save more."
+  },
+  {
+    "subject": "Economics",
+    "category": "Investment",
+    "difficulty": "Medium",
+    "question": "Investment is discouraged when",
+    "options": {
+      "A": "Interest rates are high",
+      "B": "Interest rates are low",
+      "C": "Inflation is stable",
+      "D": "Savings increase"
+    },
+    "answer": "A",
+    "explanation": "High interest rates increase borrowing costs, reducing investment."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "Easy",
+    "question": "A low Human Development Index indicates",
+    "options": {
+      "A": "High development",
+      "B": "Poor development",
+      "C": "No population",
+      "D": "High exports"
+    },
+    "answer": "B",
+    "explanation": "Low HDI means low income, education, and health standards."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "Free trade means",
+    "options": {
+      "A": "No production",
+      "B": "No restrictions on imports and exports",
+      "C": "Government monopoly",
+      "D": "No taxation"
+    },
+    "answer": "B",
+    "explanation": "Free trade allows unrestricted international exchange of goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "One benefit of free trade is",
+    "options": {
+      "A": "Reduced competition",
+      "B": "Increased variety of goods",
+      "C": "Higher tariffs",
+      "D": "Less production"
+    },
+    "answer": "B",
+    "explanation": "Free trade increases availability and variety of goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "Balance of payments refers to",
+    "options": {
+      "A": "Record of government spending only",
+      "B": "Record of all economic transactions between a country and the rest of the world",
+      "C": "Bank loans only",
+      "D": "Population changes"
+    },
+    "answer": "B",
+    "explanation": "Balance of payments records all inflows and outflows of money between countries."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "Easy",
+    "question": "A surplus in balance of payments means",
+    "options": {
+      "A": "Outflows exceed inflows",
+      "B": "Inflows exceed outflows",
+      "C": "No trade occurs",
+      "D": "Imports stop completely"
+    },
+    "answer": "B",
+    "explanation": "Surplus occurs when a country earns more from abroad than it spends."
+  },
+  {
+    "subject": "Economics",
+    "category": "Trade",
+    "difficulty": "Medium",
+    "question": "A deficit in balance of payments means",
+    "options": {
+      "A": "Inflows exceed outflows",
+      "B": "Outflows exceed inflows",
+      "C": "No exports",
+      "D": "No imports"
+    },
+    "answer": "B",
+    "explanation": "Deficit occurs when a country spends more abroad than it earns."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Easy",
+    "question": "Appreciation of currency means",
+    "options": {
+      "A": "Decrease in value",
+      "B": "Increase in value",
+      "C": "No change",
+      "D": "Inflation increase"
+    },
+    "answer": "B",
+    "explanation": "Appreciation is an increase in the value of a currency."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Medium",
+    "question": "A strong currency makes imports",
+    "options": {
+      "A": "More expensive",
+      "B": "Cheaper",
+      "C": "Impossible",
+      "D": "Illegal"
+    },
+    "answer": "B",
+    "explanation": "A strong currency increases purchasing power for imports."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Medium",
+    "question": "A weak currency tends to",
+    "options": {
+      "A": "Reduce exports",
+      "B": "Increase exports",
+      "C": "Stop trade",
+      "D": "Increase imports only"
+    },
+    "answer": "B",
+    "explanation": "Weak currency makes exports cheaper and more competitive."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Easy",
+    "question": "Tax evasion is",
+    "options": {
+      "A": "Legal tax reduction",
+      "B": "Illegal non-payment of tax",
+      "C": "Government subsidy",
+      "D": "Bank loan"
+    },
+    "answer": "B",
+    "explanation": "Tax evasion is the illegal refusal to pay taxes owed."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Medium",
+    "question": "Tax avoidance is",
+    "options": {
+      "A": "Illegal act",
+      "B": "Legal reduction of tax liability",
+      "C": "Government spending",
+      "D": "Bank interest"
+    },
+    "answer": "B",
+    "explanation": "Tax avoidance uses legal methods to reduce tax payment."
+  },
+  {
+    "subject": "Economics",
+    "category": "Government Policy",
+    "difficulty": "Easy",
+    "question": "Subsidies are given mainly to",
+    "options": {
+      "A": "Reduce production",
+      "B": "Encourage production",
+      "C": "Increase taxes",
+      "D": "Stop trade"
+    },
+    "answer": "B",
+    "explanation": "Subsidies reduce costs and encourage production."
+  },
+  {
+    "subject": "Economics",
+    "category": "Government Policy",
+    "difficulty": "Medium",
+    "question": "One effect of subsidies is",
+    "options": {
+      "A": "Higher prices",
+      "B": "Lower production cost",
+      "C": "Reduced output",
+      "D": "Increased unemployment"
+    },
+    "answer": "B",
+    "explanation": "Subsidies help producers reduce their cost of production."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structure",
+    "difficulty": "Easy",
+    "question": "A characteristic of perfect competition is",
+    "options": {
+      "A": "One seller",
+      "B": "Many buyers and sellers",
+      "C": "No buyers",
+      "D": "Government monopoly"
+    },
+    "answer": "B",
+    "explanation": "Perfect competition involves many buyers and sellers with no single control over price."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structure",
+    "difficulty": "Medium",
+    "question": "In monopolistic competition, firms sell",
+    "options": {
+      "A": "Identical products only",
+      "B": "Differentiated products",
+      "C": "Government goods only",
+      "D": "No products"
+    },
+    "answer": "B",
+    "explanation": "Firms sell similar but differentiated products in monopolistic competition."
+  },
+  {
+    "subject": "Economics",
+    "category": "Monopoly",
+    "difficulty": "Easy",
+    "question": "A monopoly exists when there is",
+    "options": {
+      "A": "Many sellers",
+      "B": "One dominant seller",
+      "C": "Many buyers only",
+      "D": "No market"
+    },
+    "answer": "B",
+    "explanation": "A monopoly is a market with a single dominant seller."
+  },
+  {
+    "subject": "Economics",
+    "category": "Oligopoly",
+    "difficulty": "Medium",
+    "question": "An oligopoly market is dominated by",
+    "options": {
+      "A": "One firm",
+      "B": "Few large firms",
+      "C": "Many small firms only",
+      "D": "Government only"
+    },
+    "answer": "B",
+    "explanation": "Oligopoly consists of a few large firms controlling the market."
+  },
+  {
+    "subject": "Economics",
+    "category": "Consumer Behaviour",
+    "difficulty": "Easy",
+    "question": "Consumer equilibrium occurs when",
+    "options": {
+      "A": "Income is zero",
+      "B": "Utility is maximized",
+      "C": "Prices increase",
+      "D": "Demand is zero"
+    },
+    "answer": "B",
+    "explanation": "Consumer equilibrium is achieved when satisfaction is maximized."
+  },
+  {
+    "subject": "Economics",
+    "category": "Utility",
+    "difficulty": "Medium",
+    "question": "Marginal utility refers to",
+    "options": {
+      "A": "Total satisfaction",
+      "B": "Additional satisfaction from consuming one more unit",
+      "C": "Cost of goods",
+      "D": "Price of goods"
+    },
+    "answer": "B",
+    "explanation": "Marginal utility is the extra satisfaction gained from consuming an additional unit."
+  },
+  {
+    "subject": "Economics",
+    "category": "Demand",
+    "difficulty": "Easy",
+    "question": "Law of demand states that",
+    "options": {
+      "A": "Price and demand move in same direction",
+      "B": "Price and demand move in opposite directions",
+      "C": "Supply is constant",
+      "D": "Demand is always fixed"
+    },
+    "answer": "B",
+    "explanation": "As price increases, demand decreases and vice versa."
+  },
+  {
+    "subject": "Economics",
+    "category": "Supply",
+    "difficulty": "Medium",
+    "question": "Law of supply states that",
+    "options": {
+      "A": "Price and supply move in opposite directions",
+      "B": "Price and supply move in same direction",
+      "C": "Supply never changes",
+      "D": "Demand controls supply only"
+    },
+    "answer": "B",
+    "explanation": "Higher prices encourage higher supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Elasticity",
+    "difficulty": "Easy",
+    "question": "Price elasticity of demand measures",
+    "options": {
+      "A": "Change in supply due to price",
+      "B": "Responsiveness of demand to price change",
+      "C": "Population growth",
+      "D": "Tax rates"
+    },
+    "answer": "B",
+    "explanation": "It measures how demand changes when price changes."
+  },
+  {
+    "subject": "Economics",
+    "category": "Elasticity",
+    "difficulty": "Medium",
+    "question": "Demand is elastic when",
+    "options": {
+      "A": "Price change has little effect on demand",
+      "B": "Price change causes large change in demand",
+      "C": "Demand is fixed",
+      "D": "Supply is zero"
+    },
+    "answer": "B",
+    "explanation": "Elastic demand responds strongly to price changes."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Medium",
+    "question": "Which of the following is the primary objective of imposing tariffs on imported goods?",
+    "options": {
+    "A": "To protect domestic industries from foreign competition",
+    "B": "To increase the country's population",
+    "C": "To reduce the quantity of exports",
+    "D": "To encourage foreign countries to increase production"
+  },
+  "answer": "A",
+  "explanation": "Tariffs are taxes imposed on imported goods mainly to protect domestic industries by making imported goods more expensive and encouraging consumers to buy locally produced goods."
+}
+]

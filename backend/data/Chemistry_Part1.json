@@ -1,0 +1,377 @@
+[
+  {
+    "subject": "Chemistry",
+    "category": "Atomic Structure",
+    "question": "The smallest particle of an element that retains its properties is the: (Q1)",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "States of Matter",
+    "question": "Which state of matter has a definite volume but no definite shape? (Q2)",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Elements and Compounds",
+    "question": "Water is a: (Q3)",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound",
+      "Alloy"
+    ],
+    "answer": "Compound",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Acids and Bases",
+    "question": "Litmus paper turns red in: (Q4)",
+    "options": [
+      "Alkali",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "answer": "Acid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Periodic Table",
+    "question": "The horizontal rows in the periodic table are called: (Q5)",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks",
+      "Series"
+    ],
+    "answer": "Periods",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Atomic Structure",
+    "question": "The smallest particle of an element that retains its properties is the: (Q6)",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "States of Matter",
+    "question": "Which state of matter has a definite volume but no definite shape? (Q7)",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Elements and Compounds",
+    "question": "Water is a: (Q8)",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound",
+      "Alloy"
+    ],
+    "answer": "Compound",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Acids and Bases",
+    "question": "Litmus paper turns red in: (Q9)",
+    "options": [
+      "Alkali",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "answer": "Acid",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Periodic Table",
+    "question": "The horizontal rows in the periodic table are called: (Q10)",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks",
+      "Series"
+    ],
+    "answer": "Periods",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "easy"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Atomic Structure",
+    "question": "The smallest particle of an element that retains its properties is the: (Q11)",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "States of Matter",
+    "question": "Which state of matter has a definite volume but no definite shape? (Q12)",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Elements and Compounds",
+    "question": "Water is a: (Q13)",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound",
+      "Alloy"
+    ],
+    "answer": "Compound",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Acids and Bases",
+    "question": "Litmus paper turns red in: (Q14)",
+    "options": [
+      "Alkali",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "answer": "Acid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Periodic Table",
+    "question": "The horizontal rows in the periodic table are called: (Q15)",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks",
+      "Series"
+    ],
+    "answer": "Periods",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Atomic Structure",
+    "question": "The smallest particle of an element that retains its properties is the: (Q16)",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "States of Matter",
+    "question": "Which state of matter has a definite volume but no definite shape? (Q17)",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Elements and Compounds",
+    "question": "Water is a: (Q18)",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound",
+      "Alloy"
+    ],
+    "answer": "Compound",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Acids and Bases",
+    "question": "Litmus paper turns red in: (Q19)",
+    "options": [
+      "Alkali",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "answer": "Acid",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Periodic Table",
+    "question": "The horizontal rows in the periodic table are called: (Q20)",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks",
+      "Series"
+    ],
+    "answer": "Periods",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Atomic Structure",
+    "question": "The smallest particle of an element that retains its properties is the: (Q21)",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Electron"
+    ],
+    "answer": "Atom",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "States of Matter",
+    "question": "Which state of matter has a definite volume but no definite shape? (Q22)",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "answer": "Liquid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Elements and Compounds",
+    "question": "Water is a: (Q23)",
+    "options": [
+      "Element",
+      "Mixture",
+      "Compound",
+      "Alloy"
+    ],
+    "answer": "Compound",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Acids and Bases",
+    "question": "Litmus paper turns red in: (Q24)",
+    "options": [
+      "Alkali",
+      "Acid",
+      "Salt",
+      "Water"
+    ],
+    "answer": "Acid",
+    "year": "2024",
+    "exam": "JAMB",
+    "difficulty": "medium"
+  },
+  {
+    "subject": "Chemistry",
+    "category": "Periodic Table",
+    "question": "The horizontal rows in the periodic table are called: (Q25)",
+    "options": [
+      "Groups",
+      "Periods",
+      "Blocks",
+      "Series"
+    ],
+    "answer": "Periods",
+    "year": "2024",
+    "exam": "WAEC",
+    "difficulty": "medium"
+  }
+]

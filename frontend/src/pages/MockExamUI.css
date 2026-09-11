@@ -1,0 +1,1211 @@
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   PROFESSIONAL MOCK EXAM UI
+   FINAL MASTER STYLESHEET
+
+   Theme:
+   White / Light Grey / Dark Grey / Green / Red
+
+   Layout:
+   Question Area = approximately 75%
+   Palette Area  = approximately 25%
+
+   IMPORTANT:
+   - Random question order is controlled by MockExamEngine.js
+   - This stylesheet does NOT alter question randomization
+========================================================== */
+
+
+/* ==========================================================
+   GLOBAL RESET
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+    background: #eeeeee;
+    color: #222222;
+}
+
+
+/* ==========================================================
+   MAIN EXAM CONTAINER
+========================================================== */
+
+.exam-container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #eeeeee;
+
+    overflow: hidden;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.exam-header {
+    height: 72px;
+    min-height: 72px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 9px 22px 11px;
+
+    background: #ffffff;
+
+    color: #222222;
+
+    border-bottom: 1px solid #d6d6d6;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+/* ==========================================================
+   EXAM TITLE
+========================================================== */
+
+.exam-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    min-width: 0;
+
+    padding-top: 1px;
+}
+
+.exam-title h1 {
+    font-size: 21px;
+
+    font-weight: 700;
+
+    color: #111111;
+
+    letter-spacing: 0.2px;
+
+    line-height: 1.2;
+}
+
+.exam-title p {
+    font-size: 12px;
+
+    color: #666666;
+
+    line-height: 1.35;
+}
+
+
+/* ==========================================================
+   TIMER
+========================================================== */
+
+.timer-panel {
+    width: 165px;
+    height: 52px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+
+    background: #222222;
+
+    color: #ffffff;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+.timer-panel span {
+    font-size: 10px;
+
+    color: #dddddd;
+
+    line-height: 1.2;
+}
+
+.timer-panel h2 {
+    margin-top: 2px;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #ffffff;
+
+    line-height: 1.1;
+}
+
+
+/* ==========================================================
+   DASHBOARD STRIP
+========================================================== */
+
+.exam-dashboard {
+    height: 58px;
+    min-height: 58px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 7px;
+
+    background: #eeeeee;
+
+    border-bottom: 1px solid #d6d6d6;
+}
+
+
+/* ==========================================================
+   DASHBOARD CARDS
+========================================================== */
+
+.dashboard-card {
+    width: 130px;
+    height: 42px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 7px;
+
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.dashboard-card span {
+    font-size: 10px;
+
+    color: #666666;
+
+    line-height: 1.2;
+}
+
+.dashboard-card h3 {
+    margin-top: 2px;
+
+    font-size: 15px;
+
+    color: #222222;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+}
+
+
+/* ==========================================================
+   MAIN WORKSPACE
+========================================================== */
+
+.exam-workspace {
+    width: 100%;
+
+    height: calc(100vh - 172px);
+
+    display: grid;
+
+    /*
+       Approximately 75% Question Area
+       Approximately 25% Palette
+    */
+
+    grid-template-columns:
+        minmax(0, 3fr)
+        minmax(260px, 1fr);
+
+    gap: 12px;
+
+    padding: 10px;
+
+    overflow: hidden;
+
+    align-items: stretch;
+}
+
+
+/* ==========================================================
+   QUESTION PANEL
+========================================================== */
+
+.question-panel {
+    width: 100%;
+    height: 100%;
+
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 9px;
+
+    padding: 16px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 2px 7px rgba(0, 0, 0, 0.04);
+}
+
+
+/* ==========================================================
+   QUESTION CARD
+========================================================== */
+
+.question-card {
+    flex-shrink: 0;
+
+    padding-bottom: 10px;
+
+    margin-bottom: 10px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+/* ==========================================================
+   QUESTION NUMBER
+========================================================== */
+
+.question-number {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 5px 12px;
+
+    margin-bottom: 9px;
+
+    border-radius: 5px;
+
+    background: #e5e5e5;
+
+    color: #222222;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+
+/* ==========================================================
+   QUESTION TEXT
+========================================================== */
+
+.question-text {
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    color: #222222;
+
+    font-weight: 500;
+}
+
+
+/* ==========================================================
+   OPTIONS
+========================================================== */
+
+.options-container {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+
+    padding-right: 2px;
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    justify-content: flex-start;
+}
+
+
+/* ==========================================================
+   OPTION CARD
+========================================================== */
+
+.option-card {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 8px 11px;
+
+    background: #f7f7f7;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.option-card:hover {
+    background: #eeeeee;
+
+    border-color: #aaaaaa;
+}
+
+
+/* ==========================================================
+   RADIO BUTTON
+========================================================== */
+
+.option-card input {
+    transform: scale(1.1);
+
+    cursor: pointer;
+
+    accent-color: #198754;
+}
+
+
+/* ==========================================================
+   OPTION LETTER
+========================================================== */
+
+.option-letter {
+    width: 30px;
+    height: 30px;
+
+    min-width: 30px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #dddddd;
+
+    color: #222222;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================================
+   OPTION TEXT
+========================================================== */
+
+.option-text {
+    flex: 1;
+
+    font-size: 14px;
+
+    color: #333333;
+
+    line-height: 1.45;
+}
+
+
+/* ==========================================================
+   SELECTED ANSWER
+========================================================== */
+
+.option-card:has(input:checked) {
+    background: #f0f8f4;
+
+    border-color: #198754;
+
+    box-shadow:
+        0 1px 4px rgba(25, 135, 84, 0.08);
+}
+
+.option-card:has(input:checked)
+.option-letter {
+    background: #198754;
+
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+.navigation-buttons {
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    padding-top: 12px;
+
+    margin-top: 10px;
+
+    border-top: 1px solid #eeeeee;
+}
+
+
+.navigation-buttons button {
+    height: 40px;
+
+    min-width: 145px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    color: #ffffff;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.navigation-buttons button:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.10);
+}
+
+.navigation-buttons button:active {
+    transform: scale(0.98);
+}
+
+
+/* ==========================================================
+   PREVIOUS
+========================================================== */
+
+.previous-btn {
+    background: #666666;
+}
+
+.previous-btn:hover {
+    background: #555555;
+}
+
+
+/* ==========================================================
+   NEXT
+========================================================== */
+
+.next-btn {
+    background: #222222;
+}
+
+.next-btn:hover {
+    background: #000000;
+}
+
+
+/* ==========================================================
+   SUBMIT
+========================================================== */
+
+.submit-btn {
+    background: #198754;
+}
+
+.submit-btn:hover {
+    background: #157347;
+}
+
+
+/* ==========================================================
+   DISABLED BUTTON
+========================================================== */
+
+.navigation-buttons button:disabled {
+    opacity: 0.45;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+}
+
+
+/* ==========================================================
+   QUESTION SIDEBAR / PALETTE
+========================================================== */
+
+.question-sidebar {
+    width: 100%;
+    height: 100%;
+
+    min-width: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 9px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 2px 7px rgba(0, 0, 0, 0.04);
+}
+
+
+/* ==========================================================
+   PALETTE HEADER
+========================================================== */
+
+.palette-header {
+    flex-shrink: 0;
+
+    padding: 10px;
+
+    text-align: center;
+
+    background: #eeeeee;
+
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.palette-header h3 {
+    font-size: 14px;
+
+    color: #222222;
+
+    font-weight: 700;
+
+    line-height: 1.25;
+}
+
+.palette-header p {
+    margin-top: 3px;
+
+    font-size: 10px;
+
+    color: #777777;
+
+    line-height: 1.3;
+}
+
+
+/* ==========================================================
+   PALETTE GRID
+========================================================== */
+
+.palette-grid {
+    flex: 1;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(5, minmax(0, 1fr));
+
+    grid-auto-rows: 30px;
+
+    gap: 6px;
+
+    padding: 10px;
+
+    overflow-y: auto;
+
+    align-content: start;
+}
+
+
+/* ==========================================================
+   PALETTE BUTTON
+========================================================== */
+
+.palette-btn {
+    width: 100%;
+    height: 30px;
+
+    border: 1px solid #d0d0d0;
+
+    border-radius: 5px;
+
+    background: #eeeeee;
+
+    color: #333333;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.palette-btn:hover {
+    background: #dddddd;
+
+    border-color: #aaaaaa;
+}
+
+
+/* ==========================================================
+   CURRENT QUESTION
+========================================================== */
+
+.palette-btn.active {
+    background: #222222;
+
+    border-color: #222222;
+
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   ANSWERED QUESTION
+========================================================== */
+
+.palette-btn.answered {
+    background: #198754;
+
+    border-color: #198754;
+
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   CURRENT + ANSWERED
+========================================================== */
+
+.palette-btn.active.answered {
+    background: #222222;
+
+    border-color: #198754;
+
+    color: #ffffff;
+
+    box-shadow:
+        inset 0 0 0 2px #198754;
+}
+
+
+/* ==========================================================
+   PALETTE SUMMARY
+========================================================== */
+
+.palette-summary {
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    gap: 6px;
+
+    padding: 8px 6px;
+
+    border-top: 1px solid #d6d6d6;
+
+    background: #eeeeee;
+}
+
+
+.summary-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 4px;
+
+    font-size: 9px;
+
+    color: #555555;
+}
+
+
+.summary-color {
+    width: 11px;
+    height: 11px;
+
+    flex-shrink: 0;
+
+    border-radius: 3px;
+}
+
+
+.summary-color.current {
+    background: #222222;
+}
+
+.summary-color.answered {
+    background: #198754;
+}
+
+.summary-color.unanswered {
+    background: #dddddd;
+
+    border: 1px solid #cccccc;
+}
+
+
+/* ==========================================================
+   EXAM INFORMATION
+========================================================== */
+
+.exam-information {
+    flex-shrink: 0;
+
+    padding: 8px;
+
+    border-top: 1px solid #eeeeee;
+
+    background: #ffffff;
+}
+
+.exam-information h4 {
+    font-size: 12px;
+
+    color: #222222;
+
+    margin-bottom: 5px;
+}
+
+.exam-information p {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 3px;
+
+    font-size: 10px;
+
+    color: #666666;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.exam-footer {
+    height: 42px;
+    min-height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 18px;
+
+    background: #222222;
+
+    color: #ffffff;
+
+    border-top: 2px solid #198754;
+}
+
+
+.footer-left,
+.footer-right {
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   SCROLLBARS
+========================================================== */
+
+.options-container::-webkit-scrollbar,
+.palette-grid::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+.options-container::-webkit-scrollbar-track,
+.palette-grid::-webkit-scrollbar-track {
+    background: #eeeeee;
+
+    border-radius: 10px;
+}
+
+
+.options-container::-webkit-scrollbar-thumb,
+.palette-grid::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+
+    border-radius: 10px;
+}
+
+
+.options-container::-webkit-scrollbar-thumb:hover,
+.palette-grid::-webkit-scrollbar-thumb:hover {
+    background: #888888;
+}
+
+
+/* ==========================================================
+   LOADING SCREEN
+========================================================== */
+
+.exam-loading {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #eeeeee;
+}
+
+
+.loading-card {
+    width: 320px;
+
+    max-width: 90%;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+
+.loading-card h2 {
+    margin-top: 15px;
+
+    color: #222222;
+
+    font-size: 19px;
+}
+
+
+.loading-card p {
+    margin-top: 7px;
+
+    color: #666666;
+
+    font-size: 13px;
+}
+
+
+.loading-spinner {
+    width: 45px;
+    height: 45px;
+
+    margin: auto;
+
+    border: 4px solid #dddddd;
+
+    border-top-color: #222222;
+
+    border-radius: 50%;
+
+    animation:
+        spin 0.8s linear infinite;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ==========================================================
+   LARGE DESKTOP
+========================================================== */
+
+@media (min-width: 1400px) {
+
+    .exam-workspace {
+        grid-template-columns:
+            minmax(0, 3fr)
+            320px;
+    }
+
+    .palette-grid {
+        grid-template-columns:
+            repeat(5, minmax(0, 1fr));
+
+        grid-auto-rows: 32px;
+    }
+
+    .palette-btn {
+        height: 32px;
+    }
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1000px) {
+
+    html,
+    body,
+    #root {
+        overflow: auto;
+    }
+
+    .exam-container {
+        height: auto;
+
+        min-height: 100vh;
+
+        overflow: visible;
+    }
+
+    .exam-header {
+        height: auto;
+
+        min-height: 72px;
+
+        gap: 10px;
+
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+
+    .exam-dashboard {
+        height: auto;
+
+        min-height: 58px;
+
+        flex-wrap: wrap;
+    }
+
+    .exam-workspace {
+        height: auto;
+
+        min-height: 700px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        overflow: visible;
+    }
+
+    .question-panel {
+        min-height: 560px;
+    }
+
+    .question-sidebar {
+        height: 360px;
+    }
+
+    .palette-grid {
+        grid-template-columns:
+            repeat(6, minmax(0, 1fr));
+    }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 600px) {
+
+    .exam-title h1 {
+        font-size: 17px;
+    }
+
+    .exam-title p {
+        font-size: 10px;
+    }
+
+    .timer-panel {
+        width: 135px;
+
+        height: 48px;
+    }
+
+    .timer-panel h2 {
+        font-size: 19px;
+    }
+
+    .dashboard-card {
+        width: 105px;
+    }
+
+    .question-panel {
+        padding: 12px;
+    }
+
+    .question-text {
+        font-size: 15px;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+
+        gap: 7px;
+    }
+
+    .navigation-buttons button {
+        width: 100%;
+
+        min-width: 100%;
+    }
+
+    .palette-grid {
+        grid-template-columns:
+            repeat(5, minmax(0, 1fr));
+    }
+
+    .exam-footer {
+        height: 55px;
+
+        min-height: 55px;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        gap: 4px;
+    }
+}
+
+
+/* ==========================================================
+   VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 400px) {
+
+    .exam-header {
+        padding: 9px 12px;
+    }
+
+    .exam-title h1 {
+        font-size: 15px;
+    }
+
+    .timer-panel {
+        width: 120px;
+    }
+
+    .dashboard-card {
+        width: 95px;
+    }
+
+    .palette-grid {
+        grid-template-columns:
+            repeat(4, minmax(0, 1fr));
+    }
+}
+
+
+/* ==========================================================
+   ACCESSIBILITY / FOCUS
+========================================================== */
+
+.navigation-buttons button:focus-visible,
+.palette-btn:focus-visible,
+.option-card:focus-within {
+    outline: 2px solid #198754;
+
+    outline-offset: 2px;
+}

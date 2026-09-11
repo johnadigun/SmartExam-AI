@@ -1,0 +1,689 @@
+[
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Easy",
+    "question": "Who created the world?",
+    "options": {
+      "A": "Moses",
+      "B": "God",
+      "C": "Abraham",
+      "D": "Noah"
+    },
+    "answer": "B",
+    "explanation": "God is the creator of the heavens and the earth."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Medium",
+    "question": "In how many days did God create the world?",
+    "options": {
+      "A": "5 days",
+      "B": "6 days",
+      "C": "7 days",
+      "D": "8 days"
+    },
+    "answer": "B",
+    "explanation": "God created the world in six days and rested on the seventh."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Easy",
+    "question": "The first man created by God was",
+    "options": {
+      "A": "Noah",
+      "B": "Adam",
+      "C": "Abraham",
+      "D": "Isaac"
+    },
+    "answer": "B",
+    "explanation": "Adam was the first man."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Easy",
+    "question": "The first woman created by God was",
+    "options": {
+      "A": "Mary",
+      "B": "Eve",
+      "C": "Sarah",
+      "D": "Rachel"
+    },
+    "answer": "B",
+    "explanation": "Eve was created as Adam’s companion."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Medium",
+    "question": "The garden where Adam and Eve lived was",
+    "options": {
+      "A": "Garden of Eden",
+      "B": "Garden of Zion",
+      "C": "Garden of Egypt",
+      "D": "Garden of Rome"
+    },
+    "answer": "A",
+    "explanation": "Adam and Eve lived in the Garden of Eden."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Medium",
+    "question": "The forbidden fruit was eaten by",
+    "options": {
+      "A": "Adam only",
+      "B": "Eve only",
+      "C": "Both Adam and Eve",
+      "D": "Cain"
+    },
+    "answer": "C",
+    "explanation": "Both Adam and Eve disobeyed God."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Creation",
+    "difficulty": "Easy",
+    "question": "The serpent in the Garden of Eden represents",
+    "options": {
+      "A": "Angel",
+      "B": "Devil",
+      "C": "Prophet",
+      "D": "King"
+    },
+    "answer": "B",
+    "explanation": "The serpent represents Satan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Noah built an",
+    "options": {
+      "A": "Ark",
+      "B": "Temple",
+      "C": "House",
+      "D": "Tower"
+    },
+    "answer": "A",
+    "explanation": "Noah built the ark to survive the flood."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The flood lasted for",
+    "options": {
+      "A": "7 days",
+      "B": "40 days and nights",
+      "C": "100 days",
+      "D": "1 year"
+    },
+    "answer": "B",
+    "explanation": "It rained for 40 days and nights."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The sign of God's covenant with Noah was",
+    "options": {
+      "A": "Star",
+      "B": "Rainbow",
+      "C": "Cloud",
+      "D": "Sun"
+    },
+    "answer": "B",
+    "explanation": "The rainbow symbolized God's promise."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "God called Abraham from",
+    "options": {
+      "A": "Egypt",
+      "B": "Ur of the Chaldees",
+      "C": "Canaan",
+      "D": "Rome"
+    },
+    "answer": "B",
+    "explanation": "Abraham was called from Ur of the Chaldees."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Abraham's wife was",
+    "options": {
+      "A": "Sarah",
+      "B": "Rachel",
+      "C": "Mary",
+      "D": "Leah"
+    },
+    "answer": "A",
+    "explanation": "Sarah was Abraham’s wife."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The son of Abraham was",
+    "options": {
+      "A": "Isaac",
+      "B": "Jacob",
+      "C": "Esau",
+      "D": "Joseph"
+    },
+    "answer": "A",
+    "explanation": "Isaac was Abraham’s promised son."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Jacob had how many sons?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Jacob had 12 sons who formed the tribes of Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph was sold into Egypt by his",
+    "options": {
+      "A": "Friends",
+      "B": "Brothers",
+      "C": "Father",
+      "D": "Servants"
+    },
+    "answer": "B",
+    "explanation": "His brothers sold him out of jealousy."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Moses was sent to deliver the Israelites from",
+    "options": {
+      "A": "Canaan",
+      "B": "Egypt",
+      "C": "Rome",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "Moses led Israel out of Egyptian bondage."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The sea that parted for Israel was",
+    "options": {
+      "A": "Dead Sea",
+      "B": "Red Sea",
+      "C": "Black Sea",
+      "D": "Atlantic Ocean"
+    },
+    "answer": "B",
+    "explanation": "God parted the Red Sea for Israel."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Ten Commandments were given on Mount",
+    "options": {
+      "A": "Sinai",
+      "B": "Zion",
+      "C": "Carmel",
+      "D": "Olives"
+    },
+    "answer": "A",
+    "explanation": "God gave the law on Mount Sinai."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Moses’ brother was",
+    "options": {
+      "A": "Aaron",
+      "B": "Saul",
+      "C": "David",
+      "D": "Joshua"
+    },
+    "answer": "A",
+    "explanation": "Aaron assisted Moses."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first king of Israel was",
+    "options": {
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Saul was the first king."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David defeated",
+    "options": {
+      "A": "Saul",
+      "B": "Goliath",
+      "C": "Samson",
+      "D": "Solomon"
+    },
+    "answer": "B",
+    "explanation": "David killed Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David was a",
+    "options": {
+      "A": "Shepherd",
+      "B": "Farmer",
+      "C": "Fisherman",
+      "D": "Carpenter"
+    },
+    "answer": "A",
+    "explanation": "David was a shepherd boy."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon was known for",
+    "options": {
+      "A": "Strength",
+      "B": "Wisdom",
+      "C": "War",
+      "D": "Hunting"
+    },
+    "answer": "B",
+    "explanation": "Solomon was famous for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus was born in",
+    "options": {
+      "A": "Nazareth",
+      "B": "Bethlehem",
+      "C": "Jerusalem",
+      "D": "Rome"
+    },
+    "answer": "B",
+    "explanation": "Jesus was born in Bethlehem."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus had how many disciples?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Jesus had 12 disciples."
+  }
+,
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The son promised to Abraham by God was",
+    "options": {
+      "A": "Ishmael",
+      "B": "Isaac",
+      "C": "Jacob",
+      "D": "Esau"
+    },
+    "answer": "B",
+    "explanation": "Isaac was the promised son of Abraham."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Abraham was willing to sacrifice his son on Mount",
+    "options": {
+      "A": "Sinai",
+      "B": "Moriah",
+      "C": "Zion",
+      "D": "Carmel"
+    },
+    "answer": "B",
+    "explanation": "God tested Abraham on Mount Moriah."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The wife of Isaac was",
+    "options": {
+      "A": "Rachel",
+      "B": "Rebekah",
+      "C": "Leah",
+      "D": "Sarah"
+    },
+    "answer": "B",
+    "explanation": "Rebekah was Isaac’s wife."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Jacob wrestled with",
+    "options": {
+      "A": "Angel",
+      "B": "Man",
+      "C": "Prophet",
+      "D": "King"
+    },
+    "answer": "A",
+    "explanation": "Jacob wrestled with an angel of God."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Joseph became a ruler in",
+    "options": {
+      "A": "Canaan",
+      "B": "Egypt",
+      "C": "Rome",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "Joseph became governor in Egypt."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Joseph interpreted dreams for",
+    "options": {
+      "A": "Pharaoh",
+      "B": "Moses",
+      "C": "Saul",
+      "D": "David"
+    },
+    "answer": "A",
+    "explanation": "Joseph interpreted Pharaoh’s dreams."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The brother of Moses was",
+    "options": {
+      "A": "Aaron",
+      "B": "Joshua",
+      "C": "Caleb",
+      "D": "Saul"
+    },
+    "answer": "A",
+    "explanation": "Aaron assisted Moses."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The burning bush was seen by",
+    "options": {
+      "A": "Abraham",
+      "B": "Moses",
+      "C": "David",
+      "D": "Joshua"
+    },
+    "answer": "B",
+    "explanation": "God appeared to Moses in a burning bush."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The Israelites wandered in the wilderness for",
+    "options": {
+      "A": "10 years",
+      "B": "20 years",
+      "C": "40 years",
+      "D": "5 years"
+    },
+    "answer": "C",
+    "explanation": "They wandered for 40 years."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Manna was food from",
+    "options": {
+      "A": "Earth",
+      "B": "Heaven",
+      "C": "Sea",
+      "D": "River"
+    },
+    "answer": "B",
+    "explanation": "God provided manna from heaven."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The promised land is",
+    "options": {
+      "A": "Egypt",
+      "B": "Canaan",
+      "C": "Rome",
+      "D": "Greece"
+    },
+    "answer": "B",
+    "explanation": "Canaan was the promised land."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "The walls of Jericho fell after",
+    "options": {
+      "A": "Fighting",
+      "B": "Marching and shouting",
+      "C": "Fire",
+      "D": "Earthquake"
+    },
+    "answer": "B",
+    "explanation": "Israelites marched and shouted."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Samson’s strength was in his",
+    "options": {
+      "A": "Hands",
+      "B": "Hair",
+      "C": "Legs",
+      "D": "Voice"
+    },
+    "answer": "B",
+    "explanation": "His strength was in his hair."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Delilah betrayed Samson by",
+    "options": {
+      "A": "Helping him",
+      "B": "Cutting his hair",
+      "C": "Hiding him",
+      "D": "Running away"
+    },
+    "answer": "B",
+    "explanation": "She cut his hair causing his weakness."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "The first king of Israel was",
+    "options": {
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Samuel"
+    },
+    "answer": "B",
+    "explanation": "Saul was the first king."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "David was chosen while he was",
+    "options": {
+      "A": "King",
+      "B": "Shepherd",
+      "C": "Soldier",
+      "D": "Priest"
+    },
+    "answer": "B",
+    "explanation": "David was a shepherd boy."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "David defeated",
+    "options": {
+      "A": "Saul",
+      "B": "Goliath",
+      "C": "Samson",
+      "D": "Solomon"
+    },
+    "answer": "B",
+    "explanation": "David killed Goliath."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Medium",
+    "question": "Solomon asked God for",
+    "options": {
+      "A": "Wealth",
+      "B": "Wisdom",
+      "C": "Power",
+      "D": "War victory"
+    },
+    "answer": "B",
+    "explanation": "Solomon asked for wisdom."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "Old Testament",
+    "difficulty": "Easy",
+    "question": "Solomon built the",
+    "options": {
+      "A": "Ark",
+      "B": "Temple",
+      "C": "House",
+      "D": "Tower"
+    },
+    "answer": "B",
+    "explanation": "He built the temple in Jerusalem."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "John the Baptist baptized Jesus in the river",
+    "options": {
+      "A": "Jordan",
+      "B": "Nile",
+      "C": "Tigris",
+      "D": "Euphrates"
+    },
+    "answer": "A",
+    "explanation": "Jesus was baptized in River Jordan."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Jesus had how many disciples?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "7",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "Jesus had 12 disciples."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "The Last Supper was held before",
+    "options": {
+      "A": "Birth of Jesus",
+      "B": "Crucifixion",
+      "C": "Resurrection",
+      "D": "Ascension"
+    },
+    "answer": "B",
+    "explanation": "It happened before Jesus’ crucifixion."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Easy",
+    "question": "Judas betrayed Jesus for",
+    "options": {
+      "A": "Gold",
+      "B": "Silver",
+      "C": "Bronze",
+      "D": "Copper"
+    },
+    "answer": "B",
+    "explanation": "Judas received silver coins."
+  },
+  {
+    "subject": "Christian Religious Studies",
+    "category": "New Testament",
+    "difficulty": "Medium",
+    "question": "Jesus rose from the dead after",
+    "options": {
+      "A": "1 day",
+      "B": "2 days",
+      "C": "3 days",
+      "D": "7 days"
+    },
+    "answer": "C",
+    "explanation": "Jesus resurrected on the third day."
+  }
+]

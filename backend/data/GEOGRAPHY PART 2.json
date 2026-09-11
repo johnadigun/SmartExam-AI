@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The largest ocean in the world is",
+    "options": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Pacific Ocean",
+      "D": "Arctic Ocean"
+    },
+    "answer": "C",
+    "explanation": "Pacific Ocean is the largest."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The process of soil removal by wind is called",
+    "options": {
+      "A": "Erosion",
+      "B": "Deposition",
+      "C": "Weathering",
+      "D": "Condensation"
+    },
+    "answer": "A",
+    "explanation": "Erosion involves removal of soil."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "Lines of latitude are also called",
+    "options": {
+      "A": "Meridians",
+      "B": "Parallels",
+      "C": "Great circles",
+      "D": "Contours"
+    },
+    "answer": "B",
+    "explanation": "Latitude lines are called parallels."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The imaginary line dividing Earth into two halves is",
+    "options": {
+      "A": "Tropic of Cancer",
+      "B": "Equator",
+      "C": "Prime Meridian",
+      "D": "International Date Line"
+    },
+    "answer": "B",
+    "explanation": "Equator divides Earth into hemispheres."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The study of maps is called",
+    "options": {
+      "A": "Cartography",
+      "B": "Geology",
+      "C": "Meteorology",
+      "D": "Demography"
+    },
+    "answer": "A",
+    "explanation": "Cartography is map-making."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The longest river in the world is",
+    "options": {
+      "A": "Amazon",
+      "B": "Nile",
+      "C": "Mississippi",
+      "D": "Yangtze"
+    },
+    "answer": "B",
+    "explanation": "Nile is traditionally the longest river."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The atmosphere layer closest to Earth is",
+    "options": {
+      "A": "Stratosphere",
+      "B": "Mesosphere",
+      "C": "Troposphere",
+      "D": "Thermosphere"
+    },
+    "answer": "C",
+    "explanation": "Troposphere is the lowest layer."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "Wind speed is measured using",
+    "options": {
+      "A": "Thermometer",
+      "B": "Anemometer",
+      "C": "Barometer",
+      "D": "Hygrometer"
+    },
+    "answer": "B",
+    "explanation": "Anemometer measures wind speed."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The coldest continent is",
+    "options": {
+      "A": "Europe",
+      "B": "Asia",
+      "C": "Antarctica",
+      "D": "Africa"
+    },
+    "answer": "C",
+    "explanation": "Antarctica is the coldest."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The movement of tectonic plates causes",
+    "options": {
+      "A": "Rainfall",
+      "B": "Earthquakes",
+      "C": "Wind",
+      "D": "Evaporation"
+    },
+    "answer": "B",
+    "explanation": "Plate movement causes earthquakes."
+  }
+]

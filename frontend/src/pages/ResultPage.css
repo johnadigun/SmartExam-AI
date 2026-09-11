@@ -1,0 +1,793 @@
+
+/* ==========================================================
+   SMARTEXAM CBT SYSTEM
+   PROFESSIONAL RESULT PAGE
+   UNIFORM DASHBOARD THEME
+
+   Theme:
+   White / Light Grey / Dark Grey / Green / Red
+========================================================== */
+
+
+/* ==========================================================
+   RESET
+========================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+body {
+    background: #eeeeee;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+    color: #222222;
+}
+
+
+/* ==========================================================
+   MAIN CONTAINER
+========================================================== */
+
+.result-container {
+    width: 94%;
+
+    max-width: 1180px;
+
+    margin: 18px auto;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 9px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.result-header {
+    background: #222222;
+
+    color: #ffffff;
+
+    padding: 14px 20px;
+
+    border-bottom: 3px solid #198754;
+}
+
+.result-header-title {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+.result-header h1 {
+    font-size: 20px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+}
+
+.result-header p {
+    margin-top: 3px;
+
+    color: #cccccc;
+
+    font-size: 12px;
+}
+
+
+/* ==========================================================
+   RETURN BUTTON
+========================================================== */
+
+.return-btn {
+    flex-shrink: 0;
+
+    padding: 9px 15px;
+
+    border: 1px solid #555555;
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    color: #222222;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.return-btn:hover {
+    background: #eeeeee;
+
+    transform: translateY(-1px);
+}
+
+
+/* ==========================================================
+   RESULT OVERVIEW
+========================================================== */
+
+.result-overview {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 2fr)
+        minmax(240px, 1fr);
+
+    gap: 12px;
+
+    padding: 14px;
+}
+
+
+/* ==========================================================
+   CANDIDATE CARD
+========================================================== */
+
+.candidate-card {
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 8px;
+
+    padding: 13px;
+}
+
+.section-heading {
+    padding-bottom: 8px;
+
+    margin-bottom: 3px;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.section-heading h2 {
+    font-size: 14px;
+
+    color: #222222;
+}
+
+
+/* ==========================================================
+   CANDIDATE DETAILS
+========================================================== */
+
+.candidate-details {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.candidate-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    min-height: 31px;
+
+    padding: 5px 0;
+
+    border-bottom: 1px solid #eeeeee;
+
+    font-size: 11px;
+}
+
+.candidate-row:last-child {
+    border-bottom: none;
+}
+
+.label {
+    color: #666666;
+
+    font-weight: 600;
+}
+
+.value {
+    color: #222222;
+
+    font-weight: 700;
+
+    text-align: right;
+}
+
+
+/* ==========================================================
+   SCORE CARD
+========================================================== */
+
+.score-card {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 235px;
+
+    padding: 15px;
+
+    background: #222222;
+
+    color: #ffffff;
+
+    border-radius: 8px;
+
+    border: 1px solid #222222;
+}
+
+.score-circle {
+    width: 92px;
+
+    height: 92px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    border: 4px solid #ffffff;
+
+    background: #333333;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+.score-label {
+    font-size: 10px;
+
+    color: #bbbbbb;
+
+    margin-bottom: 3px;
+}
+
+.score-card h2 {
+    font-size: 18px;
+
+    margin-bottom: 8px;
+}
+
+
+/* ==========================================================
+   STATUS
+========================================================== */
+
+.status-badge {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 5px 13px;
+
+    border-radius: 5px;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.status-pass {
+    background: #198754;
+
+    color: #ffffff;
+}
+
+.status-fail {
+    background: #dc3545;
+
+    color: #ffffff;
+}
+
+
+/* ==========================================================
+   STATISTICS
+========================================================== */
+
+.statistics-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 10px;
+
+    padding: 0 14px 14px;
+}
+
+.stat-card {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 70px;
+
+    background: #f7f7f7;
+
+    border: 1px solid #d6d6d6;
+
+    border-radius: 7px;
+}
+
+.stat-card span {
+    color: #666666;
+
+    font-size: 10px;
+
+    margin-bottom: 4px;
+}
+
+.stat-card strong {
+    color: #222222;
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+.stat-pass {
+    color: #198754 !important;
+}
+
+.stat-fail {
+    color: #dc3545 !important;
+}
+
+
+/* ==========================================================
+   ACTION PANEL
+========================================================== */
+
+.action-panel {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    padding: 0 14px 14px;
+}
+
+.action-btn {
+    min-width: 150px;
+
+    height: 36px;
+
+    padding: 0 15px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    color: #ffffff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.print-btn {
+    background: #222222;
+}
+
+.print-btn:hover {
+    background: #000000;
+}
+
+.certificate-btn {
+    background: #198754;
+}
+
+.certificate-btn:hover {
+    background: #157347;
+}
+
+.dashboard-btn {
+    background: #666666;
+}
+
+.dashboard-btn:hover {
+    background: #555555;
+}
+
+
+/* ==========================================================
+   QUESTION REVIEW
+========================================================== */
+
+.review-section {
+    padding: 0 14px 16px;
+}
+
+.review-header {
+    padding: 11px 0;
+
+    margin-bottom: 8px;
+
+    border-top: 1px solid #eeeeee;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.review-header h2 {
+    font-size: 15px;
+
+    color: #222222;
+}
+
+.review-header p {
+    margin-top: 3px;
+
+    font-size: 10px;
+
+    color: #777777;
+}
+
+
+/* ==========================================================
+   REVIEW CARD
+========================================================== */
+
+.review-card {
+    margin-bottom: 8px;
+
+    padding: 10px;
+
+    background: #ffffff;
+
+    border: 1px solid #d6d6d6;
+
+    border-left: 4px solid;
+
+    border-radius: 6px;
+}
+
+.review-card.correct {
+    border-left-color: #198754;
+
+    background: #f5faf7;
+}
+
+.review-card.wrong {
+    border-left-color: #dc3545;
+
+    background: #fff7f7;
+}
+
+
+/* ==========================================================
+   REVIEW TOP
+========================================================== */
+
+.review-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 7px;
+}
+
+.review-number {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 4px 8px;
+
+    border-radius: 4px;
+
+    background: #222222;
+
+    color: #ffffff;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.review-status {
+    display: inline-flex;
+
+    align-items: center;
+
+    padding: 4px 8px;
+
+    border-radius: 4px;
+
+    color: #ffffff;
+
+    font-size: 9px;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================================
+   REVIEW QUESTION
+========================================================== */
+
+.review-question {
+    margin-bottom: 8px;
+
+    color: #222222;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    line-height: 1.45;
+}
+
+
+/* ==========================================================
+   REVIEW ANSWERS
+========================================================== */
+
+.review-answer {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 12px;
+
+    padding: 5px 0;
+
+    border-top: 1px solid #eeeeee;
+
+    font-size: 10px;
+}
+
+.review-answer strong {
+    color: #555555;
+
+    min-width: 105px;
+}
+
+.review-answer span {
+    flex: 1;
+
+    color: #222222;
+
+    font-weight: 600;
+
+    text-align: right;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 900px) {
+
+    .result-overview {
+        grid-template-columns: 1fr;
+    }
+
+    .score-card {
+        min-height: 190px;
+    }
+
+    .statistics-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 600px) {
+
+    .result-container {
+        width: 96%;
+
+        margin: 8px auto;
+    }
+
+    .result-header-title {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .result-header h1 {
+        font-size: 17px;
+    }
+
+    .return-btn {
+        width: 100%;
+    }
+
+    .result-overview {
+        padding: 9px;
+    }
+
+    .statistics-grid {
+        grid-template-columns: 1fr;
+
+        padding: 0 9px 9px;
+    }
+
+    .action-panel {
+        flex-direction: column;
+
+        padding: 0 9px 12px;
+    }
+
+    .action-btn {
+        width: 100%;
+    }
+
+    .review-section {
+        padding: 0 9px 12px;
+    }
+
+    .candidate-row {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 2px;
+    }
+
+    .value {
+        text-align: left;
+    }
+
+    .review-top {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .review-answer {
+        flex-direction: column;
+
+        gap: 3px;
+    }
+
+    .review-answer span {
+        text-align: left;
+    }
+}
+
+
+/* ==========================================================
+   PRINT
+========================================================== */
+
+@media print {
+
+    body {
+        background: #ffffff;
+    }
+
+    .result-container {
+        width: 100%;
+
+        max-width: none;
+
+        margin: 0;
+
+        border: none;
+
+        border-radius: 0;
+
+        box-shadow: none;
+    }
+
+    .return-btn,
+    .action-panel {
+        display: none;
+    }
+
+    .result-header {
+        background: #ffffff;
+
+        color: #222222;
+
+        border-bottom: 2px solid #222222;
+    }
+
+    .result-header p {
+        color: #555555;
+    }
+
+    .score-card {
+        background: #ffffff;
+
+        color: #222222;
+
+        border: 1px solid #222222;
+    }
+
+    .score-circle {
+        border-color: #222222;
+
+        background: #ffffff;
+    }
+
+    .score-label {
+        color: #555555;
+    }
+
+    .review-card {
+        page-break-inside: avoid;
+    }
+}
+

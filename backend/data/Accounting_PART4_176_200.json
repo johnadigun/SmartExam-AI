@@ -1,0 +1,352 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Final Accounts",
+    "difficulty": "medium",
+    "question": "A balance sheet balances because",
+    "options": [
+      "Assets equal liabilities plus equity",
+      "Debits equal credits only",
+      "Profit equals cash",
+      "Sales equal purchases"
+    ],
+    "answer": "Assets equal liabilities plus equity",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Financial Statements",
+    "difficulty": "medium",
+    "question": "Notes to the accounts provide",
+    "options": [
+      "Additional explanations",
+      "Cash receipts",
+      "Invoices",
+      "Tax returns"
+    ],
+    "answer": "Additional explanations",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Retained earnings increase when",
+    "options": [
+      "Profits are retained",
+      "Dividends exceed profits",
+      "Assets are sold",
+      "Loans are repaid"
+    ],
+    "answer": "Profits are retained",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Company Accounts",
+    "difficulty": "medium",
+    "question": "Dividend declared becomes",
+    "options": [
+      "A liability",
+      "An asset",
+      "Revenue",
+      "Expense"
+    ],
+    "answer": "A liability",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "An external auditor is appointed by",
+    "options": [
+      "Shareholders",
+      "Employees",
+      "Customers",
+      "Suppliers"
+    ],
+    "answer": "Shareholders",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Audit",
+    "difficulty": "medium",
+    "question": "Audit independence improves",
+    "options": [
+      "Credibility of reports",
+      "Sales",
+      "Inventory",
+      "Tax"
+    ],
+    "answer": "Credibility of reports",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cost Accounting",
+    "difficulty": "medium",
+    "question": "Marginal cost is",
+    "options": [
+      "Additional cost of one more unit",
+      "Total fixed cost",
+      "Average revenue",
+      "Net profit"
+    ],
+    "answer": "Additional cost of one more unit",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cost Accounting",
+    "difficulty": "medium",
+    "question": "Break-even point occurs when",
+    "options": [
+      "Total revenue equals total cost",
+      "Profit is maximum",
+      "Cash is highest",
+      "Sales stop"
+    ],
+    "answer": "Total revenue equals total cost",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budgeting",
+    "difficulty": "medium",
+    "question": "Zero-based budgeting starts from",
+    "options": [
+      "Zero base",
+      "Previous year's budget",
+      "Gross profit",
+      "Cash book"
+    ],
+    "answer": "Zero base",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Budgeting",
+    "difficulty": "medium",
+    "question": "Budgetary control compares",
+    "options": [
+      "Actual with budgeted results",
+      "Assets with liabilities",
+      "Cash with stock",
+      "Income with capital"
+    ],
+    "answer": "Actual with budgeted results",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Professional behavior requires",
+    "options": [
+      "Compliance with laws and regulations",
+      "Ignoring standards",
+      "Overstating profits",
+      "Hiding records"
+    ],
+    "answer": "Compliance with laws and regulations",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ethics",
+    "difficulty": "medium",
+    "question": "Due care means",
+    "options": [
+      "Performing work diligently",
+      "Avoiding responsibility",
+      "Ignoring errors",
+      "Working casually"
+    ],
+    "answer": "Performing work diligently",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "The Auditor-General audits",
+    "options": [
+      "Government accounts",
+      "Private shops",
+      "Partnerships only",
+      "Families"
+    ],
+    "answer": "Government accounts",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Public Sector",
+    "difficulty": "medium",
+    "question": "Capital receipt includes",
+    "options": [
+      "Proceeds from sale of fixed assets",
+      "Rent income",
+      "Sales revenue",
+      "Commission"
+    ],
+    "answer": "Proceeds from sale of fixed assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Non-profit",
+    "difficulty": "medium",
+    "question": "Donations for general use are usually",
+    "options": [
+      "Revenue income",
+      "Capital always",
+      "Loan",
+      "Expense"
+    ],
+    "answer": "Revenue income",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Inventory",
+    "difficulty": "medium",
+    "question": "Net realizable value equals",
+    "options": [
+      "Estimated selling price less selling costs",
+      "Purchase price",
+      "Historical cost",
+      "Replacement cost"
+    ],
+    "answer": "Estimated selling price less selling costs",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Debt-to-equity ratio measures",
+    "options": [
+      "Financial leverage",
+      "Liquidity",
+      "Profitability",
+      "Efficiency"
+    ],
+    "answer": "Financial leverage",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Ratios",
+    "difficulty": "medium",
+    "question": "Asset turnover measures",
+    "options": [
+      "Efficiency in using assets",
+      "Cash balance",
+      "Tax burden",
+      "Debt level"
+    ],
+    "answer": "Efficiency in using assets",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Flow",
+    "difficulty": "medium",
+    "question": "Financing activities include",
+    "options": [
+      "Issue of shares",
+      "Payment of wages",
+      "Purchase of inventory",
+      "Utility bills"
+    ],
+    "answer": "Issue of shares",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Cash Flow",
+    "difficulty": "medium",
+    "question": "Depreciation is added back because it is",
+    "options": [
+      "A non-cash expense",
+      "Cash payment",
+      "Revenue",
+      "Asset"
+    ],
+    "answer": "A non-cash expense",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Financial accounting focuses mainly on",
+    "options": [
+      "External reporting",
+      "Production",
+      "Marketing",
+      "Human resources"
+    ],
+    "answer": "External reporting",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Theory",
+    "difficulty": "medium",
+    "question": "Management accounting assists",
+    "options": [
+      "Internal decision making",
+      "Government taxation",
+      "External auditing",
+      "Legal practice"
+    ],
+    "answer": "Internal decision making",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "Faithful representation means information is",
+    "options": [
+      "Complete, neutral and free from error",
+      "Always profitable",
+      "Confidential",
+      "Estimated only"
+    ],
+    "answer": "Complete, neutral and free from error",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Concepts",
+    "difficulty": "medium",
+    "question": "Comparability allows users to",
+    "options": [
+      "Compare financial statements over time",
+      "Increase taxes",
+      "Reduce cash",
+      "Avoid audits"
+    ],
+    "answer": "Compare financial statements over time",
+    "explanation": "Standard accounting principle."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Revision",
+    "difficulty": "medium",
+    "question": "The main objective of accounting is",
+    "options": [
+      "Provide useful financial information",
+      "Collect taxes",
+      "Increase sales",
+      "Employ workers"
+    ],
+    "answer": "Provide useful financial information",
+    "explanation": "Standard accounting principle."
+  }
+]

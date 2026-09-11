@@ -1,0 +1,703 @@
+[
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The holy book of Islam is called",
+    "options": {
+      "A": "Bible",
+      "B": "Qur'an",
+      "C": "Torah",
+      "D": "Injil"
+    },
+    "answer": "B",
+    "explanation": "The Qur'an is the holy book of Islam."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Prophet of Islam is",
+    "options": {
+      "A": "Isa (AS)",
+      "B": "Musa (AS)",
+      "C": "Muhammad (SAW)",
+      "D": "Ibrahim (AS)"
+    },
+    "answer": "C",
+    "explanation": "Prophet Muhammad (SAW) is the last prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The first revelation was received in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Jerusalem",
+      "D": "Taif"
+    },
+    "answer": "B",
+    "explanation": "The first revelation came in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The angel that brought revelation is",
+    "options": {
+      "A": "Mika'il",
+      "B": "Israfil",
+      "C": "Jibril",
+      "D": "Malik"
+    },
+    "answer": "C",
+    "explanation": "Angel Jibril delivered revelation."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Qur'an contains how many chapters?",
+    "options": {
+      "A": "100",
+      "B": "114",
+      "C": "120",
+      "D": "99"
+    },
+    "answer": "B",
+    "explanation": "The Qur'an has 114 surahs."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The first Surah in the Qur'an is",
+    "options": {
+      "A": "Al-Baqarah",
+      "B": "Al-Fatiha",
+      "C": "An-Nas",
+      "D": "Al-Ikhlas"
+    },
+    "answer": "B",
+    "explanation": "Al-Fatiha is the first surah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The night the Qur'an was first revealed is called",
+    "options": {
+      "A": "Laylatul Eid",
+      "B": "Laylatul Qadr",
+      "C": "Laylatul Hajj",
+      "D": "Laylatul Noor"
+    },
+    "answer": "B",
+    "explanation": "Laylatul Qadr is the night of power."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "Muslims face when praying",
+    "options": {
+      "A": "Jerusalem",
+      "B": "Makkah",
+      "C": "Madinah",
+      "D": "Cairo"
+    },
+    "answer": "B",
+    "explanation": "Muslims face the Ka'bah in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The migration of Prophet Muhammad is called",
+    "options": {
+      "A": "Hijrah",
+      "B": "Hajj",
+      "C": "Zakat",
+      "D": "Salah"
+    },
+    "answer": "A",
+    "explanation": "Hijrah is migration from Makkah to Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Islamic place of worship is",
+    "options": {
+      "A": "Church",
+      "B": "Mosque",
+      "C": "Temple",
+      "D": "Shrine"
+    },
+    "answer": "B",
+    "explanation": "Muslims worship in a mosque."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The second pillar of Islam is",
+    "options": {
+      "A": "Zakat",
+      "B": "Salah",
+      "C": "Hajj",
+      "D": "Shahada"
+    },
+    "answer": "B",
+    "explanation": "Salah means daily prayers."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "Zakat means",
+    "options": {
+      "A": "Fasting",
+      "B": "Charity",
+      "C": "Prayer",
+      "D": "Pilgrimage"
+    },
+    "answer": "B",
+    "explanation": "Zakat is giving to the poor."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "Fasting in Ramadan is",
+    "options": {
+      "A": "Optional",
+      "B": "Compulsory",
+      "C": "Forbidden",
+      "D": "Recommended only"
+    },
+    "answer": "B",
+    "explanation": "Fasting is obligatory in Ramadan."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The pilgrimage to Makkah is called",
+    "options": {
+      "A": "Zakat",
+      "B": "Hajj",
+      "C": "Salah",
+      "D": "Hijrah"
+    },
+    "answer": "B",
+    "explanation": "Hajj is pilgrimage to Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Prophet Muhammad was born in",
+    "options": {
+      "A": "Madinah",
+      "B": "Makkah",
+      "C": "Jerusalem",
+      "D": "Taif"
+    },
+    "answer": "B",
+    "explanation": "He was born in Makkah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The father of Prophet Muhammad is",
+    "options": {
+      "A": "Abdullah",
+      "B": "Abu Talib",
+      "C": "Abdul-Muttalib",
+      "D": "Hamza"
+    },
+    "answer": "A",
+    "explanation": "His father was Abdullah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The mother of Prophet Muhammad is",
+    "options": {
+      "A": "Aisha",
+      "B": "Fatimah",
+      "C": "Aminah",
+      "D": "Khadijah"
+    },
+    "answer": "C",
+    "explanation": "His mother was Aminah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The first wife of Prophet Muhammad is",
+    "options": {
+      "A": "Aisha",
+      "B": "Khadijah",
+      "C": "Hafsa",
+      "D": "Zaynab"
+    },
+    "answer": "B",
+    "explanation": "Khadijah was his first wife."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The night journey of Prophet Muhammad is called",
+    "options": {
+      "A": "Hijrah",
+      "B": "Isra and Mi'raj",
+      "C": "Hajj",
+      "D": "Umrah"
+    },
+    "answer": "B",
+    "explanation": "Isra and Mi'raj was the night journey."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Quran was revealed over how many years?",
+    "options": {
+      "A": "10",
+      "B": "23",
+      "C": "30",
+      "D": "40"
+    },
+    "answer": "B",
+    "explanation": "Revelation lasted 23 years."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The last prophet in Islam is",
+    "options": {
+      "A": "Isa (AS)",
+      "B": "Muhammad (SAW)",
+      "C": "Musa (AS)",
+      "D": "Ibrahim (AS)"
+    },
+    "answer": "B",
+    "explanation": "Muhammad (SAW) is the last prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The companions of Prophet Muhammad are called",
+    "options": {
+      "A": "Ansar",
+      "B": "Sahaba",
+      "C": "Muhajirun",
+      "D": "Tabeen"
+    },
+    "answer": "B",
+    "explanation": "Sahaba are companions of the Prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The first caliph of Islam was",
+    "options": {
+      "A": "Umar",
+      "B": "Uthman",
+      "C": "Abu Bakr",
+      "D": "Ali"
+    },
+    "answer": "C",
+    "explanation": "Abu Bakr was first caliph."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Qur'an is written in",
+    "options": {
+      "A": "English",
+      "B": "Arabic",
+      "C": "French",
+      "D": "Urdu"
+    },
+    "answer": "B",
+    "explanation": "The Qur'an is in Arabic."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The number of pillars of Islam is",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "There are five pillars of Islam."
+  }
+,
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The city where Prophet Muhammad migrated to is",
+    "options": {
+      "A": "Makkah",
+      "B": "Madinah",
+      "C": "Taif",
+      "D": "Jerusalem"
+    },
+    "answer": "B",
+    "explanation": "He migrated from Makkah to Madinah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The first mosque built in Islam is",
+    "options": {
+      "A": "Masjid al-Haram",
+      "B": "Masjid Quba",
+      "C": "Masjid Nabawi",
+      "D": "Al-Aqsa Mosque"
+    },
+    "answer": "B",
+    "explanation": "Masjid Quba is the first mosque."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The last sermon of Prophet Muhammad was delivered during",
+    "options": {
+      "A": "Hajj",
+      "B": "Ramadan",
+      "C": "Hijrah",
+      "D": "Battle of Badr"
+    },
+    "answer": "A",
+    "explanation": "It was delivered during Hajj."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Battle of Badr was fought between Muslims and",
+    "options": {
+      "A": "Romans",
+      "B": "Quraysh",
+      "C": "Persians",
+      "D": "Jews"
+    },
+    "answer": "B",
+    "explanation": "Muslims fought Quraysh in Badr."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The first revelation was in the cave of",
+    "options": {
+      "A": "Hira",
+      "B": "Uhud",
+      "C": "Thawr",
+      "D": "Safaa"
+    },
+    "answer": "A",
+    "explanation": "Cave of Hira is where revelation began."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Prophet Muhammad belonged to the tribe of",
+    "options": {
+      "A": "Aws",
+      "B": "Khazraj",
+      "C": "Quraysh",
+      "D": "Hashim only"
+    },
+    "answer": "C",
+    "explanation": "He was from Quraysh tribe."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The father of Prophet Muhammad died before",
+    "options": {
+      "A": "Marriage",
+      "B": "His birth",
+      "C": "Revelation",
+      "D": "Hijrah"
+    },
+    "answer": "B",
+    "explanation": "His father died before his birth."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Qur'an was compiled into a book during the caliphate of",
+    "options": {
+      "A": "Umar",
+      "B": "Abu Bakr",
+      "C": "Ali",
+      "D": "Uthman"
+    },
+    "answer": "B",
+    "explanation": "Abu Bakr ordered compilation."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The final compilation of the Qur'an was done by",
+    "options": {
+      "A": "Ali",
+      "B": "Uthman",
+      "C": "Umar",
+      "D": "Abu Bakr"
+    },
+    "answer": "B",
+    "explanation": "Uthman standardized the Qur'an."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The number of daily prayers in Islam is",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "Muslims pray five times daily."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The direction Muslims face in prayer is called",
+    "options": {
+      "A": "Hijrah",
+      "B": "Qiblah",
+      "C": "Sunnah",
+      "D": "Zakat"
+    },
+    "answer": "B",
+    "explanation": "Qiblah is direction of prayer."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The Islamic month of fasting is",
+    "options": {
+      "A": "Shawwal",
+      "B": "Ramadan",
+      "C": "Muharram",
+      "D": "Rajab"
+    },
+    "answer": "B",
+    "explanation": "Fasting occurs in Ramadan."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The day Muslims gather for weekly prayer is",
+    "options": {
+      "A": "Monday",
+      "B": "Friday",
+      "C": "Saturday",
+      "D": "Sunday"
+    },
+    "answer": "B",
+    "explanation": "Jumu'ah prayer is on Friday."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The angel of death is",
+    "options": {
+      "A": "Jibril",
+      "B": "Mika'il",
+      "C": "Israfil",
+      "D": "Malak al-Maut"
+    },
+    "answer": "D",
+    "explanation": "Malak al-Maut takes souls."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Qur'an was revealed over",
+    "options": {
+      "A": "10 years",
+      "B": "23 years",
+      "C": "30 years",
+      "D": "40 years"
+    },
+    "answer": "B",
+    "explanation": "Revelation lasted 23 years."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The first man in Islam is",
+    "options": {
+      "A": "Adam (AS)",
+      "B": "Nuh (AS)",
+      "C": "Ibrahim (AS)",
+      "D": "Musa (AS)"
+    },
+    "answer": "A",
+    "explanation": "Adam is the first man."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The first prophet in Islam is",
+    "options": {
+      "A": "Ibrahim (AS)",
+      "B": "Adam (AS)",
+      "C": "Musa (AS)",
+      "D": "Isa (AS)"
+    },
+    "answer": "B",
+    "explanation": "Adam is first prophet."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The sacred book revealed to Musa is",
+    "options": {
+      "A": "Zabur",
+      "B": "Tawrah",
+      "C": "Injil",
+      "D": "Qur'an"
+    },
+    "answer": "B",
+    "explanation": "Tawrah was revealed to Musa."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The sacred book revealed to Isa is",
+    "options": {
+      "A": "Qur'an",
+      "B": "Tawrah",
+      "C": "Injil",
+      "D": "Zabur"
+    },
+    "answer": "C",
+    "explanation": "Injil was given to Isa."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The sacred book revealed to Dawud is",
+    "options": {
+      "A": "Zabur",
+      "B": "Tawrah",
+      "C": "Injil",
+      "D": "Qur'an"
+    },
+    "answer": "A",
+    "explanation": "Zabur was given to Dawud."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Qur'an is divided into",
+    "options": {
+      "A": "Books",
+      "B": "Surahs",
+      "C": "Pages",
+      "D": "Chapters"
+    },
+    "answer": "B",
+    "explanation": "The Qur'an is divided into Surahs."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The shortest Surah in the Qur'an is",
+    "options": {
+      "A": "Al-Kawthar",
+      "B": "Al-Baqarah",
+      "C": "An-Nas",
+      "D": "Al-Ikhlas"
+    },
+    "answer": "A",
+    "explanation": "Al-Kawthar is the shortest surah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The longest Surah in the Qur'an is",
+    "options": {
+      "A": "Al-Imran",
+      "B": "Al-Baqarah",
+      "C": "An-Nisa",
+      "D": "Al-Ma'idah"
+    },
+    "answer": "B",
+    "explanation": "Al-Baqarah is the longest surah."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Medium",
+    "question": "The number of Surahs in the Qur'an is",
+    "options": {
+      "A": "99",
+      "B": "100",
+      "C": "114",
+      "D": "120"
+    },
+    "answer": "C",
+    "explanation": "There are 114 Surahs."
+  },
+  {
+    "subject": "Islamic Religious Studies",
+    "category": "Qur'an and Hadith",
+    "difficulty": "Easy",
+    "question": "The Qur'an is revealed in which language?",
+    "options": {
+      "A": "English",
+      "B": "Arabic",
+      "C": "Urdu",
+      "D": "French"
+    },
+    "answer": "B",
+    "explanation": "The Qur'an is in Arabic."
+  }
+]

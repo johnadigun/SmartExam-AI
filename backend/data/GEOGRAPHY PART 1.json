@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The main source of energy on Earth is",
+    "options": {
+      "A": "Moon",
+      "B": "Sun",
+      "C": "Wind",
+      "D": "Ocean"
+    },
+    "answer": "B",
+    "explanation": "The Sun is the primary energy source."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "Rainfall caused by relief is called",
+    "options": {
+      "A": "Convectional rainfall",
+      "B": "Orographic rainfall",
+      "C": "Cyclonic rainfall",
+      "D": "Frontal rainfall"
+    },
+    "answer": "B",
+    "explanation": "Orographic rainfall is due to mountains."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The outermost layer of the Earth is",
+    "options": {
+      "A": "Mantle",
+      "B": "Core",
+      "C": "Crust",
+      "D": "Inner core"
+    },
+    "answer": "C",
+    "explanation": "Crust is Earth's outer layer."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Medium",
+    "question": "The study of weather is called",
+    "options": {
+      "A": "Climatology",
+      "B": "Meteorology",
+      "C": "Geology",
+      "D": "Ecology"
+    },
+    "answer": "B",
+    "explanation": "Meteorology studies weather."
+  },
+  {
+    "subject": "Geography",
+    "category": "Physical Geography",
+    "difficulty": "Easy",
+    "question": "The hottest continent is",
+    "options": {
+      "A": "Asia",
+      "B": "Africa",
+      "C": "Europe",
+      "D": "Antarctica"
+    },
+    "answer": "B",
+    "explanation": "Africa has highest temperatures."
+  }
+]

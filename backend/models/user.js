@@ -1,16 +1,133 @@
 const mongoose = require("mongoose");
 
-const userSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema(
 
-  name: String,
-  middleName: String,
-  surname: String,
-  phone: String,
-  email: { type: String, unique: true },
-  password: String,
-  role: { type: String, default: "student" },
-  hasPaid: { type: Boolean, default: false }
+  {
 
-});
+    /* ======================================================
+       BASIC DETAILS
+    ====================================================== */
 
-module.exports = mongoose.model("User", userSchema);
+    firstName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    middleName: {
+      type: String,
+      default: "",
+      trim: true,
+    },
+
+    lastName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    phone: {
+      type: String,
+      default: "",
+    },
+
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+      lowercase: true,
+      trim: true,
+    },
+
+    password: {
+      type: String,
+      required: true,
+    },
+
+    /* ======================================================
+       ROLE
+    ====================================================== */
+
+    role: {
+      type: String,
+      enum: [
+        "student",
+        "school-admin",
+        "super-admin",
+      ],
+      default: "student",
+    },
+
+    schoolId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "School",
+      default: null,
+    },
+
+    /* ======================================================
+       PAYMENT
+    ====================================================== */
+
+    isPaid: {
+      type: Boolean,
+      default: false,
+    },
+
+    /* ======================================================
+       CBT ACCESS
+    ====================================================== */
+
+    cbtAccess: {
+      type: Boolean,
+      default: false,
+    },
+
+    cbtExpiry: {
+      type: Date,
+      default: null,
+    },
+
+    remainingAttempts: {
+      type: Number,
+      default: 0,
+    },
+
+    /* ======================================================
+       CBT RECORD
+    ====================================================== */
+
+    examTaken: {
+      type: Boolean,
+      default: false,
+    },
+
+    certificateIssued: {
+      type: Boolean,
+      default: false,
+    },
+
+    score: {
+      type: Number,
+      default: 0,
+    },
+
+    grade: {
+      type: String,
+      default: "",
+    },
+
+  },
+
+  {
+    timestamps: true,
+  }
+
+);
+
+/* ==========================================================
+   SAFE EXPORT
+========================================================== */
+
+module.exports =
+  mongoose.models.User ||
+  mongoose.model("User", userSchema);

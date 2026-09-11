@@ -1,0 +1,774 @@
+/* =====================================================
+   SMARTEXAM CERTIFICATE PAGE
+   MASTER PROFESSIONAL DESIGN
+===================================================== */
+
+
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    background:#f3f5f8;
+
+    font-family:
+    "Times New Roman",
+    Georgia,
+    serif;
+
+}
+
+
+/* =====================================================
+   PAGE WRAPPER
+===================================================== */
+
+
+.certificate-container{
+
+    min-height:100vh;
+
+    padding:40px 20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+/* =====================================================
+   CERTIFICATE MAIN CARD
+===================================================== */
+
+
+.certificate-card{
+
+    width:100%;
+
+    max-width:1000px;
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.15);
+
+    overflow:hidden;
+
+}
+
+
+/* =====================================================
+   INNER CERTIFICATE BORDER
+===================================================== */
+
+
+.certificate-card::before{
+
+    content:"";
+
+    position:absolute;
+
+}
+
+
+.certificate-card{
+
+    position:relative;
+
+    padding:15px;
+
+}
+
+
+.certificate-card > *{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+.certificate-card{
+
+    border:8px solid #b8860b;
+
+}
+
+
+.certificate-card::after{
+
+    content:"SMARTEXAM";
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+
+    transform:
+    translate(-50%,-50%)
+    rotate(-30deg);
+
+
+    font-size:110px;
+
+    font-weight:bold;
+
+    letter-spacing:8px;
+
+    color:
+    rgba(21,101,192,.04);
+
+
+    pointer-events:none;
+
+    z-index:1;
+
+}
+
+
+/* =====================================================
+   CERTIFICATE INNER AREA
+===================================================== */
+
+
+.certificate-card{
+
+    text-align:center;
+
+    padding:45px;
+
+}
+
+
+/* =====================================================
+   HEADER SECTION
+===================================================== */
+
+
+.certificate-header{
+
+    margin-bottom:35px;
+
+}
+
+
+.certificate-header h3{
+
+    color:#1565c0;
+
+    font-size:22px;
+
+    letter-spacing:5px;
+
+    margin-bottom:15px;
+
+}
+
+
+.certificate-header h1{
+
+    color:#b8860b;
+
+    font-size:38px;
+
+    letter-spacing:2px;
+
+    margin-bottom:15px;
+
+}
+
+
+.certificate-header h4{
+
+    color:#555;
+
+    font-size:20px;
+
+    font-weight:normal;
+
+}
+/* =====================================================
+   CERTIFICATE BODY
+===================================================== */
+
+
+.certificate-body{
+
+    margin-bottom:35px;
+
+}
+
+
+/* =====================================================
+   CERTIFICATE TEXT
+===================================================== */
+
+
+.certificate-text{
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#444;
+
+    margin-bottom:15px;
+
+}
+
+
+/* =====================================================
+   STUDENT NAME
+===================================================== */
+
+
+.student-name{
+
+    font-size:38px;
+
+    text-transform:uppercase;
+
+    color:#222;
+
+    letter-spacing:3px;
+
+    margin:25px 0;
+
+    font-weight:bold;
+
+    border-bottom:3px solid #b8860b;
+
+    display:inline-block;
+
+    padding:0 35px 10px;
+
+}
+
+
+/* =====================================================
+   CERTIFICATE DETAILS GRID
+===================================================== */
+
+
+.certificate-details{
+
+    width:90%;
+
+    margin:40px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+
+/* =====================================================
+   DETAIL BOX
+===================================================== */
+
+
+.certificate-item{
+
+    background:#fafafa;
+
+    border:1px solid #ddd;
+
+    border-left:5px solid #1565c0;
+
+    border-radius:8px;
+
+    padding:18px;
+
+    text-align:left;
+
+}
+
+
+.certificate-item span{
+
+    display:block;
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+}
+
+
+.certificate-item strong{
+
+    display:block;
+
+    color:#222;
+
+    font-size:20px;
+
+}
+
+
+/* =====================================================
+   PASS STATUS
+===================================================== */
+
+
+.certificate-pass{
+
+    border-left-color:#2e7d32;
+
+    background:#e8f5e9;
+
+}
+
+
+.certificate-pass strong{
+
+    color:#1b5e20;
+
+}
+
+
+/* =====================================================
+   FAIL STATUS
+===================================================== */
+
+
+.certificate-fail{
+
+    border-left-color:#d32f2f;
+
+    background:#ffebee;
+
+}
+
+
+.certificate-fail strong{
+
+    color:#b71c1c;
+
+}
+/* =====================================================
+   CERTIFICATE FOOTER
+===================================================== */
+
+
+.certificate-footer{
+
+    width:90%;
+
+    margin:55px auto 20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:35px;
+
+}
+
+
+/* =====================================================
+   SIGNATURE BLOCK
+===================================================== */
+
+
+.signature-block{
+
+    flex:1;
+
+    text-align:center;
+
+}
+
+
+.signature-line{
+
+    width:80%;
+
+    margin:0 auto 10px;
+
+    border-top:2px solid #222;
+
+}
+
+
+.signature-block p{
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    color:#333;
+
+}
+
+
+/* =====================================================
+   OFFICIAL SEAL
+===================================================== */
+
+
+.seal-area{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.seal-circle{
+
+    width:100px;
+
+    height:100px;
+
+    border-radius:50%;
+
+    border:4px double #b8860b;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#b8860b;
+
+    font-weight:bold;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+}
+
+
+.seal-area p{
+
+    margin-top:10px;
+
+    font-weight:bold;
+
+    color:#555;
+
+}
+
+
+/* =====================================================
+   ACTION BUTTONS
+===================================================== */
+
+
+.certificate-buttons{
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.certificate-buttons button{
+
+    min-width:180px;
+
+    padding:14px 22px;
+
+    border:none;
+
+    border-radius:8px;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+.certificate-buttons button:hover{
+
+    transform:translateY(-3px);
+
+    opacity:.9;
+
+}
+
+
+/* =====================================================
+   BUTTON COLORS
+===================================================== */
+
+
+.print-btn{
+
+    background:#2e7d32;
+
+}
+
+
+.back-btn{
+
+    background:#1565c0;
+
+}
+
+
+.dashboard-btn{
+
+    background:#616161;
+
+}
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+
+@media(max-width:900px){
+
+
+    .certificate-card{
+
+        padding:25px;
+
+    }
+
+
+    .certificate-card{
+
+        border-width:6px;
+
+    }
+
+
+    .certificate-header h1{
+
+        font-size:30px;
+
+    }
+
+
+    .student-name{
+
+        font-size:30px;
+
+    }
+
+
+    .certificate-details{
+
+        width:100%;
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .certificate-footer{
+
+        width:100%;
+
+        flex-direction:column;
+
+        gap:35px;
+
+    }
+
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+
+@media(max-width:600px){
+
+
+    .certificate-container{
+
+        padding:15px 10px;
+
+    }
+
+
+    .certificate-card{
+
+        padding:20px;
+
+    }
+
+
+    .certificate-header h3{
+
+        font-size:16px;
+
+        letter-spacing:3px;
+
+    }
+
+
+    .certificate-header h1{
+
+        font-size:24px;
+
+    }
+
+
+    .certificate-header h4{
+
+        font-size:16px;
+
+    }
+
+
+    .certificate-text{
+
+        font-size:16px;
+
+    }
+
+
+    .student-name{
+
+        font-size:22px;
+
+        padding:0 10px 8px;
+
+    }
+
+
+    .certificate-item strong{
+
+        font-size:17px;
+
+    }
+
+
+    .certificate-buttons{
+
+        width:100%;
+
+        flex-direction:column;
+
+    }
+
+
+    .certificate-buttons button{
+
+        width:100%;
+
+    }
+
+
+}
+
+
+/* =====================================================
+   PRINT VERSION
+===================================================== */
+
+
+@media print{
+
+
+    body{
+
+        background:white;
+
+    }
+
+
+    .certificate-container{
+
+        padding:0;
+
+        min-height:auto;
+
+    }
+
+
+    .certificate-card{
+
+        width:100%;
+
+        max-width:none;
+
+        margin:0;
+
+        box-shadow:none;
+
+        border:8px solid #b8860b;
+
+    }
+
+
+    .certificate-buttons{
+
+        display:none;
+
+    }
+
+
+    .certificate-card::after{
+
+        color:rgba(21,101,192,.03);
+
+    }
+
+
+    @page{
+
+        size:A4 portrait;
+
+        margin:12mm;
+
+    }
+
+
+}

@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Economics",
+    "category": "National Income",
+    "difficulty": "Easy",
+    "question": "National income refers to",
+    "options": {
+      "A": "Total money in circulation",
+      "B": "Total value of goods and services produced in a country in a year",
+      "C": "Total government revenue only",
+      "D": "Total imports only"
+    },
+    "answer": "B",
+    "explanation": "National income is the total value of goods and services produced within a country over a period of time."
+  },
+  {
+    "subject": "Economics",
+    "category": "National Income",
+    "difficulty": "Medium",
+    "question": "Gross Domestic Product (GDP) measures",
+    "options": {
+      "A": "Population size",
+      "B": "Total output produced within a country",
+      "C": "Exports only",
+      "D": "Government spending only"
+    },
+    "answer": "B",
+    "explanation": "GDP is the total monetary value of all goods and services produced within a country."
+  },
+  {
+    "subject": "Economics",
+    "category": "National Income",
+    "difficulty": "Medium",
+    "question": "Gross National Product (GNP) includes",
+    "options": {
+      "A": "Only domestic production",
+      "B": "Output by citizens both at home and abroad",
+      "C": "Only foreign companies",
+      "D": "Only government services"
+    },
+    "answer": "B",
+    "explanation": "GNP includes the value of goods and services produced by citizens regardless of location."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money and Banking",
+    "difficulty": "Easy",
+    "question": "Inflation can best be controlled by",
+    "options": {
+      "A": "Increasing money supply",
+      "B": "Reducing money supply",
+      "C": "Printing more currency",
+      "D": "Increasing imports only"
+    },
+    "answer": "B",
+    "explanation": "Reducing money supply helps to control inflation."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money and Banking",
+    "difficulty": "Medium",
+    "question": "Deflation refers to",
+    "options": {
+      "A": "A rise in general price level",
+      "B": "A fall in general price level",
+      "C": "Increase in population",
+      "D": "Increase in exports"
+    },
+    "answer": "B",
+    "explanation": "Deflation is a sustained decrease in the general price level."
+  },
+  {
+    "subject": "Economics",
+    "category": "Financial Institutions",
+    "difficulty": "Easy",
+    "question": "The Central Bank is responsible for",
+    "options": {
+      "A": "Selling goods",
+      "B": "Regulating commercial banks",
+      "C": "Producing crops",
+      "D": "Setting school exams"
+    },
+    "answer": "B",
+    "explanation": "The Central Bank supervises and regulates other banks."
+  },
+  {
+    "subject": "Economics",
+    "category": "Financial Institutions",
+    "difficulty": "Medium",
+    "question": "Microfinance banks mainly provide",
+    "options": {
+      "A": "Large industrial loans only",
+      "B": "Small loans to individuals and small businesses",
+      "C": "Foreign exchange only",
+      "D": "Government bonds only"
+    },
+    "answer": "B",
+    "explanation": "Microfinance banks support small-scale entrepreneurs with small loans."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structures",
+    "difficulty": "Easy",
+    "question": "Perfect competition is a market structure where",
+    "options": {
+      "A": "One seller dominates",
+      "B": "Many buyers and sellers exist with identical products",
+      "C": "Government controls all prices",
+      "D": "There are no buyers"
+    },
+    "answer": "B",
+    "explanation": "Perfect competition has many buyers and sellers offering identical products."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structures",
+    "difficulty": "Medium",
+    "question": "A monopoly is a market structure where",
+    "options": {
+      "A": "There are many sellers",
+      "B": "One seller dominates the market",
+      "C": "Only buyers exist",
+      "D": "Prices are fixed by consumers"
+    },
+    "answer": "B",
+    "explanation": "A monopoly exists when a single firm controls the entire market supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Structures",
+    "difficulty": "Medium",
+    "question": "An oligopoly is a market structure with",
+    "options": {
+      "A": "One seller",
+      "B": "Few large firms dominating the market",
+      "C": "Many small buyers only",
+      "D": "No competition"
+    },
+    "answer": "B",
+    "explanation": "Oligopoly involves a few large firms controlling most of the market."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "Easy",
+    "question": "Demand-pull inflation occurs when",
+    "options": {
+      "A": "Production decreases sharply",
+      "B": "Demand for goods and services exceeds supply",
+      "C": "Taxes are reduced",
+      "D": "Exports fall"
+    },
+    "answer": "B",
+    "explanation": "Demand-pull inflation happens when aggregate demand is greater than aggregate supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "Medium",
+    "question": "Cost-push inflation is mainly caused by",
+    "options": {
+      "A": "Increase in production costs",
+      "B": "Increase in population",
+      "C": "Decrease in demand",
+      "D": "Increase in exports"
+    },
+    "answer": "A",
+    "explanation": "Cost-push inflation occurs when production costs such as wages and raw materials rise."
+  },
+  {
+    "subject": "Economics",
+    "category": "Unemployment",
+    "difficulty": "Easy",
+    "question": "Structural unemployment is caused by",
+    "options": {
+      "A": "Changes in industry structure and technology",
+      "B": "High rainfall",
+      "C": "Excess demand",
+      "D": "Increase in exports"
+    },
+    "answer": "A",
+    "explanation": "Structural unemployment arises when skills do not match job requirements."
+  },
+  {
+    "subject": "Economics",
+    "category": "Unemployment",
+    "difficulty": "Medium",
+    "question": "Cyclical unemployment is associated with",
+    "options": {
+      "A": "Economic recession",
+      "B": "Population growth",
+      "C": "Technological advancement only",
+      "D": "Climate change"
+    },
+    "answer": "A",
+    "explanation": "Cyclical unemployment occurs during periods of economic downturn."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Easy",
+    "question": "Government revenue is mainly obtained through",
+    "options": {
+      "A": "Loans only",
+      "B": "Taxes",
+      "C": "Exports only",
+      "D": "Imports only"
+    },
+    "answer": "B",
+    "explanation": "Taxes are the main source of government revenue."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Medium",
+    "question": "A budget deficit occurs when",
+    "options": {
+      "A": "Revenue exceeds expenditure",
+      "B": "Expenditure exceeds revenue",
+      "C": "Exports exceed imports",
+      "D": "Savings exceed investment"
+    },
+    "answer": "B",
+    "explanation": "A budget deficit happens when government spending is higher than its income."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Easy",
+    "question": "A budget surplus occurs when",
+    "options": {
+      "A": "Expenditure is greater than revenue",
+      "B": "Revenue is greater than expenditure",
+      "C": "Imports exceed exports",
+      "D": "Debt increases"
+    },
+    "answer": "B",
+    "explanation": "A surplus occurs when government income exceeds spending."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "Medium",
+    "question": "Economic development refers to",
+    "options": {
+      "A": "Increase in population only",
+      "B": "Improvement in living standards and economic well-being",
+      "C": "Increase in inflation",
+      "D": "Decrease in production"
+    },
+    "answer": "B",
+    "explanation": "Development includes improvements in income, health, education, and living standards."
+  },
+  {
+    "subject": "Economics",
+    "category": "Development",
+    "difficulty": "Easy",
+    "question": "A developing economy is characterized by",
+    "options": {
+      "A": "High income per capita",
+      "B": "Low industrialization",
+      "C": "No unemployment",
+      "D": "No inflation"
+    },
+    "answer": "B",
+    "explanation": "Developing economies often have low industrial base and lower income levels."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Medium",
+    "question": "Balance of trade refers to",
+    "options": {
+      "A": "Difference between imports and exports of goods",
+      "B": "Government spending",
+      "C": "Population size",
+      "D": "Tax revenue"
+    },
+    "answer": "A",
+    "explanation": "Balance of trade is the difference between exports and imports of goods."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Easy",
+    "question": "A favourable balance of trade occurs when",
+    "options": {
+      "A": "Imports exceed exports",
+      "B": "Exports exceed imports",
+      "C": "Imports equal exports",
+      "D": "There is no trade"
+    },
+    "answer": "B",
+    "explanation": "A favourable balance of trade exists when a country exports more than it imports."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Medium",
+    "question": "An unfavourable balance of trade occurs when",
+    "options": {
+      "A": "Exports exceed imports",
+      "B": "Imports exceed exports",
+      "C": "Exports equal imports",
+      "D": "There is no production"
+    },
+    "answer": "B",
+    "explanation": "It occurs when a country imports more goods than it exports."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Medium",
+    "question": "One advantage of international trade is",
+    "options": {
+      "A": "Reduced variety of goods",
+      "B": "Increased availability of goods",
+      "C": "Increase in unemployment",
+      "D": "Higher production costs"
+    },
+    "answer": "B",
+    "explanation": "International trade increases the variety and availability of goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Easy",
+    "question": "Exchange rate refers to",
+    "options": {
+      "A": "Price of goods within a country",
+      "B": "Price of one currency in terms of another",
+      "C": "Tax on imports",
+      "D": "Interest rate on loans"
+    },
+    "answer": "B",
+    "explanation": "Exchange rate is the value of one currency compared to another."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Medium",
+    "question": "A depreciation of currency means",
+    "options": {
+      "A": "Increase in value of currency",
+      "B": "Decrease in value of currency",
+      "C": "No change in value",
+      "D": "Increase in exports only"
+    },
+    "answer": "B",
+    "explanation": "Depreciation is a fall in the value of a currency relative to others."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange Rate",
+    "difficulty": "Medium",
+    "question": "A devaluation of currency is usually done by",
+    "options": {
+      "A": "Commercial banks",
+      "B": "Government or Central Bank",
+      "C": "Private companies",
+      "D": "Consumers"
+    },
+    "answer": "B",
+    "explanation": "Devaluation is an official reduction in currency value by the government."
+  },
+  {
+    "subject": "Economics",
+    "category": "Taxation",
+    "difficulty": "Easy",
+    "question": "A direct tax is one that is",
+    "options": {
+      "A": "Paid directly by the person on whom it is imposed",
+      "B": "Collected at borders",
+      "C": "Paid on imported goods only",
+      "D": "Paid by government only"
+    },
+    "answer": "A",
+    "explanation": "Direct taxes are paid directly by individuals or firms to the government."
+  },
+  {
+    "subject": "Economics",
+    "category": "Taxation",
+    "difficulty": "Medium",
+    "question": "An example of indirect tax is",
+    "options": {
+      "A": "Income tax",
+      "B": "Company tax",
+      "C": "Value Added Tax (VAT)",
+      "D": "Poll tax"
+    },
+    "answer": "C",
+    "explanation": "VAT is an indirect tax paid on goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Taxation",
+    "difficulty": "Easy",
+    "question": "One major reason for taxation is to",
+    "options": {
+      "A": "Increase inflation",
+      "B": "Raise government revenue",
+      "C": "Reduce production",
+      "D": "Encourage imports only"
+    },
+    "answer": "B",
+    "explanation": "Taxes provide revenue for government expenditure."
+  },
+  {
+    "subject": "Economics",
+    "category": "Taxation",
+    "difficulty": "Medium",
+    "question": "Progressive tax means",
+    "options": {
+      "A": "Everyone pays the same amount",
+      "B": "Tax rate increases with income",
+      "C": "Tax decreases with income",
+      "D": "No tax is paid"
+    },
+    "answer": "B",
+    "explanation": "Higher income earners pay a higher percentage in progressive taxation."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Taxation",
+    "difficulty": "Medium",
+    "question": "A regressive tax is one in which",
+    "options": {
+      "A": "Tax rate increases with income",
+      "B": "Tax rate decreases as income increases",
+      "C": "Everyone pays the same amount",
+      "D": "No tax is collected"
+    },
+    "answer": "B",
+    "explanation": "In regressive tax systems, lower-income earners pay a higher proportion of their income."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Debt",
+    "difficulty": "Easy",
+    "question": "Public debt refers to",
+    "options": {
+      "A": "Money owed by individuals",
+      "B": "Money owed by government to lenders",
+      "C": "Bank savings",
+      "D": "Company profits"
+    },
+    "answer": "B",
+    "explanation": "Public debt is the total amount the government owes to internal or external creditors."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Debt",
+    "difficulty": "Medium",
+    "question": "Internal debt is owed to",
+    "options": {
+      "A": "Foreign governments only",
+      "B": "Citizens and institutions within the country",
+      "C": "International organizations only",
+      "D": "Exporters only"
+    },
+    "answer": "B",
+    "explanation": "Internal debt is borrowed from domestic individuals and institutions."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Debt",
+    "difficulty": "Medium",
+    "question": "External debt is borrowed from",
+    "options": {
+      "A": "Local traders",
+      "B": "Foreign countries and institutions",
+      "C": "Banks within the country",
+      "D": "Farmers only"
+    },
+    "answer": "B",
+    "explanation": "External debt is money borrowed from outside the country."
+  },
+  {
+    "subject": "Economics",
+    "category": "Savings",
+    "difficulty": "Easy",
+    "question": "Savings is defined as",
+    "options": {
+      "A": "Money spent on consumption",
+      "B": "Income not spent on consumption",
+      "C": "Money borrowed from banks",
+      "D": "Government revenue"
+    },
+    "answer": "B",
+    "explanation": "Savings is the portion of income not spent on consumption."
+  },
+  {
+    "subject": "Economics",
+    "category": "Investment",
+    "difficulty": "Medium",
+    "question": "Investment refers to",
+    "options": {
+      "A": "Spending on consumption only",
+      "B": "Use of savings to create capital goods",
+      "C": "Tax payment",
+      "D": "Importing goods"
+    },
+    "answer": "B",
+    "explanation": "Investment is the use of savings to produce capital goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Savings and Investment",
+    "difficulty": "Medium",
+    "question": "A major determinant of investment is",
+    "options": {
+      "A": "Population size only",
+      "B": "Interest rate",
+      "C": "Weather condition",
+      "D": "Number of schools"
+    },
+    "answer": "B",
+    "explanation": "Interest rates affect the cost of borrowing and level of investment."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Growth",
+    "difficulty": "Easy",
+    "question": "Economic growth refers to",
+    "options": {
+      "A": "Decrease in output",
+      "B": "Increase in the productive capacity of an economy",
+      "C": "Increase in inflation",
+      "D": "Decrease in population"
+    },
+    "answer": "B",
+    "explanation": "Economic growth is an increase in a country's ability to produce goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Development",
+    "difficulty": "Medium",
+    "question": "Economic development includes",
+    "options": {
+      "A": "Only increase in GDP",
+      "B": "Improvement in living standards and welfare",
+      "C": "Increase in imports only",
+      "D": "Decrease in production"
+    },
+    "answer": "B",
+    "explanation": "Development includes both economic growth and improvements in quality of life."
+  },
+  {
+    "subject": "Economics",
+    "category": "Basic Economic Problems",
+    "difficulty": "Easy",
+    "question": "The central problem in Economics is",
+    "options": {
+      "A": "Inflation",
+      "B": "Scarcity",
+      "C": "Population",
+      "D": "Taxation"
+    },
+    "answer": "B",
+    "explanation": "Scarcity is the basic economic problem facing all societies."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Economic Systems",
+    "difficulty": "Easy",
+    "question": "A capitalist economy is characterized by",
+    "options": {
+      "A": "Government ownership of all resources",
+      "B": "Private ownership of means of production",
+      "C": "No market system",
+      "D": "No production activities"
+    },
+    "answer": "B",
+    "explanation": "In capitalism, individuals and firms own and control resources."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Systems",
+    "difficulty": "Medium",
+    "question": "A socialist economy is one where",
+    "options": {
+      "A": "Private individuals control all resources",
+      "B": "Government owns and controls major means of production",
+      "C": "There is no government",
+      "D": "Only farmers exist"
+    },
+    "answer": "B",
+    "explanation": "Socialism involves government ownership of key industries and resources."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Systems",
+    "difficulty": "Medium",
+    "question": "A mixed economy combines",
+    "options": {
+      "A": "Only agriculture and industry",
+      "B": "Public and private ownership",
+      "C": "Only imports and exports",
+      "D": "Only savings and consumption"
+    },
+    "answer": "B",
+    "explanation": "Mixed economies have both government and private sector participation."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Failure",
+    "difficulty": "Easy",
+    "question": "Market failure occurs when",
+    "options": {
+      "A": "Markets operate efficiently",
+      "B": "Resources are efficiently allocated",
+      "C": "The market fails to allocate resources efficiently",
+      "D": "Prices are stable"
+    },
+    "answer": "C",
+    "explanation": "Market failure happens when the free market does not allocate resources efficiently."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market Failure",
+    "difficulty": "Medium",
+    "question": "One cause of market failure is",
+    "options": {
+      "A": "Perfect competition",
+      "B": "Externalities",
+      "C": "Price stability",
+      "D": "Efficient allocation"
+    },
+    "answer": "B",
+    "explanation": "Externalities are costs or benefits not reflected in market prices."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Sector",
+    "difficulty": "Easy",
+    "question": "The public sector consists of",
+    "options": {
+      "A": "Private companies only",
+      "B": "Government-owned enterprises",
+      "C": "Foreign companies",
+      "D": "Individuals only"
+    },
+    "answer": "B",
+    "explanation": "The public sector includes all government-owned and controlled organizations."
+  },
+  {
+    "subject": "Economics",
+    "category": "Private Sector",
+    "difficulty": "Medium",
+    "question": "The private sector is mainly driven by",
+    "options": {
+      "A": "Profit motive",
+      "B": "Government orders",
+      "C": "Charity",
+      "D": "Population growth"
+    },
+    "answer": "A",
+    "explanation": "Private firms aim to maximize profit."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Indicators",
+    "difficulty": "Easy",
+    "question": "Per capita income is",
+    "options": {
+      "A": "Total population",
+      "B": "Income per person in a country",
+      "C": "Government revenue",
+      "D": "Export value only"
+    },
+    "answer": "B",
+    "explanation": "Per capita income is total national income divided by population."
+  },
+  {
+    "subject": "Economics",
+    "category": "Economic Indicators",
+    "difficulty": "Medium",
+    "question": "A high per capita income generally indicates",
+    "options": {
+      "A": "Low standard of living",
+      "B": "High standard of living",
+      "C": "No production",
+      "D": "High unemployment only"
+    },
+    "answer": "B",
+    "explanation": "Higher income per person usually reflects better living conditions."
+  },
+  {
+    "subject": "Economics",
+    "category": "General Economics",
+    "difficulty": "Easy",
+    "question": "Economics is best described as a",
+    "options": {
+      "A": "Natural science",
+      "B": "Social science",
+      "C": "Physical science",
+      "D": "Medical science"
+    },
+    "answer": "B",
+    "explanation": "Economics studies human behavior in relation to scarce resources, making it a social science."
+  }
+]

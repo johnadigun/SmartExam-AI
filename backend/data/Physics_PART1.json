@@ -1,0 +1,423 @@
+[
+  {
+    "subject": "Physics",
+    "category": "Measurement",
+    "difficulty": "Easy",
+    "question": "The SI unit of force is",
+    "options": {
+      "A": "Joule",
+      "B": "Newton",
+      "C": "Pascal",
+      "D": "Watt"
+    },
+    "answer": "B",
+    "explanation": "Force is measured in newtons (N)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Measurement",
+    "difficulty": "Easy",
+    "question": "The instrument used to measure electric current is",
+    "options": {
+      "A": "Voltmeter",
+      "B": "Ammeter",
+      "C": "Galvanometer",
+      "D": "Ohmmeter"
+    },
+    "answer": "B",
+    "explanation": "An ammeter measures electric current."
+  },
+  {
+    "subject": "Physics",
+    "category": "Motion",
+    "difficulty": "Easy",
+    "question": "Velocity is defined as",
+    "options": {
+      "A": "Distance covered per unit time",
+      "B": "Displacement per unit time",
+      "C": "Force per unit area",
+      "D": "Work done per unit time"
+    },
+    "answer": "B",
+    "explanation": "Velocity is the rate of change of displacement."
+  },
+  {
+    "subject": "Physics",
+    "category": "Motion",
+    "difficulty": "Medium",
+    "question": "A body moving with constant velocity has",
+    "options": {
+      "A": "Constant acceleration",
+      "B": "Zero acceleration",
+      "C": "Increasing speed",
+      "D": "Variable displacement"
+    },
+    "answer": "B",
+    "explanation": "Constant velocity means there is no acceleration."
+  },
+  {
+    "subject": "Physics",
+    "category": "Force",
+    "difficulty": "Easy",
+    "question": "Which of the following is a vector quantity?",
+    "options": {
+      "A": "Distance",
+      "B": "Speed",
+      "C": "Mass",
+      "D": "Force"
+    },
+    "answer": "D",
+    "explanation": "Force has both magnitude and direction."
+  },
+  {
+    "subject": "Physics",
+    "category": "Energy",
+    "difficulty": "Easy",
+    "question": "The ability to do work is called",
+    "options": {
+      "A": "Power",
+      "B": "Energy",
+      "C": "Momentum",
+      "D": "Pressure"
+    },
+    "answer": "B",
+    "explanation": "Energy is the capacity to do work."
+  },
+  {
+    "subject": "Physics",
+    "category": "Energy",
+    "difficulty": "Medium",
+    "question": "The SI unit of power is",
+    "options": {
+      "A": "Joule",
+      "B": "Newton",
+      "C": "Watt",
+      "D": "Volt"
+    },
+    "answer": "C",
+    "explanation": "Power is measured in watts (W)."
+  },
+  {
+    "subject": "Physics",
+    "category": "Pressure",
+    "difficulty": "Medium",
+    "question": "Pressure is defined as",
+    "options": {
+      "A": "Force × Area",
+      "B": "Force per unit area",
+      "C": "Mass × Acceleration",
+      "D": "Work × Time"
+    },
+    "answer": "B",
+    "explanation": "Pressure equals force divided by area."
+  },
+  {
+    "subject": "Physics",
+    "category": "Motion",
+    "difficulty": "Medium",
+    "question": "The gradient of a velocity-time graph represents",
+    "options": {
+      "A": "Distance",
+      "B": "Acceleration",
+      "C": "Speed",
+      "D": "Displacement"
+    },
+    "answer": "B",
+    "explanation": "The slope of a velocity-time graph gives acceleration."
+  },
+  {
+    "subject": "Physics",
+    "category": "Force",
+    "difficulty": "Easy",
+    "question": "The force that opposes motion between two surfaces is called",
+    "options": {
+      "A": "Gravitational force",
+      "B": "Magnetic force",
+      "C": "Frictional force",
+      "D": "Electrostatic force"
+    },
+    "answer": "C",
+    "explanation": "Friction opposes relative motion between surfaces."
+  },
+  {
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "difficulty": "Easy",
+    "question": "Work is said to be done when a force",
+    "options": {
+      "A": "Acts on a body without displacement",
+      "B": "Produces displacement in the direction of the force",
+      "C": "Changes the shape of a body only",
+      "D": "Acts vertically upward"
+    },
+    "answer": "B",
+    "explanation": "Work is done when force causes displacement."
+  },
+  {
+    "subject": "Physics",
+    "category": "Simple Machines",
+    "difficulty": "Easy",
+    "question": "The efficiency of a machine is always",
+    "options": {
+      "A": "Greater than 100%",
+      "B": "Equal to 100%",
+      "C": "Less than or equal to 100%",
+      "D": "Zero"
+    },
+    "answer": "C",
+    "explanation": "No machine is more than 100% efficient."
+  },
+  {
+    "subject": "Physics",
+    "category": "Momentum",
+    "difficulty": "Medium",
+    "question": "Momentum is the product of",
+    "options": {
+      "A": "Mass and force",
+      "B": "Mass and velocity",
+      "C": "Weight and acceleration",
+      "D": "Force and time"
+    },
+    "answer": "B",
+    "explanation": "Momentum = mass × velocity."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gravitation",
+    "difficulty": "Easy",
+    "question": "The acceleration due to gravity on Earth is approximately",
+    "options": {
+      "A": "5.0 m/s²",
+      "B": "9.8 m/s²",
+      "C": "15.0 m/s²",
+      "D": "20.0 m/s²"
+    },
+    "answer": "B",
+    "explanation": "The standard value is about 9.8 m/s²."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Easy",
+    "question": "The SI unit of temperature is",
+    "options": {
+      "A": "Degree Celsius",
+      "B": "Kelvin",
+      "C": "Fahrenheit",
+      "D": "Joule"
+    },
+    "answer": "B",
+    "explanation": "The SI unit of temperature is Kelvin."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Medium",
+    "question": "Heat is transferred through solids mainly by",
+    "options": {
+      "A": "Radiation",
+      "B": "Conduction",
+      "C": "Convection",
+      "D": "Reflection"
+    },
+    "answer": "B",
+    "explanation": "Conduction is the primary mode in solids."
+  },
+  {
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "difficulty": "Easy",
+    "question": "Density is defined as",
+    "options": {
+      "A": "Mass × Volume",
+      "B": "Mass per unit volume",
+      "C": "Weight per unit area",
+      "D": "Force per unit mass"
+    },
+    "answer": "B",
+    "explanation": "Density = mass/volume."
+  },
+  {
+    "subject": "Physics",
+    "category": "Pressure",
+    "difficulty": "Medium",
+    "question": "Atmospheric pressure is measured using a",
+    "options": {
+      "A": "Hydrometer",
+      "B": "Barometer",
+      "C": "Thermometer",
+      "D": "Hygrometer"
+    },
+    "answer": "B",
+    "explanation": "A barometer measures atmospheric pressure."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Easy",
+    "question": "Sound waves cannot travel through",
+    "options": {
+      "A": "Air",
+      "B": "Water",
+      "C": "Steel",
+      "D": "Vacuum"
+    },
+    "answer": "D",
+    "explanation": "Sound requires a material medium."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Medium",
+    "question": "The splitting of white light into its component colours is called",
+    "options": {
+      "A": "Reflection",
+      "B": "Diffraction",
+      "C": "Dispersion",
+      "D": "Refraction"
+    },
+    "answer": "C",
+    "explanation": "Dispersion separates white light into different colours."
+  },
+  {
+    "subject": "Physics",
+    "category": "Work, Energy and Power",
+    "difficulty": "Easy",
+    "question": "Work is said to be done when a force",
+    "options": {
+      "A": "Acts on a body without displacement",
+      "B": "Produces displacement in the direction of the force",
+      "C": "Changes the shape of a body only",
+      "D": "Acts vertically upward"
+    },
+    "answer": "B",
+    "explanation": "Work is done when force causes displacement."
+  },
+  {
+    "subject": "Physics",
+    "category": "Simple Machines",
+    "difficulty": "Easy",
+    "question": "The efficiency of a machine is always",
+    "options": {
+      "A": "Greater than 100%",
+      "B": "Equal to 100%",
+      "C": "Less than or equal to 100%",
+      "D": "Zero"
+    },
+    "answer": "C",
+    "explanation": "No machine is more than 100% efficient."
+  },
+  {
+    "subject": "Physics",
+    "category": "Momentum",
+    "difficulty": "Medium",
+    "question": "Momentum is the product of",
+    "options": {
+      "A": "Mass and force",
+      "B": "Mass and velocity",
+      "C": "Weight and acceleration",
+      "D": "Force and time"
+    },
+    "answer": "B",
+    "explanation": "Momentum = mass × velocity."
+  },
+  {
+    "subject": "Physics",
+    "category": "Gravitation",
+    "difficulty": "Easy",
+    "question": "The acceleration due to gravity on Earth is approximately",
+    "options": {
+      "A": "5.0 m/s²",
+      "B": "9.8 m/s²",
+      "C": "15.0 m/s²",
+      "D": "20.0 m/s²"
+    },
+    "answer": "B",
+    "explanation": "The standard value is about 9.8 m/s²."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Easy",
+    "question": "The SI unit of temperature is",
+    "options": {
+      "A": "Degree Celsius",
+      "B": "Kelvin",
+      "C": "Fahrenheit",
+      "D": "Joule"
+    },
+    "answer": "B",
+    "explanation": "The SI unit of temperature is Kelvin."
+  },
+  {
+    "subject": "Physics",
+    "category": "Heat",
+    "difficulty": "Medium",
+    "question": "Heat is transferred through solids mainly by",
+    "options": {
+      "A": "Radiation",
+      "B": "Conduction",
+      "C": "Convection",
+      "D": "Reflection"
+    },
+    "answer": "B",
+    "explanation": "Conduction is the primary mode in solids."
+  },
+  {
+    "subject": "Physics",
+    "category": "Properties of Matter",
+    "difficulty": "Easy",
+    "question": "Density is defined as",
+    "options": {
+      "A": "Mass × Volume",
+      "B": "Mass per unit volume",
+      "C": "Weight per unit area",
+      "D": "Force per unit mass"
+    },
+    "answer": "B",
+    "explanation": "Density = mass/volume."
+  },
+  {
+    "subject": "Physics",
+    "category": "Pressure",
+    "difficulty": "Medium",
+    "question": "Atmospheric pressure is measured using a",
+    "options": {
+      "A": "Hydrometer",
+      "B": "Barometer",
+      "C": "Thermometer",
+      "D": "Hygrometer"
+    },
+    "answer": "B",
+    "explanation": "A barometer measures atmospheric pressure."
+  },
+  {
+    "subject": "Physics",
+    "category": "Waves",
+    "difficulty": "Easy",
+    "question": "Sound waves cannot travel through",
+    "options": {
+      "A": "Air",
+      "B": "Water",
+      "C": "Steel",
+      "D": "Vacuum"
+    },
+    "answer": "D",
+    "explanation": "Sound requires a material medium."
+  },
+  {
+    "subject": "Physics",
+    "category": "Light",
+    "difficulty": "Medium",
+    "question": "The splitting of white light into its component colours is called",
+    "options": {
+      "A": "Reflection",
+      "B": "Diffraction",
+      "C": "Dispersion",
+      "D": "Refraction"
+    },
+    "answer": "C",
+    "explanation": "Dispersion separates white light into different colours."
+  }
+
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "subject": "Accounting",
+    "category": "Introduction to Accounting",
+    "difficulty": "Easy",
+    "question": "Accounting is best defined as",
+    "options": {
+      "A": "Recording only cash transactions",
+      "B": "The process of recording, classifying and summarizing financial transactions",
+      "C": "Buying and selling goods",
+      "D": "Managing human resources"
+    },
+    "answer": "B",
+    "explanation": "Accounting involves recording and summarizing financial data."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Introduction to Accounting",
+    "difficulty": "Easy",
+    "question": "The main purpose of accounting is to",
+    "options": {
+      "A": "Increase profit",
+      "B": "Provide financial information for decision making",
+      "C": "Reduce expenses only",
+      "D": "Hire staff"
+    },
+    "answer": "B",
+    "explanation": "Accounting helps in decision-making."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Basic Concepts",
+    "difficulty": "Medium",
+    "question": "Assets are",
+    "options": {
+      "A": "Debts owed",
+      "B": "Resources owned by a business",
+      "C": "Expenses only",
+      "D": "Losses"
+    },
+    "answer": "B",
+    "explanation": "Assets are resources owned by a business."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Basic Concepts",
+    "difficulty": "Easy",
+    "question": "Liabilities are",
+    "options": {
+      "A": "Money owed by a business",
+      "B": "Cash in hand",
+      "C": "Revenue",
+      "D": "Capital invested"
+    },
+    "answer": "A",
+    "explanation": "Liabilities are debts owed."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Basic Concepts",
+    "difficulty": "Easy",
+    "question": "Capital refers to",
+    "options": {
+      "A": "Money owed",
+      "B": "Owner’s investment in the business",
+      "C": "Expenses",
+      "D": "Losses"
+    },
+    "answer": "B",
+    "explanation": "Capital is owner’s investment."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Accounting Equation",
+    "difficulty": "Medium",
+    "question": "The accounting equation is",
+    "options": {
+      "A": "Assets = Liabilities - Capital",
+      "B": "Assets = Liabilities + Capital",
+      "C": "Capital = Assets - Liabilities",
+      "D": "Assets + Expenses = Profit"
+    },
+    "answer": "B",
+    "explanation": "Basic accounting equation is A = L + C."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Accounting Equation",
+    "difficulty": "Easy",
+    "question": "If assets increase, then",
+    "options": {
+      "A": "Liabilities or capital must also increase",
+      "B": "Profit decreases always",
+      "C": "Expenses stop",
+      "D": "Nothing happens"
+    },
+    "answer": "A",
+    "explanation": "Accounting equation must balance."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Double Entry",
+    "difficulty": "Medium",
+    "question": "Double entry system means",
+    "options": {
+      "A": "Recording once",
+      "B": "Every transaction has debit and credit entry",
+      "C": "Recording only income",
+      "D": "Recording only expenses"
+    },
+    "answer": "B",
+    "explanation": "Every transaction affects two accounts."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Double Entry",
+    "difficulty": "Easy",
+    "question": "Debit entry is used to record",
+    "options": {
+      "A": "Income only",
+      "B": "Increase in assets",
+      "C": "Liabilities only",
+      "D": "Capital only"
+    },
+    "answer": "B",
+    "explanation": "Debit increases assets."
+  },
+  {
+    "subject": "Accounting",
+    "category": "Double Entry",
+    "difficulty": "Medium",
+    "question": "Credit entry is used to record",
+    "options": {
+      "A": "Decrease in liabilities",
+      "B": "Increase in income or liabilities",
+      "C": "Increase in expenses",
+      "D": "Loss only"
+    },
+    "answer": "B",
+    "explanation": "Credit increases income/liabilities."
+  }
+]

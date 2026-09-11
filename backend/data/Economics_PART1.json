@@ -1,0 +1,706 @@
+[
+  {
+    "subject": "Economics",
+    "category": "Basic Economic Concepts",
+    "difficulty": "Easy",
+    "question": "Economics is primarily the study of how",
+    "options": {
+      "A": "Governments conduct elections",
+      "B": "People allocate scarce resources to satisfy unlimited wants",
+      "C": "Banks print money",
+      "D": "Businesses make profits only"
+    },
+    "answer": "B",
+    "explanation": "Economics studies how limited resources are allocated to satisfy unlimited human wants."
+  },
+  {
+    "subject": "Economics",
+    "category": "Basic Economic Concepts",
+    "difficulty": "Easy",
+    "question": "The basic economic problem facing every society is",
+    "options": {
+      "A": "Inflation",
+      "B": "Scarcity",
+      "C": "Unemployment",
+      "D": "Taxation"
+    },
+    "answer": "B",
+    "explanation": "Scarcity arises because resources are limited while human wants are unlimited."
+  },
+  {
+    "subject": "Economics",
+    "category": "Basic Economic Concepts",
+    "difficulty": "Medium",
+    "question": "Opportunity cost is best defined as",
+    "options": {
+      "A": "The price of a commodity",
+      "B": "The value of the next best alternative forgone",
+      "C": "The cost of production",
+      "D": "The amount of money saved"
+    },
+    "answer": "B",
+    "explanation": "Opportunity cost is the benefit sacrificed when one alternative is chosen over another."
+  },
+  {
+    "subject": "Economics",
+    "category": "Factors of Production",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a factor of production?",
+    "options": {
+      "A": "Land",
+      "B": "Labour",
+      "C": "Capital",
+      "D": "Weather"
+    },
+    "answer": "D",
+    "explanation": "The four factors of production are land, labour, capital, and entrepreneurship."
+  },
+  {
+    "subject": "Economics",
+    "category": "Factors of Production",
+    "difficulty": "Easy",
+    "question": "The reward for labour is",
+    "options": {
+      "A": "Rent",
+      "B": "Interest",
+      "C": "Wages",
+      "D": "Profit"
+    },
+    "answer": "C",
+    "explanation": "Labour receives wages or salaries as its reward."
+  },
+  {
+    "subject": "Economics",
+    "category": "Factors of Production",
+    "difficulty": "Medium",
+    "question": "The reward for entrepreneurship is",
+    "options": {
+      "A": "Profit",
+      "B": "Interest",
+      "C": "Rent",
+      "D": "Salary"
+    },
+    "answer": "A",
+    "explanation": "Entrepreneurs earn profit for organizing production and taking business risks."
+  },
+  {
+    "subject": "Economics",
+    "category": "Scale of Preference",
+    "difficulty": "Easy",
+    "question": "A scale of preference is",
+    "options": {
+      "A": "A list of goods arranged in order of importance",
+      "B": "A measure of inflation",
+      "C": "A type of tax",
+      "D": "A government budget"
+    },
+    "answer": "A",
+    "explanation": "A scale of preference ranks wants according to their importance."
+  },
+  {
+    "subject": "Economics",
+    "category": "Choice",
+    "difficulty": "Medium",
+    "question": "Economic choice is necessary because",
+    "options": {
+      "A": "Resources are unlimited",
+      "B": "Human wants are limited",
+      "C": "Resources are scarce relative to wants",
+      "D": "Prices never change"
+    },
+    "answer": "C",
+    "explanation": "Scarcity forces individuals and societies to make choices."
+  },
+  {
+    "subject": "Economics",
+    "category": "Production",
+    "difficulty": "Easy",
+    "question": "Production is the process of",
+    "options": {
+      "A": "Destroying goods",
+      "B": "Creating utility by producing goods and services",
+      "C": "Paying wages",
+      "D": "Collecting taxes"
+    },
+    "answer": "B",
+    "explanation": "Production creates utility by making goods and services available."
+  },
+  {
+    "subject": "Economics",
+    "category": "Consumption",
+    "difficulty": "Easy",
+    "question": "Consumption refers to",
+    "options": {
+      "A": "The use of goods and services to satisfy wants",
+      "B": "The manufacture of goods",
+      "C": "The transportation of goods",
+      "D": "The storage of products"
+    },
+    "answer": "A",
+    "explanation": "Consumption is the final use of goods and services to satisfy human wants."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Production",
+    "difficulty": "Medium",
+    "question": "Utility in Economics means",
+    "options": {
+      "A": "The amount of money spent",
+      "B": "The usefulness or satisfaction derived from consuming a good or service",
+      "C": "The cost of production",
+      "D": "The quantity of goods produced"
+    },
+    "answer": "B",
+    "explanation": "Utility is the satisfaction a consumer derives from consuming goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Production",
+    "difficulty": "Easy",
+    "question": "The creation of form utility takes place when",
+    "options": {
+      "A": "Goods are manufactured into finished products",
+      "B": "Goods are transported",
+      "C": "Goods are stored",
+      "D": "Goods are advertised"
+    },
+    "answer": "A",
+    "explanation": "Form utility is created by changing raw materials into finished goods."
+  },
+  {
+    "subject": "Economics",
+    "category": "Distribution",
+    "difficulty": "Easy",
+    "question": "The movement of goods from producers to consumers is known as",
+    "options": {
+      "A": "Consumption",
+      "B": "Distribution",
+      "C": "Investment",
+      "D": "Saving"
+    },
+    "answer": "B",
+    "explanation": "Distribution ensures goods reach consumers through appropriate channels."
+  },
+  {
+    "subject": "Economics",
+    "category": "Exchange",
+    "difficulty": "Medium",
+    "question": "Barter is the exchange of",
+    "options": {
+      "A": "Money for goods",
+      "B": "Goods for goods",
+      "C": "Money for services only",
+      "D": "Foreign currencies"
+    },
+    "answer": "B",
+    "explanation": "Barter is the direct exchange of goods and services without using money."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "The primary function of money is to serve as",
+    "options": {
+      "A": "A medium of exchange",
+      "B": "A type of investment only",
+      "C": "A luxury good",
+      "D": "A production machine"
+    },
+    "answer": "A",
+    "explanation": "Money facilitates the exchange of goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a function of money?",
+    "options": {
+      "A": "Store of value",
+      "B": "Medium of exchange",
+      "C": "Measure of value",
+      "D": "Producer of goods"
+    },
+    "answer": "D",
+    "explanation": "Money does not produce goods; it facilitates economic transactions."
+  },
+  {
+    "subject": "Economics",
+    "category": "Demand",
+    "difficulty": "Easy",
+    "question": "Demand is defined as",
+    "options": {
+      "A": "Desire for a commodity only",
+      "B": "Willingness and ability to buy a commodity at a given price",
+      "C": "Quantity produced",
+      "D": "Quantity supplied"
+    },
+    "answer": "B",
+    "explanation": "Demand requires both willingness and purchasing power."
+  },
+  {
+    "subject": "Economics",
+    "category": "Demand",
+    "difficulty": "Medium",
+    "question": "According to the law of demand, when price increases, quantity demanded will",
+    "options": {
+      "A": "Increase",
+      "B": "Remain constant",
+      "C": "Decrease",
+      "D": "Double"
+    },
+    "answer": "C",
+    "explanation": "The law of demand states that price and quantity demanded are inversely related."
+  },
+  {
+    "subject": "Economics",
+    "category": "Supply",
+    "difficulty": "Easy",
+    "question": "Supply refers to the",
+    "options": {
+      "A": "Quantity of a commodity producers are willing and able to offer for sale",
+      "B": "Need for a commodity",
+      "C": "Consumption of goods",
+      "D": "Importation of goods"
+    },
+    "answer": "A",
+    "explanation": "Supply is the amount producers are willing and able to sell at different prices."
+  },
+  {
+    "subject": "Economics",
+    "category": "Supply",
+    "difficulty": "Medium",
+    "question": "The law of supply states that, other things being equal, when price rises, quantity supplied will",
+    "options": {
+      "A": "Decrease",
+      "B": "Remain unchanged",
+      "C": "Increase",
+      "D": "Become zero"
+    },
+    "answer": "C",
+    "explanation": "Higher prices generally encourage producers to supply more goods."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Market",
+    "difficulty": "Easy",
+    "question": "The price at which quantity demanded equals quantity supplied is called",
+    "options": {
+      "A": "Market price",
+      "B": "Equilibrium price",
+      "C": "Retail price",
+      "D": "Wholesale price"
+    },
+    "answer": "B",
+    "explanation": "Equilibrium price is the price at which demand equals supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market",
+    "difficulty": "Medium",
+    "question": "A situation where quantity demanded exceeds quantity supplied results in",
+    "options": {
+      "A": "Surplus",
+      "B": "Shortage",
+      "C": "Equilibrium",
+      "D": "Inflation"
+    },
+    "answer": "B",
+    "explanation": "A shortage occurs when demand is greater than supply."
+  },
+  {
+    "subject": "Economics",
+    "category": "Market",
+    "difficulty": "Medium",
+    "question": "When quantity supplied exceeds quantity demanded, the market experiences",
+    "options": {
+      "A": "Deficit",
+      "B": "Shortage",
+      "C": "Surplus",
+      "D": "Inflation"
+    },
+    "answer": "C",
+    "explanation": "A surplus occurs when producers supply more than consumers demand."
+  },
+  {
+    "subject": "Economics",
+    "category": "Price Theory",
+    "difficulty": "Easy",
+    "question": "One major factor affecting demand is",
+    "options": {
+      "A": "Consumer income",
+      "B": "Soil type",
+      "C": "Rainfall",
+      "D": "Altitude"
+    },
+    "answer": "A",
+    "explanation": "Income affects consumers' ability to purchase goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Price Theory",
+    "difficulty": "Medium",
+    "question": "An increase in consumers' income will normally increase demand for",
+    "options": {
+      "A": "Normal goods",
+      "B": "Inferior goods only",
+      "C": "Counterfeit goods",
+      "D": "Illegal goods"
+    },
+    "answer": "A",
+    "explanation": "Demand for normal goods generally rises as income increases."
+  },
+  {
+    "subject": "Economics",
+    "category": "Elasticity",
+    "difficulty": "Medium",
+    "question": "Price elasticity of demand measures the responsiveness of",
+    "options": {
+      "A": "Supply to taxation",
+      "B": "Quantity demanded to changes in price",
+      "C": "Income to expenditure",
+      "D": "Population to inflation"
+    },
+    "answer": "B",
+    "explanation": "Price elasticity of demand shows how quantity demanded changes when price changes."
+  },
+  {
+    "subject": "Economics",
+    "category": "Elasticity",
+    "difficulty": "Easy",
+    "question": "Demand is said to be perfectly inelastic when",
+    "options": {
+      "A": "Quantity demanded changes greatly with price",
+      "B": "Quantity demanded does not change with price",
+      "C": "Price falls to zero",
+      "D": "Supply exceeds demand"
+    },
+    "answer": "B",
+    "explanation": "Perfectly inelastic demand means quantity demanded remains constant despite price changes."
+  },
+  {
+    "subject": "Economics",
+    "category": "Production",
+    "difficulty": "Easy",
+    "question": "Production involves the",
+    "options": {
+      "A": "Creation of utility",
+      "B": "Destruction of goods",
+      "C": "Payment of taxes",
+      "D": "Collection of debts"
+    },
+    "answer": "A",
+    "explanation": "Production creates utility by making goods and services available."
+  },
+  {
+    "subject": "Economics",
+    "category": "Specialization",
+    "difficulty": "Medium",
+    "question": "Division of labour is important because it",
+    "options": {
+      "A": "Reduces efficiency",
+      "B": "Increases productivity",
+      "C": "Eliminates trade",
+      "D": "Discourages specialization"
+    },
+    "answer": "B",
+    "explanation": "Division of labour allows workers to specialize, improving efficiency and output."
+  },
+  {
+    "subject": "Economics",
+    "category": "Specialization",
+    "difficulty": "Medium",
+    "question": "One disadvantage of division of labour is",
+    "options": {
+      "A": "Higher productivity",
+      "B": "Worker boredom due to repetitive tasks",
+      "C": "Lower output",
+      "D": "Improved specialization"
+    },
+    "answer": "B",
+    "explanation": "Performing the same task repeatedly may reduce workers' motivation and job satisfaction."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Production",
+    "difficulty": "Easy",
+    "question": "The combination of land, labour, capital and entrepreneurship in producing goods is known as",
+    "options": {
+      "A": "Consumption",
+      "B": "Production",
+      "C": "Distribution",
+      "D": "Exchange"
+    },
+    "answer": "B",
+    "explanation": "Production involves combining the factors of production to create goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Factors of Production",
+    "difficulty": "Medium",
+    "question": "Capital as a factor of production refers to",
+    "options": {
+      "A": "Money kept in a bank only",
+      "B": "Man-made assets used to produce other goods and services",
+      "C": "Natural resources",
+      "D": "Human effort"
+    },
+    "answer": "B",
+    "explanation": "Capital includes machinery, tools, buildings, and equipment used in production."
+  },
+  {
+    "subject": "Economics",
+    "category": "Entrepreneurship",
+    "difficulty": "Easy",
+    "question": "An entrepreneur is a person who",
+    "options": {
+      "A": "Consumes goods only",
+      "B": "Organizes production and bears business risks",
+      "C": "Works only for wages",
+      "D": "Collects taxes"
+    },
+    "answer": "B",
+    "explanation": "The entrepreneur combines the factors of production and assumes the risks of business."
+  },
+  {
+    "subject": "Economics",
+    "category": "Business Organization",
+    "difficulty": "Medium",
+    "question": "A business owned and managed by one individual is called a",
+    "options": {
+      "A": "Partnership",
+      "B": "Public corporation",
+      "C": "Sole proprietorship",
+      "D": "Cooperative society"
+    },
+    "answer": "C",
+    "explanation": "A sole proprietorship is owned and controlled by a single individual."
+  },
+  {
+    "subject": "Economics",
+    "category": "Business Organization",
+    "difficulty": "Easy",
+    "question": "A partnership business is usually formed by",
+    "options": {
+      "A": "One person",
+      "B": "Two or more persons",
+      "C": "Government only",
+      "D": "Foreign investors only"
+    },
+    "answer": "B",
+    "explanation": "A partnership is a business owned by two or more people who share profits and responsibilities."
+  },
+  {
+    "subject": "Economics",
+    "category": "Cooperative Society",
+    "difficulty": "Medium",
+    "question": "The primary objective of a cooperative society is to",
+    "options": {
+      "A": "Maximize profits for shareholders only",
+      "B": "Promote the economic welfare of its members",
+      "C": "Collect government taxes",
+      "D": "Control inflation"
+    },
+    "answer": "B",
+    "explanation": "Cooperatives are established to serve the common interests of their members."
+  },
+  {
+    "subject": "Economics",
+    "category": "Money",
+    "difficulty": "Easy",
+    "question": "Money is most effective as a medium of exchange because it",
+    "options": {
+      "A": "Eliminates the problem of double coincidence of wants",
+      "B": "Increases inflation",
+      "C": "Reduces production",
+      "D": "Prevents saving"
+    },
+    "answer": "A",
+    "explanation": "Money removes the need for each trader to want exactly what the other has, unlike barter."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "A commercial bank primarily performs the function of",
+    "options": {
+      "A": "Printing currency",
+      "B": "Accepting deposits and granting loans",
+      "C": "Making government laws",
+      "D": "Collecting customs duties"
+    },
+    "answer": "B",
+    "explanation": "Commercial banks mobilize savings through deposits and provide loans to customers."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "The institution responsible for issuing currency in a country is the",
+    "options": {
+      "A": "Commercial Bank",
+      "B": "Central Bank",
+      "C": "Mortgage Bank",
+      "D": "Development Bank"
+    },
+    "answer": "B",
+    "explanation": "The Central Bank has the authority to issue a country's legal tender."
+  },
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Medium",
+    "question": "One major function of the Central Bank is to",
+    "options": {
+      "A": "Sell groceries",
+      "B": "Control the money supply and implement monetary policy",
+      "C": "Produce consumer goods",
+      "D": "Manage private companies"
+    },
+    "answer": "B",
+    "explanation": "The Central Bank regulates the financial system through monetary policy and control of the money supply."
+  }
+,
+  {
+    "subject": "Economics",
+    "category": "Banking",
+    "difficulty": "Easy",
+    "question": "Which of the following is a function of a commercial bank?",
+    "options": {
+      "A": "Printing currency",
+      "B": "Accepting deposits from customers",
+      "C": "Making national laws",
+      "D": "Conducting population census"
+    },
+    "answer": "B",
+    "explanation": "Commercial banks accept deposits, grant loans, and provide other banking services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "Medium",
+    "question": "Inflation is best defined as",
+    "options": {
+      "A": "A continuous fall in the general price level",
+      "B": "A sustained increase in the general price level",
+      "C": "An increase in unemployment only",
+      "D": "A reduction in money supply"
+    },
+    "answer": "B",
+    "explanation": "Inflation refers to a persistent rise in the average prices of goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Inflation",
+    "difficulty": "Easy",
+    "question": "One major effect of inflation is that it",
+    "options": {
+      "A": "Increases the purchasing power of money",
+      "B": "Reduces the purchasing power of money",
+      "C": "Eliminates unemployment",
+      "D": "Increases the value of money"
+    },
+    "answer": "B",
+    "explanation": "When prices rise, each unit of money buys fewer goods and services."
+  },
+  {
+    "subject": "Economics",
+    "category": "Unemployment",
+    "difficulty": "Medium",
+    "question": "A person who is willing and able to work but cannot find a job is described as",
+    "options": {
+      "A": "Employed",
+      "B": "Underemployed",
+      "C": "Unemployed",
+      "D": "Retired"
+    },
+    "answer": "C",
+    "explanation": "An unemployed person is available for work but unable to obtain employment."
+  },
+  {
+    "subject": "Economics",
+    "category": "Population",
+    "difficulty": "Easy",
+    "question": "Population census is conducted mainly to determine the",
+    "options": {
+      "A": "Number and characteristics of people in a country",
+      "B": "Amount of money in circulation",
+      "C": "Number of factories",
+      "D": "Quantity of agricultural products"
+    },
+    "answer": "A",
+    "explanation": "A population census provides data on the size and characteristics of a country's population."
+  },
+  {
+    "subject": "Economics",
+    "category": "Population",
+    "difficulty": "Medium",
+    "question": "A rapidly growing population without a corresponding increase in production is likely to",
+    "options": {
+      "A": "Improve living standards automatically",
+      "B": "Increase pressure on available resources",
+      "C": "Reduce demand for goods",
+      "D": "Eliminate unemployment"
+    },
+    "answer": "B",
+    "explanation": "Rapid population growth can place pressure on food, housing, jobs, and other resources."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Easy",
+    "question": "Tax is best defined as",
+    "options": {
+      "A": "A compulsory payment imposed by the government",
+      "B": "A voluntary contribution to charities",
+      "C": "A bank loan",
+      "D": "A business profit"
+    },
+    "answer": "A",
+    "explanation": "Taxes are compulsory payments made by individuals and organizations to the government."
+  },
+  {
+    "subject": "Economics",
+    "category": "Public Finance",
+    "difficulty": "Medium",
+    "question": "A tax charged at the same rate regardless of income is known as",
+    "options": {
+      "A": "Progressive tax",
+      "B": "Regressive tax",
+      "C": "Proportional tax",
+      "D": "Indirect tax"
+    },
+    "answer": "C",
+    "explanation": "A proportional tax applies the same percentage rate to all taxpayers."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Easy",
+    "question": "Imports are goods and services",
+    "options": {
+      "A": "Produced and sold within a country",
+      "B": "Bought from other countries",
+      "C": "Sold to foreign countries",
+      "D": "Manufactured by government agencies"
+    },
+    "answer": "B",
+    "explanation": "Imports are goods and services purchased from other countries."
+  },
+  {
+    "subject": "Economics",
+    "category": "International Trade",
+    "difficulty": "Medium",
+    "question": "Exports are important to a country because they",
+    "options": {
+      "A": "Reduce foreign exchange earnings",
+      "B": "Generate foreign exchange and promote economic growth",
+      "C": "Increase unemployment",
+      "D": "Discourage local production"
+    },
+    "answer": "B",
+    "explanation": "Exports earn foreign exchange, create jobs, and contribute to national income."
+  }
+]
