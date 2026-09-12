@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Exam = require("../models/Exam");
+const Exam = require("../models/exam");
 
 /* ================= START CBT ================= */
 router.post("/start", async (req, res) => {

@@ -83,7 +83,7 @@ app.get("/", (req, res) => {
 
 app.get("/test-questions", async (req, res) => {
   try {
-    const Question = require("./models/Question");
+    const Question = require("./models/question");
 
     const count =
       await Question.countDocuments();

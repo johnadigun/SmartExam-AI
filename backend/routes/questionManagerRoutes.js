@@ -4,7 +4,7 @@ const router = express.Router();
 
 const mongoose = require("mongoose");
 
-const Question = require("../models/Question");
+const Question = require("../models/question");
 const adminAuth = require("../middleware/adminAuth");
 
 console.log(

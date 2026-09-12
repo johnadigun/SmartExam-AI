@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
-const Question = require("../models/Question");
+const Question = require("../models/question");
 
 async function connectDatabase() {
   try {

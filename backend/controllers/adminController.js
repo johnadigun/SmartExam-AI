@@ -762,7 +762,7 @@ exports.getLiveSessions = async (req, res) => {
 
 exports.getCheatingReports = async (req, res) => {
   try {
-    const CbtSession = require("../models/CbtSession");
+    const CbtSession = require("../models/cbtSession");
 
     const flagged = await CbtSession.find({
       tabSwitchCount: { $gte: 3 },

@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Exam = require("../models/Exam");
+const Exam = require("../models/exam");
 const access = require("../middleware/accessMiddleware");
 
 /* ======================================================

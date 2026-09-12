@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const User = require("../models/User");
-const Exam = require("../models/Exam");
-const CbtSession = require("../models/CbtSession");
+const User = require("../models/user");
+const Exam = require("../models/exam");
+const CbtSession = require("../models/cbtSession");
 
 // ================= SUPER ADMIN DASHBOARD =================
 router.get("/dashboard", async (req, res) => {

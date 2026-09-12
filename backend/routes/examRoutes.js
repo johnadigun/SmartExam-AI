@@ -4,8 +4,8 @@ const router = express.Router();
 
 const mongoose = require("mongoose");
 
-const Question = require("../models/Question");
-const Exam = require("../models/Exam");
+const Question = require("../models/question");
+const Exam = require("../models/exam");
 const buildCategoryExam = require("../utils/categoryExamBuilder");
 
 const authMiddleware = require("../middleware/authMiddleware");

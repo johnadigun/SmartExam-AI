@@ -1,4 +1,4 @@
-const Question = require("../models/Question");
+const Question = require("../models/question");
 const CATEGORY_SUBJECTS = require("../config/categories");
 
 /* ==========================================================
