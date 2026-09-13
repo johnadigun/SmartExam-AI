@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import BASE_URL from "../api/api";
 import "./Login.css";
@@ -48,9 +50,14 @@ function Login() {
         localStorage.setItem("token", data.token);
 
         localStorage.setItem(
-  "user",
-  JSON.stringify(data.user)
-);
+          "user",
+          JSON.stringify(data.user)
+        );
+
+        setForm({
+          email: "",
+          password: "",
+        });
 
         alert("Login Successful");
 
@@ -77,28 +84,40 @@ function Login() {
           Computer Based Examination System
         </p>
 
-        <input
-          type="email"
-          name="email"
-          placeholder="Email Address"
-          value={form.email}
-          onChange={handleChange}
-        />
-
-        <input
-          type="password"
-          name="password"
-          placeholder="Password"
-          value={form.password}
-          onChange={handleChange}
-        />
-
-        <button
-          onClick={login}
-          disabled={loading}
+        <form
+          autoComplete="off"
+          onSubmit={(e) => {
+            e.preventDefault();
+            login();
+          }}
         >
-          {loading ? "Logging in..." : "Login"}
-        </button>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            value={form.email}
+            onChange={handleChange}
+            autoComplete="off"
+          />
+
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            value={form.password}
+            onChange={handleChange}
+            autoComplete="new-password"
+          />
+
+          <button
+            type="submit"
+            disabled={loading}
+          >
+            {loading ? "Logging in..." : "Login"}
+          </button>
+
+        </form>
 
         <p className="register-link">
           Don't have an account?
@@ -115,3 +134,4 @@ function Login() {
 }
 
 export default Login;
+

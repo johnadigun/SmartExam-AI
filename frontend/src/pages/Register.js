@@ -1,16 +1,19 @@
+
 import React, { useState } from "react";
 import BASE_URL from "../api/api";
 import "./Register.css";
 
 function Register() {
-  const [form, setForm] = useState({
+  const emptyForm = {
     firstName: "",
     middleName: "",
     lastName: "",
     phone: "",
     email: "",
     password: "",
-  });
+  };
+
+  const [form, setForm] = useState(emptyForm);
 
   const [loading, setLoading] = useState(false);
 
@@ -49,6 +52,9 @@ function Register() {
 
       alert("Registration Successful");
 
+      // Clear the form before leaving the registration page
+      setForm(emptyForm);
+
       window.location.href = "/";
     } catch (err) {
       console.log(err);
@@ -60,43 +66,51 @@ function Register() {
 
   return (
     <div className="register-page">
-
       <div className="register-card">
-
         <h1>SMART EXAM CBT</h1>
 
         <p className="register-subtitle">
           Student Registration
         </p>
 
-        <form onSubmit={submit}>
-
+        <form
+          onSubmit={submit}
+          autoComplete="off"
+        >
           <input
+            type="text"
             name="firstName"
             placeholder="First Name"
             value={form.firstName}
             onChange={handleChange}
+            autoComplete="off"
           />
 
           <input
+            type="text"
             name="middleName"
             placeholder="Middle Name"
             value={form.middleName}
             onChange={handleChange}
+            autoComplete="off"
           />
 
           <input
+            type="text"
             name="lastName"
             placeholder="Last Name"
             value={form.lastName}
             onChange={handleChange}
+            autoComplete="off"
           />
 
           <input
+            type="tel"
             name="phone"
             placeholder="Phone Number"
             value={form.phone}
             onChange={handleChange}
+            autoComplete="off"
           />
 
           <input
@@ -105,6 +119,7 @@ function Register() {
             placeholder="Email Address"
             value={form.email}
             onChange={handleChange}
+            autoComplete="off"
           />
 
           <input
@@ -113,6 +128,7 @@ function Register() {
             placeholder="Password"
             value={form.password}
             onChange={handleChange}
+            autoComplete="new-password"
           />
 
           <button
@@ -121,7 +137,6 @@ function Register() {
           >
             {loading ? "Registering..." : "Register"}
           </button>
-
         </form>
 
         <p className="login-link">
@@ -130,11 +145,8 @@ function Register() {
           <a href="/">
             Login Here
           </a>
-
         </p>
-
       </div>
-
     </div>
   );
 }
