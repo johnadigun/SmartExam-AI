@@ -88,11 +88,12 @@ export default function useDashboardActions() {
   };
 
   /*
-  Dashboard Practice button starts at Categories.
+  Dashboard Practice button now opens the
+  category-free random Practice Mode.
   */
 
   const openPractice = () => {
-    navigate(ROUTES.PRACTICE_CATEGORIES);
+    navigate(ROUTES.PRACTICE_MODE);
   };
 
   /* ======================================================

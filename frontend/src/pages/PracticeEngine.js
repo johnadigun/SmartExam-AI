@@ -1,10 +1,10 @@
+
 import React, { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import BASE_URL from "../api/api";
 import PracticeUI from "./PracticeUI";
 
 function PracticeEngine({
-  category,
   onFinish,
 }) {
   const navigate = useNavigate();
@@ -21,8 +21,7 @@ function PracticeEngine({
      STORAGE
   ========================================== */
 
-  const storageKey =
-    `PRACTICE_PROGRESS_${category}`;
+  const storageKey = "PRACTICE_PROGRESS";
 
   /* ==========================================
      STATES
@@ -47,123 +46,120 @@ function PracticeEngine({
   ========================================== */
 
   useEffect(() => {
-
     if (!user?.email) {
-
       navigate("/");
-
-      return;
-
     }
-
   }, [navigate, user]);
 
   /* ==========================================
-     LOAD PRACTICE QUESTIONS
+     LOAD RANDOM PRACTICE QUESTIONS
+     FROM ENTIRE QUESTION BANK
   ========================================== */
 
   useEffect(() => {
+    const loadPracticePaper = async () => {
+      try {
+        console.log(
+          "Practice Mode: Loading random questions from entire question bank..."
+        );
 
-  const loadPracticePaper = async () => {
+        console.log(
+          "Request URL:",
+          `${BASE_URL}/exams/practice`
+        );
 
-  try {
+        const token =
+          localStorage.getItem("token");
 
-    if (!category) {
+        const response = await fetch(
+          `${BASE_URL}/exams/practice`,
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
 
-      navigate("/practice");
+        const data = await response.json();
 
-      return;
+        console.log(
+          "HTTP Status:",
+          response.status
+        );
 
-    }
+        console.log(
+          "Practice Response:",
+          data
+        );
 
-    console.log(
-      "Request URL:",
-      `${BASE_URL}/exams/category/${encodeURIComponent(category)}?mode=practice`
-    );
+        if (!response.ok || !data.success) {
+          console.log(
+            "Backend Error:",
+            data.message
+          );
 
-console.log(
-  "Request URL:",
-  `${BASE_URL}/exams/category/${encodeURIComponent(category)}?mode=practice`
-);
+          alert(
+            data.message ||
+              "Unable to load Practice questions."
+          );
 
-const token = localStorage.getItem("token");
+          setExam(null);
 
-const response = await fetch(
-  `${BASE_URL}/exams/category/${encodeURIComponent(category)}?mode=practice`,
-  {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  }
-);
+          return;
+        }
 
-const data = await response.json();
+        console.log(
+          "Practice Exam Loaded:",
+          data.exam
+        );
 
-console.log("HTTP Status:", response.status);
-console.log("Practice Response:", data);
-
-if (!data.success) {
-
-  console.log("Backend Error:", data.message);
-
-  alert(data.message);
-
-  setExam(null);
-
-  return;
-}
-
-console.log("Exam Loaded:", data.exam);
-
-setExam(data.exam);
+        setExam(data.exam);
 
       } catch (err) {
-
-        console.log(err);
+        console.log(
+          "Practice Loading Error:",
+          err
+        );
 
         setExam(null);
 
       } finally {
-
         setLoading(false);
-
       }
-
     };
 
     loadPracticePaper();
 
-  }, [category, navigate]);
+  }, []);
 
   /* ==========================================
      QUESTIONS
   ========================================== */
 
   const questions = useMemo(() => {
-
     if (!exam) return [];
 
     return exam.questions || [];
 
   }, [exam]);
 
-  const totalQuestions = questions.length;
+  const totalQuestions =
+    questions.length;
 
-  const current = questions[currentQuestion];
+  const current =
+    questions[currentQuestion];
 
   /* ==========================================
      SELECT ANSWER
   ========================================== */
 
   const selectAnswer = (option) => {
-
     if (submitted) return;
 
     setAnswers((prev) => ({
       ...prev,
       [currentQuestion]: option,
     }));
-
   };
 
   /* ==========================================
@@ -171,30 +167,28 @@ setExam(data.exam);
   ========================================== */
 
   const nextQuestion = () => {
-
-    if (currentQuestion < totalQuestions - 1) {
-
-      setCurrentQuestion((prev) => prev + 1);
-
+    if (
+      currentQuestion <
+      totalQuestions - 1
+    ) {
+      setCurrentQuestion(
+        (prev) => prev + 1
+      );
     }
-
   };
 
   const previousQuestion = () => {
-
     if (currentQuestion > 0) {
-
-      setCurrentQuestion((prev) => prev - 1);
-
+      setCurrentQuestion(
+        (prev) => prev - 1
+      );
     }
-
   };
 
   const jumpToQuestion = (index) => {
-
     setCurrentQuestion(index);
-
   };
+
   /* ==========================================
      PRACTICE PROGRESS
   ========================================== */
@@ -203,111 +197,113 @@ setExam(data.exam);
     Object.keys(answers).length;
 
   const remainingQuestions =
-    totalQuestions - answeredQuestions;
+    totalQuestions -
+    answeredQuestions;
 
   /* ==========================================
      SCORE CALCULATION
   ========================================== */
 
   const calculateResult = () => {
-
     let score = 0;
 
     questions.forEach((q, index) => {
-
-      if (answers[index] === q.answer) {
-
+      if (
+        answers[index] ===
+        q.answer
+      ) {
         score++;
-
       }
-
     });
 
     const percentage =
       totalQuestions > 0
         ? Math.round(
-            (score / totalQuestions) * 100
+            (score /
+              totalQuestions) *
+              100
           )
         : 0;
 
     let grade = "F";
 
-    if (percentage >= 70) grade = "A";
-    else if (percentage >= 60) grade = "B";
-    else if (percentage >= 50) grade = "C";
-    else if (percentage >= 45) grade = "D";
-    else if (percentage >= 40) grade = "E";
+    if (percentage >= 70)
+      grade = "A";
+    else if (percentage >= 60)
+      grade = "B";
+    else if (percentage >= 50)
+      grade = "C";
+    else if (percentage >= 45)
+      grade = "D";
+    else if (percentage >= 40)
+      grade = "E";
 
     return {
       score,
       percentage,
       grade,
     };
-
   };
 
   /* ==========================================
      SUBMIT PRACTICE
   ========================================== */
 
- const submitPractice = () => {
+  const submitPractice = () => {
+    const confirmSubmit =
+      window.confirm(
+        "Submit Practice Test?"
+      );
 
-  const confirmSubmit = window.confirm(
-    "Submit Practice Test?"
-  );
+    if (!confirmSubmit) return;
 
-  if (!confirmSubmit) return;
+    const result =
+      calculateResult();
 
-  const result = calculateResult();
+    const payload = {
+      totalQuestions,
+      answeredQuestions,
+      score: result.score,
+      percentage: result.percentage,
+      grade: result.grade,
+      answers,
+      questions,
+      completedAt:
+        new Date(),
+    };
 
-  const payload = {
+    localStorage.setItem(
+      "practice_result",
+      JSON.stringify(payload)
+    );
 
-    category,
+    localStorage.removeItem(
+      storageKey
+    );
 
-    totalQuestions,
+    setSubmitted(true);
 
-    answeredQuestions,
-
-    score: result.score,
-
-    percentage: result.percentage,
-
-    grade: result.grade,
-
-    answers,
-
-    questions,
-
-    completedAt: new Date(),
-
+    if (onFinish) {
+      onFinish(payload);
+    } else {
+      navigate(
+        "/practice-result"
+      );
+    }
   };
-
-  localStorage.setItem(
-    "practice_result",
-    JSON.stringify(payload)
-  );
-
-  navigate("/practice-result");
-
-  setSubmitted(true);
-
-  if (onFinish) {
-
-    onFinish(payload);
-
-  }
-
-};
 
   /* ==========================================
      PRACTICE AGAIN
   ========================================== */
 
   const restartPractice = () => {
+    localStorage.removeItem(
+      storageKey
+    );
 
-    localStorage.removeItem(storageKey);
-
-    localStorage.removeItem("practice_result");
+    localStorage.removeItem(
+      "practice_result"
+    );
 
     setAnswers({});
 
@@ -316,29 +312,32 @@ setExam(data.exam);
     setSubmitted(false);
 
     window.location.reload();
-
   };
 
   /* ==========================================
      SHOW CORRECT ANSWERS
   ========================================== */
 
-  const isCorrect = (index, option) => {
-
-    return questions[index]?.answer === option;
-
+  const isCorrect = (
+    index,
+    option
+  ) => {
+    return (
+      questions[index]?.answer ===
+      option
+    );
   };
 
-  const isWrongSelection = (index, option) => {
-
+  const isWrongSelection = (
+    index,
+    option
+  ) => {
     return (
-
-      answers[index] === option &&
-
-      questions[index]?.answer !== option
-
+      answers[index] ===
+        option &&
+      questions[index]?.answer !==
+        option
     );
-
   };
 
   /* ==========================================
@@ -346,33 +345,26 @@ setExam(data.exam);
   ========================================== */
 
   useEffect(() => {
+    if (loading || submitted)
+      return;
 
-    if (loading) return;
+    if (!questions.length)
+      return;
 
     localStorage.setItem(
-
       storageKey,
-
       JSON.stringify({
-
         currentQuestion,
-
         answers,
-
       })
-
     );
 
   }, [
-
     answers,
-
     currentQuestion,
-
     loading,
-
-    storageKey,
-
+    submitted,
+    questions.length,
   ]);
 
   /* ==========================================
@@ -380,94 +372,112 @@ setExam(data.exam);
   ========================================== */
 
   useEffect(() => {
-
     if (loading) return;
 
     const saved =
-
-      localStorage.getItem(storageKey);
+      localStorage.getItem(
+        storageKey
+      );
 
     if (!saved) return;
 
     try {
+      const parsed =
+        JSON.parse(saved);
 
-      const parsed = JSON.parse(saved);
-
-      if (parsed.answers)
-
-        setAnswers(parsed.answers);
+      if (parsed.answers) {
+        setAnswers(
+          parsed.answers
+        );
+      }
 
       if (
-
         typeof parsed.currentQuestion ===
-
         "number"
-
       ) {
-
         setCurrentQuestion(
-
           parsed.currentQuestion
-
         );
-
       }
 
     } catch (err) {
-
-      console.log(err);
-
+      console.log(
+        "Practice progress restore error:",
+        err
+      );
     }
 
-  }, [loading, storageKey]);
+  }, [loading]);
 
-/* ==========================================
-   RENDER PRACTICE UI
-========================================== */
+  /* ==========================================
+     RENDER PRACTICE UI
+  ========================================== */
 
-return (
- <PracticeUI
-    exam={exam}
-    category={category}
+  return (
+    <PracticeUI
+      exam={exam}
 
-    loading={loading}
+      loading={loading}
 
-    started={started}
-    setStarted={setStarted}
+      started={started}
+      setStarted={setStarted}
 
-    current={current}
-    questions={questions}
+      current={current}
+      questions={questions}
 
-    currentQuestion={currentQuestion}
+      currentQuestion={
+        currentQuestion
+      }
 
-    totalQuestions={totalQuestions}
+      totalQuestions={
+        totalQuestions
+      }
 
-    answeredQuestions={answeredQuestions}
+      answeredQuestions={
+        answeredQuestions
+      }
 
-    remainingQuestions={remainingQuestions}
+      remainingQuestions={
+        remainingQuestions
+      }
 
-    answers={answers}
+      answers={answers}
 
-    submitted={submitted}
+      submitted={submitted}
 
-    nextQuestion={nextQuestion}
+      nextQuestion={
+        nextQuestion
+      }
 
-    previousQuestion={previousQuestion}
+      previousQuestion={
+        previousQuestion
+      }
 
-    jumpToQuestion={jumpToQuestion}
+      jumpToQuestion={
+        jumpToQuestion
+      }
 
-    selectAnswer={selectAnswer}
+      selectAnswer={
+        selectAnswer
+      }
 
-    submitPractice={submitPractice}
+      submitPractice={
+        submitPractice
+      }
 
-    restartPractice={restartPractice}
+      restartPractice={
+        restartPractice
+      }
 
-    isCorrect={isCorrect}
+      isCorrect={
+        isCorrect
+      }
 
-    isWrongSelection={isWrongSelection}
-  />
-);
-
+      isWrongSelection={
+        isWrongSelection
+      }
+    />
+  );
 }
 
 export default PracticeEngine;

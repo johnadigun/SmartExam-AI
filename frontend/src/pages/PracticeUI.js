@@ -1,9 +1,9 @@
+
 import React from "react";
 import "./PracticeMode.css";
 
 function PracticeUI({
   exam,
-  category,
   loading,
 
   started,
@@ -57,14 +57,19 @@ function PracticeUI({
      NO QUESTIONS
   ========================================== */
 
-  if (!exam || !questions || questions.length === 0) {
+  if (
+    !exam ||
+    !questions ||
+    questions.length === 0
+  ) {
     return (
       <div className="practice-loading">
 
         <h2>No Practice Questions Found</h2>
 
         <p>
-          Please return and choose another category.
+          There are currently no questions
+          available in the question bank.
         </p>
 
       </div>
@@ -81,9 +86,13 @@ function PracticeUI({
 
         <div className="practice-start-card">
 
-          <h2>SMARTEXAM PRACTICE MODE</h2>
+          <h2>
+            SMARTEXAM PRACTICE MODE
+          </h2>
 
-          <h3>{category}</h3>
+          <h3>
+            RANDOM PRACTICE TEST
+          </h3>
 
           <div className="practice-summary">
 
@@ -105,9 +114,14 @@ function PracticeUI({
           </div>
 
           <p>
-            This practice examination contains questions
-            selected from the
-            <strong> {category}</strong> category.
+            This practice examination contains
+            randomly selected questions from the
+            entire SmartExam question bank.
+          </p>
+
+          <p>
+            Questions may come from different
+            subjects and areas of study.
           </p>
 
           <p>
@@ -117,7 +131,9 @@ function PracticeUI({
 
           <button
             className="start-practice-btn"
-            onClick={() => setStarted(true)}
+            onClick={() =>
+              setStarted(true)
+            }
           >
             Start Practice
           </button>
@@ -140,12 +156,15 @@ function PracticeUI({
 
       <div className="practice-header">
 
-        <h2>{category} Practice Examination</h2>
+        <h2>
+          SMARTEXAM PRACTICE EXAMINATION
+        </h2>
 
         <div className="practice-header-info">
 
           <span>
-            Question {currentQuestion + 1} of {totalQuestions}
+            Question {currentQuestion + 1} of{" "}
+            {totalQuestions}
           </span>
 
           <span>
@@ -165,17 +184,23 @@ function PracticeUI({
       <div className="practice-progress">
 
         <div className="progress-card">
-          <h3>{currentQuestion + 1}</h3>
+          <h3>
+            {currentQuestion + 1}
+          </h3>
           <span>Current</span>
         </div>
 
         <div className="progress-card">
-          <h3>{answeredQuestions}</h3>
+          <h3>
+            {answeredQuestions}
+          </h3>
           <span>Answered</span>
         </div>
 
         <div className="progress-card">
-          <h3>{remainingQuestions}</h3>
+          <h3>
+            {remainingQuestions}
+          </h3>
           <span>Remaining</span>
         </div>
 
@@ -184,6 +209,7 @@ function PracticeUI({
       {/* ================= MAIN WORKSPACE ================= */}
 
       <div className="practice-layout">
+
         {/* ================= QUESTION SECTION ================= */}
 
         <div className="question-section">
@@ -202,47 +228,72 @@ function PracticeUI({
 
               <div className="practice-options">
 
-                {current.options.map((option, index) => {
+                {current.options.map(
+                  (option, index) => {
 
-                  let className = "practice-option";
+                    let className =
+                      "practice-option";
 
-                  if (submitted) {
+                    if (submitted) {
 
-                    if (isCorrect(currentQuestion, option)) {
-                      className += " correct";
+                      if (
+                        isCorrect(
+                          currentQuestion,
+                          option
+                        )
+                      ) {
+                        className +=
+                          " correct";
+                      }
+                      else if (
+                        isWrongSelection(
+                          currentQuestion,
+                          option
+                        )
+                      ) {
+                        className +=
+                          " wrong";
+                      }
+
                     }
-                    else if (
-                      isWrongSelection(currentQuestion, option)
-                    ) {
-                      className += " wrong";
-                    }
+
+                    return (
+
+                      <label
+                        key={index}
+                        className={
+                          className
+                        }
+                      >
+
+                        <input
+                          type="radio"
+                          name={`question-${currentQuestion}`}
+                          checked={
+                            answers[
+                              currentQuestion
+                            ] === option
+                          }
+                          disabled={
+                            submitted
+                          }
+                          onChange={() =>
+                            selectAnswer(
+                              option
+                            )
+                          }
+                        />
+
+                        <span>
+                          {option}
+                        </span>
+
+                      </label>
+
+                    );
 
                   }
-
-                  return (
-
-                    <label
-                      key={index}
-                      className={className}
-                    >
-
-                      <input
-                        type="radio"
-                        name={`question-${currentQuestion}`}
-                        checked={
-                          answers[currentQuestion] === option
-                        }
-                        disabled={submitted}
-                        onChange={() => selectAnswer(option)}
-                      />
-
-                      <span>{option}</span>
-
-                    </label>
-
-                  );
-
-                })}
+                )}
 
               </div>
 
@@ -256,16 +307,25 @@ function PracticeUI({
 
             <button
               className="practice-btn"
-              disabled={currentQuestion === 0}
-              onClick={previousQuestion}
+              disabled={
+                currentQuestion === 0
+              }
+              onClick={
+                previousQuestion
+              }
             >
               Previous
             </button>
 
             <button
               className="practice-btn"
-              disabled={currentQuestion === totalQuestions - 1}
-              onClick={nextQuestion}
+              disabled={
+                currentQuestion ===
+                totalQuestions - 1
+              }
+              onClick={
+                nextQuestion
+              }
             >
               Next
             </button>
@@ -273,7 +333,9 @@ function PracticeUI({
             <button
               className="submit-practice-btn"
               disabled={submitted}
-              onClick={submitPractice}
+              onClick={
+                submitPractice
+              }
             >
               Submit Practice
             </button>
@@ -286,34 +348,54 @@ function PracticeUI({
 
         <aside className="practice-palette">
 
-          <h3>Question Palette</h3>
+          <h3>
+            Question Palette
+          </h3>
 
           <div className="palette-grid">
-            {questions.map((question, index) => {
 
-              let className = "palette-btn";
+            {questions.map(
+              (question, index) => {
 
-              if (answers[index]) {
-                className += " answered";
+                let className =
+                  "palette-btn";
+
+                if (answers[index]) {
+                  className +=
+                    " answered";
+                }
+
+                if (
+                  index ===
+                  currentQuestion
+                ) {
+                  className +=
+                    " active";
+                }
+
+                return (
+
+                  <button
+                    key={
+                      question._id ||
+                      index
+                    }
+                    className={
+                      className
+                    }
+                    onClick={() =>
+                      jumpToQuestion(
+                        index
+                      )
+                    }
+                  >
+                    {index + 1}
+                  </button>
+
+                );
+
               }
-
-              if (index === currentQuestion) {
-                className += " active";
-              }
-
-              return (
-
-                <button
-                  key={question._id || index}
-                  className={className}
-                  onClick={() => jumpToQuestion(index)}
-                >
-                  {index + 1}
-                </button>
-
-              );
-
-            })}
+            )}
 
           </div>
 
@@ -323,7 +405,9 @@ function PracticeUI({
 
               <span className="legend-box current"></span>
 
-              <span>Current</span>
+              <span>
+                Current
+              </span>
 
             </div>
 
@@ -331,7 +415,9 @@ function PracticeUI({
 
               <span className="legend-box answered"></span>
 
-              <span>Answered</span>
+              <span>
+                Answered
+              </span>
 
             </div>
 
@@ -339,7 +425,9 @@ function PracticeUI({
 
               <span className="legend-box unanswered"></span>
 
-              <span>Unanswered</span>
+              <span>
+                Unanswered
+              </span>
 
             </div>
 
@@ -367,7 +455,9 @@ function PracticeUI({
 
             <button
               className="start-practice-btn"
-              onClick={restartPractice}
+              onClick={
+                restartPractice
+              }
             >
               Practice Again
             </button>
@@ -377,6 +467,7 @@ function PracticeUI({
         </div>
 
       )}
+
     </div>
 
   );

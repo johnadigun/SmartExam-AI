@@ -57,6 +57,102 @@ router.get(
 
 
 /* =========================================================
+   RANDOM PRACTICE MODE
+   ENTIRE QUESTION BANK
+   NO CATEGORY REQUIRED
+   ========================================================= */
+
+router.get(
+  "/practice",
+  authMiddleware,
+  async (req, res) => {
+    try {
+      console.log(
+        "================================"
+      );
+
+      console.log(
+        "RANDOM PRACTICE MODE"
+      );
+
+      console.log(
+        "Loading entire question bank..."
+      );
+
+      let questions =
+        await Question.find({}).lean();
+
+      console.log(
+        "TOTAL QUESTIONS FOUND:",
+        questions.length
+      );
+
+      if (!questions.length) {
+        return res.status(404).json({
+          success: false,
+          message:
+            "No questions found in the question bank.",
+        });
+      }
+
+      /* -------------------------
+         RANDOMIZE ENTIRE BANK
+         ------------------------- */
+
+      questions =
+        questions.sort(
+          () => Math.random() - 0.5
+        );
+
+      /* -------------------------
+         SELECT 50 QUESTIONS
+         ------------------------- */
+
+      questions =
+        questions.slice(
+          0,
+          50
+        );
+
+      console.log(
+        "FINAL PRACTICE QUESTIONS:",
+        questions.length
+      );
+
+      console.log(
+        "================================"
+      );
+
+      return res.json({
+        success: true,
+
+        exam: {
+          title:
+            "SmartExam Practice Test",
+
+          duration: 30,
+
+          questions,
+        },
+      });
+    } catch (err) {
+      console.error(
+        "RANDOM PRACTICE ERROR:",
+        err
+      );
+
+      return res.status(500).json({
+        success: false,
+        message:
+          err.message ||
+          "Unable to load Practice questions.",
+      });
+    }
+  }
+);
+
+
+/* =========================================================
    SUBJECT CBT MODE
    ========================================================= */
 

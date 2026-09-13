@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./PracticeResult.css";
@@ -7,34 +8,61 @@ function PracticeResult() {
   const navigate = useNavigate();
   const [result, setResult] = useState(null);
 
+  /* ==========================================
+     LOAD RESULT
+  ========================================== */
+
   useEffect(() => {
 
-    const saved = localStorage.getItem("practice_result");
+    const saved =
+      localStorage.getItem(
+        "practice_result"
+      );
 
     if (!saved) {
-      navigate("/practice-categories");
+      navigate("/practice-mode");
       return;
     }
 
     try {
-      setResult(JSON.parse(saved));
+
+      setResult(
+        JSON.parse(saved)
+      );
+
     } catch (err) {
-      console.log(err);
-      navigate("/practice-categories");
+
+      console.log(
+        "Practice result loading error:",
+        err
+      );
+
+      navigate("/practice-mode");
     }
 
   }, [navigate]);
 
+  /* ==========================================
+     LOADING
+  ========================================== */
+
   if (!result) {
     return (
       <div className="practice-result-loading">
-        <h2>Loading Practice Result...</h2>
+
+        <h2>
+          Loading Practice Result...
+        </h2>
+
       </div>
     );
   }
 
+  /* ==========================================
+     RESULT DATA
+  ========================================== */
+
   const {
-    category,
     totalQuestions,
     answeredQuestions,
     score,
@@ -42,41 +70,94 @@ function PracticeResult() {
     grade,
   } = result;
 
-  const wrongAnswers = answeredQuestions - score;
-  const unansweredQuestions = totalQuestions - answeredQuestions;
+  const wrongAnswers =
+    answeredQuestions - score;
+
+  const unansweredQuestions =
+    totalQuestions -
+    answeredQuestions;
+
+  /* ==========================================
+     PERFORMANCE REMARK
+  ========================================== */
 
   let remark = "";
 
   if (percentage >= 70) {
-    remark = "Excellent Performance";
+
+    remark =
+      "Excellent Performance";
+
   } else if (percentage >= 60) {
-    remark = "Very Good Performance";
+
+    remark =
+      "Very Good Performance";
+
   } else if (percentage >= 50) {
-    remark = "Good Performance";
+
+    remark =
+      "Good Performance";
+
   } else if (percentage >= 45) {
-    remark = "Fair Performance";
+
+    remark =
+      "Fair Performance";
+
   } else {
-    remark = "Needs More Practice";
+
+    remark =
+      "Needs More Practice";
+
   }
 
+  /* ==========================================
+     PRACTICE AGAIN
+  ========================================== */
+
   const practiceAgain = () => {
-    localStorage.removeItem("practice_result");
+
+    localStorage.removeItem(
+      "practice_result"
+    );
+
+    localStorage.removeItem(
+      "PRACTICE_PROGRESS"
+    );
+
     navigate("/practice-mode");
   };
 
-  const chooseCategory = () => {
-    localStorage.removeItem("practice_result");
-    navigate("/practice-categories");
-  };
+  /* ==========================================
+     REVIEW ANSWERS
+  ========================================== */
 
   const reviewAnswers = () => {
+
     navigate("/review-answers");
+
   };
 
+  /* ==========================================
+     RETURN TO DASHBOARD
+  ========================================== */
+
   const dashboard = () => {
-    localStorage.removeItem("practice_result");
+
+    localStorage.removeItem(
+      "practice_result"
+    );
+
+    localStorage.removeItem(
+      "PRACTICE_PROGRESS"
+    );
+
     navigate("/dashboard");
+
   };
+
+  /* ==========================================
+     RENDER
+  ========================================== */
 
   return (
 
@@ -84,50 +165,84 @@ function PracticeResult() {
 
       <div className="practice-result-card">
 
-        <h1>SMARTEXAM PRACTICE RESULT</h1>
+        <h1>
+          SMARTEXAM PRACTICE RESULT
+        </h1>
 
-        <h2>{remark}</h2>
+        <h2>
+          {remark}
+        </h2>
 
         <div className="result-summary">
 
           <div className="summary-row">
-            <span>Category</span>
-            <strong>{category}</strong>
+            <span>
+              Total Questions
+            </span>
+
+            <strong>
+              {totalQuestions}
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Total Questions</span>
-            <strong>{totalQuestions}</strong>
+            <span>
+              Answered
+            </span>
+
+            <strong>
+              {answeredQuestions}
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Answered</span>
-            <strong>{answeredQuestions}</strong>
+            <span>
+              Correct Answers
+            </span>
+
+            <strong>
+              {score}
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Correct Answers</span>
-            <strong>{score}</strong>
+            <span>
+              Wrong Answers
+            </span>
+
+            <strong>
+              {wrongAnswers}
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Wrong Answers</span>
-            <strong>{wrongAnswers}</strong>
+            <span>
+              Not Answered
+            </span>
+
+            <strong>
+              {unansweredQuestions}
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Not Answered</span>
-            <strong>{unansweredQuestions}</strong>
+            <span>
+              Percentage
+            </span>
+
+            <strong>
+              {percentage}%
+            </strong>
           </div>
 
           <div className="summary-row">
-            <span>Percentage</span>
-            <strong>{percentage}%</strong>
-          </div>
+            <span>
+              Grade
+            </span>
 
-          <div className="summary-row">
-            <span>Grade</span>
-            <strong>{grade}</strong>
+            <strong>
+              {grade}
+            </strong>
           </div>
 
         </div>
@@ -136,30 +251,29 @@ function PracticeResult() {
 
           <button
             className="practice-btn"
-            onClick={practiceAgain}
+            onClick={
+              practiceAgain
+            }
           >
             Practice Again
           </button>
 
           <button
             className="review-btn"
-            onClick={reviewAnswers}
+            onClick={
+              reviewAnswers
+            }
           >
             Review Answers
           </button>
 
           <button
-            className="category-btn"
-            onClick={chooseCategory}
-          >
-            Categories
-          </button>
-
-          <button
             className="dashboard-btn"
-            onClick={dashboard}
+            onClick={
+              dashboard
+            }
           >
-            Dashboard
+            Return to Dashboard
           </button>
 
         </div>
