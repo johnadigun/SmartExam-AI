@@ -5,17 +5,100 @@
    CLEAN COMPACT QUESTION + QUESTION PALETTE
 ========================================================== */
 
-/* ==========================================================
-   RESET
-========================================================== */
-
 * {
+  box-sizing: border-box;
+}
+
+.practice-page-wrapper,
+.practice-page-wrapper * {
   box-sizing: border-box;
 }
 
 .practice-container,
 .practice-container * {
   box-sizing: border-box;
+}
+
+/* ==========================================================
+   PAGE WRAPPER
+========================================================== */
+
+.practice-page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 0 16px 16px;
+  color: #1f2937;
+  font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+/* ==========================================================
+   PRACTICE TOP BAR
+========================================================== */
+
+.practice-topbar {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto 12px;
+  padding: 13px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+.practice-topbar-title {
+  min-width: 0;
+}
+
+.practice-topbar-title h1 {
+  margin: 0 0 3px;
+  color: #1565c0;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.practice-topbar-title p {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ==========================================================
+   RETURN BUTTON
+========================================================== */
+
+.practice-return-btn {
+  flex-shrink: 0;
+  border: 1px solid #1565c0;
+  border-radius: 7px;
+  padding: 9px 14px;
+  background: #ffffff;
+  color: #1565c0;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.practice-return-btn:hover {
+  background: #1565c0;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.practice-return-btn:active {
+  transform: translateY(0);
 }
 
 /* ==========================================================
@@ -26,7 +109,7 @@
   width: 100%;
   min-height: 100vh;
   background: #f4f7fb;
-  padding: 16px;
+  padding: 0 0 16px;
   color: #1f2937;
   font-family:
     "Segoe UI",
@@ -654,8 +737,31 @@
 
 @media (max-width: 768px) {
 
+  .practice-page-wrapper {
+    padding: 0 10px 10px;
+  }
+
+  .practice-topbar {
+    padding: 12px;
+    align-items: stretch;
+    flex-direction: column;
+    border-radius: 0 0 9px 9px;
+  }
+
+  .practice-topbar-title h1 {
+    font-size: 17px;
+  }
+
+  .practice-topbar-title p {
+    font-size: 11px;
+  }
+
+  .practice-return-btn {
+    width: 100%;
+  }
+
   .practice-container {
-    padding: 10px;
+    padding: 0 0 10px;
   }
 
   .practice-start-container {
@@ -742,8 +848,6 @@
   .practice-option span {
     font-size: 14px;
   }
-
-  /* Keep navigation visible and organized */
 
   .practice-navigation {
     display: grid;

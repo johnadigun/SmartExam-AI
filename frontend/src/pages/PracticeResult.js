@@ -8,16 +8,14 @@ function PracticeResult() {
   const navigate = useNavigate();
   const [result, setResult] = useState(null);
 
-  /* ==========================================
+  /* ==========================================================
      LOAD RESULT
-  ========================================== */
+  ========================================================== */
 
   useEffect(() => {
 
     const saved =
-      localStorage.getItem(
-        "practice_result"
-      );
+      localStorage.getItem("practice_result");
 
     if (!saved) {
       navigate("/practice-mode");
@@ -26,9 +24,7 @@ function PracticeResult() {
 
     try {
 
-      setResult(
-        JSON.parse(saved)
-      );
+      setResult(JSON.parse(saved));
 
     } catch (err) {
 
@@ -38,29 +34,38 @@ function PracticeResult() {
       );
 
       navigate("/practice-mode");
+
     }
 
   }, [navigate]);
 
-  /* ==========================================
+  /* ==========================================================
      LOADING
-  ========================================== */
+  ========================================================== */
 
   if (!result) {
+
     return (
+
       <div className="practice-result-loading">
 
-        <h2>
-          Loading Practice Result...
-        </h2>
+        <div className="practice-result-loading-card">
+
+          <h2>
+            Loading Practice Result...
+          </h2>
+
+        </div>
 
       </div>
+
     );
+
   }
 
-  /* ==========================================
+  /* ==========================================================
      RESULT DATA
-  ========================================== */
+  ========================================================== */
 
   const {
     totalQuestions,
@@ -74,45 +79,39 @@ function PracticeResult() {
     answeredQuestions - score;
 
   const unansweredQuestions =
-    totalQuestions -
-    answeredQuestions;
+    totalQuestions - answeredQuestions;
 
-  /* ==========================================
+  /* ==========================================================
      PERFORMANCE REMARK
-  ========================================== */
+  ========================================================== */
 
   let remark = "";
 
   if (percentage >= 70) {
 
-    remark =
-      "Excellent Performance";
+    remark = "Excellent Performance";
 
   } else if (percentage >= 60) {
 
-    remark =
-      "Very Good Performance";
+    remark = "Very Good Performance";
 
   } else if (percentage >= 50) {
 
-    remark =
-      "Good Performance";
+    remark = "Good Performance";
 
   } else if (percentage >= 45) {
 
-    remark =
-      "Fair Performance";
+    remark = "Fair Performance";
 
   } else {
 
-    remark =
-      "Needs More Practice";
+    remark = "Needs More Practice";
 
   }
 
-  /* ==========================================
+  /* ==========================================================
      PRACTICE AGAIN
-  ========================================== */
+  ========================================================== */
 
   const practiceAgain = () => {
 
@@ -125,11 +124,12 @@ function PracticeResult() {
     );
 
     navigate("/practice-mode");
+
   };
 
-  /* ==========================================
+  /* ==========================================================
      REVIEW ANSWERS
-  ========================================== */
+  ========================================================== */
 
   const reviewAnswers = () => {
 
@@ -137,9 +137,9 @@ function PracticeResult() {
 
   };
 
-  /* ==========================================
+  /* ==========================================================
      RETURN TO DASHBOARD
-  ========================================== */
+  ========================================================== */
 
   const dashboard = () => {
 
@@ -155,9 +155,9 @@ function PracticeResult() {
 
   };
 
-  /* ==========================================
+  /* ==========================================================
      RENDER
-  ========================================== */
+  ========================================================== */
 
   return (
 
@@ -165,84 +165,65 @@ function PracticeResult() {
 
       <div className="practice-result-card">
 
-        <h1>
-          SMARTEXAM PRACTICE RESULT
-        </h1>
+        <div className="practice-result-header">
 
-        <h2>
-          {remark}
-        </h2>
+          <h1>
+            SMARTEXAM PRACTICE RESULT
+          </h1>
+
+          <p>
+            {remark}
+          </p>
+
+        </div>
+
+        <div className="result-score">
+
+          <strong>
+            {percentage}%
+          </strong>
+
+          <span>
+            Final Score
+          </span>
+
+        </div>
 
         <div className="result-summary">
 
           <div className="summary-row">
-            <span>
-              Total Questions
-            </span>
-
-            <strong>
-              {totalQuestions}
-            </strong>
+            <span>Total Questions</span>
+            <strong>{totalQuestions}</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Answered
-            </span>
-
-            <strong>
-              {answeredQuestions}
-            </strong>
+            <span>Answered</span>
+            <strong>{answeredQuestions}</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Correct Answers
-            </span>
-
-            <strong>
-              {score}
-            </strong>
+            <span>Correct Answers</span>
+            <strong>{score}</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Wrong Answers
-            </span>
-
-            <strong>
-              {wrongAnswers}
-            </strong>
+            <span>Wrong Answers</span>
+            <strong>{wrongAnswers}</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Not Answered
-            </span>
-
-            <strong>
-              {unansweredQuestions}
-            </strong>
+            <span>Not Answered</span>
+            <strong>{unansweredQuestions}</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Percentage
-            </span>
-
-            <strong>
-              {percentage}%
-            </strong>
+            <span>Percentage</span>
+            <strong>{percentage}%</strong>
           </div>
 
           <div className="summary-row">
-            <span>
-              Grade
-            </span>
-
-            <strong>
-              {grade}
-            </strong>
+            <span>Grade</span>
+            <strong>{grade}</strong>
           </div>
 
         </div>
@@ -250,28 +231,25 @@ function PracticeResult() {
         <div className="result-buttons">
 
           <button
+            type="button"
             className="practice-btn"
-            onClick={
-              practiceAgain
-            }
+            onClick={practiceAgain}
           >
             Practice Again
           </button>
 
           <button
+            type="button"
             className="review-btn"
-            onClick={
-              reviewAnswers
-            }
+            onClick={reviewAnswers}
           >
             Review Answers
           </button>
 
           <button
+            type="button"
             className="dashboard-btn"
-            onClick={
-              dashboard
-            }
+            onClick={dashboard}
           >
             Return to Dashboard
           </button>
