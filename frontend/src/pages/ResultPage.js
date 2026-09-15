@@ -41,6 +41,20 @@ function ResultPage() {
   };
 
   /* ======================================================
+     REVIEW ANSWERS
+  ====================================================== */
+
+  const reviewAnswers = () => {
+    if (!result) return;
+
+    navigate("/review-answers", {
+      state: {
+        result,
+      },
+    });
+  };
+
+  /* ======================================================
      PRINT CERTIFICATE
   ====================================================== */
 
@@ -313,6 +327,7 @@ function ResultPage() {
 
         <div className="stat-card">
           <span>Score</span>
+
           <strong>
             {result.score} / {result.total}
           </strong>
@@ -320,6 +335,7 @@ function ResultPage() {
 
         <div className="stat-card">
           <span>Percentage</span>
+
           <strong>
             {result.percentage}%
           </strong>
@@ -327,6 +343,7 @@ function ResultPage() {
 
         <div className="stat-card">
           <span>Grade</span>
+
           <strong>
             {result.grade || "-"}
           </strong>
@@ -372,6 +389,14 @@ function ResultPage() {
 
         <button
           type="button"
+          className="action-btn review-btn"
+          onClick={reviewAnswers}
+        >
+          Review Answers
+        </button>
+
+        <button
+          type="button"
           className="action-btn dashboard-btn"
           onClick={() => navigate("/dashboard")}
         >
@@ -400,9 +425,15 @@ function ResultPage() {
         {(result.questions || []).map(
           (question, index) => {
 
+            /*
+              Normal CBT stores answers using
+              the question ID.
+            */
+
             const userAnswer =
               result.answers?.[question._id] ??
-              result.answers?.[index];
+              result.answers?.[index] ??
+              result.answers?.[String(index)];
 
             const correct =
               userAnswer === question.answer;

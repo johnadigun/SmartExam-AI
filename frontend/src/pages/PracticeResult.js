@@ -4,192 +4,104 @@ import { useNavigate } from "react-router-dom";
 import "./PracticeResult.css";
 
 function PracticeResult() {
-
   const navigate = useNavigate();
   const [result, setResult] = useState(null);
 
-  /* ==========================================================
-     LOAD RESULT
-  ========================================================== */
-
   useEffect(() => {
-
-    const saved =
-      localStorage.getItem("practice_result");
+    const saved = localStorage.getItem("practice_result");
 
     if (!saved) {
-      navigate("/practice-mode");
+      navigate("/practice-categories");
       return;
     }
 
     try {
-
       setResult(JSON.parse(saved));
-
     } catch (err) {
-
-      console.log(
-        "Practice result loading error:",
-        err
-      );
-
-      navigate("/practice-mode");
-
+      console.error("Unable to load practice result:", err);
+      localStorage.removeItem("practice_result");
+      navigate("/practice-categories");
     }
-
   }, [navigate]);
 
-  /* ==========================================================
-     LOADING
-  ========================================================== */
-
   if (!result) {
-
     return (
-
       <div className="practice-result-loading">
-
         <div className="practice-result-loading-card">
-
-          <h2>
-            Loading Practice Result...
-          </h2>
-
+          <h2>Loading Practice Result...</h2>
         </div>
-
       </div>
-
     );
-
   }
 
-  /* ==========================================================
-     RESULT DATA
-  ========================================================== */
-
   const {
-    totalQuestions,
-    answeredQuestions,
-    score,
-    percentage,
-    grade,
+    category = "Practice",
+    totalQuestions = 0,
+    answeredQuestions = 0,
+    score = 0,
+    percentage = 0,
+    grade = "N/A",
   } = result;
 
-  const wrongAnswers =
-    answeredQuestions - score;
-
-  const unansweredQuestions =
-    totalQuestions - answeredQuestions;
-
-  /* ==========================================================
-     PERFORMANCE REMARK
-  ========================================================== */
+  const wrongAnswers = Math.max(answeredQuestions - score, 0);
+  const unansweredQuestions = Math.max(
+    totalQuestions - answeredQuestions,
+    0
+  );
 
   let remark = "";
 
   if (percentage >= 70) {
-
     remark = "Excellent Performance";
-
   } else if (percentage >= 60) {
-
     remark = "Very Good Performance";
-
   } else if (percentage >= 50) {
-
     remark = "Good Performance";
-
   } else if (percentage >= 45) {
-
     remark = "Fair Performance";
-
   } else {
-
     remark = "Needs More Practice";
-
   }
 
-  /* ==========================================================
-     PRACTICE AGAIN
-  ========================================================== */
-
   const practiceAgain = () => {
-
-    localStorage.removeItem(
-      "practice_result"
-    );
-
-    localStorage.removeItem(
-      "PRACTICE_PROGRESS"
-    );
-
+    localStorage.removeItem("practice_result");
     navigate("/practice-mode");
-
   };
 
-  /* ==========================================================
-     REVIEW ANSWERS
-  ========================================================== */
+  const chooseCategory = () => {
+    localStorage.removeItem("practice_result");
+    navigate("/practice-categories");
+  };
 
   const reviewAnswers = () => {
-
     navigate("/review-answers");
-
   };
-
-  /* ==========================================================
-     RETURN TO DASHBOARD
-  ========================================================== */
 
   const dashboard = () => {
-
-    localStorage.removeItem(
-      "practice_result"
-    );
-
-    localStorage.removeItem(
-      "PRACTICE_PROGRESS"
-    );
-
+    localStorage.removeItem("practice_result");
     navigate("/dashboard");
-
   };
 
-  /* ==========================================================
-     RENDER
-  ========================================================== */
-
   return (
-
     <div className="practice-result-container">
-
       <div className="practice-result-card">
 
         <div className="practice-result-header">
-
-          <h1>
-            SMARTEXAM PRACTICE RESULT
-          </h1>
-
-          <p>
-            {remark}
-          </p>
-
+          <h1>SMARTEXAM PRACTICE RESULT</h1>
+          <p>{remark}</p>
         </div>
 
         <div className="result-score">
-
-          <strong>
-            {percentage}%
-          </strong>
-
-          <span>
-            Final Score
-          </span>
-
+          <strong>{percentage}%</strong>
+          <span>Final Score</span>
         </div>
 
         <div className="result-summary">
+
+          <div className="summary-row">
+            <span>Category</span>
+            <strong>{category}</strong>
+          </div>
 
           <div className="summary-row">
             <span>Total Questions</span>
@@ -248,20 +160,26 @@ function PracticeResult() {
 
           <button
             type="button"
+            className="category-btn"
+            onClick={chooseCategory}
+          >
+            Categories
+          </button>
+
+          <button
+            type="button"
             className="dashboard-btn"
             onClick={dashboard}
           >
-            Return to Dashboard
+            Dashboard
           </button>
 
         </div>
 
       </div>
-
     </div>
-
   );
-
 }
 
 export default PracticeResult;
+

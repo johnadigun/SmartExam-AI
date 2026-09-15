@@ -1,233 +1,375 @@
 
 /* ==========================================================
    SMARTEXAM CBT SYSTEM
-   COMPACT PRACTICE RESULT
+   PRACTICE RESULT
+   COMPLETE MASTER CSS
+   COMPACT + RESPONSIVE
 ========================================================== */
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* ==========================================================
    PAGE
 ========================================================== */
 
 .practice-result-container {
-  width: 100%;
-  min-height: 100vh;
-  padding: 28px 16px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background: #f4f7fb;
-  font-family:
-    "Segoe UI",
-    Tahoma,
-    Geneva,
-    Verdana,
-    sans-serif;
-  color: #1f2937;
+
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 28px 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: #f4f7fb;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+    color: #1f2937;
 }
+
 
 /* ==========================================================
    RESULT CARD
 ========================================================== */
 
 .practice-result-card {
-  width: 100%;
-  max-width: 650px;
-  margin: 15px auto;
-  padding: 22px;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.07);
+
+    width: 100%;
+    max-width: 650px;
+
+    margin: 15px auto;
+    padding: 22px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.07);
 }
+
 
 /* ==========================================================
    HEADER
 ========================================================== */
 
 .practice-result-header {
-  text-align: center;
-  padding-bottom: 13px;
-  border-bottom: 1px solid #e5e7eb;
+
+    text-align: center;
+
+    padding-bottom: 13px;
+
+    border-bottom: 1px solid #e5e7eb;
 }
+
 
 .practice-result-header h1 {
-  margin: 0;
-  color: #1565c0;
-  font-size: 20px;
-  font-weight: 800;
-  letter-spacing: 0.2px;
+
+    margin: 0;
+
+    color: #1565c0;
+
+    font-size: 20px;
+    font-weight: 800;
+
+    letter-spacing: 0.2px;
 }
 
+
 .practice-result-header p {
-  margin: 6px 0 0;
-  color: #374151;
-  font-size: 14px;
-  font-weight: 700;
+
+    margin: 6px 0 0;
+
+    color: #374151;
+
+    font-size: 14px;
+    font-weight: 700;
 }
+
 
 /* ==========================================================
    SCORE
 ========================================================== */
 
 .result-score {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 9px;
-  margin: 15px 0;
-  padding: 11px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 9px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 9px;
+
+    margin: 15px 0;
+    padding: 11px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
 }
+
 
 .result-score strong {
-  color: #1565c0;
-  font-size: 27px;
-  font-weight: 800;
+
+    color: #1565c0;
+
+    font-size: 27px;
+    font-weight: 800;
 }
 
+
 .result-score span {
-  color: #64748b;
-  font-size: 13px;
-  font-weight: 600;
+
+    color: #64748b;
+
+    font-size: 13px;
+    font-weight: 600;
 }
+
 
 /* ==========================================================
    SUMMARY
 ========================================================== */
 
 .result-summary {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 7px 10px;
+
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 7px 10px;
 }
+
 
 .summary-row {
-  min-height: 42px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 11px;
-  background: #f8fafc;
-  border: 1px solid #e5e7eb;
-  border-radius: 7px;
+
+    min-height: 42px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 8px 11px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
 }
+
 
 .summary-row span {
-  color: #64748b;
-  font-size: 12px;
-  font-weight: 600;
+
+    color: #64748b;
+
+    font-size: 12px;
+    font-weight: 600;
 }
 
+
 .summary-row strong {
-  color: #1565c0;
-  font-size: 14px;
-  font-weight: 800;
+
+    color: #1565c0;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    text-align: right;
 }
+
 
 /* ==========================================================
    BUTTONS
 ========================================================== */
 
 .result-buttons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-top: 16px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 8px;
+
+    margin-top: 16px;
 }
+
 
 .result-buttons button {
-  min-height: 39px;
-  border: none;
-  border-radius: 7px;
-  padding: 9px 10px;
-  font-family: inherit;
-  font-size: 12px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.2s ease;
+
+    min-height: 39px;
+
+    border: none;
+    border-radius: 7px;
+
+    padding: 9px 10px;
+
+    font-family: inherit;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
 }
+
 
 .result-buttons button:hover {
-  transform: translateY(-1px);
+
+    transform: translateY(-1px);
 }
 
-.result-buttons button:active {
-  transform: translateY(0);
-}
+
+/* ==========================================================
+   PRACTICE AGAIN
+========================================================== */
 
 .practice-btn {
-  background: #1565c0;
-  color: #ffffff;
+
+    background: #1565c0;
+
+    color: #ffffff;
 }
+
 
 .practice-btn:hover {
-  background: #0d47a1;
+
+    background: #0d47a1;
 }
+
+
+/* ==========================================================
+   REVIEW
+========================================================== */
 
 .review-btn {
-  background: #e8f1fc;
-  color: #1565c0;
-  border: 1px solid #c7dcf5 !important;
+
+    background: #e8f1fc;
+
+    color: #1565c0;
+
+    border: 1px solid #c7dcf5 !important;
 }
+
 
 .review-btn:hover {
-  background: #dceafb;
+
+    background: #dceafb;
 }
+
+
+/* ==========================================================
+   CATEGORIES
+========================================================== */
+
+.category-btn {
+
+    background: #f1f5f9;
+
+    color: #374151;
+
+    border: 1px solid #dbe2ea !important;
+}
+
+
+.category-btn:hover {
+
+    background: #e2e8f0;
+}
+
+
+/* ==========================================================
+   DASHBOARD
+========================================================== */
 
 .dashboard-btn {
-  background: #f1f5f9;
-  color: #374151;
-  border: 1px solid #dbe2ea !important;
+
+    background: #455a64;
+
+    color: #ffffff;
 }
 
+
 .dashboard-btn:hover {
-  background: #e2e8f0;
+
+    background: #37474f;
 }
+
 
 /* ==========================================================
    LOADING
 ========================================================== */
 
 .practice-result-loading {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background: #f4f7fb;
-  font-family:
-    "Segoe UI",
-    Tahoma,
-    Geneva,
-    Verdana,
-    sans-serif;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    background: #f4f7fb;
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
 }
+
 
 .practice-result-loading-card {
-  width: 100%;
-  max-width: 420px;
-  padding: 25px;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+
+    width: 100%;
+    max-width: 420px;
+
+    padding: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow:
+        0 4px 14px rgba(15, 23, 42, 0.06);
 }
 
+
 .practice-result-loading-card h2 {
-  margin: 0;
-  color: #1565c0;
-  font-size: 18px;
+
+    margin: 0;
+
+    color: #1565c0;
+
+    font-size: 18px;
 }
+
 
 /* ==========================================================
    TABLET
@@ -235,16 +377,19 @@
 
 @media (max-width: 700px) {
 
-  .practice-result-card {
-    max-width: 600px;
-    padding: 19px;
-  }
+    .practice-result-card {
 
-  .result-buttons {
-    grid-template-columns: 1fr;
-  }
+        max-width: 600px;
 
+        padding: 19px;
+    }
+
+    .result-buttons {
+
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
 
 /* ==========================================================
    MOBILE
@@ -252,50 +397,68 @@
 
 @media (max-width: 480px) {
 
-  .practice-result-container {
-    padding: 12px 9px;
-  }
+    .practice-result-container {
 
-  .practice-result-card {
-    margin: 5px auto;
-    padding: 15px;
-    border-radius: 10px;
-  }
+        padding: 12px 9px;
+    }
 
-  .practice-result-header h1 {
-    font-size: 17px;
-  }
+    .practice-result-card {
 
-  .practice-result-header p {
-    font-size: 13px;
-  }
+        margin: 5px auto;
 
-  .result-score {
-    margin: 11px 0;
-    padding: 9px;
-  }
+        padding: 15px;
 
-  .result-score strong {
-    font-size: 24px;
-  }
+        border-radius: 10px;
+    }
 
-  .result-summary {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
+    .practice-result-header h1 {
 
-  .summary-row {
-    min-height: 39px;
-    padding: 7px 10px;
-  }
+        font-size: 17px;
+    }
 
-  .result-buttons {
-    margin-top: 12px;
-    gap: 7px;
-  }
+    .practice-result-header p {
 
-  .result-buttons button {
-    min-height: 38px;
-  }
+        font-size: 13px;
+    }
 
+    .result-score {
+
+        margin: 11px 0;
+
+        padding: 9px;
+    }
+
+    .result-score strong {
+
+        font-size: 24px;
+    }
+
+    .result-summary {
+
+        grid-template-columns: 1fr;
+
+        gap: 6px;
+    }
+
+    .summary-row {
+
+        min-height: 39px;
+
+        padding: 7px 10px;
+    }
+
+    .result-buttons {
+
+        grid-template-columns: 1fr;
+
+        margin-top: 12px;
+
+        gap: 7px;
+    }
+
+    .result-buttons button {
+
+        min-height: 38px;
+    }
 }
+

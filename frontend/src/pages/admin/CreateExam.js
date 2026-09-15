@@ -1,4 +1,4 @@
-
+﻿
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import BASE_URL from "../../api/api";
@@ -237,11 +237,7 @@ export default function CreateExam() {
 
     setDraftSaved(false);
   };
-
-  /* ========================================================
-     CONVERT QUESTION TO EDITOR FORMAT
-  ======================================================== */
-
+ 
   const questionToEditor = (question) => ({
     question: question?.question || "",
     optionA: question?.optionA || "",
@@ -262,6 +258,7 @@ export default function CreateExam() {
     optionC: String(question.optionC || "").trim(),
     optionD: String(question.optionD || "").trim(),
     answer: String(question.answer || "").trim(),
+    difficulty: String(question.difficulty || aiDifficulty || 'Medium').trim(),
   });
 
   /* ========================================================
@@ -788,6 +785,12 @@ export default function CreateExam() {
             question.Answer ||
             question.correctAnswer ||
             "",
+
+          difficulty:
+            question.difficulty ||
+            question.Difficulty ||
+            (aiDifficulty === 'Mixed' ? 'Medium' : aiDifficulty) ||
+            'Medium',
         }))
         .map(convertQuestionForBackend)
         .filter(
@@ -1168,7 +1171,7 @@ export default function CreateExam() {
             </span>
 
             <span className="status-separator">
-              •
+              â€¢
             </span>
 
             <span>
@@ -1956,4 +1959,6 @@ export default function CreateExam() {
     </div>
   );
 }
+
+
 

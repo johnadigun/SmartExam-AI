@@ -52,7 +52,7 @@ function PracticeMode() {
           className="practice-return-btn"
           onClick={returnToCategories}
         >
-          Back to Categories
+          ← Return to Categories
         </button>
 
       </div>

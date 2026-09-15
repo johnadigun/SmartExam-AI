@@ -15,6 +15,7 @@ const ALLOWED_DIFFICULTIES = [
   "Easy",
   "Medium",
   "Hard",
+  "Very Hard",
   "Mixed",
 ];
 
@@ -24,11 +25,35 @@ const ALLOWED_QUESTION_TYPES = [
   "Mixed",
 ];
 
+const NORMALIZED_DIFFICULTIES = [
+  "easy",
+  "medium",
+  "hard",
+  "very hard",
+];
+
 function cleanText(value) {
   return String(value || "").trim();
 }
 
-function cleanQuestions(questions) {
+function normalizeDifficulty(value) {
+  const difficulty = cleanText(value).toLowerCase();
+
+  if (difficulty === "easy") return "Easy";
+  if (difficulty === "medium") return "Medium";
+  if (difficulty === "hard") return "Hard";
+  if (
+    difficulty === "very hard" ||
+    difficulty === "veryhard" ||
+    difficulty === "very-hard"
+  ) {
+    return "Very Hard";
+  }
+
+  return "";
+}
+
+function cleanQuestions(questions, requestedDifficulty) {
   if (!Array.isArray(questions)) {
     return [];
   }
@@ -49,6 +74,34 @@ function cleanQuestions(questions) {
         : [];
 
       const answer = cleanText(item.answer);
+
+      /*
+      ------------------------------------------------------
+      DIFFICULTY
+      ------------------------------------------------------
+      */
+
+      let difficulty = normalizeDifficulty(item.difficulty);
+
+      /*
+      If the AI does not return a difficulty, use the
+      administrator's requested difficulty.
+
+      For Mixed generation, Medium is used as the safe
+      fallback rather than falsely calling a question Hard
+      or Very Hard.
+      */
+
+      if (!difficulty) {
+        if (
+          requestedDifficulty &&
+          requestedDifficulty !== "Mixed"
+        ) {
+          difficulty = requestedDifficulty;
+        } else {
+          difficulty = "Medium";
+        }
+      }
 
       if (!question) {
         return null;
@@ -78,6 +131,7 @@ function cleanQuestions(questions) {
         question,
         options,
         answer,
+        difficulty,
       };
     })
     .filter(Boolean);
@@ -188,6 +242,7 @@ Generate questions dealing with genuinely current or recent
 information relevant to the selected subject.
 
 Only use information you are confident is factually correct.
+
 Do not manufacture current events, dates, office holders,
 statistics, policies, discoveries or other changing facts.
 
@@ -228,15 +283,144 @@ appropriate to the examination category.
 
     /*
     ------------------------------------------------------
+    DIFFICULTY INSTRUCTIONS
+    ------------------------------------------------------
+    */
+
+    let difficultyInstruction = "";
+
+    if (selectedDifficulty === "Easy") {
+      difficultyInstruction = `
+DIFFICULTY LEVEL: EASY
+
+Questions may test fundamental knowledge, basic understanding
+and straightforward application.
+
+Do not make questions unnecessarily difficult.
+`;
+    }
+
+    if (selectedDifficulty === "Medium") {
+      difficultyInstruction = `
+DIFFICULTY LEVEL: MEDIUM
+
+Do NOT produce trivial recall questions.
+
+Questions should require genuine understanding and application
+of the subject matter.
+
+Where appropriate, require the candidate to:
+- interpret information
+- apply a known principle
+- perform a moderate calculation
+- distinguish between closely related concepts
+- select the best answer from plausible alternatives
+
+The question should require thought, but should remain suitable
+for a competent secondary-school candidate.
+`;
+    }
+
+    if (selectedDifficulty === "Hard") {
+      difficultyInstruction = `
+DIFFICULTY LEVEL: HARD
+
+These must be genuinely challenging examination questions.
+
+Do NOT merely rename a simple recall question as Hard.
+
+Questions should require one or more of the following where
+appropriate to the subject:
+
+- multi-step reasoning
+- application of concepts in unfamiliar situations
+- interpretation of data, information or scenarios
+- combining two or more relevant concepts
+- non-trivial calculation
+- careful analysis
+- comparison of closely related principles
+- identification of the best conclusion from plausible alternatives
+
+Incorrect options must be realistic and competitive.
+
+Avoid giveaway wording.
+
+A well-prepared candidate should need to think carefully before
+selecting the answer.
+`;
+    }
+
+    if (selectedDifficulty === "Very Hard") {
+      difficultyInstruction = `
+DIFFICULTY LEVEL: VERY HARD
+
+These must be genuinely demanding examination questions.
+
+Do NOT create a normal question and simply label it Very Hard.
+
+Questions should challenge a strong candidate through appropriate
+use of:
+
+- multi-concept reasoning
+- multi-step analysis
+- unfamiliar but valid applications
+- complex interpretation
+- difficult calculations where relevant
+- subtle distinctions between closely related concepts
+- analysis of scenarios, data, diagrams or statements where
+  appropriate
+- selecting the best conclusion when several options appear
+  initially plausible
+
+The question must remain academically fair and answerable from
+the required curriculum knowledge.
+
+Distractors must be sophisticated, plausible and clearly wrong
+only after proper reasoning.
+
+Avoid obscure trivia and avoid ambiguity.
+
+Very Hard means intellectually demanding, not poorly written.
+`;
+    }
+
+    if (selectedDifficulty === "Mixed") {
+      difficultyInstruction = `
+DIFFICULTY LEVEL: MIXED
+
+Create a meaningful mixture of Easy, Medium, Hard and Very Hard
+questions.
+
+The difficulty must be genuinely different between questions.
+
+Do not simply label easy questions as Hard or Very Hard.
+
+Where appropriate, include:
+- straightforward foundational questions
+- application questions
+- multi-step reasoning questions
+- demanding analytical questions
+
+Return the actual difficulty level for every question.
+`;
+    }
+
+    /*
+    ------------------------------------------------------
     PROFESSIONAL EXAMINATION PROMPT
     ------------------------------------------------------
     */
 
     const prompt = `
-You are a professional examination question setter.
+You are a professional examination question setter with expertise
+in Nigerian secondary-school examination standards.
 
 You are generating REAL examination-quality multiple-choice
 questions for the SmartExam Computer-Based Testing system.
+
+The questions must be substantially better than simple classroom
+recall questions when the requested difficulty is Medium, Hard or
+Very Hard.
 
 EXAMINATION INFORMATION
 
@@ -246,7 +430,7 @@ ${cleanSubject}
 Category:
 ${cleanCategory}
 
-Difficulty:
+Requested Difficulty:
 ${selectedDifficulty}
 
 Question Type:
@@ -259,6 +443,36 @@ ${topicInstruction}
 
 ${questionTypeInstruction}
 
+${difficultyInstruction}
+
+==========================================================
+NIGERIAN EXAMINATION STANDARD
+==========================================================
+
+Where appropriate, write questions at the level expected from
+serious preparation for major Nigerian secondary-school and
+entrance examinations such as JAMB, WAEC and NECO.
+
+Do not claim that a question is officially from JAMB, WAEC, NECO
+or another examination unless it actually is.
+
+The goal is to reproduce the QUALITY and intellectual standard
+of serious examination preparation, not to falsely reproduce
+official examination questions.
+
+Questions should test:
+
+- knowledge
+- understanding
+- application
+- analysis
+- interpretation
+- reasoning
+- problem solving
+- subject-specific judgment
+
+Use the appropriate skills for the selected subject.
+
 ==========================================================
 QUALITY STANDARD
 ==========================================================
@@ -268,15 +482,18 @@ Every question MUST be:
 1. A genuine, meaningful examination question.
 2. Academically accurate.
 3. Relevant to the selected subject.
-4. Appropriate for the selected examination category.
+4. Appropriate to the selected examination category.
 5. Written in clear professional English.
-6. Suitable for serious student examination practice.
+6. Suitable for serious examination preparation.
 7. Properly constructed as a multiple-choice question.
 8. Free from ambiguity.
 9. Free from grammatical errors.
 10. Different from every other generated question.
 11. Written so that there is ONE clearly correct answer.
 12. Written with three plausible incorrect alternatives.
+
+For Hard and Very Hard questions, the reasoning requirement must
+be visibly greater than a basic recall question.
 
 Do NOT generate:
 
@@ -294,7 +511,7 @@ Do NOT generate:
 - fake quotations
 - fake examination references
 - explanations disguised as questions
-- "What is the definition of..." repeatedly
+- repeated definition-only questions
 - questions that reveal the answer through wording
 - "All of the above"
 - "None of the above"
@@ -319,18 +536,20 @@ Distribute correct answers naturally across the questions.
 The correct answer must exactly match one of the option strings.
 
 ==========================================================
-NIGERIAN EXAMINATION QUALITY
+DIFFICULTY INTEGRITY
 ==========================================================
 
-Where appropriate, use the standard expected of serious
-Nigerian secondary-school examination preparation.
+The difficulty returned for each question must represent its
+ACTUAL intellectual difficulty.
 
-Questions should test knowledge, understanding, application,
-analysis or appropriate subject-specific reasoning rather than
-simply repeating trivial facts.
+Never downgrade a Hard or Very Hard question merely to make it
+easier.
 
-Do not claim that a question is officially from JAMB, WAEC,
-NECO or another examination unless it actually is.
+Never upgrade an Easy or simple recall question merely by changing
+its difficulty label.
+
+For a requested single difficulty, every generated question should
+match that requested difficulty.
 
 ==========================================================
 OUTPUT
@@ -354,10 +573,18 @@ Use exactly this structure:
         "Option text",
         "Option text"
       ],
-      "answer": "Exact correct option text"
+      "answer": "Exact correct option text",
+      "difficulty": "Medium"
     }
   ]
 }
+
+The difficulty value MUST be exactly one of:
+
+"Easy"
+"Medium"
+"Hard"
+"Very Hard"
 
 Return exactly ${count} questions whenever possible.
 `;
@@ -452,7 +679,8 @@ Return exactly ${count} questions whenever possible.
     */
 
     const questions = cleanQuestions(
-      parsed?.questions
+      parsed?.questions,
+      selectedDifficulty
     );
 
     if (!questions.length) {
@@ -507,3 +735,4 @@ Return exactly ${count} questions whenever possible.
     });
   }
 };
+

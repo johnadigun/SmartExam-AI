@@ -1,4 +1,4 @@
-
+﻿
 const express = require("express");
 const router = express.Router();
 
@@ -442,6 +442,7 @@ router.post(
               question,
               options,
               answer,
+              difficulty: String(item.difficulty || 'medium').trim() || 'medium',
             };
           }
         );
