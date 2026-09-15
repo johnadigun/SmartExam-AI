@@ -55,101 +55,25 @@ function ResultPage() {
   };
 
   /* ======================================================
-     PRINT CERTIFICATE
+     CERTIFICATE
+
+     Certificate is available only when the candidate
+     has achieved the minimum passing score of 50%.
   ====================================================== */
 
-  const printCertificate = () => {
+  const openCertificate = () => {
     if (!result) return;
 
-    const win = window.open("", "_blank");
+    const passed = Number(result.percentage) >= 50;
 
-    if (!win) {
-      alert("Please allow pop-ups to print the certificate.");
+    if (!passed) {
+      alert(
+        "Certificate is not available because the minimum passing score of 50% was not achieved."
+      );
       return;
     }
 
-    win.document.write(`
-      <html>
-        <head>
-          <title>SMARTEXAM Certificate</title>
-
-          <style>
-            body {
-              font-family: Arial, Helvetica, sans-serif;
-              text-align: center;
-              padding: 60px;
-              color: #222222;
-            }
-
-            h1 {
-              color: #222222;
-              margin-bottom: 10px;
-            }
-
-            h2 {
-              margin-top: 20px;
-            }
-
-            hr {
-              margin: 30px 0;
-              border: 0;
-              border-top: 1px solid #cccccc;
-            }
-
-            .passed {
-              color: #198754;
-              font-weight: bold;
-            }
-          </style>
-        </head>
-
-        <body>
-
-          <h1>SMARTEXAM</h1>
-
-          <h2>Certificate of Achievement</h2>
-
-          <hr>
-
-          <h2>${result.exam?.title || "CBT Examination"}</h2>
-
-          <h3>
-            Candidate:
-            ${result.candidate?.fullName || "Student"}
-          </h3>
-
-          <h3>
-            Score:
-            ${result.score}/${result.total}
-          </h3>
-
-          <h3>
-            Percentage:
-            ${result.percentage}%
-          </h3>
-
-          <h3>
-            Grade:
-            ${result.grade || "-"}
-          </h3>
-
-          <h3 class="passed">
-            Status:
-            ${result.percentage >= 50 ? "PASSED" : "FAILED"}
-          </h3>
-
-          <h3>
-            Certificate No:
-            ${result.certificateNumber || "-"}
-          </h3>
-
-        </body>
-      </html>
-    `);
-
-    win.document.close();
-    win.focus();
-    win.print();
+    navigate("/certificate");
   };
 
   /* ======================================================
@@ -174,7 +98,8 @@ function ResultPage() {
     );
   }
 
-  const passed = result.percentage >= 50;
+  const passed =
+    Number(result.percentage) >= 50;
 
   /* ======================================================
      MAIN PAGE
@@ -192,11 +117,15 @@ function ResultPage() {
         <div className="result-header-title">
 
           <div>
-            <h1>SMARTEXAM CBT RESULT</h1>
+
+            <h1>
+              SMARTEXAM CBT RESULT
+            </h1>
 
             <p>
               {result.exam?.title || "CBT Examination"}
             </p>
+
           </div>
 
           <button
@@ -223,64 +152,92 @@ function ResultPage() {
 
           <div className="section-heading">
 
-            <h2>Candidate Information</h2>
+            <h2>
+              Candidate Information
+            </h2>
 
           </div>
 
           <div className="candidate-details">
 
             <div className="candidate-row">
-              <span className="label">Candidate</span>
+
+              <span className="label">
+                Candidate
+              </span>
 
               <span className="value">
                 {result.candidate?.fullName || "Student"}
               </span>
+
             </div>
 
             <div className="candidate-row">
-              <span className="label">Examination</span>
+
+              <span className="label">
+                Examination
+              </span>
 
               <span className="value">
                 {result.exam?.title || "N/A"}
               </span>
+
             </div>
 
             <div className="candidate-row">
-              <span className="label">Subject</span>
+
+              <span className="label">
+                Subject
+              </span>
 
               <span className="value">
                 {result.subject ||
                   result.exam?.subject ||
                   "N/A"}
               </span>
+
             </div>
 
             <div className="candidate-row">
-              <span className="label">Category</span>
+
+              <span className="label">
+                Category
+              </span>
 
               <span className="value">
                 {result.category || "General"}
               </span>
+
             </div>
 
             <div className="candidate-row">
-              <span className="label">Total Questions</span>
+
+              <span className="label">
+                Total Questions
+              </span>
 
               <span className="value">
                 {result.total}
               </span>
+
             </div>
 
             <div className="candidate-row">
-              <span className="label">Completed</span>
+
+              <span className="label">
+                Completed
+              </span>
 
               <span className="value">
+
                 {result.completedAt
                   ? new Date(
                       result.completedAt
                     ).toLocaleString()
                   : "-"}
+
               </span>
+
             </div>
 
           </div>
@@ -292,9 +249,7 @@ function ResultPage() {
         <div className="score-card">
 
           <div className="score-circle">
-
             {result.percentage}%
-
           </div>
 
           <div className="score-label">
@@ -326,31 +281,46 @@ function ResultPage() {
       <section className="statistics-grid">
 
         <div className="stat-card">
-          <span>Score</span>
+
+          <span>
+            Score
+          </span>
 
           <strong>
             {result.score} / {result.total}
           </strong>
+
         </div>
 
         <div className="stat-card">
-          <span>Percentage</span>
+
+          <span>
+            Percentage
+          </span>
 
           <strong>
             {result.percentage}%
           </strong>
+
         </div>
 
         <div className="stat-card">
-          <span>Grade</span>
+
+          <span>
+            Grade
+          </span>
 
           <strong>
             {result.grade || "-"}
           </strong>
+
         </div>
 
         <div className="stat-card">
-          <span>Status</span>
+
+          <span>
+            Status
+          </span>
 
           <strong
             className={
@@ -361,6 +331,7 @@ function ResultPage() {
           >
             {passed ? "PASS" : "FAIL"}
           </strong>
+
         </div>
 
       </section>
@@ -381,10 +352,24 @@ function ResultPage() {
 
         <button
           type="button"
-          className="action-btn certificate-btn"
-          onClick={printCertificate}
+          className={
+            `action-btn certificate-btn ${
+              !passed
+                ? "certificate-disabled"
+                : ""
+            }`
+          }
+          onClick={openCertificate}
+          disabled={!passed}
+          title={
+            passed
+              ? "Open Certificate"
+              : "Certificate requires a passing score of 50% or above"
+          }
         >
-          Print Certificate
+          {passed
+            ? "Print Certificate"
+            : "Certificate Not Available"}
         </button>
 
         <button
@@ -413,7 +398,9 @@ function ResultPage() {
 
         <div className="review-header">
 
-          <h2>Question Review</h2>
+          <h2>
+            Question Review
+          </h2>
 
           <p>
             Review your answers and compare them with the
@@ -469,7 +456,9 @@ function ResultPage() {
                 </div>
 
                 <div className="review-question">
+
                   {question.question}
+
                 </div>
 
                 <div className="review-answer">
@@ -508,4 +497,3 @@ function ResultPage() {
 }
 
 export default ResultPage;
-

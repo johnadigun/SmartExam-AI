@@ -137,6 +137,16 @@ router.post(
       }
 
       /* ======================================================
+         DETERMINE CERTIFICATE ELIGIBILITY
+
+         PASS = 50% OR ABOVE
+         FAIL = BELOW 50%
+      ====================================================== */
+
+      const certificateIssued =
+        calculatedPercentage >= 50;
+
+      /* ======================================================
          SAVE RESULT
       ====================================================== */
 
@@ -166,6 +176,15 @@ router.post(
       user.score = numericScore;
       user.grade = grade || "";
 
+      /* ======================================================
+         CERTIFICATE STATUS
+
+         Passed CBT  -> Certificate Available
+         Failed CBT  -> Certificate Not Available
+      ====================================================== */
+
+      user.certificateIssued = certificateIssued;
+
       await user.save();
 
       /* ======================================================
@@ -176,6 +195,7 @@ router.post(
         success: true,
         message: "Result saved successfully.",
         result,
+        certificateIssued,
       });
 
     } catch (err) {
@@ -303,4 +323,3 @@ router.get(
 
 
 module.exports = router;
-

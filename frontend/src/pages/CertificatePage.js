@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./CertificatePage.css";
@@ -7,7 +8,6 @@ function CertificatePage() {
   const navigate = useNavigate();
 
   const [result, setResult] = useState(null);
-
   const [user, setUser] = useState({});
 
   /* ==========================================
@@ -62,9 +62,7 @@ function CertificatePage() {
       <div className="certificate-loading">
 
         <h2>
-
           Loading Certificate...
-
         </h2>
 
       </div>
@@ -78,21 +76,13 @@ function CertificatePage() {
   ========================================== */
 
   const {
-
     exam,
-
     category,
-
     subject,
-
     score,
-
     percentage,
-
     grade,
-
     completedAt,
-
   } = result;
 
   const totalQuestions =
@@ -101,10 +91,236 @@ function CertificatePage() {
     exam?.questions?.length ||
     0;
 
+  /* ==========================================
+     CERTIFICATE ELIGIBILITY
+
+     PASS = 50% OR ABOVE
+     FAIL = BELOW 50%
+
+     Backend certificateIssued is authoritative
+     when available. Percentage is retained as a
+     safe fallback for older stored CBT results.
+  ========================================== */
+
   const status =
-    percentage >= 50
+    Number(percentage) >= 50
       ? "PASS"
       : "FAIL";
+
+  const certificateIssued =
+    typeof result.certificateIssued === "boolean"
+      ? result.certificateIssued
+      : status === "PASS";
+
+  /* ==========================================
+     FAILED / CERTIFICATE NOT AVAILABLE
+  ========================================== */
+
+  if (!certificateIssued) {
+
+    return (
+
+      <div className="certificate-container">
+
+        <div className="certificate-card">
+
+          <div className="certificate-header">
+
+            <h3>
+              SMARTEXAM
+            </h3>
+
+            <h1>
+              CERTIFICATE NOT AVAILABLE
+            </h1>
+
+            <h4>
+              Computer Based Examination (CBT)
+            </h4>
+
+          </div>
+
+          <div className="certificate-body">
+
+            <p className="certificate-text">
+
+              Your CBT examination has been completed.
+
+            </p>
+
+            <h2 className="student-name">
+
+              {
+                user.fullName ||
+                user.name ||
+                "Student"
+              }
+
+            </h2>
+
+            <p className="certificate-text">
+
+              Unfortunately, your examination result does not
+              meet the minimum requirement for a certificate.
+
+            </p>
+
+            <p className="certificate-text">
+
+              <strong>
+                Minimum passing score: 50%
+              </strong>
+
+            </p>
+
+          </div>
+
+          <div className="certificate-details">
+
+            <div className="certificate-item">
+
+              <span>
+                Examination
+              </span>
+
+              <strong>
+                {
+                  exam?.title ||
+                  "SMARTEXAM CBT Examination"
+                }
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Subject
+              </span>
+
+              <strong>
+                {
+                  subject ||
+                  "-"
+                }
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Category
+              </span>
+
+              <strong>
+                {
+                  category ||
+                  "-"
+                }
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Score
+              </span>
+
+              <strong>
+                {score} / {totalQuestions}
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Percentage
+              </span>
+
+              <strong>
+                {percentage}%
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Grade
+              </span>
+
+              <strong>
+                {grade || "-"}
+              </strong>
+
+            </div>
+
+            <div className="certificate-item certificate-fail">
+
+              <span>
+                Status
+              </span>
+
+              <strong>
+                FAIL
+              </strong>
+
+            </div>
+
+            <div className="certificate-item">
+
+              <span>
+                Date Completed
+              </span>
+
+              <strong>
+
+                {
+                  completedAt
+                    ? new Date(
+                        completedAt
+                      ).toLocaleDateString()
+                    : "-"
+                }
+
+              </strong>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* ======================================
+            ACTION BUTTONS
+        ====================================== */}
+
+        <div className="certificate-buttons">
+
+          <button
+            className="back-btn"
+            onClick={() => navigate("/result")}
+          >
+            Back to Result
+          </button>
+
+          <button
+            className="dashboard-btn"
+            onClick={() => navigate("/dashboard")}
+          >
+            Dashboard
+          </button>
+
+        </div>
+
+      </div>
+
+    );
+
+  }
 
   /* ==========================================
      CERTIFICATE NUMBER
@@ -117,6 +333,7 @@ function CertificatePage() {
     `SMX-${new Date().getFullYear()}-${String(
       Date.now()
     ).slice(-6)}`;
+
   /* ==========================================
      BUTTON ACTIONS
   ========================================== */
@@ -127,20 +344,17 @@ function CertificatePage() {
 
   };
 
-
   const backToResult = () => {
 
     navigate("/result");
 
   };
 
-
   const dashboard = () => {
 
     navigate("/dashboard");
 
   };
-
 
   /* ==========================================
      CERTIFICATE PAGE
@@ -159,25 +373,18 @@ function CertificatePage() {
         <div className="certificate-header">
 
           <h3>
-
             SMARTEXAM
-
           </h3>
 
           <h1>
-
             CERTIFICATE OF ACHIEVEMENT
-
           </h1>
 
           <h4>
-
             Computer Based Examination (CBT)
-
           </h4>
 
         </div>
-
 
         {/* ======================================
             CERTIFICATE TEXT
@@ -194,13 +401,9 @@ function CertificatePage() {
           <h2 className="student-name">
 
             {
-
               user.fullName ||
-
               user.name ||
-
               "Student"
-
             }
 
           </h2>
@@ -212,7 +415,6 @@ function CertificatePage() {
             <strong>
 
               {" "}
-
               SMARTEXAM Computer Based Examination
 
             </strong>
@@ -222,12 +424,12 @@ function CertificatePage() {
           </p>
 
         </div>
+
         {/* ======================================
             CERTIFICATE INFORMATION
         ====================================== */}
 
         <div className="certificate-details">
-
 
           <div className="certificate-item">
 
@@ -244,7 +446,6 @@ function CertificatePage() {
 
           </div>
 
-
           <div className="certificate-item">
 
             <span>
@@ -259,7 +460,6 @@ function CertificatePage() {
             </strong>
 
           </div>
-
 
           <div className="certificate-item">
 
@@ -276,7 +476,6 @@ function CertificatePage() {
 
           </div>
 
-
           <div className="certificate-item">
 
             <span>
@@ -284,13 +483,10 @@ function CertificatePage() {
             </span>
 
             <strong>
-
               {score} / {totalQuestions}
-
             </strong>
 
           </div>
-
 
           <div className="certificate-item">
 
@@ -299,13 +495,10 @@ function CertificatePage() {
             </span>
 
             <strong>
-
               {percentage}%
-
             </strong>
 
           </div>
-
 
           <div className="certificate-item">
 
@@ -314,13 +507,10 @@ function CertificatePage() {
             </span>
 
             <strong>
-
-              {grade}
-
+              {grade || "-"}
             </strong>
 
           </div>
-
 
           <div
             className={
@@ -337,13 +527,10 @@ function CertificatePage() {
             </span>
 
             <strong>
-
               {status}
-
             </strong>
 
           </div>
-
 
           <div className="certificate-item">
 
@@ -365,7 +552,6 @@ function CertificatePage() {
 
           </div>
 
-
           <div className="certificate-item">
 
             <span>
@@ -373,22 +559,19 @@ function CertificatePage() {
             </span>
 
             <strong>
-
               {certificateNumber}
-
             </strong>
 
           </div>
 
-
         </div>
-
 
         {/* ======================================
             FOOTER SIGNATURE AREA
         ====================================== */}
 
         <div className="certificate-footer">
+
           <div className="signature-block">
 
             <div className="signature-line"></div>
@@ -399,13 +582,10 @@ function CertificatePage() {
 
           </div>
 
-
           <div className="seal-area">
 
             <div className="seal-circle">
-
               SMARTEXAM
-
             </div>
 
             <p>
@@ -413,7 +593,6 @@ function CertificatePage() {
             </p>
 
           </div>
-
 
           <div className="signature-block">
 
@@ -425,12 +604,9 @@ function CertificatePage() {
 
           </div>
 
-
         </div>
 
-
       </div>
-
 
       {/* ======================================
           ACTION BUTTONS
@@ -438,45 +614,33 @@ function CertificatePage() {
 
       <div className="certificate-buttons">
 
-
         <button
           className="print-btn"
           onClick={printCertificate}
         >
-
           Print Certificate
-
         </button>
-
 
         <button
           className="back-btn"
           onClick={backToResult}
         >
-
           Back to Result
-
         </button>
-
 
         <button
           className="dashboard-btn"
           onClick={dashboard}
         >
-
           Dashboard
-
         </button>
 
-
       </div>
-
 
     </div>
 
   );
 
 }
-
 
 export default CertificatePage;

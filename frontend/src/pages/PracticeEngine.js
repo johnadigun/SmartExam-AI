@@ -261,21 +261,54 @@ function PracticeEngine({
       calculateResult();
 
     const payload = {
+      type: "Practice",
+
       totalQuestions,
       answeredQuestions,
       score: result.score,
       percentage: result.percentage,
       grade: result.grade,
+
       answers,
       questions,
+
       completedAt:
         new Date(),
     };
+
+    /* ==========================================
+       SAVE CURRENT PRACTICE RESULT
+    ========================================== */
 
     localStorage.setItem(
       "practice_result",
       JSON.stringify(payload)
     );
+
+    /* ==========================================
+       SAVE PRACTICE RESULT TO HISTORY
+    ========================================== */
+
+    const existingHistory =
+      JSON.parse(
+        localStorage.getItem(
+          "results_history"
+        ) || "[]"
+      );
+
+    const history = [
+      payload,
+      ...existingHistory,
+    ];
+
+    localStorage.setItem(
+      "results_history",
+      JSON.stringify(history)
+    );
+
+    /* ==========================================
+       CLEAR PRACTICE PROGRESS
+    ========================================== */
 
     localStorage.removeItem(
       storageKey
