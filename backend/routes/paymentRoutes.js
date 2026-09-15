@@ -1,9 +1,22 @@
+
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
 
 const User = require("../models/user");
 const Payment = require("../models/payment");
+
+/* ==========================================================
+   SMARTEXAM FRONTEND URL
+   ========================================================== */
+
+const FRONTEND_URL =
+  process.env.FRONTEND_URL ||
+  (
+    process.env.NODE_ENV === "production"
+      ? "https://smartexam-frontend.onrender.com"
+      : "http://localhost:3000"
+  );
 
 /* ==========================================================
    INITIALIZE PAYMENT
@@ -41,11 +54,19 @@ router.post("/initialize", async (req, res) => {
 
       {
         email,
+
         amount: amount * 100,
 
-        callback_url:
-          "http://localhost:3000/verify",
+        /*
+         * LOCAL DEVELOPMENT:
+         * http://localhost:3000/verify
+         *
+         * PRODUCTION:
+         * https://smartexam-frontend.onrender.com/verify
+         */
 
+        callback_url:
+          `${FRONTEND_URL}/verify`,
       },
 
       {
@@ -78,6 +99,7 @@ router.post("/initialize", async (req, res) => {
   } catch (err) {
 
     console.log("PAYMENT INITIALIZE ERROR");
+
     console.log(err.message);
 
     return res.status(500).json({
@@ -119,15 +141,20 @@ router.get("/verify/:reference", async (req, res) => {
 
     );
 
-    const paymentData = verifyResponse.data.data;
+    const paymentData =
+      verifyResponse.data.data;
 
-    if (!paymentData || paymentData.status !== "success") {
+    if (
+      !paymentData ||
+      paymentData.status !== "success"
+    ) {
 
       return res.json({
 
         success: false,
 
-        message: "Payment was not successful",
+        message:
+          "Payment was not successful",
 
       });
 
@@ -137,26 +164,31 @@ router.get("/verify/:reference", async (req, res) => {
        ALREADY VERIFIED?
     ====================================================== */
 
-    const existingPayment = await Payment.findOne({
-      reference,
-    });
+    const existingPayment =
+      await Payment.findOne({
+        reference,
+      });
 
     if (existingPayment) {
 
-      const existingUser = await User.findOne({
-        email: paymentData.customer.email,
-      });
+      const existingUser =
+        await User.findOne({
+          email:
+            paymentData.customer.email,
+        });
 
       return res.json({
 
         success: true,
 
-        message: "Payment already verified",
+        message:
+          "Payment already verified",
 
         expiryTime:
           existingUser?.cbtExpiry || null,
 
-        user: existingUser,
+        user:
+          existingUser,
 
       });
 
@@ -166,17 +198,21 @@ router.get("/verify/:reference", async (req, res) => {
        FIND USER
     ====================================================== */
 
-    const email = paymentData.customer.email;
+    const email =
+      paymentData.customer.email;
 
     const now = new Date();
 
-    const expiryTime = new Date(
-      now.getTime() + (5 * 60 * 60 * 1000)
-    );
+    const expiryTime =
+      new Date(
+        now.getTime() +
+        (5 * 60 * 60 * 1000)
+      );
 
-    const user = await User.findOne({
-      email,
-    });
+    const user =
+      await User.findOne({
+        email,
+      });
 
     if (!user) {
 
@@ -184,7 +220,8 @@ router.get("/verify/:reference", async (req, res) => {
 
         success: false,
 
-        message: "User not found",
+        message:
+          "User not found",
 
       });
 
@@ -198,7 +235,8 @@ router.get("/verify/:reference", async (req, res) => {
 
     user.cbtAccess = true;
 
-    user.cbtExpiry = expiryTime;
+    user.cbtExpiry =
+      expiryTime;
 
     user.remainingAttempts = 1;
 
@@ -214,19 +252,25 @@ router.get("/verify/:reference", async (req, res) => {
 
     await Payment.create({
 
-      userId: user._id,
+      userId:
+        user._id,
 
-      email: user.email,
+      email:
+        user.email,
 
-      amount: paymentData.amount / 100,
+      amount:
+        paymentData.amount / 100,
 
       reference,
 
-      status: "success",
+      status:
+        "success",
 
-      purpose: "cbt_access",
+      purpose:
+        "cbt_access",
 
-      paidAt: now,
+      paidAt:
+        now,
 
     });
 
@@ -238,7 +282,8 @@ router.get("/verify/:reference", async (req, res) => {
 
       success: true,
 
-      message: "Payment verified successfully",
+      message:
+        "Payment verified successfully",
 
       expiryTime,
 
@@ -248,15 +293,20 @@ router.get("/verify/:reference", async (req, res) => {
 
   } catch (err) {
 
-    console.log("VERIFY PAYMENT ERROR");
+    console.log(
+      "VERIFY PAYMENT ERROR"
+    );
 
-    console.log(err.message);
+    console.log(
+      err.message
+    );
 
     return res.status(500).json({
 
       success: false,
 
-      message: "Payment verification failed",
+      message:
+        "Payment verification failed",
 
     });
 
