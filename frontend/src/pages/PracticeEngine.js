@@ -5,6 +5,7 @@ import BASE_URL from "../api/api";
 import PracticeUI from "./PracticeUI";
 
 function PracticeEngine({
+  category,
   onFinish,
 }) {
   const navigate = useNavigate();
@@ -21,7 +22,8 @@ function PracticeEngine({
      STORAGE
   ========================================== */
 
-  const storageKey = "PRACTICE_PROGRESS";
+  const storageKey =
+    `PRACTICE_PROGRESS_${category}`;
 
   /* ==========================================
      STATES
@@ -48,31 +50,36 @@ function PracticeEngine({
   useEffect(() => {
     if (!user?.email) {
       navigate("/");
+      return;
     }
   }, [navigate, user]);
 
   /* ==========================================
-     LOAD RANDOM PRACTICE QUESTIONS
-     FROM ENTIRE QUESTION BANK
+     LOAD PRACTICE QUESTIONS
   ========================================== */
 
   useEffect(() => {
     const loadPracticePaper = async () => {
       try {
-        console.log(
-          "Practice Mode: Loading random questions from entire question bank..."
-        );
+        if (!category) {
+          navigate("/practice");
+          return;
+        }
 
         console.log(
           "Request URL:",
-          `${BASE_URL}/exams/practice`
+          `${BASE_URL}/exams/category/${encodeURIComponent(
+            category
+          )}?mode=practice`
         );
 
         const token =
           localStorage.getItem("token");
 
         const response = await fetch(
-          `${BASE_URL}/exams/practice`,
+          `${BASE_URL}/exams/category/${encodeURIComponent(
+            category
+          )}?mode=practice`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -92,16 +99,13 @@ function PracticeEngine({
           data
         );
 
-        if (!response.ok || !data.success) {
+        if (!data.success) {
           console.log(
             "Backend Error:",
             data.message
           );
 
-          alert(
-            data.message ||
-              "Unable to load Practice questions."
-          );
+          alert(data.message);
 
           setExam(null);
 
@@ -109,17 +113,14 @@ function PracticeEngine({
         }
 
         console.log(
-          "Practice Exam Loaded:",
+          "Exam Loaded:",
           data.exam
         );
 
         setExam(data.exam);
 
       } catch (err) {
-        console.log(
-          "Practice Loading Error:",
-          err
-        );
+        console.log(err);
 
         setExam(null);
 
@@ -130,7 +131,7 @@ function PracticeEngine({
 
     loadPracticePaper();
 
-  }, []);
+  }, [category, navigate]);
 
   /* ==========================================
      QUESTIONS
@@ -140,7 +141,6 @@ function PracticeEngine({
     if (!exam) return [];
 
     return exam.questions || [];
-
   }, [exam]);
 
   const totalQuestions =
@@ -208,10 +208,7 @@ function PracticeEngine({
     let score = 0;
 
     questions.forEach((q, index) => {
-      if (
-        answers[index] ===
-        q.answer
-      ) {
+      if (answers[index] === q.answer) {
         score++;
       }
     });
@@ -219,24 +216,23 @@ function PracticeEngine({
     const percentage =
       totalQuestions > 0
         ? Math.round(
-            (score /
-              totalQuestions) *
-              100
+            (score / totalQuestions) * 100
           )
         : 0;
 
     let grade = "F";
 
-    if (percentage >= 70)
+    if (percentage >= 70) {
       grade = "A";
-    else if (percentage >= 60)
+    } else if (percentage >= 60) {
       grade = "B";
-    else if (percentage >= 50)
+    } else if (percentage >= 50) {
       grade = "C";
-    else if (percentage >= 45)
+    } else if (percentage >= 45) {
       grade = "D";
-    else if (percentage >= 40)
+    } else if (percentage >= 40) {
       grade = "E";
+    }
 
     return {
       score,
@@ -250,46 +246,118 @@ function PracticeEngine({
   ========================================== */
 
   const submitPractice = () => {
-    const confirmSubmit =
-      window.confirm(
-        "Submit Practice Test?"
-      );
+    const confirmSubmit = window.confirm(
+      "Submit Practice Test?"
+    );
 
     if (!confirmSubmit) return;
 
     const result =
       calculateResult();
 
+    const completedAt =
+      new Date().toISOString();
+
+    /* ==========================================
+       COMPLETE PRACTICE RESULT
+    ========================================== */
+
     const payload = {
+      type: "Practice",
+
+      category,
+
+      subject:
+        exam?.subject ||
+        "Practice",
+
       totalQuestions,
+
       answeredQuestions,
-      score: result.score,
-      percentage: result.percentage,
-      grade: result.grade,
+
+      score:
+        result.score,
+
+      percentage:
+        result.percentage,
+
+      grade:
+        result.grade,
+
       answers,
+
       questions,
-      completedAt:
-        new Date(),
+
+      completedAt,
     };
+
+    /* ==========================================
+       SAVE CURRENT PRACTICE RESULT
+    ========================================== */
 
     localStorage.setItem(
       "practice_result",
       JSON.stringify(payload)
     );
 
+    /* ==========================================
+       SAVE PRACTICE RESULT TO HISTORY
+    ========================================== */
+
+    try {
+      const existingHistory =
+        JSON.parse(
+          localStorage.getItem(
+            "results_history"
+          ) || "[]"
+        );
+
+      const history =
+        Array.isArray(existingHistory)
+          ? existingHistory
+          : [];
+
+      history.push(payload);
+
+      localStorage.setItem(
+        "results_history",
+        JSON.stringify(history)
+      );
+
+    } catch (err) {
+      console.log(
+        "Unable to save Practice history:",
+        err
+      );
+    }
+
+    /* ==========================================
+       CLEAR PRACTICE PROGRESS
+    ========================================== */
+
     localStorage.removeItem(
       storageKey
     );
 
+    /* ==========================================
+       MARK SUBMITTED
+    ========================================== */
+
     setSubmitted(true);
+
+    /* ==========================================
+       FINISH CALLBACK
+    ========================================== */
 
     if (onFinish) {
       onFinish(payload);
-    } else {
-      navigate(
-        "/practice-result"
-      );
     }
+
+    /* ==========================================
+       OPEN PRACTICE RESULT
+    ========================================== */
+
+    navigate("/practice-result");
   };
 
   /* ==========================================
@@ -333,8 +401,7 @@ function PracticeEngine({
     option
   ) => {
     return (
-      answers[index] ===
-        option &&
+      answers[index] === option &&
       questions[index]?.answer !==
         option
     );
@@ -345,11 +412,9 @@ function PracticeEngine({
   ========================================== */
 
   useEffect(() => {
-    if (loading || submitted)
-      return;
+    if (loading) return;
 
-    if (!questions.length)
-      return;
+    if (submitted) return;
 
     localStorage.setItem(
       storageKey,
@@ -363,8 +428,8 @@ function PracticeEngine({
     answers,
     currentQuestion,
     loading,
+    storageKey,
     submitted,
-    questions.length,
   ]);
 
   /* ==========================================
@@ -401,13 +466,13 @@ function PracticeEngine({
       }
 
     } catch (err) {
-      console.log(
-        "Practice progress restore error:",
-        err
-      );
+      console.log(err);
     }
 
-  }, [loading]);
+  }, [
+    loading,
+    storageKey,
+  ]);
 
   /* ==========================================
      RENDER PRACTICE UI
@@ -416,6 +481,7 @@ function PracticeEngine({
   return (
     <PracticeUI
       exam={exam}
+      category={category}
 
       loading={loading}
 
@@ -481,3 +547,4 @@ function PracticeEngine({
 }
 
 export default PracticeEngine;
+
