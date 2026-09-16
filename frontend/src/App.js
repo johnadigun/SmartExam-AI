@@ -7,8 +7,10 @@ import {
 } from "react-router-dom";
 
 /* ==========================================================
-   USER PAGES
+   PUBLIC / USER PAGES
 ========================================================== */
+
+import IntroductionPage from "./IntroductionPage";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -59,10 +61,12 @@ import CheatingReports from "./pages/admin/CheatingReports";
 SMARTEXAM CBT SYSTEM
 MASTER APPLICATION ROUTER
 
-All existing student and admin routes are kept.
+Public entry:
+- Introduction Page
+- Login
+- Register
 
-Added:
-- Results History route
+All existing student and admin routes are preserved.
 ==========================================================
 */
 
@@ -76,15 +80,24 @@ function App() {
             PUBLIC
         ================================================== */}
 
+        {/* SmartExam Introduction / Landing Page */}
         <Route
           path="/"
+          element={<IntroductionPage />}
+        />
+
+        {/* Existing Login Page */}
+        <Route
+          path="/login"
           element={<Login />}
         />
 
+        {/* Existing Registration Page */}
         <Route
           path="/register"
           element={<Register />}
         />
+
 
         {/* ==================================================
             STUDENT DASHBOARD
@@ -94,6 +107,7 @@ function App() {
           path="/dashboard"
           element={<Dashboard />}
         />
+
 
         {/* ==================================================
             PAYMENT
@@ -114,6 +128,7 @@ function App() {
           element={<PaymentSuccess />}
         />
 
+
         {/* ==================================================
             CBT
         ================================================== */}
@@ -132,6 +147,7 @@ function App() {
           path="/cbt-exam"
           element={<MockExamMode />}
         />
+
 
         {/* ==================================================
             PRACTICE
@@ -162,6 +178,7 @@ function App() {
           element={<PracticeResult />}
         />
 
+
         {/* ==================================================
             RESULTS HISTORY
         ================================================== */}
@@ -170,6 +187,7 @@ function App() {
           path="/results-history"
           element={<ResultsHistory />}
         />
+
 
         {/* ==================================================
             REVIEW ANSWERS
@@ -180,6 +198,7 @@ function App() {
           element={<ReviewAnswers />}
         />
 
+
         {/* ==================================================
             MOCK EXAM RESULT
         ================================================== */}
@@ -188,6 +207,7 @@ function App() {
           path="/result"
           element={<ResultPage />}
         />
+
 
         {/* ==================================================
             CERTIFICATE
@@ -198,6 +218,7 @@ function App() {
           element={<CertificatePage />}
         />
 
+
         {/* ==================================================
             ADMIN LOGIN
         ================================================== */}
@@ -206,6 +227,7 @@ function App() {
           path="/admin-login"
           element={<AdminLogin />}
         />
+
 
         {/* ==================================================
             PROTECTED ADMIN
@@ -317,4 +339,3 @@ function App() {
 }
 
 export default App;
-
