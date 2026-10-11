@@ -1,0 +1,807 @@
+
+/* ==========================================================
+   INTERNATIONAL EXAMINATIONS PAGE
+========================================================== */
+
+.international-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #1f2937;
+  box-sizing: border-box;
+}
+
+.international-page *,
+.international-page *::before,
+.international-page *::after {
+  box-sizing: border-box;
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.international-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 20px 32px 16px;
+}
+
+.international-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.international-header h1 {
+  margin: 0 0 6px;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #111827;
+}
+
+.international-header p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6b7280;
+}
+
+/* ==========================================================
+   MAJOR INTERNATIONAL DESTINATIONS
+========================================================== */
+
+.international-destinations {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.international-destinations-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+
+  padding-top: 14px;
+  border-top: 1px solid #f0f2f5;
+}
+
+.international-destinations-title {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.international-destination-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.international-destination-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  min-height: 36px;
+  padding: 6px 11px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
+
+  background: #ffffff;
+  color: #374151;
+  cursor: pointer;
+
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.international-destination-item:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  color: #111827;
+
+  box-shadow:
+    0 2px 6px rgba(15, 23, 42, 0.05);
+}
+
+.international-destination-item:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.18);
+  outline-offset: 2px;
+}
+
+/* ==========================================================
+   COUNTRY FLAGS
+========================================================== */
+
+.international-destination-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family:
+    "Segoe UI Emoji",
+    "Apple Color Emoji",
+    "Noto Color Emoji",
+    sans-serif;
+
+  font-size: 19px;
+  line-height: 1;
+}
+
+.international-destination-name {
+  line-height: 1.2;
+}
+
+/* ==========================================================
+   ADDITIONAL COUNTRIES COUNT
+========================================================== */
+
+.international-destination-count {
+  flex-shrink: 0;
+  margin-left: auto;
+  padding: 6px 4px;
+
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 700;
+
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* ==========================================================
+   BACK BUTTON
+========================================================== */
+
+.international-back-btn {
+  flex-shrink: 0;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #374151;
+
+  padding: 9px 16px;
+
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.international-back-btn:hover {
+  background: #f9fafb;
+  border-color: #9ca3af;
+  color: #111827;
+}
+
+/* ==========================================================
+   MAIN CONTENT
+========================================================== */
+
+.international-content {
+  width: 100%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 34px 32px 50px;
+}
+
+/* ==========================================================
+   INTRODUCTION
+========================================================== */
+
+.international-intro {
+  margin-bottom: 22px;
+}
+
+.international-intro h2 {
+  margin: 0 0 12px;
+
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+/* ==========================================================
+   BACK-AND-FORTH SCROLLING ANNOUNCEMENT
+========================================================== */
+
+.international-announcement {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  padding: 13px 16px;
+
+  border: 1px solid #183b70;
+  border-radius: 9px;
+
+  background: #102a56;
+  color: #ffffff;
+
+  box-shadow:
+    0 4px 12px rgba(16, 42, 86, 0.12);
+}
+
+/*
+  Keep the track as a layout container.
+  The label and message receive the same animation
+  individually so neither remains stationary.
+*/
+
+.international-announcement-track {
+  display: inline-flex;
+  align-items: center;
+
+  width: max-content;
+  max-width: none;
+  gap: 14px;
+
+  animation: none;
+  transform: none;
+}
+
+/* GOLD ANNOUNCEMENT LABEL */
+
+.international-announcement-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 0 0 auto;
+
+  padding: 7px 11px;
+  border-radius: 5px;
+
+  background: #f5c542;
+  color: #102a56;
+
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+
+  white-space: nowrap;
+
+  animation:
+    international-announcement-bounce
+    10s
+    ease-in-out
+    infinite
+    alternate;
+
+  will-change: transform;
+}
+
+/* WHITE ANNOUNCEMENT MESSAGE */
+
+.international-announcement-message {
+  flex: 0 0 auto;
+
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  animation:
+    international-announcement-bounce
+    10s
+    ease-in-out
+    infinite
+    alternate;
+
+  will-change: transform;
+}
+
+/*
+  Both elements use the same keyframes and timing.
+  They move right together and then return left.
+*/
+
+@keyframes international-announcement-bounce {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(70px);
+  }
+}
+
+/* Respect reduced-motion preferences. */
+
+@media (prefers-reduced-motion: reduce) {
+  .international-announcement-label,
+  .international-announcement-message {
+    animation: none;
+    transform: none;
+  }
+
+  .international-announcement {
+    overflow-x: auto;
+  }
+}
+
+/* ==========================================================
+   EXAMINATION GRID
+========================================================== */
+
+.international-exam-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 16px;
+}
+
+/* ==========================================================
+   EXAMINATION CARD
+========================================================== */
+
+.international-exam-card {
+  width: 100%;
+  min-height: 215px;
+
+  padding: 20px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.international-exam-card:hover {
+  transform: translateY(-2px);
+
+  border-color: #cbd5e1;
+
+  box-shadow:
+    0 6px 18px rgba(15, 23, 42, 0.07);
+}
+
+.international-exam-card:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.2);
+  outline-offset: 2px;
+}
+
+/* ==========================================================
+   EXAM CODE
+========================================================== */
+
+.international-exam-code {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+  margin-bottom: 12px;
+  padding: 5px 9px;
+
+  border-radius: 5px;
+
+  background: #eff6ff;
+  color: #1d4ed8;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================
+   EXAM NAME
+========================================================== */
+
+.international-exam-card h3 {
+  margin: 0 0 6px;
+
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+/* ==========================================================
+   FULL NAME
+========================================================== */
+
+.international-exam-full-name {
+  margin: 0 0 6px;
+
+  font-size: 13px;
+  line-height: 1.45;
+
+  color: #374151;
+}
+
+/* ==========================================================
+   PROVIDER
+========================================================== */
+
+.international-exam-provider {
+  margin: 0 0 8px;
+
+  font-size: 12px;
+  line-height: 1.4;
+
+  color: #6b7280;
+}
+
+/* ==========================================================
+   DESCRIPTION
+========================================================== */
+
+.international-exam-description {
+  margin: 0;
+
+  font-size: 13px;
+  line-height: 1.55;
+
+  color: #6b7280;
+
+  flex-grow: 1;
+}
+
+/* ==========================================================
+   SELECT LABEL
+========================================================== */
+
+.international-select-label {
+  display: block;
+
+  margin-top: 14px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  color: #2563eb;
+}
+
+/* ==========================================================
+   LOADING
+========================================================== */
+
+.international-loading {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 32px;
+  text-align: center;
+}
+
+.international-spinner {
+  width: 42px;
+  height: 42px;
+
+  margin-bottom: 20px;
+
+  border: 4px solid #e5e7eb;
+  border-top-color: #2563eb;
+
+  border-radius: 50%;
+
+  animation:
+    international-spin 0.8s linear infinite;
+}
+
+@keyframes international-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.international-loading h2 {
+  margin: 0 0 8px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.international-loading p {
+  margin: 0;
+
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ==========================================================
+   ERROR
+========================================================== */
+
+.international-error {
+  width: min(520px, calc(100% - 40px));
+
+  margin: 100px auto;
+  padding: 32px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #ffffff;
+  text-align: center;
+
+  box-shadow:
+    0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.international-error h2 {
+  margin: 0 0 12px;
+
+  font-size: 21px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.international-error p {
+  margin: 0 0 24px;
+
+  font-size: 14px;
+  line-height: 1.6;
+
+  color: #6b7280;
+}
+
+.international-error button {
+  margin: 4px;
+  padding: 11px 18px;
+
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.international-error button:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.international-error .international-back-btn {
+  background: #ffffff;
+  color: #374151;
+  border-color: #d1d5db;
+}
+
+.international-error .international-back-btn:hover {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}
+
+/* ==========================================================
+   EMPTY STATE
+========================================================== */
+
+.international-empty {
+  padding: 50px 24px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #ffffff;
+  text-align: center;
+}
+
+.international-empty h3 {
+  margin: 0 0 8px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  color: #111827;
+}
+
+.international-empty p {
+  margin: 0;
+
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+  .international-destinations-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .international-destination-list {
+    justify-content: flex-start;
+  }
+
+  .international-destination-count {
+    margin-left: auto;
+  }
+
+  .international-exam-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .international-announcement {
+    padding: 12px;
+  }
+
+  .international-announcement-message {
+    font-size: 13px;
+  }
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 640px) {
+  .international-header {
+    padding: 18px 20px 14px;
+  }
+
+  .international-header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .international-header h1 {
+    font-size: 24px;
+  }
+
+  .international-header p {
+    font-size: 13px;
+  }
+
+  .international-destinations {
+    margin-top: 14px;
+  }
+
+  .international-destinations-inner {
+    gap: 10px;
+    padding-top: 12px;
+  }
+
+  .international-destination-list {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 7px;
+  }
+
+  .international-destination-item {
+    width: 100%;
+    justify-content: center;
+
+    padding: 7px 8px;
+
+    font-size: 12px;
+  }
+
+  .international-destination-flag {
+    font-size: 18px;
+  }
+
+  .international-destination-count {
+    grid-column: 1 / -1;
+
+    justify-self: end;
+
+    margin-left: 0;
+    padding: 5px 4px;
+
+    text-align: right;
+  }
+
+  .international-content {
+    padding: 26px 20px 40px;
+  }
+
+  .international-intro {
+    margin-bottom: 18px;
+  }
+
+  .international-intro h2 {
+    font-size: 20px;
+  }
+
+  .international-announcement {
+    padding: 10px;
+  }
+
+  .international-announcement-track {
+    gap: 10px;
+  }
+
+  .international-announcement-label {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  .international-announcement-message {
+    font-size: 12px;
+  }
+
+  .international-exam-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .international-exam-card {
+    min-height: 195px;
+    padding: 18px;
+  }
+
+  .international-exam-card h3 {
+    font-size: 17px;
+  }
+
+  .international-exam-description {
+    font-size: 13px;
+  }
+}
+

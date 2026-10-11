@@ -1,5 +1,6 @@
 
 import React from "react";
+
 import {
   BrowserRouter,
   Routes,
@@ -11,28 +12,58 @@ import {
 ========================================================== */
 
 import IntroductionPage from "./IntroductionPage";
+import EnglishPlatformPage from "./EnglishPlatformPage";
+import EnglishCountries from "./pages/EnglishCountries";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 
+/* ==========================================================
+   INTERNATIONAL EXAMINATIONS
+========================================================== */
+
+import InternationalExaminations
+  from "./pages/international/InternationalExaminations";
+
+import InternationalExamBoard from "./pages/international/InternationalExamBoard";
+
+
+import InternationalExamDetails
+  from "./pages/international/InternationalExamDetails";
+
+import InternationalPaymentSuccessNew
+  from "./pages/international/InternationalPaymentSuccessNew";
+/* ==========================================================
+   LOCAL CBT PAYMENT
+========================================================== */
+
 import PaymentPage from "./pages/PaymentPage";
 import VerifyPayment from "./pages/VerifyPayment";
 import PaymentSuccess from "./pages/PaymentSuccess";
 
-import CBTCategories from "./pages/CBTCategories";
-import CBTSubjects from "./pages/CBTSubjects";
+/* ==========================================================
+   CBT
+========================================================== */
+
+import CBTSelection from "./pages/CBTSelection";
+import MockExamMode from "./pages/MockExamMode";
+
+/* ==========================================================
+   PRACTICE
+========================================================== */
 
 import PracticeCategories from "./pages/PracticeCategories";
 import PracticeSubjects from "./pages/PracticeSubjects";
 import PracticeMode from "./pages/PracticeMode";
 import PracticeResult from "./pages/PracticeResult";
 
+/* ==========================================================
+   RESULTS / REVIEW / CERTIFICATE
+========================================================== */
+
 import ReviewAnswers from "./pages/ReviewAnswers";
-
 import ResultsHistory from "./pages/ResultsHistory";
-
-import MockExamMode from "./pages/MockExamMode";
 import ResultPage from "./pages/ResultPage";
 import CertificatePage from "./pages/CertificatePage";
 
@@ -56,62 +87,61 @@ import Users from "./pages/admin/Users";
 import Students from "./pages/admin/Students";
 import CheatingReports from "./pages/admin/CheatingReports";
 
-/*
-==========================================================
-SMARTEXAM CBT SYSTEM
-MASTER APPLICATION ROUTER
-
-Public entry:
-- Introduction Page
-- Login
-- Register
-
-All existing student and admin routes are preserved.
-==========================================================
-*/
+/* ==========================================================
+   APPLICATION ROUTES
+========================================================== */
 
 function App() {
   return (
     <BrowserRouter>
-
       <Routes>
 
-        {/* ==================================================
-            PUBLIC
-        ================================================== */}
+        {/* PUBLIC GATEWAY */}
 
-        {/* SmartExam Introduction / Landing Page */}
         <Route
           path="/"
           element={<IntroductionPage />}
         />
 
-        {/* Existing Login Page */}
+        {/* ENGLISH EXAMINATION PLATFORM */}
+
+        <Route
+          path="/english"
+          element={<EnglishPlatformPage />}
+        />
+
+        {/* ENGLISH LOCAL EXAMINATION - COUNTRIES */}
+
+        <Route
+          path="/english-countries"
+          element={<EnglishCountries />}
+        />
+
+        <Route
+          path="/local-countries"
+          element={<EnglishCountries />}
+        />
+
+        {/* AUTHENTICATION */}
+
         <Route
           path="/login"
           element={<Login />}
         />
 
-        {/* Existing Registration Page */}
         <Route
           path="/register"
           element={<Register />}
         />
 
-
-        {/* ==================================================
-            STUDENT DASHBOARD
-        ================================================== */}
+        {/* STUDENT DASHBOARD */}
 
         <Route
           path="/dashboard"
           element={<Dashboard />}
         />
 
-
-        {/* ==================================================
-            PAYMENT
-        ================================================== */}
+        {/* EXISTING LOCAL CBT PAYMENT ROUTES */}
 
         <Route
           path="/payment"
@@ -128,30 +158,34 @@ function App() {
           element={<PaymentSuccess />}
         />
 
+        {/* INTERNATIONAL PAYMENT RETURN */}
 
-        {/* ==================================================
-            CBT
-        ================================================== */}
+        <Route
+          path="/international-payment-success"
+          element={<InternationalPaymentSuccessNew />}
+        />
+
+        <Route
+          path="/international/:examCode/board"
+          element={<InternationalExamBoard />}
+        />
+
+
+        {/* CBT SELECTION */}
 
         <Route
           path="/cbt-categories"
-          element={<CBTCategories />}
+          element={<CBTSelection />}
         />
 
-        <Route
-          path="/cbt-subjects"
-          element={<CBTSubjects />}
-        />
+        {/* CBT EXAMINATION ENGINE */}
 
         <Route
           path="/cbt-exam"
           element={<MockExamMode />}
         />
 
-
-        {/* ==================================================
-            PRACTICE
-        ================================================== */}
+        {/* PRACTICE */}
 
         <Route
           path="/practice"
@@ -178,60 +212,59 @@ function App() {
           element={<PracticeResult />}
         />
 
-
-        {/* ==================================================
-            RESULTS HISTORY
-        ================================================== */}
+        {/* RESULTS HISTORY */}
 
         <Route
           path="/results-history"
           element={<ResultsHistory />}
         />
 
-
-        {/* ==================================================
-            REVIEW ANSWERS
-        ================================================== */}
+        {/* REVIEW ANSWERS */}
 
         <Route
           path="/review-answers"
           element={<ReviewAnswers />}
         />
 
-
-        {/* ==================================================
-            MOCK EXAM RESULT
-        ================================================== */}
+        {/* CBT RESULT */}
 
         <Route
           path="/result"
           element={<ResultPage />}
         />
 
-
-        {/* ==================================================
-            CERTIFICATE
-        ================================================== */}
+        {/* CERTIFICATE */}
 
         <Route
           path="/certificate"
           element={<CertificatePage />}
         />
 
-
         {/* ==================================================
-            ADMIN LOGIN
+            INTERNATIONAL EXAMINATIONS
         ================================================== */}
+
+        {/* Examination catalogue */}
+
+      <Route
+        path="/international"
+        element={<InternationalExaminations />}
+        />
+        {/* Selected examination details */}
+
+        <Route
+          path="/international/:examCode"
+          element={<InternationalExamDetails />}
+        />
+
+        {/* ADMIN LOGIN */}
 
         <Route
           path="/admin-login"
           element={<AdminLogin />}
         />
 
-
-        {/* ==================================================
-            PROTECTED ADMIN
-        ================================================== */}
+        {/* PROTECTED ADMIN */}
 
         <Route
           path="/admin"
@@ -333,9 +366,9 @@ function App() {
         />
 
       </Routes>
-
     </BrowserRouter>
   );
 }
 
 export default App;
+
