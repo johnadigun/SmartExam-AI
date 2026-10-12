@@ -1,0 +1,363 @@
+.english-countries-page {
+  min-height: 100vh;
+  width: 100%;
+  background: #f4f7fb;
+  padding: 24px 18px;
+  box-sizing: border-box;
+}
+
+.english-countries-container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.english-countries-header {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 22px 26px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+}
+
+.english-countries-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.english-countries-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #1d4ed8;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.english-countries-brand h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.english-countries-brand span {
+  display: block;
+  margin-top: 2px;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.english-countries-heading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.english-countries-label {
+  display: inline-block;
+  color: #1d4ed8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+}
+
+.english-countries-heading h2 {
+  margin: 6px 0 8px;
+  color: #0f172a;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.english-countries-heading p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.english-countries-content {
+  margin-top: 18px;
+}
+
+.english-countries-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* ==========================================================
+   COUNTRY CARD
+========================================================== */
+
+.english-country-card {
+  position: relative;
+  min-height: 122px;
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #0f172a;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.035);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.english-country-card:hover {
+  transform: translateY(-2px);
+  border-color: #bfdbfe;
+  box-shadow: 0 9px 20px rgba(15, 23, 42, 0.08);
+}
+
+.english-country-card:focus-visible {
+  outline: 3px solid rgba(29, 78, 216, 0.2);
+  outline-offset: 2px;
+}
+
+/* ==========================================================
+   FLAG
+========================================================== */
+
+.english-country-flag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  width: 40px;
+  height: 32px;
+
+  border-radius: 7px;
+
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  line-height: 1;
+
+  overflow: hidden;
+}
+
+/* ==========================================================
+   COUNTRY NAME
+========================================================== */
+
+.english-country-name {
+  display: block;
+
+  max-width: calc(100% - 48px);
+
+  margin-bottom: 7px;
+
+  color: #0f172a;
+
+  font-size: 15px;
+  font-weight: 800;
+
+  line-height: 1.25;
+}
+
+/* ==========================================================
+   COUNTRY INFORMATION
+========================================================== */
+
+.english-country-code,
+.english-country-phone {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #64748b;
+
+  font-size: 11px;
+
+  line-height: 1.35;
+}
+
+/* ==========================================================
+   ACTION
+========================================================== */
+
+.english-country-action {
+  display: block;
+
+  margin-top: 9px;
+
+  color: #1d4ed8;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* ==========================================================
+   INFORMATION
+========================================================== */
+
+.english-countries-info {
+  margin-top: 18px;
+
+  padding: 17px 20px;
+
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.035);
+}
+
+.english-countries-info strong {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #0f172a;
+
+  font-size: 15px;
+}
+
+.english-countries-info p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+}
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.english-countries-footer {
+  margin-top: 18px;
+
+  padding-bottom: 16px;
+}
+
+.english-countries-back-btn {
+  border: 1px solid #cbd5e1;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  color: #334155;
+
+  padding: 9px 14px;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.english-countries-back-btn:hover {
+  background: #f8fafc;
+
+  border-color: #94a3b8;
+
+  color: #0f172a;
+}
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 1100px) {
+  .english-countries-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 850px) {
+  .english-countries-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .english-countries-page {
+    padding: 18px 12px;
+  }
+
+  .english-countries-header {
+    padding: 20px 18px;
+  }
+
+  .english-countries-heading h2 {
+    font-size: 24px;
+  }
+
+  .english-countries-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .english-country-card {
+    min-height: 118px;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  .english-countries-page {
+    padding: 14px 9px;
+  }
+
+  .english-countries-header {
+    padding: 18px 15px;
+  }
+
+  .english-countries-brand h1 {
+    font-size: 20px;
+  }
+
+  .english-countries-heading h2 {
+    font-size: 22px;
+  }
+
+  .english-countries-heading p {
+    font-size: 13px;
+  }
+
+  .english-countries-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .english-country-card {
+    min-height: 108px;
+  }
+}

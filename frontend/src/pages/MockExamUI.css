@@ -1,21 +1,68 @@
-
 /* ==========================================================
    SMARTEXAM CBT SYSTEM
    PROFESSIONAL MOCK EXAM UI
    FINAL MASTER STYLESHEET
 
-   Theme:
-   White / Light Grey / Dark Grey / Green / Red
-
-   Layout:
-   Question Area = approximately 75%
-   Palette Area  = approximately 25%
+   DESIGN LANGUAGE:
+   - Matches SmartExam Introduction Page
+   - Professional green / white visual system
+   - Inter typography
+   - Medium/light green page background
+   - Deep green header/footer
+   - White content cards
+   - Green selected-answer states
+   - Larger question and answer text
 
    IMPORTANT:
-   - Random question order is controlled by MockExamEngine.js
-   - This stylesheet does NOT alter question randomization
-   - Page scrolling is allowed when viewport height is limited
+   - No examination logic is controlled here.
+   - Randomization remains in MockExamEngine.js.
+   - Answer handling remains in MockExamEngine.js.
+   - Timer remains in MockExamEngine.js.
+   - Routing remains unchanged.
 ========================================================== */
+
+
+/* ==========================================================
+   SMARTEXAM DESIGN TOKENS
+========================================================== */
+
+:root {
+    --green-deep: #022c22;
+    --green-dark: #064e3b;
+    --green-main: #047857;
+    --green-medium: #059669;
+
+    --green-light: #ecfdf5;
+    --green-soft: #e8f6ef;
+
+    --page-green: #d9f0e5;
+    --page-green-light: #e8f6ef;
+
+    --white: #ffffff;
+
+    --text: #14201b;
+    --text-dark: #0b1712;
+    --muted: #52635b;
+
+    --border: #d6e5de;
+    --border-light: #e7f0eb;
+
+    --grey-soft: #f8faf9;
+    --grey-light: #f1f5f3;
+
+    --red: #b42318;
+    --red-light: #fef3f2;
+
+    --shadow-light:
+        0 8px 25px rgba(2, 44, 34, 0.08);
+
+    --shadow-medium:
+        0 16px 40px rgba(2, 44, 34, 0.13);
+
+    --radius-small: 10px;
+    --radius-medium: 16px;
+    --radius-large: 24px;
+}
 
 
 /* ==========================================================
@@ -35,14 +82,18 @@ body,
     min-height: 100%;
 
     font-family:
+        Inter,
         "Segoe UI",
-        Tahoma,
-        Geneva,
-        Verdana,
+        Roboto,
+        Helvetica,
+        Arial,
         sans-serif;
 
-    background: #eeeeee;
-    color: #222222;
+    background: var(--page-green-light);
+
+    color: var(--text);
+
+    line-height: 1.65;
 }
 
 html,
@@ -63,7 +114,13 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: #eeeeee;
+    background:
+        linear-gradient(
+            180deg,
+            var(--page-green) 0%,
+            var(--page-green-light) 48%,
+            var(--page-green) 100%
+        );
 
     overflow: visible;
 }
@@ -74,26 +131,27 @@ body {
 ========================================================== */
 
 .exam-header {
-    min-height: 68px;
+    min-height: 76px;
 
     flex-shrink: 0;
 
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 
-    gap: 12px;
+    gap: 16px;
 
-    padding: 8px 20px;
+    padding: 10px 24px;
 
-    background: #ffffff;
+    background: var(--green-deep);
 
-    color: #222222;
+    color: var(--white);
 
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 
     box-shadow:
-        0 2px 8px rgba(0, 0, 0, 0.05);
+        0 8px 25px rgba(2, 44, 34, 0.16);
 }
 
 
@@ -104,6 +162,7 @@ body {
 .exam-title {
     display: flex;
     flex-direction: column;
+
     gap: 3px;
 
     min-width: 0;
@@ -112,23 +171,23 @@ body {
 }
 
 .exam-title h1 {
-    font-size: 20px;
+    font-size: 22px;
 
-    font-weight: 700;
+    font-weight: 900;
 
-    color: #111111;
+    color: var(--white);
 
-    letter-spacing: 0.2px;
+    letter-spacing: 0.1px;
 
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
 .exam-title p {
-    font-size: 11px;
+    font-size: 14px;
 
-    color: #666666;
+    color: rgba(255, 255, 255, 0.78);
 
-    line-height: 1.3;
+    line-height: 1.35;
 }
 
 
@@ -137,8 +196,8 @@ body {
 ========================================================== */
 
 .timer-panel {
-    width: 155px;
-    height: 48px;
+    width: 165px;
+    height: 52px;
 
     flex-shrink: 0;
 
@@ -148,34 +207,42 @@ body {
     justify-content: center;
     align-items: center;
 
-    border-radius: 7px;
+    border-radius: var(--radius-small);
 
-    background: #222222;
+    background: var(--white);
 
-    color: #ffffff;
+    color: var(--green-deep);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
 
     box-shadow:
-        0 3px 10px rgba(0, 0, 0, 0.10);
+        0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .timer-panel span {
-    font-size: 9px;
+    font-size: 10px;
 
-    color: #dddddd;
+    color: var(--muted);
 
     line-height: 1.2;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.4px;
 }
 
 .timer-panel h2 {
     margin-top: 1px;
 
-    font-size: 20px;
+    font-size: 21px;
 
-    font-weight: 700;
+    font-weight: 900;
 
-    color: #ffffff;
+    color: var(--green-dark);
 
-    line-height: 1.1;
+    line-height: 1.15;
 }
 
 
@@ -184,7 +251,7 @@ body {
 ========================================================== */
 
 .exam-dashboard {
-    min-height: 54px;
+    min-height: 58px;
 
     flex-shrink: 0;
 
@@ -193,13 +260,15 @@ body {
     justify-content: center;
     align-items: center;
 
-    gap: 12px;
+    flex-wrap: nowrap;
 
-    padding: 6px;
+    gap: 8px;
 
-    background: #eeeeee;
+    padding: 6px 10px;
 
-    border-bottom: 1px solid #d6d6d6;
+    background: var(--green-light);
+
+    border-bottom: 1px solid var(--border);
 }
 
 
@@ -208,8 +277,10 @@ body {
 ========================================================== */
 
 .dashboard-card {
-    width: 125px;
+    width: 105px;
     height: 40px;
+
+    flex: 0 0 105px;
 
     display: flex;
     flex-direction: column;
@@ -217,34 +288,44 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: #ffffff;
+    padding: 3px 6px;
 
-    border: 1px solid #d6d6d6;
+    background: var(--white);
 
-    border-radius: 6px;
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
 
     box-shadow:
-        0 2px 6px rgba(0, 0, 0, 0.04);
+        0 4px 12px rgba(2, 44, 34, 0.07);
+
+    overflow: hidden;
 }
 
 .dashboard-card span {
-    font-size: 9px;
+    font-size: 11px;
 
-    color: #666666;
+    color: var(--muted);
 
-    line-height: 1.2;
+    line-height: 1.15;
+
+    font-weight: 700;
+
+    white-space: nowrap;
 }
 
 .dashboard-card h3 {
     margin-top: 1px;
 
-    font-size: 14px;
+    font-size: 18px;
 
-    color: #222222;
+    color: var(--green-dark);
 
-    font-weight: 700;
+    font-weight: 900;
 
-    line-height: 1.2;
+    line-height: 1.15;
+
+    white-space: nowrap;
 }
 
 
@@ -263,13 +344,13 @@ body {
         minmax(0, 3fr)
         minmax(260px, 1fr);
 
-    gap: 10px;
+    gap: 16px;
 
-    padding: 10px;
+    padding: 16px;
 
     overflow: visible;
 
-    align-items: stretch;
+    align-items: start;
 }
 
 
@@ -286,18 +367,17 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: #ffffff;
+    background: var(--white);
 
-    border: 1px solid #d6d6d6;
+    border: 1px solid var(--border);
 
-    border-radius: 8px;
+    border-radius: var(--radius-medium);
 
-    padding: 14px;
+    padding: 20px;
 
     overflow: visible;
 
-    box-shadow:
-        0 2px 7px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--shadow-light);
 }
 
 
@@ -308,11 +388,11 @@ body {
 .question-card {
     flex-shrink: 0;
 
-    padding-bottom: 9px;
+    padding-bottom: 14px;
 
-    margin-bottom: 9px;
+    margin-bottom: 14px;
 
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid var(--border-light);
 }
 
 
@@ -325,19 +405,21 @@ body {
 
     align-items: center;
 
-    padding: 4px 10px;
+    padding: 6px 12px;
 
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 
-    border-radius: 5px;
+    border-radius: var(--radius-small);
 
-    background: #e5e5e5;
+    background: var(--green-light);
 
-    color: #222222;
+    border: 1px solid var(--border);
 
-    font-size: 11px;
+    color: var(--green-dark);
 
-    font-weight: 700;
+    font-size: 14px;
+
+    font-weight: 800;
 
     line-height: 1.3;
 }
@@ -348,13 +430,13 @@ body {
 ========================================================== */
 
 .question-text {
-    font-size: 15px;
+    font-size: 20px;
 
-    line-height: 1.42;
+    line-height: 1.6;
 
-    color: #222222;
+    color: var(--text-dark);
 
-    font-weight: 500;
+    font-weight: 600;
 
     overflow-wrap: anywhere;
 }
@@ -371,7 +453,7 @@ body {
 
     flex-direction: column;
 
-    gap: 6px;
+    gap: 10px;
 
     padding-right: 2px;
 
@@ -394,28 +476,34 @@ body {
 
     align-items: center;
 
-    gap: 8px;
+    gap: 12px;
 
-    padding: 7px 10px;
+    padding: 12px 14px;
 
-    background: #f7f7f7;
+    background: var(--grey-soft);
 
-    border: 1px solid #d6d6d6;
+    border: 1px solid var(--border);
 
-    border-radius: 6px;
+    border-radius: var(--radius-small);
 
     cursor: pointer;
 
     transition:
         background 0.2s ease,
         border-color 0.2s ease,
-        box-shadow 0.2s ease;
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
 }
 
 .option-card:hover {
-    background: #eeeeee;
+    background: var(--green-light);
 
-    border-color: #aaaaaa;
+    border-color: #a9cfc0;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 5px 15px rgba(2, 44, 34, 0.07);
 }
 
 
@@ -424,11 +512,11 @@ body {
 ========================================================== */
 
 .option-card input {
-    transform: scale(1.05);
+    transform: scale(1.2);
 
     cursor: pointer;
 
-    accent-color: #198754;
+    accent-color: var(--green-main);
 
     flex-shrink: 0;
 }
@@ -439,10 +527,10 @@ body {
 ========================================================== */
 
 .option-letter {
-    width: 28px;
-    height: 28px;
+    width: 36px;
+    height: 36px;
 
-    min-width: 28px;
+    min-width: 36px;
 
     display: flex;
 
@@ -451,13 +539,15 @@ body {
 
     border-radius: 50%;
 
-    background: #dddddd;
+    background: var(--green-light);
 
-    color: #222222;
+    border: 1px solid var(--border);
 
-    font-size: 12px;
+    color: var(--green-dark);
 
-    font-weight: 700;
+    font-size: 16px;
+
+    font-weight: 800;
 }
 
 
@@ -468,11 +558,13 @@ body {
 .option-text {
     flex: 1;
 
-    font-size: 13px;
+    font-size: 18px;
 
-    color: #333333;
+    color: var(--text);
 
-    line-height: 1.4;
+    line-height: 1.55;
+
+    font-weight: 500;
 
     overflow-wrap: anywhere;
 }
@@ -483,24 +575,34 @@ body {
 ========================================================== */
 
 .option-card:has(input:checked) {
-    background: #f0f8f4;
+    background: var(--green-light);
 
-    border-color: #198754;
+    border-color: var(--green-main);
 
     box-shadow:
-        0 1px 4px rgba(25, 135, 84, 0.08);
+        0 5px 16px rgba(4, 120, 87, 0.10);
 }
 
 .option-card:has(input:checked)
 .option-letter {
-    background: #198754;
+    background: var(--green-main);
 
-    color: #ffffff;
+    border-color: var(--green-main);
+
+    color: var(--white);
+}
+
+.option-card:has(input:checked)
+.option-text {
+    color: var(--green-dark);
+
+    font-weight: 700;
 }
 
 
 /* ==========================================================
    NAVIGATION
+   PREVIOUS / NEXT / SAVE / SUBMIT
 ========================================================== */
 
 .navigation-buttons {
@@ -513,34 +615,35 @@ body {
 
     flex-wrap: wrap;
 
-    gap: 8px;
+    gap: 10px;
 
-    padding-top: 10px;
+    padding-top: 14px;
 
-    margin-top: 9px;
+    margin-top: 14px;
 
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid var(--border-light);
 }
 
-
 .navigation-buttons button {
-    height: 36px;
+    height: 44px;
 
-    min-width: 125px;
+    min-width: 135px;
 
-    padding: 0 16px;
+    padding: 0 18px;
 
     border: none;
 
-    border-radius: 6px;
+    border-radius: var(--radius-small);
 
-    font-size: 11px;
+    font-size: 16px;
 
-    font-weight: 700;
+    font-weight: 800;
+
+    line-height: 1;
 
     cursor: pointer;
 
-    color: #ffffff;
+    color: var(--white);
 
     transition:
         background 0.2s ease,
@@ -552,7 +655,7 @@ body {
     transform: translateY(-1px);
 
     box-shadow:
-        0 3px 8px rgba(0, 0, 0, 0.10);
+        0 6px 15px rgba(2, 44, 34, 0.14);
 }
 
 .navigation-buttons button:active {
@@ -565,11 +668,11 @@ body {
 ========================================================== */
 
 .previous-btn {
-    background: #666666;
+    background: var(--muted);
 }
 
 .previous-btn:hover {
-    background: #555555;
+    background: #3f5149;
 }
 
 
@@ -578,24 +681,24 @@ body {
 ========================================================== */
 
 .next-btn {
-    background: #222222;
+    background: var(--green-dark);
 }
 
 .next-btn:hover {
-    background: #000000;
+    background: var(--green-deep);
 }
 
 
 /* ==========================================================
-   SUBMIT
+   SAVE / SUBMIT
 ========================================================== */
 
 .submit-btn {
-    background: #198754;
+    background: var(--green-main);
 }
 
 .submit-btn:hover {
-    background: #157347;
+    background: var(--green-dark);
 }
 
 
@@ -616,6 +719,7 @@ body {
 
 /* ==========================================================
    QUESTION SIDEBAR / PALETTE
+   RIGHT-HAND SIDE
 ========================================================== */
 
 .question-sidebar {
@@ -630,18 +734,17 @@ body {
 
     align-self: start;
 
-    max-height: calc(100vh - 132px);
+    max-height: calc(100vh - 150px);
 
-    background: #ffffff;
+    background: var(--white);
 
-    border: 1px solid #d6d6d6;
+    border: 1px solid var(--border);
 
-    border-radius: 8px;
+    border-radius: var(--radius-medium);
 
     overflow: hidden;
 
-    box-shadow:
-        0 2px 7px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--shadow-light);
 }
 
 
@@ -652,33 +755,33 @@ body {
 .palette-header {
     flex-shrink: 0;
 
-    padding: 9px;
+    padding: 12px;
 
     text-align: center;
 
-    background: #eeeeee;
+    background: var(--green-light);
 
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid var(--border);
 }
 
 .palette-header h3 {
-    font-size: 13px;
+    font-size: 15px;
 
-    color: #222222;
+    color: var(--green-dark);
 
-    font-weight: 700;
+    font-weight: 800;
 
-    line-height: 1.25;
+    line-height: 1.3;
 }
 
 .palette-header p {
-    margin-top: 2px;
+    margin-top: 3px;
 
-    font-size: 9px;
+    font-size: 11px;
 
-    color: #777777;
+    color: var(--muted);
 
-    line-height: 1.3;
+    line-height: 1.35;
 }
 
 
@@ -696,11 +799,11 @@ body {
     grid-template-columns:
         repeat(5, minmax(0, 1fr));
 
-    grid-auto-rows: 29px;
+    grid-auto-rows: 34px;
 
-    gap: 5px;
+    gap: 6px;
 
-    padding: 9px;
+    padding: 10px;
 
     overflow-y: auto;
 
@@ -712,35 +815,41 @@ body {
 
 /* ==========================================================
    PALETTE BUTTON
+   KEPT SMALL AS REQUESTED
 ========================================================== */
 
 .palette-btn {
     width: 100%;
-    height: 29px;
+    height: 34px;
 
-    border: 1px solid #d0d0d0;
+    border: 1px solid var(--border);
 
-    border-radius: 5px;
+    border-radius: 8px;
 
-    background: #eeeeee;
+    background: var(--grey-light);
 
-    color: #333333;
+    color: var(--text);
 
-    font-size: 10px;
+    font-size: 12px;
 
-    font-weight: 700;
+    font-weight: 800;
+
+    line-height: 1;
 
     cursor: pointer;
 
     transition:
         background 0.2s ease,
-        border-color 0.2s ease;
+        border-color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .palette-btn:hover {
-    background: #dddddd;
+    background: var(--green-light);
 
-    border-color: #aaaaaa;
+    border-color: #a9cfc0;
+
+    transform: translateY(-1px);
 }
 
 
@@ -749,11 +858,11 @@ body {
 ========================================================== */
 
 .palette-btn.active {
-    background: #222222;
+    background: var(--green-deep);
 
-    border-color: #222222;
+    border-color: var(--green-deep);
 
-    color: #ffffff;
+    color: var(--white);
 }
 
 
@@ -762,11 +871,11 @@ body {
 ========================================================== */
 
 .palette-btn.answered {
-    background: #198754;
+    background: var(--green-main);
 
-    border-color: #198754;
+    border-color: var(--green-main);
 
-    color: #ffffff;
+    color: var(--white);
 }
 
 
@@ -775,14 +884,14 @@ body {
 ========================================================== */
 
 .palette-btn.active.answered {
-    background: #222222;
+    background: var(--green-deep);
 
-    border-color: #198754;
+    border-color: var(--green-main);
 
-    color: #ffffff;
+    color: var(--white);
 
     box-shadow:
-        inset 0 0 0 2px #198754;
+        inset 0 0 0 2px var(--green-medium);
 }
 
 
@@ -801,13 +910,12 @@ body {
 
     gap: 5px;
 
-    padding: 7px 6px;
+    padding: 9px 6px;
 
-    border-top: 1px solid #d6d6d6;
+    border-top: 1px solid var(--border);
 
-    background: #eeeeee;
+    background: var(--green-light);
 }
-
 
 .summary-item {
     display: flex;
@@ -816,11 +924,12 @@ body {
 
     gap: 4px;
 
-    font-size: 8px;
+    font-size: 9px;
 
-    color: #555555;
+    color: var(--muted);
+
+    font-weight: 600;
 }
-
 
 .summary-color {
     width: 10px;
@@ -831,19 +940,18 @@ body {
     border-radius: 3px;
 }
 
-
 .summary-color.current {
-    background: #222222;
+    background: var(--green-deep);
 }
 
 .summary-color.answered {
-    background: #198754;
+    background: var(--green-main);
 }
 
 .summary-color.unanswered {
-    background: #dddddd;
+    background: #dce5e1;
 
-    border: 1px solid #cccccc;
+    border: 1px solid #c5d3cd;
 }
 
 
@@ -854,19 +962,21 @@ body {
 .exam-information {
     flex-shrink: 0;
 
-    padding: 7px;
+    padding: 10px;
 
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid var(--border);
 
-    background: #ffffff;
+    background: var(--white);
 }
 
 .exam-information h4 {
-    font-size: 11px;
+    font-size: 13px;
 
-    color: #222222;
+    color: var(--green-dark);
 
-    margin-bottom: 4px;
+    margin-bottom: 5px;
+
+    font-weight: 800;
 }
 
 .exam-information p {
@@ -878,9 +988,9 @@ body {
 
     margin-bottom: 2px;
 
-    font-size: 9px;
+    font-size: 10px;
 
-    color: #666666;
+    color: var(--muted);
 }
 
 
@@ -889,7 +999,7 @@ body {
 ========================================================== */
 
 .exam-footer {
-    min-height: 40px;
+    min-height: 46px;
 
     flex-shrink: 0;
 
@@ -898,21 +1008,22 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 18px;
+    padding: 0 20px;
 
-    background: #222222;
+    background: var(--green-deep);
 
-    color: #ffffff;
+    color: var(--white);
 
-    border-top: 2px solid #198754;
+    border-top: 2px solid var(--green-main);
 }
-
 
 .footer-left,
 .footer-right {
-    font-size: 10px;
+    font-size: 11px;
 
     font-weight: 600;
+
+    color: rgba(255, 255, 255, 0.82);
 }
 
 
@@ -925,26 +1036,23 @@ body {
     width: 6px;
 }
 
-
 .options-container::-webkit-scrollbar-track,
 .palette-grid::-webkit-scrollbar-track {
-    background: #eeeeee;
+    background: var(--green-light);
 
     border-radius: 10px;
 }
-
 
 .options-container::-webkit-scrollbar-thumb,
 .palette-grid::-webkit-scrollbar-thumb {
-    background: #bbbbbb;
+    background: #a9cfc0;
 
     border-radius: 10px;
 }
 
-
 .options-container::-webkit-scrollbar-thumb:hover,
 .palette-grid::-webkit-scrollbar-thumb:hover {
-    background: #888888;
+    background: var(--green-main);
 }
 
 
@@ -961,64 +1069,65 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: #eeeeee;
+    background:
+        linear-gradient(
+            180deg,
+            var(--page-green),
+            var(--page-green-light)
+        );
 }
 
-
 .loading-card {
-    width: 320px;
+    width: 340px;
 
     max-width: 90%;
 
-    padding: 30px;
+    padding: 34px;
 
     text-align: center;
 
-    background: #ffffff;
+    background: var(--white);
 
-    border: 1px solid #d6d6d6;
+    border: 1px solid var(--border);
 
-    border-radius: 10px;
+    border-radius: var(--radius-medium);
 
-    box-shadow:
-        0 3px 12px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-medium);
 }
-
 
 .loading-card h2 {
-    margin-top: 15px;
+    margin-top: 16px;
 
-    color: #222222;
+    color: var(--green-dark);
 
-    font-size: 19px;
+    font-size: 20px;
+
+    font-weight: 800;
 }
-
 
 .loading-card p {
     margin-top: 7px;
 
-    color: #666666;
+    color: var(--muted);
 
-    font-size: 13px;
+    font-size: 14px;
 }
 
-
 .loading-spinner {
-    width: 45px;
-    height: 45px;
+    width: 46px;
+    height: 46px;
 
     margin: auto;
 
-    border: 4px solid #dddddd;
+    border: 4px solid var(--green-light);
 
-    border-top-color: #222222;
+    border-top-color: var(--green-main);
 
     border-radius: 50%;
 
     animation:
         spin 0.8s linear infinite;
 }
-
 
 @keyframes spin {
     from {
@@ -1043,15 +1152,25 @@ body {
             320px;
     }
 
+    .question-text {
+        font-size: 21px;
+    }
+
+    .option-text {
+        font-size: 18px;
+    }
+
     .palette-grid {
         grid-template-columns:
             repeat(5, minmax(0, 1fr));
 
-        grid-auto-rows: 30px;
+        grid-auto-rows: 35px;
     }
 
     .palette-btn {
-        height: 30px;
+        height: 35px;
+
+        font-size: 12px;
     }
 }
 
@@ -1063,10 +1182,192 @@ body {
 @media (min-width: 1001px) and (max-height: 800px) {
 
     .exam-header {
-        min-height: 60px;
+        min-height: 64px;
 
-        padding-top: 6px;
-        padding-bottom: 6px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .exam-title h1 {
+        font-size: 20px;
+    }
+
+    .exam-title p {
+        font-size: 12px;
+    }
+
+    .timer-panel {
+        width: 150px;
+        height: 46px;
+    }
+
+    .timer-panel h2 {
+        font-size: 19px;
+    }
+
+    .exam-dashboard {
+        min-height: 50px;
+
+        gap: 7px;
+
+        padding: 5px 8px;
+    }
+
+    .dashboard-card {
+        width: 100px;
+        height: 36px;
+
+        flex: 0 0 100px;
+
+        padding: 2px 5px;
+    }
+
+    .dashboard-card span {
+        font-size: 10px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 16px;
+    }
+
+    .exam-workspace {
+        padding: 10px;
+
+        gap: 10px;
+    }
+
+    .question-panel {
+        padding: 15px;
+    }
+
+    .question-card {
+        padding-bottom: 10px;
+
+        margin-bottom: 10px;
+    }
+
+    .question-number {
+        padding: 5px 10px;
+
+        margin-bottom: 7px;
+
+        font-size: 13px;
+    }
+
+    .question-text {
+        font-size: 18px;
+
+        line-height: 1.5;
+    }
+
+    .options-container {
+        gap: 7px;
+    }
+
+    .option-card {
+        padding: 9px 11px;
+
+        gap: 9px;
+    }
+
+    .option-letter {
+        width: 31px;
+        height: 31px;
+
+        min-width: 31px;
+
+        font-size: 14px;
+    }
+
+    .option-text {
+        font-size: 16px;
+
+        line-height: 1.45;
+    }
+
+    .navigation-buttons {
+        gap: 7px;
+
+        padding-top: 9px;
+
+        margin-top: 9px;
+    }
+
+    .navigation-buttons button {
+        height: 38px;
+
+        min-width: 115px;
+
+        font-size: 14px;
+    }
+
+    .question-sidebar {
+        max-height: calc(100vh - 125px);
+    }
+
+    .palette-header {
+        padding: 9px;
+    }
+
+    .palette-header h3 {
+        font-size: 13px;
+    }
+
+    .palette-header p {
+        font-size: 9px;
+    }
+
+    .palette-grid {
+        gap: 4px;
+
+        padding: 8px;
+
+        grid-auto-rows: 29px;
+    }
+
+    .palette-btn {
+        height: 29px;
+
+        font-size: 10px;
+    }
+
+    .palette-summary {
+        padding: 7px 5px;
+    }
+
+    .exam-information {
+        padding: 8px;
+    }
+
+    .exam-information h4 {
+        font-size: 11px;
+    }
+
+    .exam-information p {
+        font-size: 9px;
+    }
+
+    .exam-footer {
+        min-height: 38px;
+    }
+
+    .footer-left,
+    .footer-right {
+        font-size: 10px;
+    }
+}
+
+
+/* ==========================================================
+   VERY SHORT DESKTOP SCREENS
+========================================================== */
+
+@media (min-width: 1001px) and (max-height: 680px) {
+
+    .exam-header {
+        min-height: 56px;
+
+        padding: 5px 14px;
     }
 
     .exam-title h1 {
@@ -1074,43 +1375,51 @@ body {
     }
 
     .exam-title p {
-        font-size: 10px;
+        display: none;
     }
 
     .timer-panel {
-        width: 145px;
-        height: 44px;
+        width: 135px;
+        height: 41px;
+    }
+
+    .timer-panel span {
+        font-size: 9px;
     }
 
     .timer-panel h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .exam-dashboard {
-        min-height: 48px;
+        min-height: 42px;
 
-        padding: 5px;
+        gap: 5px;
 
-        gap: 8px;
+        padding: 4px 6px;
     }
 
     .dashboard-card {
-        width: 115px;
-        height: 36px;
+        width: 88px;
+        height: 32px;
+
+        flex: 0 0 88px;
+
+        padding: 1px 4px;
     }
 
     .dashboard-card span {
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .dashboard-card h3 {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .exam-workspace {
-        padding: 8px;
+        padding: 7px;
 
-        gap: 8px;
+        gap: 7px;
     }
 
     .question-panel {
@@ -1124,17 +1433,17 @@ body {
     }
 
     .question-number {
-        padding: 3px 8px;
+        padding: 4px 8px;
 
         margin-bottom: 5px;
 
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .question-text {
-        font-size: 14px;
+        font-size: 17px;
 
-        line-height: 1.35;
+        line-height: 1.4;
     }
 
     .options-container {
@@ -1142,28 +1451,28 @@ body {
     }
 
     .option-card {
-        padding: 5px 8px;
+        padding: 7px 9px;
 
         gap: 7px;
     }
 
     .option-letter {
-        width: 25px;
-        height: 25px;
+        width: 28px;
+        height: 28px;
 
-        min-width: 25px;
+        min-width: 28px;
 
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .option-text {
-        font-size: 12px;
+        font-size: 15px;
 
-        line-height: 1.35;
+        line-height: 1.4;
     }
 
     .navigation-buttons {
-        gap: 6px;
+        gap: 5px;
 
         padding-top: 7px;
 
@@ -1171,205 +1480,23 @@ body {
     }
 
     .navigation-buttons button {
-        height: 32px;
-
-        min-width: 112px;
-
-        font-size: 10px;
-    }
-
-    .question-sidebar {
-        max-height: calc(100vh - 112px);
-    }
-
-    .palette-header {
-        padding: 7px;
-    }
-
-    .palette-header h3 {
-        font-size: 12px;
-    }
-
-    .palette-header p {
-        font-size: 8px;
-    }
-
-    .palette-grid {
-        gap: 4px;
-
-        padding: 7px;
-
-        grid-auto-rows: 26px;
-    }
-
-    .palette-btn {
-        height: 26px;
-
-        font-size: 9px;
-    }
-
-    .palette-summary {
-        padding: 6px 5px;
-    }
-
-    .exam-information {
-        padding: 6px;
-    }
-
-    .exam-information h4 {
-        font-size: 10px;
-    }
-
-    .exam-information p {
-        font-size: 8px;
-    }
-
-    .exam-footer {
-        min-height: 36px;
-    }
-
-    .footer-left,
-    .footer-right {
-        font-size: 9px;
-    }
-}
-
-
-/* ==========================================================
-   VERY SHORT DESKTOP SCREENS
-========================================================== */
-
-@media (min-width: 1001px) and (max-height: 680px) {
-
-    .exam-header {
-        min-height: 54px;
-
-        padding: 5px 14px;
-    }
-
-    .exam-title h1 {
-        font-size: 16px;
-    }
-
-    .exam-title p {
-        display: none;
-    }
-
-    .timer-panel {
-        width: 130px;
-        height: 40px;
-    }
-
-    .timer-panel span {
-        font-size: 8px;
-    }
-
-    .timer-panel h2 {
-        font-size: 16px;
-    }
-
-    .exam-dashboard {
-        min-height: 42px;
-
-        gap: 6px;
-
-        padding: 4px;
-    }
-
-    .dashboard-card {
-        width: 105px;
-        height: 32px;
-    }
-
-    .dashboard-card span {
-        font-size: 7px;
-    }
-
-    .dashboard-card h3 {
-        font-size: 12px;
-    }
-
-    .exam-workspace {
-        padding: 6px;
-
-        gap: 6px;
-    }
-
-    .question-panel {
-        padding: 9px;
-    }
-
-    .question-card {
-        padding-bottom: 6px;
-
-        margin-bottom: 6px;
-    }
-
-    .question-number {
-        padding: 2px 7px;
-
-        margin-bottom: 4px;
-
-        font-size: 9px;
-    }
-
-    .question-text {
-        font-size: 13px;
-
-        line-height: 1.3;
-    }
-
-    .options-container {
-        gap: 4px;
-    }
-
-    .option-card {
-        padding: 4px 7px;
-
-        gap: 6px;
-    }
-
-    .option-letter {
-        width: 23px;
-        height: 23px;
-
-        min-width: 23px;
-
-        font-size: 10px;
-    }
-
-    .option-text {
-        font-size: 11px;
-
-        line-height: 1.3;
-    }
-
-    .navigation-buttons {
-        gap: 5px;
-
-        padding-top: 6px;
-
-        margin-top: 6px;
-    }
-
-    .navigation-buttons button {
-        height: 30px;
+        height: 34px;
 
         min-width: 105px;
 
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .question-sidebar {
-        max-height: calc(100vh - 96px);
+        max-height: calc(100vh - 100px);
     }
 
     .palette-header {
-        padding: 5px;
+        padding: 6px;
     }
 
     .palette-header h3 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .palette-header p {
@@ -1381,13 +1508,13 @@ body {
 
         padding: 5px;
 
-        grid-auto-rows: 23px;
+        grid-auto-rows: 25px;
     }
 
     .palette-btn {
-        height: 23px;
+        height: 25px;
 
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .palette-summary {
@@ -1395,7 +1522,7 @@ body {
     }
 
     .summary-item {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .summary-color {
@@ -1408,24 +1535,24 @@ body {
     }
 
     .exam-information h4 {
-        font-size: 9px;
+        font-size: 10px;
 
         margin-bottom: 3px;
     }
 
     .exam-information p {
-        font-size: 7px;
+        font-size: 8px;
 
         margin-bottom: 1px;
     }
 
     .exam-footer {
-        min-height: 32px;
+        min-height: 33px;
     }
 
     .footer-left,
     .footer-right {
-        font-size: 8px;
+        font-size: 9px;
     }
 }
 
@@ -1450,7 +1577,7 @@ body {
     }
 
     .exam-header {
-        min-height: 68px;
+        min-height: 70px;
 
         gap: 10px;
 
@@ -1459,9 +1586,29 @@ body {
     }
 
     .exam-dashboard {
-        min-height: 54px;
+        min-height: 50px;
 
         flex-wrap: wrap;
+
+        gap: 5px;
+
+        padding: 5px;
+    }
+
+    .dashboard-card {
+        width: 90px;
+
+        height: 36px;
+
+        flex: 0 0 90px;
+    }
+
+    .dashboard-card span {
+        font-size: 9px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 15px;
     }
 
     .exam-workspace {
@@ -1517,7 +1664,7 @@ body {
     }
 
     .exam-title p {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .timer-panel {
@@ -1537,45 +1684,86 @@ body {
     }
 
     .dashboard-card {
-        width: 100px;
+        width: 90px;
 
         height: 36px;
+
+        flex: 0 0 90px;
+    }
+
+    .dashboard-card span {
+        font-size: 9px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 15px;
     }
 
     .exam-workspace {
-        padding: 7px;
+        padding: 8px;
 
-        gap: 8px;
+        gap: 10px;
     }
 
     .question-panel {
-        padding: 10px;
+        padding: 12px;
+    }
+
+    .question-number {
+        font-size: 13px;
+
+        padding: 5px 9px;
     }
 
     .question-text {
-        font-size: 14px;
+        font-size: 18px;
 
-        line-height: 1.4;
+        line-height: 1.55;
+    }
+
+    .options-container {
+        gap: 9px;
     }
 
     .option-card {
-        padding: 7px 8px;
+        padding: 10px;
+
+        gap: 9px;
+    }
+
+    .option-card input {
+        transform: scale(1.15);
+    }
+
+    .option-letter {
+        width: 31px;
+        height: 31px;
+
+        min-width: 31px;
+
+        font-size: 14px;
     }
 
     .option-text {
-        font-size: 12px;
+        font-size: 16px;
+
+        line-height: 1.5;
     }
 
     .navigation-buttons {
         flex-direction: column;
 
-        gap: 6px;
+        gap: 7px;
     }
 
     .navigation-buttons button {
         width: 100%;
 
         min-width: 100%;
+
+        height: 42px;
+
+        font-size: 15px;
     }
 
     .question-sidebar {
@@ -1587,6 +1775,10 @@ body {
             repeat(5, minmax(0, 1fr));
 
         max-height: 300px;
+    }
+
+    .palette-btn {
+        font-size: 11px;
     }
 
     .exam-footer {
@@ -1631,15 +1823,70 @@ body {
         font-size: 16px;
     }
 
+    .exam-dashboard {
+        gap: 4px;
+
+        padding: 4px;
+    }
+
     .dashboard-card {
-        width: 90px;
+        width: 82px;
 
         height: 34px;
+
+        flex: 0 0 82px;
+    }
+
+    .dashboard-card span {
+        font-size: 8px;
+    }
+
+    .dashboard-card h3 {
+        font-size: 14px;
+    }
+
+    .question-panel {
+        padding: 10px;
+    }
+
+    .question-text {
+        font-size: 17px;
+
+        line-height: 1.5;
+    }
+
+    .option-card {
+        padding: 8px;
+    }
+
+    .option-letter {
+        width: 28px;
+        height: 28px;
+
+        min-width: 28px;
+
+        font-size: 13px;
+    }
+
+    .option-text {
+        font-size: 15px;
+
+        line-height: 1.45;
+    }
+
+    .navigation-buttons button {
+        height: 40px;
+
+        font-size: 14px;
     }
 
     .palette-grid {
         grid-template-columns:
             repeat(4, minmax(0, 1fr));
+    }
+
+    .palette-btn {
+        font-size: 10px;
     }
 }
 
@@ -1651,7 +1898,7 @@ body {
 .navigation-buttons button:focus-visible,
 .palette-btn:focus-visible,
 .option-card:focus-within {
-    outline: 2px solid #198754;
+    outline: 2px solid var(--green-main);
 
     outline-offset: 2px;
 }
