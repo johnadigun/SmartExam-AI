@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import DashboardCards from "./DashboardCards";
@@ -34,19 +33,41 @@ function DashboardUI({
   logout,
 }) {
   /* ==========================================================
+     SELECTED COUNTRY CONTEXT
+  ========================================================== */
+
+  const selectedCountry =
+    localStorage.getItem("selectedCountry") || "";
+
+  const selectedCountryCode =
+    localStorage.getItem("selectedCountryCode") || "";
+
+  const countryFlagUrl = selectedCountryCode
+    ? `https://flagcdn.com/w80/${selectedCountryCode.toLowerCase()}.png`
+    : "";
+
+  /* ==========================================================
      LOADING
   ========================================================== */
 
   if (loading) {
     return (
       <div className="dashboard-loading">
+
         <div className="dashboard-loading-box">
+
           <div className="dashboard-spinner"></div>
 
-          <h2>Loading Dashboard...</h2>
+          <h2>
+            Loading Dashboard...
+          </h2>
 
-          <p>Please wait.</p>
+          <p>
+            Please wait.
+          </p>
+
         </div>
+
       </div>
     );
   }
@@ -61,31 +82,118 @@ function DashboardUI({
       <header className="dashboard-header">
 
         <div className="dashboard-brand">
+
           <div className="dashboard-brand-icon">
             SE
           </div>
 
           <div>
-            <h1>SmartExam</h1>
+
+            <h1>
+              SmartExam
+            </h1>
 
             <span>
               CBT Examination Portal
             </span>
+
           </div>
+
         </div>
+
+
+        {/* ==================================================
+            SELECTED COUNTRY
+        ================================================== */}
+
+        {selectedCountry &&
+          selectedCountryCode && (
+
+          <div
+            className="dashboard-selected-country"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+              marginLeft: "auto",
+              marginRight: "24px",
+              padding: "7px 12px",
+              border: "1px solid #e2e8f0",
+              borderRadius: "8px",
+              background: "#ffffff",
+            }}
+          >
+
+            <img
+              src={countryFlagUrl}
+              alt={`${selectedCountry} flag`}
+              style={{
+                width: "38px",
+                height: "25px",
+                objectFit: "cover",
+                borderRadius: "4px",
+                border: "1px solid #dbe2ea",
+                display: "block",
+              }}
+            />
+
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                lineHeight: "1.2",
+              }}
+            >
+
+              <strong
+                style={{
+                  fontSize: "13px",
+                  color: "#0f172a",
+                }}
+              >
+                {selectedCountry}
+              </strong>
+
+              <small
+                style={{
+                  fontSize: "10px",
+                  color: "#64748b",
+                }}
+              >
+                Selected Country
+              </small>
+
+            </div>
+
+          </div>
+
+        )}
+
+
+        {/* ==================================================
+            USER
+        ================================================== */}
 
         <div className="dashboard-user-area">
 
           <div className="dashboard-user-avatar">
-            {(username || "S").charAt(0).toUpperCase()}
+
+            {(username || "S")
+              .charAt(0)
+              .toUpperCase()}
+
           </div>
 
           <div className="dashboard-user-info">
-            <strong>{username}</strong>
+
+            <strong>
+              {username}
+            </strong>
 
             <small>
               Student Account
             </small>
+
           </div>
 
         </div>
@@ -194,7 +302,9 @@ function DashboardUI({
 
             <div className="dashboard-status-row">
 
-              <span>CBT Access</span>
+              <span>
+                CBT Access
+              </span>
 
               <strong
                 className={
@@ -213,7 +323,9 @@ function DashboardUI({
 
             <div className="dashboard-status-row">
 
-              <span>Examination</span>
+              <span>
+                Examination
+              </span>
 
               <strong>
                 {user?.examTaken
@@ -226,7 +338,9 @@ function DashboardUI({
 
             <div className="dashboard-status-row">
 
-              <span>Certificate</span>
+              <span>
+                Certificate
+              </span>
 
               <strong
                 className={
@@ -262,6 +376,7 @@ function DashboardUI({
               className="quick-action"
               onClick={openPractice}
             >
+
               <span className="quick-action-icon">
                 PR
               </span>
@@ -269,6 +384,7 @@ function DashboardUI({
               <span>
                 Practice Questions
               </span>
+
             </button>
 
 
@@ -276,6 +392,7 @@ function DashboardUI({
               className="quick-action"
               onClick={openResults}
             >
+
               <span className="quick-action-icon">
                 RE
               </span>
@@ -283,6 +400,7 @@ function DashboardUI({
               <span>
                 View Results
               </span>
+
             </button>
 
 
@@ -290,6 +408,7 @@ function DashboardUI({
               className="quick-action"
               onClick={openHistory}
             >
+
               <span className="quick-action-icon">
                 HI
               </span>
@@ -297,6 +416,7 @@ function DashboardUI({
               <span>
                 Examination History
               </span>
+
             </button>
 
 
@@ -304,6 +424,7 @@ function DashboardUI({
               className="quick-action"
               onClick={openCertificate}
             >
+
               <span className="quick-action-icon">
                 CE
               </span>
@@ -311,6 +432,7 @@ function DashboardUI({
               <span>
                 Certificate
               </span>
+
             </button>
 
           </div>
@@ -329,23 +451,51 @@ function DashboardUI({
             </div>
 
             <div className="guide-step">
-              <span>1</span>
-              <p>Complete your payment</p>
+
+              <span>
+                1
+              </span>
+
+              <p>
+                Complete your payment
+              </p>
+
             </div>
 
             <div className="guide-step">
-              <span>2</span>
-              <p>Verify your CBT access</p>
+
+              <span>
+                2
+              </span>
+
+              <p>
+                Verify your CBT access
+              </p>
+
             </div>
 
             <div className="guide-step">
-              <span>3</span>
-              <p>Select your examination</p>
+
+              <span>
+                3
+              </span>
+
+              <p>
+                Select your examination
+              </p>
+
             </div>
 
             <div className="guide-step">
-              <span>4</span>
-              <p>Submit and view your result</p>
+
+              <span>
+                4
+              </span>
+
+              <p>
+                Submit and view your result
+              </p>
+
             </div>
 
           </div>

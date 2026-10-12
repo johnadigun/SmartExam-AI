@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
@@ -6,9 +7,7 @@ import BASE_URL from "../api/api";
 import "./VerifyPayment.css";
 
 function VerifyPayment() {
-
   const navigate = useNavigate();
-
   const [params] = useSearchParams();
 
   const [status, setStatus] = useState("verifying");
@@ -18,215 +17,192 @@ function VerifyPayment() {
     params.get("trxref");
 
   useEffect(() => {
+    let active = true;
+    let redirectTimer;
 
-    if (!reference) {
-
-      setStatus("failed");
-
-      setTimeout(() => {
-
-        navigate("/payment", {
-          replace: true,
-        });
-
-      }, 2500);
-
-      return;
-
-    }
+    const redirectTo = (path, delay) => {
+      redirectTimer = setTimeout(() => {
+        if (active) {
+          navigate(path, { replace: true });
+        }
+      }, delay);
+    };
 
     const verifyPayment = async () => {
+      if (!reference) {
+        if (active) {
+          setStatus("failed");
+          redirectTo("/payment", 2500);
+        }
+        return;
+      }
 
       try {
+        /* ==========================================
+           STEP 1: VERIFY PAYMENT WITH THE BACKEND
+        ========================================== */
 
         const response = await fetch(
-
-          `${BASE_URL}/payments/verify/${reference}`
-
+          `${BASE_URL}/payments/verify/${encodeURIComponent(reference)}`
         );
 
         const data = await response.json();
 
         console.log("VERIFY RESPONSE:", data);
 
-        if (!data.success) {
-
-          setStatus("failed");
-
-          setTimeout(() => {
-
-            navigate("/payment", {
-              replace: true,
-            });
-
-          }, 3000);
-
-          return;
-
+        if (!response.ok || !data.success) {
+          throw new Error(
+            data.message || "Payment verification failed."
+          );
         }
 
         /* ==========================================
-           UPDATE LOCAL USER
+           STEP 2: REFRESH THE AUTHORITATIVE USER
         ========================================== */
 
-        const oldUser = JSON.parse(
+        const token = localStorage.getItem("token");
 
-          localStorage.getItem("user") || "{}"
+        if (!token) {
+          throw new Error(
+            "Your session has expired. Please sign in again."
+          );
+        }
 
+        const userResponse = await fetch(
+          `${BASE_URL}/auth/me`,
+          {
+            method: "GET",
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
         );
 
-        const updatedUser = {
+        const userData = await userResponse.json();
 
-          ...oldUser,
+        if (
+          !userResponse.ok ||
+          !userData.success ||
+          !userData.user
+        ) {
+          throw new Error(
+            userData.message ||
+              "Unable to refresh your account information."
+          );
+        }
 
-          isPaid: true,
+        /* ==========================================
+           STEP 3: CONFIRM THE ACCOUNT IS ACTIVATED
+        ========================================== */
 
-          cbtAccess: true,
+        const actualUser = userData.user;
 
-          cbtExpiry: data.expiryTime,
+        const hasValidExpiry =
+          actualUser.cbtExpiry &&
+          Number.isFinite(
+            new Date(actualUser.cbtExpiry).getTime()
+          ) &&
+          new Date(actualUser.cbtExpiry).getTime() > Date.now();
 
-          remainingAttempts: 1,
+        if (
+          !actualUser.cbtAccess ||
+          !actualUser.isPaid ||
+          Number(actualUser.remainingAttempts) < 1 ||
+          actualUser.examTaken ||
+          !hasValidExpiry
+        ) {
+          throw new Error(
+            "Payment was verified, but examination access is not active. Please contact support before paying again."
+          );
+        }
 
-        };
+        /* ==========================================
+           STEP 4: SAVE THE ACTUAL USER RECORD
+        ========================================== */
 
         localStorage.setItem(
-
           "user",
-
-          JSON.stringify(updatedUser)
-
+          JSON.stringify(actualUser)
         );
+
+        if (!active) return;
 
         setStatus("success");
 
-        setTimeout(() => {
+        redirectTo("/dashboard", 2500);
+      } catch (error) {
+        console.error("PAYMENT VERIFICATION ERROR:", error);
 
-          navigate("/dashboard", {
-            replace: true,
-          });
-
-        }, 2500);
-
-      } catch (err) {
-
-        console.log(err);
+        if (!active) return;
 
         setStatus("failed");
-
-        setTimeout(() => {
-
-          navigate("/payment", {
-            replace: true,
-          });
-
-        }, 3000);
-
+        redirectTo("/payment", 3000);
       }
-
     };
 
     verifyPayment();
 
+    return () => {
+      active = false;
+      clearTimeout(redirectTimer);
+    };
   }, [reference, navigate]);
 
   return (
-
     <div className="verify-container">
-
       <div className="verify-card">
+        {status === "verifying" && (
+          <>
+            <h2>⏳ Verifying Payment...</h2>
+            <p>
+              Please wait while we verify your payment.
+            </p>
+          </>
+        )}
 
-        {
+        {status === "success" && (
+          <>
+            <h2 className="success">
+              ✅ Payment Successful
+            </h2>
 
-          status === "verifying" && (
+            <p>
+              CBT access has been activated.
+            </p>
 
-            <>
+            <p>
+              Access expires in{" "}
+              <strong>5 hours</strong>.
+            </p>
 
-              <h2>⏳ Verifying Payment...</h2>
+            <p>
+              Redirecting to Dashboard...
+            </p>
+          </>
+        )}
 
-              <p>
+        {status === "failed" && (
+          <>
+            <h2 className="failed">
+              ❌ Verification Failed
+            </h2>
 
-                Please wait while we verify your payment.
+            <p>
+              We could not complete the payment verification
+              or confirm active examination access.
+            </p>
 
-              </p>
-
-            </>
-
-          )
-
-        }
-
-        {
-
-          status === "success" && (
-
-            <>
-
-              <h2 className="success">
-
-                ✅ Payment Successful
-
-              </h2>
-
-              <p>
-
-                CBT access has been activated.
-
-              </p>
-
-              <p>
-
-                Access expires in <strong>5 hours</strong>.
-
-              </p>
-
-              <p>
-
-                Redirecting to Dashboard...
-
-              </p>
-
-            </>
-
-          )
-
-        }
-
-        {
-
-          status === "failed" && (
-
-            <>
-
-              <h2 className="failed">
-
-                ❌ Verification Failed
-
-              </h2>
-
-              <p>
-
-                Unable to verify payment.
-
-              </p>
-
-              <p>
-
-                Redirecting to payment page...
-
-              </p>
-
-            </>
-
-          )
-
-        }
-
+            <p>
+              If your payment was successful, please do not
+              pay again. Contact support to check your
+              transaction and account access.
+            </p>
+          </>
+        )}
       </div>
-
     </div>
-
   );
-
 }
 
 export default VerifyPayment;
+

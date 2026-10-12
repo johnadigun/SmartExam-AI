@@ -1,9 +1,12 @@
 
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import BASE_URL from "../api/api";
 import "./Register.css";
 
 function Register() {
+  const location = useLocation();
+
   const emptyForm = {
     firstName: "",
     middleName: "",
@@ -14,21 +17,50 @@ function Register() {
   };
 
   const [form, setForm] = useState(emptyForm);
-
   const [loading, setLoading] = useState(false);
 
+  /* ==========================================================
+     PRESERVE THE REQUESTED DESTINATION
+  ========================================================== */
+
+  const queryParams = new URLSearchParams(location.search);
+
+  const requestedDestination =
+    location.state?.returnTo ||
+    queryParams.get("returnTo") ||
+    "";
+
+  const isValidReturnDestination =
+    typeof requestedDestination === "string" &&
+    requestedDestination.startsWith("/") &&
+    !requestedDestination.startsWith("//") &&
+    !requestedDestination.startsWith("/login") &&
+    !requestedDestination.startsWith("/register");
+
+  const returnTo = isValidReturnDestination
+    ? requestedDestination
+    : "/dashboard";
+
+  /* ==========================================================
+     FORM CHANGE
+  ========================================================== */
+
   const handleChange = (e) => {
-    setForm((prev) => ({
-      ...prev,
+    setForm((previousForm) => ({
+      ...previousForm,
       [e.target.name]: e.target.value,
     }));
   };
 
+  /* ==========================================================
+     REGISTRATION
+  ========================================================== */
+
   const submit = async (e) => {
     e.preventDefault();
 
-    if (!form.email || !form.password) {
-      alert("Email and password are required");
+    if (!form.email.trim() || !form.password) {
+      alert("Email and password are required.");
       return;
     }
 
@@ -46,27 +78,55 @@ function Register() {
       const data = await res.json();
 
       if (!res.ok) {
-        alert(data.message || "Registration failed");
+        alert(data.message || "Registration failed.");
         return;
       }
 
       alert("Registration Successful");
 
-      // Clear the form before leaving the registration page
       setForm(emptyForm);
 
-      window.location.href = "/";
+      /* ======================================================
+         RETURN TO LOGIN
+
+         Registration does not assume that the API creates
+         an authentication token.
+
+         For an international examination, preserve the
+         selected examination through the Login URL.
+      ====================================================== */
+
+      const loginUrl =
+        returnTo === "/dashboard"
+          ? "/"
+          : `/?returnTo=${encodeURIComponent(returnTo)}`;
+
+      window.location.href = loginUrl;
     } catch (err) {
-      console.log(err);
+      console.error("Registration error:", err);
       alert("Unable to connect to server.");
     } finally {
       setLoading(false);
     }
   };
 
+  /* ==========================================================
+     LOGIN LINK
+  ========================================================== */
+
+  const loginUrl =
+    returnTo === "/dashboard"
+      ? "/"
+      : `/?returnTo=${encodeURIComponent(returnTo)}`;
+
+  /* ==========================================================
+     UI
+  ========================================================== */
+
   return (
     <div className="register-page">
       <div className="register-card">
+
         <h1>SMART EXAM CBT</h1>
 
         <p className="register-subtitle">
@@ -140,15 +200,16 @@ function Register() {
         </form>
 
         <p className="login-link">
-          Already have an account?
-
-          <a href="/">
+          Already have an account?{" "}
+          <a href={loginUrl}>
             Login Here
           </a>
         </p>
+
       </div>
     </div>
   );
 }
 
 export default Register;
+

@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./CBTSubjects.css";
 
@@ -10,6 +9,8 @@ function CBTSubjectsUI({
   setSelectedReligion,
   startExam,
   backToCategories,
+  selectedCountry,
+  countryFlagUrl,
 }) {
 
   /* ==========================================
@@ -19,10 +20,16 @@ function CBTSubjectsUI({
   if (loading) {
     return (
       <div className="subjects-loading">
-        <h2>Loading Subjects...</h2>
+
+        <h2>
+          Loading Subjects...
+        </h2>
+
         <p>
-          Please wait while your examination subjects are prepared.
+          Please wait while your examination subjects
+          are prepared.
         </p>
+
       </div>
     );
   }
@@ -45,6 +52,40 @@ function CBTSubjectsUI({
         <p>
           Select a subject to begin your examination.
         </p>
+
+        {/* ================= COUNTRY ================= */}
+
+        {selectedCountry && countryFlagUrl && (
+          <div
+            className="subjects-country"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "10px",
+              marginTop: "15px",
+            }}
+          >
+
+            <img
+              src={countryFlagUrl}
+              alt={`${selectedCountry} flag`}
+              loading="lazy"
+              style={{
+                width: "42px",
+                height: "28px",
+                objectFit: "cover",
+                borderRadius: "4px",
+                border: "1px solid #ddd",
+              }}
+            />
+
+            <strong>
+              {selectedCountry}
+            </strong>
+
+          </div>
+        )}
 
       </div>
 
@@ -69,6 +110,7 @@ function CBTSubjectsUI({
       <div className="subjects-section-header">
 
         <div>
+
           <h2>
             Available Subjects
           </h2>
@@ -76,6 +118,7 @@ function CBTSubjectsUI({
           <p>
             Select the subject you want to write.
           </p>
+
         </div>
 
       </div>
@@ -91,7 +134,9 @@ function CBTSubjectsUI({
             key={subject}
             type="button"
             className="subject-card"
-            onClick={() => startExam(subject)}
+            onClick={() =>
+              startExam(subject)
+            }
           >
 
             {/* SUBJECT ICON */}
@@ -151,9 +196,13 @@ function CBTSubjectsUI({
                     type="radio"
                     name="religion"
                     value="CRS"
-                    checked={selectedReligion === "CRS"}
+                    checked={
+                      selectedReligion === "CRS"
+                    }
                     onChange={(e) =>
-                      setSelectedReligion(e.target.value)
+                      setSelectedReligion(
+                        e.target.value
+                      )
                     }
                   />
 
@@ -170,9 +219,13 @@ function CBTSubjectsUI({
                     type="radio"
                     name="religion"
                     value="IRS"
-                    checked={selectedReligion === "IRS"}
+                    checked={
+                      selectedReligion === "IRS"
+                    }
                     onChange={(e) =>
-                      setSelectedReligion(e.target.value)
+                      setSelectedReligion(
+                        e.target.value
+                      )
                     }
                   />
 
@@ -189,7 +242,9 @@ function CBTSubjectsUI({
                 type="button"
                 className="religion-start-btn"
                 disabled={!selectedReligion}
-                onClick={() => startExam(selectedReligion)}
+                onClick={() =>
+                  startExam(selectedReligion)
+                }
               >
                 Start Examination
               </button>
