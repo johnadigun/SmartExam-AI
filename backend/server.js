@@ -1,4 +1,3 @@
-
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
@@ -22,6 +21,22 @@ const bulkUploadRoutes = require("./routes/bulkUploadRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const aiQuestionRoutes = require("./routes/aiQuestionRoutes");
 
+/* ==========================================================
+   INTERNATIONAL EXAMINATION ROUTES
+========================================================== */
+
+const internationalExamRoutes =
+  require("./international/internationalExams");
+
+const internationalAttemptRoutes =
+  require("./international/internationalAttemptRoutes");
+
+const internationalQuestionRoutes =
+  require("./international/internationalQuestions");
+
+const internationalPaymentRoutes =
+  require("./international/internationalPaymentRoutes");
+
 /* ================= MIDDLEWARE ================= */
 
 app.use(cors());
@@ -44,6 +59,27 @@ app.use("/api/users", userRoutes);
 app.use("/api/bulk-upload", bulkUploadRoutes);
 app.use("/api/admin", adminRoutes);
 
+/* ==========================================================
+   INTERNATIONAL EXAMINATION API
+========================================================== */
+
+app.use(
+  "/api/international",
+  internationalExamRoutes
+);
+app.use(
+  "/api/international",
+  internationalAttemptRoutes
+);
+app.use(
+  "/api/international",
+  internationalQuestionRoutes
+);
+
+app.use(
+  "/api/international",
+  internationalPaymentRoutes
+);
 /* ================= DATABASE ================= */
 
 mongoose
