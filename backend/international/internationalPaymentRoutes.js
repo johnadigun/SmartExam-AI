@@ -2,9 +2,13 @@
 const express = require("express");
 const axios = require("axios");
 const crypto = require("crypto");
+const mongoose = require("mongoose");
+const dns = require("node:dns");
 
 const authMiddleware = require("../middleware/authMiddleware");
-const User = require("../models/user");
+const getInternationalCandidateModel = require(
+  "../models/internationalCandidate"
+);
 const InternationalExam = require("./InternationalExam");
 const InternationalPurchase = require("./InternationalPurchase");
 
@@ -15,7 +19,86 @@ const {
 const router = express.Router();
 
 /* ==========================================================
-   PAYSTACK ENDPOINTS
+   INTERNATIONAL CANDIDATE DATABASE
+   Separate from the Local CBT candidate database.
+========================================================== */
+
+try {
+  dns.setServers(["8.8.8.8", "1.1.1.1"]);
+} catch (error) {
+  console.error(
+    "International DNS configuration error:",
+    error.message
+  );
+}
+
+let internationalConnection = null;
+let internationalConnectionPromise = null;
+
+async function getInternationalCandidateModelInstance() {
+  if (internationalConnection?.readyState === 1) {
+    return getInternationalCandidateModel(
+      internationalConnection
+    );
+  }
+
+  if (!internationalConnectionPromise) {
+    const mongoUri = process.env.INTERNATIONAL_MONGO_URI;
+
+    if (!mongoUri) {
+      throw new Error(
+        "INTERNATIONAL_MONGO_URI is not configured."
+      );
+    }
+
+    internationalConnection = mongoose.createConnection(
+      mongoUri,
+      { serverSelectionTimeoutMS: 15000 }
+    );
+
+    internationalConnectionPromise =
+      internationalConnection.asPromise().catch((error) => {
+        internationalConnectionPromise = null;
+        internationalConnection = null;
+        throw error;
+      });
+  }
+
+  await internationalConnectionPromise;
+
+  return getInternationalCandidateModel(
+    internationalConnection
+  );
+}
+
+/* ==========================================================
+   INTERNATIONAL AUTHENTICATION GUARD
+========================================================== */
+
+function requireInternationalCandidate(req, res, next) {
+  if (req.user?.platform !== "international") {
+    return res.status(403).json({
+      success: false,
+      message:
+        "Please sign in with your International examination account.",
+    });
+  }
+
+  const userId = req.user?.id || req.user?._id;
+
+  if (!userId) {
+    return res.status(401).json({
+      success: false,
+      message:
+        "International candidate authentication is required.",
+    });
+  }
+
+  return next();
+}
+
+/* ==========================================================
+   PAYSTACK CONFIGURATION
 ========================================================== */
 
 const PAYSTACK_INITIALIZE_URL =
@@ -24,11 +107,52 @@ const PAYSTACK_INITIALIZE_URL =
 const PAYSTACK_VERIFY_URL =
   "https://api.paystack.co/transaction/verify";
 
-/* ==========================================================
-   PAYSTACK AUTHENTICATION
-========================================================== */
+const DEFAULT_INTERNATIONAL_CALLBACK_URL =
+  "https://smartexam-frontend.onrender.com/international-payment-success";
 
-const getPaystackHeaders = () => {
+function getInternationalCallbackUrl() {
+  const callbackUrl =
+    process.env.INTERNATIONAL_PAYMENT_CALLBACK_URL ||
+    DEFAULT_INTERNATIONAL_CALLBACK_URL;
+
+  let parsedUrl;
+
+  try {
+    parsedUrl = new URL(callbackUrl);
+  } catch {
+    throw new Error(
+      "INTERNATIONAL_PAYMENT_CALLBACK_URL is invalid."
+    );
+  }
+
+  if (!["http:", "https:"].includes(parsedUrl.protocol)) {
+    throw new Error(
+      "The International payment callback must use HTTP or HTTPS."
+    );
+  }
+
+  if (
+    process.env.NODE_ENV === "production" &&
+    parsedUrl.protocol !== "https:"
+  ) {
+    throw new Error(
+      "The production International payment callback must use HTTPS."
+    );
+  }
+
+  if (
+    parsedUrl.pathname.replace(/\/+$/, "") !==
+    "/international-payment-success"
+  ) {
+    throw new Error(
+      "The International payment callback must point to /international-payment-success."
+    );
+  }
+
+  return parsedUrl.toString();
+}
+
+function getPaystackHeaders() {
   const secretKey = process.env.PAYSTACK_SECRET_KEY;
 
   if (!secretKey) {
@@ -41,58 +165,13 @@ const getPaystackHeaders = () => {
     Authorization: `Bearer ${secretKey}`,
     "Content-Type": "application/json",
   };
-};
-
-/* ==========================================================
-   INTERNATIONAL PAYMENT CALLBACK URL
-========================================================== */
-
-const getInternationalCallbackUrl = () => {
-  const callbackUrl =
-    process.env.INTERNATIONAL_PAYMENT_CALLBACK_URL;
-
-  if (!callbackUrl) {
-    throw new Error(
-      "INTERNATIONAL_PAYMENT_CALLBACK_URL is not configured."
-    );
-  }
-
-  let parsedUrl;
-
-  try {
-    parsedUrl = new URL(callbackUrl);
-  } catch {
-    throw new Error(
-      "INTERNATIONAL_PAYMENT_CALLBACK_URL is invalid."
-    );
-  }
-
-  if (
-    parsedUrl.protocol !== "http:" &&
-    parsedUrl.protocol !== "https:"
-  ) {
-    throw new Error(
-      "The payment callback URL must use HTTP or HTTPS."
-    );
-  }
-
-  if (
-    process.env.NODE_ENV === "production" &&
-    parsedUrl.protocol !== "https:"
-  ) {
-    throw new Error(
-      "The production payment callback URL must use HTTPS."
-    );
-  }
-
-  return callbackUrl;
-};
+}
 
 /* ==========================================================
    NORMALIZE EXAMINATION CODES
 ========================================================== */
 
-const normalizeExamCodes = (value) => {
+function normalizeExamCodes(value) {
   if (!Array.isArray(value)) {
     throw new Error(
       "Examination codes must be provided as an array."
@@ -116,15 +195,33 @@ const normalizeExamCodes = (value) => {
   }
 
   return examCodes;
-};
+}
+
+/* ==========================================================
+   PUBLIC PURCHASE RESPONSE
+   Return only fields needed by the payment-success page.
+========================================================== */
+
+function toPurchaseResponse(purchase) {
+  return {
+    reference: purchase.reference,
+    packageCode: purchase.packageCode,
+    examCodes: purchase.examCodes,
+    amount: purchase.amount,
+    currency: purchase.currency,
+    accessDays: purchase.accessDays,
+    examCount: purchase.examCount,
+    purchasedAt: purchase.purchasedAt,
+    accessStartsAt: purchase.accessStartsAt,
+    accessExpiresAt: purchase.accessExpiresAt,
+    status: purchase.status,
+  };
+}
 
 /* ==========================================================
    GET INTERNATIONAL PACKAGE PRICES
 
    GET /api/international/pricing
-
-   Public, read-only endpoint.
-   Does not create a purchase or initiate a payment.
 ========================================================== */
 
 router.get("/pricing", async (req, res) => {
@@ -140,21 +237,21 @@ router.get("/pricing", async (req, res) => {
       return res.status(503).json({
         success: false,
         message:
-          "Les tarifs internationaux sont indisponibles.",
+          "International examination prices are unavailable.",
       });
     }
 
     return res.status(200).json(pricing);
   } catch (error) {
     console.error(
-      "Erreur de chargement des tarifs internationaux :",
+      "International pricing error:",
       error.message
     );
 
     return res.status(503).json({
       success: false,
       message:
-        "Impossible de charger les tarifs internationaux.",
+        "Unable to load International examination prices.",
     });
   }
 });
@@ -164,17 +261,16 @@ router.get("/pricing", async (req, res) => {
 
    POST /api/international/payments/initialize
 
-   Requires authentication.
-
    SINGLE   = one examination
    BUNDLE_3 = three examinations
 
-   This route does not replace Local CBT payments.
+   Authentication remains required here.
 ========================================================== */
 
 router.post(
   "/payments/initialize",
   authMiddleware,
+  requireInternationalCandidate,
   async (req, res) => {
     let purchase = null;
     let paystackInitializationAttempted = false;
@@ -188,31 +284,33 @@ router.post(
         return res.status(400).json({
           success: false,
           message:
-            "Choisissez un examen ou exactement trois examens pour le forfait groupé.",
+            "Select one examination or exactly three examinations for the bundle.",
         });
       }
 
-      const userId =
-        req.user?.id || req.user?._id;
+      const userId = req.user?.id || req.user?._id;
 
-      if (!userId) {
-        return res.status(401).json({
-          success: false,
-          message:
-            "Authentification requise pour effectuer cet achat.",
-        });
-      }
+      const InternationalCandidate =
+        await getInternationalCandidateModelInstance();
 
-      const user = await User.findById(userId)
-        .select("_id email");
+      const candidate =
+        await InternationalCandidate.findById(userId)
+          .select("_id email");
 
-      if (!user || !user.email) {
+      if (
+        !candidate?.email ||
+        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(
+          candidate.email
+        )
+      ) {
         return res.status(400).json({
           success: false,
           message:
-            "Une adresse e-mail valide est nécessaire pour le paiement.",
+            "A valid email address is required for payment. Please check your International account.",
         });
       }
+
+      const candidateEmail = candidate.email.trim();
 
       const activeExaminations =
         await InternationalExam.find({
@@ -234,14 +332,12 @@ router.post(
         return res.status(400).json({
           success: false,
           message:
-            "Un ou plusieurs examens sélectionnés sont indisponibles.",
+            "One or more selected examinations are unavailable.",
           unavailableExamCodes: unavailableCodes,
         });
       }
 
-      const callbackUrl =
-        getInternationalCallbackUrl();
-
+      const callbackUrl = getInternationalCallbackUrl();
       const pricing = await getInternationalPricing();
 
       if (
@@ -253,14 +349,12 @@ router.post(
         return res.status(503).json({
           success: false,
           message:
-            "Les tarifs internationaux sont temporairement indisponibles.",
+            "International examination prices are temporarily unavailable.",
         });
       }
 
       const packageCode =
-        examCodes.length === 1
-          ? "SINGLE"
-          : "BUNDLE_3";
+        examCodes.length === 1 ? "SINGLE" : "BUNDLE_3";
 
       const selectedPrice = pricing.packages.find(
         (item) => item.code === packageCode
@@ -268,31 +362,25 @@ router.post(
 
       if (
         !selectedPrice ||
-        !Number.isFinite(
-          Number(selectedPrice.amountNgn)
-        ) ||
+        !Number.isFinite(Number(selectedPrice.amountNgn)) ||
         Number(selectedPrice.amountNgn) <= 0
       ) {
         return res.status(503).json({
           success: false,
           message:
-            "Le prix du forfait sélectionné est indisponible.",
+            "The selected examination package price is unavailable.",
         });
       }
 
       const reference =
         `INTL-${Date.now()}-${crypto
-          .randomBytes(6)
+          .randomBytes(16)
           .toString("hex")
           .toUpperCase()}`;
 
-      /* ----------------------------------------------
-         CREATE PENDING PURCHASE
-      ---------------------------------------------- */
-
       purchase = await InternationalPurchase.create({
-        userId: user._id,
-        email: user.email,
+        userId: candidate._id,
+        email: candidateEmail,
         examCodes,
         amount: Number(selectedPrice.amountNgn),
         currency: "NGN",
@@ -301,52 +389,31 @@ router.post(
         usdReferencePrice: Number(
           selectedPrice.usdReferencePrice
         ),
-        exchangeRate: Number(
-          pricing.exchangeRate.rate
-        ),
-        exchangeRateDate:
-          pricing.exchangeRate.rateDate,
-        exchangeRateProvider:
-          pricing.exchangeRate.provider,
-        accessDays: Number(
-          selectedPrice.accessDays
-        ),
-        examCount: Number(
-          selectedPrice.examCount
-        ),
+        exchangeRate: Number(pricing.exchangeRate.rate),
+        exchangeRateDate: pricing.exchangeRate.rateDate,
+        exchangeRateProvider: pricing.exchangeRate.provider,
+        accessDays: Number(selectedPrice.accessDays),
+        examCount: Number(selectedPrice.examCount),
         status: "pending",
       });
-
-      /* ----------------------------------------------
-         INITIALIZE PAYSTACK TRANSACTION
-      ---------------------------------------------- */
 
       paystackInitializationAttempted = true;
 
       const response = await axios.post(
         PAYSTACK_INITIALIZE_URL,
         {
-          email: user.email,
-
-          // Paystack requires the amount in kobo.
-          amount:
-            Number(selectedPrice.amountNgn) * 100,
-
+          email: candidateEmail,
+          amount: Number(selectedPrice.amountNgn) * 100,
           currency: "NGN",
           reference,
           callback_url: callbackUrl,
-
           metadata: {
             purchaseReference: reference,
-            userId: String(user._id),
+            userId: String(candidate._id),
             packageCode,
             examCodes,
-            examCount: Number(
-              selectedPrice.examCount
-            ),
-            accessDays: Number(
-              selectedPrice.accessDays
-            ),
+            examCount: Number(selectedPrice.examCount),
+            accessDays: Number(selectedPrice.accessDays),
           },
         },
         {
@@ -360,7 +427,6 @@ router.post(
       if (
         response.data?.status !== true ||
         !paystackData?.authorization_url ||
-        !paystackData?.reference ||
         paystackData.reference !== reference
       ) {
         throw new Error(
@@ -371,50 +437,20 @@ router.post(
       return res.status(200).json({
         success: true,
         message:
-          "Initialisation du paiement international réussie.",
-        authorizationUrl:
-          paystackData.authorization_url,
+          "International payment initialization successful.",
+        authorizationUrl: paystackData.authorization_url,
         reference,
-        purchase: {
-          reference,
-          packageCode,
-          examCodes,
-          amount: Number(
-            selectedPrice.amountNgn
-          ),
-          currency: "NGN",
-          usdReferencePrice: Number(
-            selectedPrice.usdReferencePrice
-          ),
-          exchangeRate: Number(
-            pricing.exchangeRate.rate
-          ),
-          exchangeRateDate:
-            pricing.exchangeRate.rateDate,
-          exchangeRateProvider:
-            pricing.exchangeRate.provider,
-          accessDays: Number(
-            selectedPrice.accessDays
-          ),
-          examCount: Number(
-            selectedPrice.examCount
-          ),
-          status: "pending",
-        },
+        purchase: toPurchaseResponse(purchase),
       });
     } catch (error) {
       console.error(
         "International payment initialization error:",
-        error.response?.data || error.message
+        {
+          message: error.message,
+          status: error.response?.status,
+          paystackResponse: error.response?.data,
+        }
       );
-
-      /*
-       * Mark the purchase as failed only if Paystack
-       * initialization was never attempted.
-       *
-       * If the request was sent but its response was
-       * lost, retain the pending record for verification.
-       */
 
       if (
         purchase &&
@@ -426,7 +462,7 @@ router.post(
           await purchase.save();
         } catch (saveError) {
           console.error(
-            "Unable to update international purchase status:",
+            "Unable to update International purchase status:",
             saveError.message
           );
         }
@@ -438,9 +474,7 @@ router.post(
         "Duplicate examination codes are not allowed.",
       ];
 
-      if (
-        clientErrorMessages.includes(error.message)
-      ) {
+      if (clientErrorMessages.includes(error.message)) {
         return res.status(400).json({
           success: false,
           message: error.message,
@@ -450,7 +484,7 @@ router.post(
       return res.status(502).json({
         success: false,
         message:
-          "Impossible d'initialiser le paiement international. Veuillez réessayer.",
+          "Unable to initialize International payment. Please try again.",
       });
     }
   }
@@ -461,79 +495,61 @@ router.post(
 
    GET /api/international/payments/verify/:reference
 
-   Requires authentication.
+   This endpoint intentionally does NOT require a browser
+   login token because the payment provider returns the
+   candidate to this page after checkout.
 
-   A successful purchase is not activated again on
-   repeated verification, so its access period is not
-   extended by refreshing this endpoint.
+   Security requirements:
+   - The reference must match an existing purchase.
+   - Paystack must independently confirm the transaction.
+   - Reference, currency, and exact amount must match.
+   - Only the existing purchase is activated.
+   - The purchase's original userId is never changed.
 ========================================================== */
 
 router.get(
   "/payments/verify/:reference",
-  authMiddleware,
   async (req, res) => {
     try {
       const reference = String(
         req.params.reference || ""
       ).trim();
 
-      if (!reference) {
+      if (
+        !reference ||
+        reference.length > 200 ||
+        !/^INTL-[A-Za-z0-9-]+$/i.test(reference)
+      ) {
         return res.status(400).json({
           success: false,
-          message:
-            "Référence de paiement manquante.",
+          message: "A valid payment reference is required.",
         });
       }
 
-      const userId =
-        req.user?.id || req.user?._id;
-
-      if (!userId) {
-        return res.status(401).json({
-          success: false,
-          message:
-            "Authentification requise.",
-        });
-      }
-
-      const purchase =
-        await InternationalPurchase.findOne({
-          reference,
-          userId,
-        });
+      // Locate the existing purchase. Do not create a new one.
+      const purchase = await InternationalPurchase.findOne({
+        reference,
+      });
 
       if (!purchase) {
         return res.status(404).json({
           success: false,
           message:
-            "Aucun achat international correspondant à cette référence n'a été trouvé.",
+            "No International purchase was found for this payment reference.",
         });
       }
 
-      /* ----------------------------------------------
-         ALREADY VERIFIED
-      ---------------------------------------------- */
-
-      if (purchase.status === "success") {
+      // A previously activated purchase remains activated.
+      if (
+        purchase.status === "success" &&
+        purchase.accessStartsAt &&
+        purchase.accessExpiresAt
+      ) {
         return res.status(200).json({
           success: true,
           message:
-            "Ce paiement international a déjà été vérifié.",
-          purchase: {
-            reference: purchase.reference,
-            packageCode: purchase.packageCode,
-            examCodes: purchase.examCodes,
-            amount: purchase.amount,
-            currency: purchase.currency,
-            accessDays: purchase.accessDays,
-            examCount: purchase.examCount,
-            purchasedAt: purchase.purchasedAt,
-            accessStartsAt:
-              purchase.accessStartsAt,
-            accessExpiresAt:
-              purchase.accessExpiresAt,
-            status: purchase.status,
-          },
+            "This International payment has already been verified and access activated.",
+          purchase: toPurchaseResponse(purchase),
         });
       }
 
@@ -541,19 +557,14 @@ router.get(
         return res.status(409).json({
           success: false,
           message:
-            "Cet achat n'est plus en attente de vérification.",
+            "This purchase is no longer awaiting verification.",
           status: purchase.status,
         });
       }
 
-      /* ----------------------------------------------
-         VERIFY WITH PAYSTACK
-      ---------------------------------------------- */
-
+      // Always verify directly with Paystack.
       const response = await axios.get(
-        `${PAYSTACK_VERIFY_URL}/${encodeURIComponent(
-          reference
-        )}`,
+        `${PAYSTACK_VERIFY_URL}/${encodeURIComponent(reference)}`,
         {
           headers: getPaystackHeaders(),
           timeout: 30000,
@@ -569,54 +580,47 @@ router.get(
         return res.status(502).json({
           success: false,
           message:
-            "Paystack n'a pas retourné de résultat de vérification valide.",
+            "Paystack did not return a valid verification result.",
         });
       }
 
-      const returnedReference =
-        verification.reference;
-
-      const returnedCurrency =
-        String(
-          verification.currency || ""
-        ).toUpperCase();
-
-      const returnedAmount =
-        Number(verification.amount);
-
-      const expectedAmount =
-        Number(purchase.amount) * 100;
-
-      /* ----------------------------------------------
-         VALIDATE TRANSACTION DETAILS
-      ---------------------------------------------- */
+      const returnedReference = verification.reference;
+      const returnedCurrency = String(
+        verification.currency || ""
+      ).toUpperCase();
+      const returnedAmount = Number(verification.amount);
+      const expectedAmount = Number(purchase.amount) * 100;
 
       if (
         returnedReference !== purchase.reference ||
         returnedCurrency !== "NGN" ||
         returnedAmount !== expectedAmount
       ) {
-        purchase.status = "failed";
-        await purchase.save();
+        console.error(
+          "International payment validation mismatch:",
+          {
+            purchaseReference: purchase.reference,
+            returnedReference,
+            expectedCurrency: "NGN",
+            returnedCurrency,
+            expectedAmount,
+            returnedAmount,
+          }
+        );
 
         return res.status(400).json({
           success: false,
           message:
-            "Les informations du paiement ne correspondent pas à l'achat enregistré.",
+            "The payment details do not match the recorded purchase. Access has not been activated.",
         });
       }
 
-      /* ----------------------------------------------
-         PAYMENT NOT SUCCESSFUL
-      ---------------------------------------------- */
-
+      // Never activate a transaction Paystack has not marked successful.
       if (verification.status !== "success") {
         if (
-          [
-            "failed",
-            "abandoned",
-            "reversed",
-          ].includes(verification.status)
+          ["failed", "abandoned", "reversed"].includes(
+            verification.status
+          )
         ) {
           purchase.status = "failed";
           await purchase.save();
@@ -625,76 +629,150 @@ router.get(
         return res.status(402).json({
           success: false,
           message:
-            "Le paiement international n'a pas été confirmé comme réussi.",
+            "International payment has not been confirmed as successful.",
           paymentStatus: verification.status,
         });
       }
 
-      /* ----------------------------------------------
-         ACTIVATE PURCHASE ACCESS PERIOD
-      ---------------------------------------------- */
-
+      // Atomically activate the existing pending purchase.
       const purchasedAt = new Date();
+      const accessExpiresAt = new Date(
+        purchasedAt.getTime() +
+          Number(purchase.accessDays) * 24 * 60 * 60 * 1000
+      );
 
-      const accessStartsAt =
-        purchasedAt;
-
-      const accessExpiresAt =
-        new Date(
-          purchasedAt.getTime() +
-          Number(purchase.accessDays) *
-            24 *
-            60 *
-            60 *
-            1000
+      const activatedPurchase =
+        await InternationalPurchase.findOneAndUpdate(
+          {
+            _id: purchase._id,
+            reference: purchase.reference,
+            status: "pending",
+          },
+          {
+            $set: {
+              status: "success",
+              purchasedAt,
+              accessStartsAt: purchasedAt,
+              accessExpiresAt,
+            },
+          },
+          {
+            new: true,
+            runValidators: true,
+          }
         );
 
-      purchase.status = "success";
-      purchase.purchasedAt = purchasedAt;
-      purchase.accessStartsAt =
-        accessStartsAt;
-      purchase.accessExpiresAt =
-        accessExpiresAt;
+      // Another simultaneous verification may have activated it.
+      const finalPurchase =
+        activatedPurchase ||
+        (await InternationalPurchase.findOne({
+          _id: purchase._id,
+          reference: purchase.reference,
+          status: "success",
+        }));
 
-      await purchase.save();
+      if (
+        !finalPurchase ||
+        finalPurchase.status !== "success" ||
+        !finalPurchase.accessStartsAt ||
+        !finalPurchase.accessExpiresAt
+      ) {
+        return res.status(409).json({
+          success: false,
+          message:
+            "Payment was confirmed, but access activation could not be completed. Please retry verification.",
+        });
+      }
+
+      console.info(
+        "International payment verified and access activated:",
+        {
+          reference: finalPurchase.reference,
+          examCodes: finalPurchase.examCodes,
+          userId: String(finalPurchase.userId),
+        }
+      );
 
       return res.status(200).json({
         success: true,
         message:
-          "Paiement international vérifié avec succès.",
-        purchase: {
-          reference: purchase.reference,
-          packageCode: purchase.packageCode,
-          examCodes: purchase.examCodes,
-          amount: purchase.amount,
-          currency: purchase.currency,
-          accessDays: purchase.accessDays,
-          examCount: purchase.examCount,
-          purchasedAt: purchase.purchasedAt,
-          accessStartsAt:
-            purchase.accessStartsAt,
-          accessExpiresAt:
-            purchase.accessExpiresAt,
-          status: purchase.status,
-        },
+          "International payment verified and examination access activated successfully.",
+        purchase: toPurchaseResponse(finalPurchase),
       });
     } catch (error) {
       console.error(
         "International payment verification error:",
-        error.response?.data || error.message
+        {
+          message: error.message,
+          status: error.response?.status,
+          paystackResponse: error.response?.data,
+        }
       );
 
       return res.status(502).json({
         success: false,
         message:
-          "Impossible de vérifier le paiement international pour le moment. Veuillez réessayer.",
+          "Unable to verify International payment at this time. Please retry verification. Do not make another payment.",
       });
     }
   }
 );
 
 /* ==========================================================
-   EXPORT ROUTER
+   CHECK EXISTING INTERNATIONAL EXAMINATION ACCESS
+
+   GET /api/international/access/:examCode
+
+   Authentication remains required.
 ========================================================== */
+
+router.get(
+  "/access/:examCode",
+  authMiddleware,
+  requireInternationalCandidate,
+  async (req, res) => {
+    try {
+      const examCode = String(
+        req.params.examCode || ""
+      ).trim().toUpperCase();
+
+      if (!examCode) {
+        return res.status(400).json({
+          success: false,
+          message: "An examination code is required.",
+        });
+      }
+
+      const userId = req.user?.id || req.user?._id;
+      const now = new Date();
+
+      const purchase = await InternationalPurchase.findOne({
+        userId,
+        status: "success",
+        examCodes: examCode,
+        accessStartsAt: { $lte: now },
+        accessExpiresAt: { $gt: now },
+      }).sort({ accessExpiresAt: -1 });
+
+      return res.json({
+        success: true,
+        hasAccess: Boolean(purchase),
+        examCode,
+        purchase: purchase || null,
+      });
+    } catch (error) {
+      console.error(
+        "International examination access check failed:",
+        error
+      );
+
+      return res.status(500).json({
+        success: false,
+        message:
+          "Unable to check examination access.",
+      });
+    }
+  }
+);
 
 module.exports = router;

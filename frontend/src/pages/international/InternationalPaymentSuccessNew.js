@@ -51,7 +51,7 @@ function InternationalPaymentSuccessNew() {
 
   const [status, setStatus] = useState("verifying");
   const [message, setMessage] = useState(
-    "Please wait while we verify your international examination payment."
+    "Please wait while we verify your International examination payment."
   );
   const [purchase, setPurchase] = useState(null);
 
@@ -61,34 +61,31 @@ function InternationalPaymentSuccessNew() {
     setPurchase(null);
 
     const params = new URLSearchParams(window.location.search);
-    const reference = params.get("reference") || params.get("trxref");
-    const token = localStorage.getItem("token");
+    const reference =
+      params.get("reference") || params.get("trxref");
 
+    // Payment verification no longer depends on a browser token.
+    // The backend must independently verify the transaction
+    // with Paystack before activating the existing purchase.
     if (!reference) {
       setStatus("error");
       setMessage(
-        "No payment reference was found in the page address. Please check your payment status."
-      );
-      return;
-    }
-
-    if (!token) {
-      setStatus("error");
-      setMessage(
-        "Your login session could not be found. Please sign in again before verifying your payment."
+        "No payment reference was found in the page address. Please check your payment status. Do not make another payment."
       );
       return;
     }
 
     try {
       const response = await fetch(
-        `${BASE_URL}/international/payments/verify/${encodeURIComponent(reference)}`,
+        `${BASE_URL}/international/payments/verify/${encodeURIComponent(
+          reference
+        )}`,
         {
           method: "GET",
           headers: {
-            Authorization: `Bearer ${token}`,
             Accept: "application/json",
           },
+          cache: "no-store",
           signal,
         }
       );
@@ -101,32 +98,53 @@ function InternationalPaymentSuccessNew() {
       } catch {
         throw new Error(
           response.ok
-            ? "The server returned an unexpected response. Please try verifying your payment again."
-            : `Payment verification could not be completed (HTTP ${response.status}). Please try again.`
+            ? "The server returned an unexpected response. Please retry verification."
+            : `Payment verification could not be completed (HTTP ${response.status}). Please retry.`
         );
       }
 
       if (!response.ok || !data.success) {
         throw new Error(
-          data.message || "International payment verification failed."
+          data.message ||
+            "International payment verification could not be completed."
         );
       }
 
-      setPurchase(data.purchase || null);
+      const verifiedPurchase = data.purchase;
+
+      // Do not display success unless the backend confirms
+      // successful payment and a valid access period.
+      if (
+        String(verifiedPurchase?.status || "").toLowerCase() !==
+          "success" ||
+        !verifiedPurchase?.accessStartsAt ||
+        !verifiedPurchase?.accessExpiresAt ||
+        !Array.isArray(verifiedPurchase?.examCodes) ||
+        verifiedPurchase.examCodes.length === 0
+      ) {
+        throw new Error(
+          "The payment response does not confirm activated examination access. Please retry verification. Do not make another payment."
+        );
+      }
+
+      setPurchase(verifiedPurchase);
       setStatus("success");
       setMessage(
         data.message ||
-          "Your international examination payment has been verified successfully."
+          "Your International payment has been verified and examination access activated."
       );
     } catch (error) {
       if (error.name === "AbortError") return;
 
-      console.error("International payment verification error:", error);
+      console.error(
+        "International payment verification error:",
+        error
+      );
 
       setStatus("error");
       setMessage(
         error.message ||
-          "A network error occurred while verifying your payment. Please try again."
+          "A network error occurred while verifying your payment. Please retry. Do not make another payment."
       );
     }
   }, []);
@@ -136,18 +154,19 @@ function InternationalPaymentSuccessNew() {
 
     verifyPayment(controller.signal);
 
-    return () => {
-      controller.abort();
-    };
+    return () => controller.abort();
   }, [verifyPayment]);
 
   const purchasedExamCodes = Array.isArray(purchase?.examCodes)
     ? [
         ...new Set(
-          purchase.examCodes.filter(
-            (code) =>
-              typeof code === "string" && code.trim().length > 0
-          )
+          purchase.examCodes
+            .filter(
+              (code) =>
+                typeof code === "string" &&
+                code.trim().length > 0
+            )
+            .map((code) => code.trim().toUpperCase())
         ),
       ]
     : [];
@@ -191,14 +210,25 @@ function InternationalPaymentSuccessNew() {
     navigate("/dashboard", { replace: true });
   };
 
+  const retryVerification = () => {
+    const controller = new AbortController();
+    verifyPayment(controller.signal);
+  };
+
   return (
     <main style={styles.page}>
       <section style={styles.panel}>
         {status === "verifying" && (
-          <div role="status" aria-live="polite" style={{ textAlign: "center" }}>
+          <div
+            role="status"
+            aria-live="polite"
+            style={{ textAlign: "center" }}
+          >
             <h1>Verifying Payment</h1>
             <p>{message}</p>
-            <p>Please keep this page open while verification is in progress.</p>
+            <p>
+              Please keep this page open while verification is in progress.
+            </p>
           </div>
         )}
 
@@ -221,7 +251,8 @@ function InternationalPaymentSuccessNew() {
                 <h2>Purchase Confirmation</h2>
                 <p>
                   <strong>Package:</strong>{" "}
-                  {purchase.packageCode || "International examination"}
+                  {purchase.packageCode ||
+                    "International examination"}
                 </p>
                 <p>
                   <strong>Amount:</strong>{" "}
@@ -234,78 +265,57 @@ function InternationalPaymentSuccessNew() {
                 </p>
                 <p>
                   <strong>Payment Status:</strong>{" "}
-                  {purchase.status || "Verified"}
+                  {purchase.status}
                 </p>
-
-                {purchase.accessStartsAt && (
-                  <p>
-                    <strong>Access Starts:</strong>{" "}
-                    {formatDate(purchase.accessStartsAt)}
-                  </p>
-                )}
-
-                {purchase.accessExpiresAt && (
-                  <p>
-                    <strong>Access Expires:</strong>{" "}
-                    {formatDate(purchase.accessExpiresAt)}
-                  </p>
-                )}
+                <p>
+                  <strong>Access Starts:</strong>{" "}
+                  {formatDate(purchase.accessStartsAt)}
+                </p>
+                <p>
+                  <strong>Access Expires:</strong>{" "}
+                  {formatDate(purchase.accessExpiresAt)}
+                </p>
               </section>
             )}
 
             <section style={{ marginTop: "28px" }}>
               <h2>Your Purchased Examinations</h2>
+              <p>
+                Select an examination included in your verified purchase.
+              </p>
 
-              {purchasedExamCodes.length > 0 ? (
-                <>
-                  <p>
-                    Select an examination included in your verified purchase.
-                  </p>
+              <div style={{ display: "grid", gap: "12px" }}>
+                {purchasedExamCodes.map((examCode) => (
+                  <div
+                    key={examCode}
+                    style={{
+                      padding: "16px",
+                      border: "1px solid #d1d5db",
+                      borderRadius: "8px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      flexWrap: "wrap",
+                      gap: "12px",
+                    }}
+                  >
+                    <div>
+                      <strong>{examCode}</strong>
+                      <p style={{ margin: "4px 0 0" }}>
+                        Purchased examination
+                      </p>
+                    </div>
 
-                  <div style={{ display: "grid", gap: "12px" }}>
-                    {purchasedExamCodes.map((examCode) => (
-                      <div
-                        key={examCode}
-                        style={{
-                          padding: "16px",
-                          border: "1px solid #d1d5db",
-                          borderRadius: "8px",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "space-between",
-                          flexWrap: "wrap",
-                          gap: "12px",
-                        }}
-                      >
-                        <div>
-                          <strong>{examCode}</strong>
-                          <p style={{ margin: "4px 0 0" }}>
-                            Purchased examination
-                          </p>
-                        </div>
-
-                        <button
-                          type="button"
-                          style={styles.primaryButton}
-                          onClick={() => openPurchasedExam(examCode)}
-                          disabled={
-                            String(purchase?.status || "").toLowerCase() !==
-                            "success"
-                          }
-                        >
-                          Continue to Examination Details
-                        </button>
-                      </div>
-                    ))}
+                    <button
+                      type="button"
+                      style={styles.primaryButton}
+                      onClick={() => openPurchasedExam(examCode)}
+                    >
+                      Continue to Examination Details
+                    </button>
                   </div>
-                </>
-              ) : (
-                <p>
-                  Your payment has been verified, but the server did not return
-                  any purchased examination codes. Please contact support
-                  before making another payment.
-                </p>
-              )}
+                ))}
+              </div>
             </section>
 
             <div style={styles.buttonRow}>
@@ -333,15 +343,15 @@ function InternationalPaymentSuccessNew() {
             <h1>Payment Verification Pending</h1>
             <p role="alert" aria-live="polite">{message}</p>
             <p>
-              If your account was charged, please do not make another payment
-              until the payment status has been checked.
+              If your account was charged, do not make another payment
+              until the existing transaction has been checked.
             </p>
 
             <div style={styles.buttonRow}>
               <button
                 type="button"
                 style={styles.primaryButton}
-                onClick={() => verifyPayment()}
+                onClick={retryVerification}
               >
                 Retry Verification
               </button>

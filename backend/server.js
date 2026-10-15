@@ -25,6 +25,9 @@ const aiQuestionRoutes = require("./routes/aiQuestionRoutes");
    INTERNATIONAL EXAMINATION ROUTES
 ========================================================== */
 
+const internationalPaymentRoutes =
+  require("./international/internationalPaymentRoutes");
+
 const internationalExamRoutes =
   require("./international/internationalExams");
 
@@ -34,8 +37,8 @@ const internationalAttemptRoutes =
 const internationalQuestionRoutes =
   require("./international/internationalQuestions");
 
-const internationalPaymentRoutes =
-  require("./international/internationalPaymentRoutes");
+const internationalAuthRoutes =
+  require("./international/internationalAuthRoutes");
 
 /* ================= MIDDLEWARE ================= */
 
@@ -43,7 +46,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-/* ================= ROUTES ================= */
+/* ================= LOCAL CBT ROUTES ================= */
 
 app.use("/api/exams", examRoutes);
 app.use("/api/ai-exam", aiExamRoutes);
@@ -60,26 +63,43 @@ app.use("/api/bulk-upload", bulkUploadRoutes);
 app.use("/api/admin", adminRoutes);
 
 /* ==========================================================
-   INTERNATIONAL EXAMINATION API
+   INTERNATIONAL PAYMENT API
+
+   Mount payments first so payment verification can be
+   handled before other International routers.
+   The verification route itself must independently verify
+   the transaction with Paystack before activating access.
+========================================================== */
+
+app.use(
+  "/api/international",
+  internationalPaymentRoutes
+);
+
+/* ==========================================================
+   REMAINING INTERNATIONAL EXAMINATION APIs
 ========================================================== */
 
 app.use(
   "/api/international",
   internationalExamRoutes
 );
+
 app.use(
   "/api/international",
   internationalAttemptRoutes
 );
+
 app.use(
   "/api/international",
   internationalQuestionRoutes
 );
 
 app.use(
-  "/api/international",
-  internationalPaymentRoutes
+  "/api/international/auth",
+  internationalAuthRoutes
 );
+
 /* ================= DATABASE ================= */
 
 mongoose
@@ -131,23 +151,17 @@ app.get("/test-questions", async (req, res) => {
         Question.collection.name,
       count,
     });
-
   } catch (err) {
-
     res.status(500).json({
       error: err.message,
     });
-
   }
 });
 
 /* ================= SERVER ================= */
 
-const PORT =
-  process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log(
-    `Server running on port ${PORT}`
-  );
+  console.log(`Server running on port ${PORT}`);
 });
