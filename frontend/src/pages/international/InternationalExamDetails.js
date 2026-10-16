@@ -478,7 +478,7 @@ function InternationalExamDetails() {
       return;
     }
 
-    const token = localStorage.getItem("token");
+    const token = localStorage.getItem("internationalToken");
 
     const selectedExamPath =
       `/international/${encodeURIComponent(normalizedCode)}`;
