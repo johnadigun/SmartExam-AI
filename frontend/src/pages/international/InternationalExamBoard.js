@@ -101,7 +101,7 @@ const styles = {
 };
 
 function getToken() {
-  return localStorage.getItem("token");
+  return localStorage.getItem("internationalToken");
 }
 
 async function apiRequest(path, options = {}) {
