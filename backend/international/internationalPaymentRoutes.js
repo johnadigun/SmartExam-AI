@@ -362,8 +362,8 @@ router.post(
 
       if (
         !selectedPrice ||
-        !Number.isFinite(Number(selectedPrice.amountNgn)) ||
-        Number(selectedPrice.amountNgn) <= 0
+        !Number.isFinite(Number(selectedPrice.referenceAmountNgn)) ||
+        Number(selectedPrice.referenceAmountNgn) <= 0
       ) {
         return res.status(503).json({
           success: false,
@@ -382,7 +382,7 @@ router.post(
         userId: candidate._id,
         email: candidateEmail,
         examCodes,
-        amount: Number(selectedPrice.amountNgn),
+        amount: Number(selectedPrice.referenceAmountNgn),
         currency: "NGN",
         reference,
         packageCode,
@@ -403,7 +403,7 @@ router.post(
         PAYSTACK_INITIALIZE_URL,
         {
           email: candidateEmail,
-          amount: Number(selectedPrice.amountNgn) * 100,
+          amount: Number(selectedPrice.referenceAmountNgn) * 100,
           currency: "NGN",
           reference,
           callback_url: callbackUrl,
