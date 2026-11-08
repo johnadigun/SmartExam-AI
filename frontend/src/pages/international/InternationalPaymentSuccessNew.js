@@ -1,4 +1,5 @@
 
+
 import React, { useCallback, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import BASE_URL from "../../api/api";
@@ -64,8 +65,8 @@ function InternationalPaymentSuccessNew() {
     const reference =
       params.get("reference") || params.get("trxref");
 
-    // Payment verification no longer depends on a browser token.
-    // The backend must independently verify the transaction
+    // Payment verification does not depend on a browser token.
+    // The backend independently verifies the transaction
     // with Paystack before activating the existing purchase.
     if (!reference) {
       setStatus("error");
@@ -179,13 +180,18 @@ function InternationalPaymentSuccessNew() {
 
     if (!paymentIsVerified) return;
 
-    navigate(`/international/${encodeURIComponent(examCode)}`, {
-      state: {
-        purchase,
-        purchasedExamCodes,
-        selectedExamCode: examCode,
-      },
-    });
+    // Open the actual International Examination Board,
+    // not the examination details page again.
+    navigate(
+      `/international/${encodeURIComponent(examCode)}/board`,
+      {
+        state: {
+          purchase,
+          purchasedExamCodes,
+          selectedExamCode: examCode,
+        },
+      }
+    );
   };
 
   const formatAmount = (amount) => {
@@ -311,7 +317,7 @@ function InternationalPaymentSuccessNew() {
                       style={styles.primaryButton}
                       onClick={() => openPurchasedExam(examCode)}
                     >
-                      Continue to Examination Details
+                      Continue to Examination
                     </button>
                   </div>
                 ))}
