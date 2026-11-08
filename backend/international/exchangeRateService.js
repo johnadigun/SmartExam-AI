@@ -4,9 +4,9 @@ const axios = require("axios");
 /* ==========================================================
    SMARTEXAM INTERNATIONAL — EXCHANGE RATE SERVICE
 
-   Reference source: Frankfurter CBN provider
-   Reference pair: USD / NGN
+   International package prices are charged in USD.
 
+   NGN conversion is provided for reference only.
    This file does not initialize or verify payments.
 ========================================================== */
 
@@ -79,6 +79,7 @@ async function getUsdNgnRate() {
   }
 
   const today = new Date();
+
   const todayUtc = Date.UTC(
     today.getUTCFullYear(),
     today.getUTCMonth(),
@@ -91,13 +92,15 @@ async function getUsdNgnRate() {
     rateDate.getUTCDate()
   );
 
-  const ageDays =
-    Math.floor(
-      (todayUtc - rateDayUtc) /
-      (24 * 60 * 60 * 1000)
-    );
+  const ageDays = Math.floor(
+    (todayUtc - rateDayUtc) /
+    (24 * 60 * 60 * 1000)
+  );
 
-  if (ageDays < 0 || ageDays > MAX_RATE_AGE_DAYS) {
+  if (
+    ageDays < 0 ||
+    ageDays > MAX_RATE_AGE_DAYS
+  ) {
     throw new Error(
       `The USD/NGN rate is stale or future-dated. ` +
       `Rate date: ${record.date}.`
@@ -127,6 +130,9 @@ function roundUpToNaira100(amount) {
 
 /* ==========================================================
    CALCULATE INTERNATIONAL PACKAGE PRICES
+
+   USD = actual International payment currency.
+   NGN = informational conversion only.
 ========================================================== */
 
 async function getInternationalPricing() {
@@ -135,16 +141,17 @@ async function getInternationalPricing() {
   const packages = Object.values(
     INTERNATIONAL_PACKAGES
   ).map((item) => {
-    const convertedAmount =
-      item.usdPrice * exchangeRate.rate;
+    const referenceAmountNgn =
+      roundUpToNaira100(
+        item.usdPrice * exchangeRate.rate
+      );
 
     return {
       code: item.code,
+      currency: "USD",
+      amountUsd: item.usdPrice,
       usdReferencePrice: item.usdPrice,
-      currency: "NGN",
-      amountNgn: roundUpToNaira100(
-        convertedAmount
-      ),
+      referenceAmountNgn,
       accessDays: item.accessDays,
       examCount: item.examCount,
     };
@@ -183,4 +190,3 @@ if (require.main === module) {
       process.exitCode = 1;
     });
 }
-
