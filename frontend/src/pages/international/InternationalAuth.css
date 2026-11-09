@@ -1,0 +1,127 @@
+/* =====================================
+   INTERNATIONAL CBT AUTHENTICATION
+===================================== */
+
+.international-auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #f3f5f8;
+    box-sizing: border-box;
+}
+
+.international-auth-card {
+    width: 100%;
+    max-width: 430px;
+    padding: 35px;
+    background: #ffffff;
+    border: 1px solid #e1e5eb;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+}
+.international-auth-success {
+    margin-bottom: 18px;
+    padding: 12px;
+    border-radius: 5px;
+    background: #edf7f0;
+    color: #166534;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.international-auth-card h2 {
+    margin: 0 0 12px;
+    color: #183153;
+    text-align: center;
+    font-size: 25px;
+}
+
+.international-auth-card p {
+    color: #64748b;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.international-auth-form-group {
+    margin-bottom: 20px;
+}
+
+.international-auth-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-weight: 600;
+}
+
+.international-auth-form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.international-auth-form-group input:focus {
+    border-color: #245b91;
+    box-shadow: 0 0 0 2px rgba(36, 91, 145, 0.12);
+}
+
+.international-auth-card button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #245b91;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.international-auth-card button:hover {
+    background: #194873;
+}
+
+.international-auth-card button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.international-auth-error {
+    margin-bottom: 18px;
+    padding: 11px;
+    border-radius: 5px;
+    background: #fff1f0;
+    color: #b42318;
+    font-size: 14px;
+}
+
+.international-auth-link {
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.international-auth-link span {
+    color: #245b91;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.international-auth-link span:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .international-auth-card {
+        padding: 25px 20px;
+    }
+
+    .international-auth-card h2 {
+        font-size: 22px;
+    }
+}
