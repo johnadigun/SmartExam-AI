@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import {
@@ -23,17 +22,24 @@ import Dashboard from "./pages/Dashboard";
    INTERNATIONAL EXAMINATIONS
 ========================================================== */
 
+import InternationalLogin
+  from "./pages/international/InternationalLogin";
+
+import InternationalRegister
+  from "./pages/international/InternationalRegister";
+
 import InternationalExaminations
   from "./pages/international/InternationalExaminations";
 
-import InternationalExamBoard from "./pages/international/InternationalExamBoard";
-
+import InternationalExamBoard
+  from "./pages/international/InternationalExamBoard";
 
 import InternationalExamDetails
   from "./pages/international/InternationalExamDetails";
 
 import InternationalPaymentSuccessNew
   from "./pages/international/InternationalPaymentSuccessNew";
+
 /* ==========================================================
    LOCAL CBT PAYMENT
 ========================================================== */
@@ -165,11 +171,12 @@ function App() {
           element={<InternationalPaymentSuccessNew />}
         />
 
+        {/* INTERNATIONAL EXAMINATION BOARD */}
+
         <Route
           path="/international/:examCode/board"
           element={<InternationalExamBoard />}
         />
-
 
         {/* CBT SELECTION */}
 
@@ -244,13 +251,28 @@ function App() {
             INTERNATIONAL EXAMINATIONS
         ================================================== */}
 
-        {/* Examination catalogue */}
+        {/* INTERNATIONAL LOGIN */}
 
-      <Route
-        path="/international"
-        element={<InternationalExaminations />}
+        <Route
+          path="/international/login"
+          element={<InternationalLogin />}
         />
-        {/* Selected examination details */}
+
+        {/* INTERNATIONAL REGISTRATION */}
+
+        <Route
+          path="/international/register"
+          element={<InternationalRegister />}
+        />
+
+        {/* EXAMINATION CATALOGUE */}
+
+        <Route
+          path="/international"
+          element={<InternationalExaminations />}
+        />
+
+        {/* SELECTED EXAMINATION DETAILS */}
 
         <Route
           path="/international/:examCode"
@@ -371,4 +393,3 @@ function App() {
 }
 
 export default App;
-
